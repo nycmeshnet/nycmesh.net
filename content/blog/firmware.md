@@ -3,7 +3,8 @@ title: "Firmware"
 date: "2017-07-05"
 ---
 
-Unfortunately the firmware meetups were not successful. I'm leaving this here as documentation
+
+We've finally had some success in compiling firmware, thanks to Zach and Jim. We'll be updating our image soon and hopefully supporting a wide range of hardware.
 
 **Notes from first firmware meetup: July 5, 2017**
 
