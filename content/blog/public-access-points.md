@@ -2,6 +2,7 @@
 title: "Internet gateways"
 author: Brian
 date: "2016-10-25"
+aliases: [/kiosk/]
 ---
 To get on the internet, the mesh needs what we call "gateways". We have a few choices when looking for internet gateways. Mostly people are sharing their own internet, and soon (if you live close enough) you will be able to connect to our new supernode as your primary gateway.
 

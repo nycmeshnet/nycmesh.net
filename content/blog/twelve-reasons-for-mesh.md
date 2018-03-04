@@ -2,6 +2,7 @@
 title: "12 reasons"
 author: Brian
 date: "2015-03-04"
+aliases: [/why/]
 ---
 
 Here's a list of our reasons for building a community-owned mesh network:

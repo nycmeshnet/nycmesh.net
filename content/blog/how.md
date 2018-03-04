@@ -2,6 +2,7 @@
 title: "How to start a community network"
 author: Brian
 date: "2017-05-11"
+aliases: [/how/]
 ---
 
 Here are some notes and ideas on how to start a community network.
