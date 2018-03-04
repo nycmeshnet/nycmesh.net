@@ -14,7 +14,7 @@ It is important to do some research first. There are a few really big community 
 
 Guifi began on farms and gradually expanded across the country. They use hundreds of kilometers of fiber, and wireless in all modes- point-to-point (P2P), point-to-multipoint (P2MP) and mesh (MP2MP). Here is a good long [interview with Ramon Roca,](http://www.cookreport.com/pdfs/march-april13diowireless.pdf) who started Guifi.
 
-NYC Mesh has done many presentations that explain what we are doing. You can [watch videos and see the slides here.](../presentations)
+NYC Mesh has done many presentations that explain what we are doing. You can [watch videos and see the slides here.](/blog/presentations)
 
 **Essential Reading**
 
@@ -99,7 +99,7 @@ Another kind of gateway is a public wifi access point. By using directional rout
 
 **Tall structures**
 
-Tall structures are the fastest way to expand the wireless mesh. There are a few different types in a city and you need to try them all- housing association buildings, skyscrapers, [churches](../../leaflet/church.pdf), schools, libraries, existing antenna masts and building coops. Make specific [presentations and handouts](../../leaflet/) for different types of structures.
+Tall structures are the fastest way to expand the wireless mesh. There are a few different types in a city and you need to try them all- housing association buildings, skyscrapers, [churches](/leaflet/church.pdf), schools, libraries, existing antenna masts and building coops. Make specific [presentations and handouts](/leaflet/) for different types of structures.
 
 **Supernodes**
 

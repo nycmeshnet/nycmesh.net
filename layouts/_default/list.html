@@ -4,7 +4,7 @@
 		<!-- Ranges through content/post/*.md -->
 		{{ range .Data.Pages }}
 			<li class="bb b--light-gray">
-				<a href="{{.Permalink}}" class="pv3 f3 fw6 flex justify-between items-center">
+				<a href="{{ .RelPermalink }}" class="pv3 f3 fw6 flex justify-between items-center">
 					{{ .Title }}
 				<span class="nowrap f4 fw4 gray">{{ .Date.Format "Jan 2, 2006" }}</span>
 				</a>

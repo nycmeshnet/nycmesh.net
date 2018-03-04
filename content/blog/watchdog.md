@@ -30,7 +30,7 @@ I'm using "Signal: unknown" to show there is no connection. It seems to work rel
 
 "sleep 5" is usual between "wifi down" and "wifi up". I've found it not necessary when there are no connections, but I'll leave it there in case.
 
-You can [download the watchdog here](../../download/watchdog.html)
+You can [download the watchdog here](/download/watchdog.html)
 
 in the terminal-
 

@@ -7,7 +7,7 @@ To get on the internet, the mesh needs what we call "gateways". We have a few ch
 
 Another gateway is a public access point. If you are too far away from an access point to get a good connection, you can use a directional router such as the NanoStation in "client mode". This is a bit like using it as an antenna to boost the signal.
 
- It is very easy to configure a NanoStation to connect to these new kiosk access points to extend the range. I've already configured an NSM5 and saved the config file for you- [NSM5 config](../../download/config/NSM5-XW-link.html). In my test I was getting 60Mb down and 20Mb up, so it is a very healthy speed. 
+ It is very easy to configure a NanoStation to connect to these new kiosk access points to extend the range. I've already configured an NSM5 and saved the config file for you- [NSM5 config](/download/config/NSM5-XW-link.html). In my test I was getting 60Mb down and 20Mb up, so it is a very healthy speed. 
 
 To use this config file you need a new NanoStation NSM5 or one that is running AirOS.  
 * Plug an ethernet cable from POE on the power adapter to "main" on the NSM5  

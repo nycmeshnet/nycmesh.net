@@ -29,7 +29,7 @@ This is our most common question, so we made it into a blog post- [12 Reasons fo
  
 ## <a name="business"></a>What is your business plan?
 
-We are not a business and we are not an ISP! We don't have "customers" or "users", we have members. Being a member of our network has many benefits including replacing your current ISP with real, unmonitored internet access. Businesses are free to join or connect to the mesh as long as they obey the [network commons license](../ncl.pdf).
+We are not a business and we are not an ISP! We don't have "customers" or "users", we have members. Being a member of our network has many benefits including replacing your current ISP with real, unmonitored internet access. Businesses are free to join or connect to the mesh as long as they obey the [network commons license](/doc/ncl.pdf).
 
 ## <a name="fee"></a>Is there a monthly fee?
 
@@ -87,7 +87,7 @@ We also have some members experimenting with and contributing to cjdns/hyperbori
 
 ## <a name="other-router"></a>Can I use my own different router?
 
-No, the router we currently support and recommend for building-to-building is the Ubiquiti NanoStation M5. For supernode connections you will need a LiteBeamAC or NanoBeamAC router. Our [download page](../download) has our firmware for the NanoStation and links to buy. We are working on supporting other routers. 
+No, the router we currently support and recommend for building-to-building is the Ubiquiti NanoStation M5. For supernode connections you will need a LiteBeamAC or NanoBeamAC router. Our [download page](/download) has our firmware for the NanoStation and links to buy. We are working on supporting other routers. 
 
 TP-Link have locked down some of their routers, and others are not supported well by OpenWrt, so we unfortunately are looking at other options for indoor routers at the moment.
 
@@ -97,11 +97,11 @@ Yes you can. Because you may be out of range of other mesh nodes, your router wi
 
 ## <a name="install"></a>What is involved in a rooftop or window install?
 
-Rooftop installs are mostly to connect you to a supernode or a second hop from a supernode. Look at our [map](../map) to find line-of-sight to another node location less than two miles away. You can also talk to people in the neighborhood and convince them to also install a node. We also have a collection of rooftop panoramas where you can check for possible line-of-sight connections. 
+Rooftop installs are mostly to connect you to a supernode or a second hop from a supernode. Look at our [map](/map) to find line-of-sight to another node location less than two miles away. You can also talk to people in the neighborhood and convince them to also install a node. We also have a collection of rooftop panoramas where you can check for possible line-of-sight connections. 
 
 The other type of install is where a directional Ubiquiti router is aimed at a nearby public space (park, cafe, bar etc.) as a public Wi-Fi access point. We currently have five public spaces with this type of install. 
 
-We support one outdoor router, the Ubiquiti Nanostation NSM5 (~$90). We have links for this on the [download page](../download)
+We support one outdoor router, the Ubiquiti Nanostation NSM5 (~$90). We have links for this on the [download page](/download)
 
 We can help you with the rooftop installation. Typically one or two routers are attached to a pole on the roof and an ethernet cable is run to the apartment, and connected to the TP-Link mesh router and an internet gateway. The install cost is usually $160 including labor and equipment. The ethernet cable also supplies the power to the router using "power over ethernet". If the roof (or balcony or window) is close to your apartment you might not need an additional mesh router.
 

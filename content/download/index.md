@@ -2,10 +2,10 @@
 layout: post
 title: "Order, Download and Flash"
 ---
-Please read our [FAQ](../faq) if you haven't already.
+Please read our [FAQ](/faq) if you haven't already.
 
 **Join the mesh**  
-First you need to enter a [new node request](../join). This will add your router to our list of node requests and put your location on our map. If you have multiple locations enter them separately. If you are within range of a supernode and have line-of-sight you may be able to connect directly. Otherwise we will try to connect you to a nearby rooftop.
+First you need to enter a [new node request](/join). This will add your router to our list of node requests and put your location on our map. If you have multiple locations enter them separately. If you are within range of a supernode and have line-of-sight you may be able to connect directly. Otherwise we will try to connect you to a nearby rooftop.
 
 To connect to the supernode, please [contact us](mailto:install@nycmesh.net) and we will advise. This usually uses a LiteBeamAC or NanoBeamAC. Configuration info is [here](/cpe).
 
@@ -29,7 +29,7 @@ Buy at B&H: (free delivery)
 
 **NanoStation NSM5 instructions**  
 
-If you want to connect to a public access point, such as a Link NYC kiosk, there is no need to flash the router. Just follow [these instructions](../blog/public-access-points/).
+If you want to connect to a public access point, such as a Link NYC kiosk, there is no need to flash the router. Just follow [these instructions](/blog/public-access-points/).
 
   (for old NSM5s or if you are upgrading see below)  
    
@@ -70,7 +70,7 @@ Wait ten minutes or so. It now has a SSID name like "-NYC Mesh- 1a2b" and a rand
 
 **You must also install a watchdog script to keep the network stable**. [Here are the instructions](/blog/watchdog). <a href="mailto:newnode@nycmesh.net">Email us</a> if you are not comfortable doing this. This script will be included in the next version of our firmware.
 
-Now your router is flashed, read how to [install a NanoStation](../blog/nsm5-install/)
+Now your router is flashed, read how to [install a NanoStation](/blog/nsm5-install/)
 
 **Upgrades**  
 Upgrades are for when your router is already running nycmesh/qMp or another version of OpenWrt.

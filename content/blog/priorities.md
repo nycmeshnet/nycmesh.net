@@ -23,7 +23,7 @@ We need to compile new firmware so we can add support for more routers. Suggesti
 
 **2.Tall structure installs**
 
-Tall structures are the only way we can expand the wireless mesh. This is by far our biggest priority. There are a few different types in the city and we need to try them all- NYCHA buildings, skyscrapers, churches, schools, libraries, existing antenna masts and building coops. We need specific presentations and handouts for each of these types of structures. We are currently approaching libraries and [churches](../../leaflet/church.pdf). We need to build presentations for coop boards and others.  
+Tall structures are the only way we can expand the wireless mesh. This is by far our biggest priority. There are a few different types in the city and we need to try them all- NYCHA buildings, skyscrapers, churches, schools, libraries, existing antenna masts and building coops. We need specific presentations and handouts for each of these types of structures. We are currently approaching libraries and [churches](/leaflet/church.pdf). We need to build presentations for coop boards and others.  
 
 Once we have a tall structure in a neighborhood we can link to apartment building rooftops.
 
@@ -37,7 +37,7 @@ We are just starting some exciting collaborations with Zoetic Networks and Brook
 
 **5. Donations**
 
-The supernode has a monthly cost and we need to get monthly donations to cover this. So far we have over $4000 donated, and mostly from a few generous people, which will cover most of the install. You can donate via our [donate page.](../../donate). We have also just received $30,000 in grant money which will cover our expenses for 2017.
+The supernode has a monthly cost and we need to get monthly donations to cover this. So far we have over $4000 donated, and mostly from a few generous people, which will cover most of the install. You can donate via our [donate page.](/donate). We have also just received $30,000 in grant money which will cover our expenses for 2017.
 
 **6. Work and storage space**
 
