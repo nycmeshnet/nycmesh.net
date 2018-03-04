@@ -4,6 +4,21 @@ html, body {
 	height: 100%;
 }
 
+html {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0.5, black),
+      color-stop(0.5, white)
+  );
+  background: -o-linear-gradient(bottom, black 50%, white 50%);
+  background: -moz-linear-gradient(bottom, black 50%, white 50%);
+  background: -webkit-linear-gradient(bottom, black 50%, white 50%);
+  background: -ms-linear-gradient(bottom, black 50%, white 50%);
+  background: linear-gradient(to bottom, black 50%, white 50%);
+}
+
 body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
