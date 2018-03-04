@@ -1,0 +1,15 @@
+{{ define "main" }}
+<main class="pa3">
+	<ul class="mw8 center list sans-serif f4 pa0 center measure-wide">
+		<!-- Ranges through content/post/*.md -->
+		{{ range .Data.Pages }}
+			<li class="bb b--light-gray">
+				<a href="{{.Permalink}}" class="pv3 f3 fw6 flex justify-between items-center">
+					{{ .Title }}
+				<span class="nowrap f4 fw4 gray">{{ .Date.Format "Jan 2, 2006" }}</span>
+				</a>
+			</li>
+		{{ end }}
+	</ul>
+</main>
+{{ end }}

@@ -1,0 +1,5 @@
+baseURL = "https://nycmesh.net/"
+languageCode = "en-us"
+title = "NYC Mesh"
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true

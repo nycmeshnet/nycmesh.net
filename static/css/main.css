@@ -1,0 +1,105 @@
+@import 'tachyons.min.css';
+
+html, body {
+	height: 100%;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	color: #007aff;
+	text-decoration: none;
+}
+
+pre {
+	border: 1px solid #aaa;
+	padding: 1rem;
+	border-radius: 0.25rem;
+	overflow: scroll;
+}
+
+.blue {
+	color: #007aff;
+}
+
+.bg-blue {
+	background-color: #007aff;
+}
+
+.splash1 {
+	background-image: url('../img/splash1.jpg');
+	background-position: center center;
+}
+
+.bg-map {
+  background-position: center center;
+  background-image: url('/img/map.png');
+}
+
+.bg-red-75 {
+	background-color: rgba(255, 59, 48, 0.75);
+}
+
+.dimmed:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /*background-image: linear-gradient(rgba(17, 17, 17, 0),rgba(17, 17, 17, 0),rgba(17, 17, 17, 0.5),rgba(17, 17, 17, 0.75),rgba(17, 17, 17, 1) 99%);*/
+  background: rgba(0, 0, 0, 0.25);
+  opacity: 1;
+}
+
+
+.button {
+	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+	transition: all .15s ease;
+}
+
+.button:hover {
+	transform: translateY(-1px);
+	box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.hidden {
+  position: absolute;
+  visibility: hidden;
+}
+
+input[type=radio]:checked ~ label div,
+input[type=radio]:checked ~ label input {
+  background-color: #96CCFF;
+  color: white;
+  border-color: rgba(0,0,0,0.1);
+  outline: none;
+}
+
+ul li .check::before {
+  display: block;
+  position: absolute;
+	content: '';
+  border-radius: 100%;
+  height: 15px;
+  width: 15px;
+  top: 5px;
+	left: 5px;
+  margin: auto;
+	transition: background 0.25s linear;
+	-webkit-transition: background 0.25s linear;
+}
+

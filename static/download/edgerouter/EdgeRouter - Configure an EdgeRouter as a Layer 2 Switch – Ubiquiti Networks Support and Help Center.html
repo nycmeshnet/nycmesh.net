@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<!-- saved from url=(0104)https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch -->
+<html dir="ltr" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <!-- v11917 -->
+  <title>EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch – Ubiquiti Networks Support and Help Center</title>
+
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="K2AaeITmZ0OuOLv8U1cswlM/eaPb3w/1qFDoHc2HHHljpJRd+vRGXcSegWXj25s1zlSeRQBbfY8BFm07nRagWw==">
+  <meta name="description" content="Overview  In this article the reader will learn the steps needed to configure an EdgeRouter X, X-SFP, or EdgePoint R6 as a Layer 2..."><meta property="og:image" content="http://p6.zdassets.com/hc/settings_assets/77613/200012210/fkQ983AmfaEUZQFJoldCTg-ubnt_logo_u_color_200x200.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ubiquiti Networks Support and Help Center">
+<meta property="og:title" content="EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch">
+<meta property="og:description" content="Overview
+
+In this article the reader will learn the steps needed to configure an EdgeRouter X, X-SFP, or EdgePoint R6 as a Layer 2 switch.
+Note: This article only applies to the following models: E...">
+<meta property="og:url" content="http://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch">
+<link rel="canonical" href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch">
+<link rel="alternate" hreflang="en" href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch">
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="./EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch – Ubiquiti Networks Support and Help Center_files/application-966277b0e2629b795b1b.css" id="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch – Ubiquiti Networks Support and Help Center_files/style-506b08bc53cdb0cdf08535b048d7f62f.css">
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://p6.zdassets.com/hc/settings_assets/77613/200012210/PGGGT0Nya5MWb1ta0yoyaA-favicon.png">
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" charset="utf-8" src="./EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch – Ubiquiti Networks Support and Help Center_files/saved_resource" type="text/javascript"></script><script src="./EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch – Ubiquiti Networks Support and Help Center_files/jquery.js"></script>
+  
+  <script type="text/javascript">
+  window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+  d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+  _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+  $.src='//v2.zopim.com/?2Py4AB4RxBBmRdbSCUfXLEGB4dT4YLxm';z.t=+new Date;$.
+  type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+</script>
+
+  
+
+  <meta name="viewport" content="width=device-width">
+<script src="./EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch – Ubiquiti Networks Support and Help Center_files/_prettify.js"></script>
+
+<script src="./EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch – Ubiquiti Networks Support and Help Center_files/jquery.min.js"></script>
+
+
+<script src="./EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch – Ubiquiti Networks Support and Help Center_files/jquery.headerlinks.js"></script>
+
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:68519,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script><script async="" src="https://static.hotjar.com/c/hotjar-68519.js?sv=5"></script>
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2432820-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  
+     <meta property="og:title" content="Ubiquiti Help Center"> 
+  <meta property="og:image" content="https://dl.ubnt.com/press/Company_Logos/U_Logo/WEB/U_Logo_RGB.jpg"> 
+  <meta property="og:description" content="Support Center for Ubiquiti -- Learn about our products, view online documentation, and get the latest downloads."> 
+  <meta property="og:url" content="https://help.ubnt.com">
+  <script type="text/javascript" src="./EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch – Ubiquiti Networks Support and Help Center_files/script-506b08bc53cdb0cdf08535b048d7f62f.js"></script>
+<script type="text/javascript" charset="utf-8" async="" src="./EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch – Ubiquiti Networks Support and Help Center_files/SubscriptionControls-e1abec1d8bb997b8691a.js"></script><style media="print" class="jx_ui_StyleSheet" __jx__id="___$_2" type="text/css">.zopim { display: none !important }</style></head>
+<body class=""><div class="zopim" __jx__id="___$_21 ___$_21" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; padding: 0px; border: 0px; background: transparent; overflow: hidden; position: fixed; z-index: 16000002; width: 180px; height: 30px; right: 10px; bottom: 0px;"><iframe frameborder="0" src="./EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch – Ubiquiti Networks Support and Help Center_files/saved_resource.html" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;"></iframe></div><div class="zopim" __jx__id="___$_4 ___$_4" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; padding: 0px; border: 0px; background: transparent; overflow: hidden; position: fixed; z-index: 16000001; right: 10px; bottom: 0px; border-top-left-radius: 5px; border-top-right-radius: 5px; display: none; width: 240px; height: 200px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 3px 2px;"><iframe frameborder="0" src="./EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch – Ubiquiti Networks Support and Help Center_files/saved_resource(1).html" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;"></iframe></div>
+  
+  
+
+
+  
+
+
+  
+<!-- add code here that should appear in the document head -->
+<script src="./EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch – Ubiquiti Networks Support and Help Center_files/less.min.js"></script>
+
+<header class="header">
+  <div class="header-inner clearfix">
+    <a href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch#" class="toggle-search js-search-toggle">
+      <svg viewBox="0 0 16.4 16.4" enable-background="new 0 0 16.4 16.4" xml:space="preserve">
+<g transform="translate(1.000000, 1.000000)" sketch:type="MSLayerGroup">
+	<ellipse sketch:type="MSShapeGroup" fill="none" cx="5.3" cy="5.1" rx="5.8" ry="5.6">
+	</ellipse>
+	<path sketch:type="MSShapeGroup" fill="none" stroke-linecap="square" d="M9.4,9.6l5.3,5.1"></path>
+</g>
+</svg>
+    </a>
+    <div class="logo"><a title="Home" href="https://help.ubnt.com/hc/en-us">
+      <img src="./EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch – Ubiquiti Networks Support and Help Center_files/fkQ983AmfaEUZQFJoldCTg-ubnt_logo_u_color_200x200.png" alt="Logo">
+    </a></div>
+    <a href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch#" class="toggle-mobile js-toggle-mobile">
+      <span class="m-bar"></span>
+      <span class="m-bar"></span>
+      <span class="m-bar"></span>
+    </a>
+    <nav class="user-nav">
+      
+        <div class="dropdown language-selector" aria-haspopup="true">
+          <a class="dropdown-toggle">
+            English (US)
+          </a>
+          <span class="dropdown-menu dropdown-menu-end" role="menu">
+            
+              <a href="https://help.ubnt.com/hc/change_language/es?return_to=%2Fhc%2Fes" dir="ltr" rel="nofollow" role="menuitem">
+                Español
+              </a>
+            
+              <a href="https://help.ubnt.com/hc/change_language/pt?return_to=%2Fhc%2Fpt" dir="ltr" rel="nofollow" role="menuitem">
+                Português
+              </a>
+            
+          </span>
+        </div>
+      
+      <a class="submit-a-request" href="https://help.ubnt.com/hc/en-us/requests/new">Submit a request</a>
+        <a class="login" data-auth-action="signin" role="button" href="https://help.ubnt.com/hc/en-us/signin?return_to=https%3A%2F%2Fhelp.ubnt.com%2Fhc%2Fen-us%2Farticles%2F217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch&amp;locale=1">Sign in</a>
+
+    </nav>
+  </div>
+  
+
+</header>
+
+  <main role="main">
+    <div class="page__header">
+  <div class="search-box">
+    <form role="search" class="search" data-search="" action="https://help.ubnt.com/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓"><input type="search" name="query" id="query" placeholder="Search" aria-label="Search">
+<input type="submit" name="commit" value="Search"></form>
+  </div>
+</div><!-- /.page__header -->
+
+<div class="inner-block" id="article__page">    
+    <nav class="sub-nav">
+      <ol class="breadcrumbs">
+  
+    <li title="Ubiquiti Networks Support and Help Center">
+      
+        <a href="https://help.ubnt.com/hc/en-us">Ubiquiti Networks Support and Help Center</a>
+      
+    </li>
+  
+    <li title="EdgeMAX">
+      
+        <a href="https://help.ubnt.com/hc/en-us/categories/200321064-EdgeMAX">EdgeMAX</a>
+      
+    </li>
+  
+    <li title="EdgeRouter Configuration">
+      
+        <a href="https://help.ubnt.com/hc/en-us/sections/200887544-EdgeRouter-Configuration">EdgeRouter Configuration</a>
+      
+    </li>
+  
+</ol>
+
+      <a class="article-subscribe" rel="nofollow" role="button" data-auth-action="signin" aria-selected="false" href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch/subscription">Follow</a>
+    </nav>
+
+  <div class="article-column">
+    <article>
+      <header class="article__header">
+        <h1>EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch</h1>
+        <time datetime="2017-02-07T01:01:56Z" title="2017-02-06 21:01" data-datetime="calendar">February 06, 2017 21:01</time>
+      </header>
+      <div class="article-body markdown">
+        <p><span class="wysiwyg-font-size-large"><a name="Top"></a>Overview</span></p>
+<hr>
+<p class="p1">In&nbsp;this article the reader will learn the steps needed to configure an EdgeRouter X, X-SFP, or EdgePoint R6 as a Layer 2 switch.</p>
+<p class="p1"><em>Note: This article only applies to the following&nbsp;models:&nbsp;</em><em><span style="font-weight: 400;">EdgeRouter X and X-SFP, EdgePoint R6.</span></em></p>
+<p><span class="wysiwyg-font-size-large">Table of Contents</span></p>
+<hr>
+<p><a href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch#Connect%20to Device">Step 1: Connect to Device</a></p>
+<p><a href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch#Add%20address and ports">Step 2: Add Address and Ports to switch0</a></p>
+<p><a href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch#connect%20to switch0">Step 3: Connect to switch0</a></p>
+<p><a href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch#remove%20address">Step 4: Remove address from eth0</a></p>
+<p><a href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch#add%20eth0 to switch0">Step 5: Add eth0 to switch0</a>&nbsp;</p>
+<p><a href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch#CLI%20commands">How to Configure the EdgeRouter as a Layer 2 Switch via CLI Commands</a></p>
+<p><a href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch#User%20Notes">User Notes and Tips</a></p>
+<p><span class="wysiwyg-font-size-large"><a name="Connect to Device"></a> Step 1: Connect to Device</span></p>
+<hr>
+<p><a href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch#Top"><span class="wysiwyg-font-size-small">Back to Top</span></a></p>
+<p>1.1 With the device in factory default state, connect your computer to eth0. Make sure that your system has an IP in the 192.168.1.x subnet. (e.g. 192.168.1.11).</p>
+<p>1.2 Enter <a href="https://192.168.1.1/">https://192.168.1.1</a> in your web browser and log into the device using the default ubnt/ubnt username and password. (It is always good practice to change the default username and password to one of your choosing.)</p>
+<p><span class="wysiwyg-font-size-large"><a name="Add address and ports"></a> Step 2: Add Address and Ports to switch0</span></p>
+<hr>
+<p><span class="wysiwyg-font-size-large"><a href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch#Top"><span class="wysiwyg-font-size-small">Back to Top</span></a></span></p>
+<p>2.1 Click on <strong>Actions &gt; Configure</strong> for the switch0 interface on the Dashboard of the device.</p>
+<p>2.2 Change <strong>Address</strong> to <strong>Manually define IP address</strong>.</p>
+<p>2.3 Enter 192.168.2.1/24 (or similar) in the address field.</p>
+<p>2.4 Check all of the ports with the exception of eth0.</p>
+<p><span class="wysiwyg-font-size-medium"><strong><em><span style="font-weight: 400;">Note: Finish the remaining steps to add eth0 to switch0.</span></em></strong></span></p>
+<p>&nbsp;<img src="./EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch – Ubiquiti Networks Support and Help Center_files/configureswitch0.png" alt=""></p>
+<p><span class="wysiwyg-font-size-large"><a name="connect to switch0"></a> Step 3: Connect to switch0</span></p>
+<hr>
+<p><span class="wysiwyg-font-size-large"><a href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch#Top"><span class="wysiwyg-font-size-small">Back to Top</span></a></span></p>
+<p>3.1 Plug your computer into eth1, or any port which has been assigned to switch0 in Step 2.<br><br> 3.2 Enter <a href="https://192.168.1.1/">https://192.168.2.1</a> in your web browser and log into the device using your username and password. You will need to change your computer IP address to something in the same subnet such as 192.168.2.11.</p>
+<p><em><span style="font-weight: 400;">Note: If you choose to assign switch0 a different address than this example you would enter that address to access the device.</span></em></p>
+<p>&nbsp;</p>
+<p><span class="wysiwyg-font-size-large"><a name="remove address"></a> Step 4: Remove address from eth0</span></p>
+<hr>
+<p><span class="wysiwyg-font-size-large"><a href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch#Top"><span class="wysiwyg-font-size-small">Back to Top</span></a></span></p>
+<p>4.1 Click on <strong>Actions &gt; Configure</strong> for eth0.</p>
+<p>4.2 Change address to <strong>No address</strong>.</p>
+<p>4.3 Click Save.</p>
+<p><img src="./EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch – Ubiquiti Networks Support and Help Center_files/configureeth0.png" alt=""></p>
+<p><span class="wysiwyg-font-size-large"><a name="add eth0 to switch0"></a> Step 5: Add eth0 to switch0</span></p>
+<hr>
+<p><a href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch#Top"><span class="wysiwyg-font-size-small">Back to Top</span></a></p>
+<p>5.1 Click <strong>Actions &gt; Configure</strong> for switch0.</p>
+<p>5.2 Check eth0 under Switch Ports.</p>
+<p>5.3 Click Save.</p>
+<p><img src="./EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch – Ubiquiti Networks Support and Help Center_files/switch0.png" alt=""></p>
+<p>This completes the steps to allow these devices to act as a layer 2 switch on all ports.</p>
+<p class="p1"><span class="wysiwyg-font-size-large"><a name="CLI commands"></a>&nbsp;How to Configure the&nbsp;EdgeRouter as a Layer 2 Switch using CLI Commands</span></p>
+<hr>
+<p><span class="wysiwyg-font-size-small"><a href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch#Top">Back to Top</a></span></p>
+<p class="p1"><span class="s1">The following steps can be followed to configure the EdgeRouter as a Layer 2 Switch using the CLI Commands.</span></p>
+<p class="p1">1.<span class="wysiwyg-font-size-medium"> Connect to the router CLI. </span></p>
+<p class="p1"><span class="wysiwyg-font-size-medium">2.&nbsp;Configure switch0 an</span>d add ports.</p>
+<pre>configure<br>set interfaces switch switch0 switch-port interface eth1<br>set interfaces switch switch0 switch-port interface eth2<br>set interfaces switch switch0 switch-port interface eth3<br>set interfaces switch switch0 switch-port interface eth4<br>set interfaces switch switch0 address 192.168.2.1/24<br>commit<br>save<br>exit</pre>
+<p class="p2">3. Plug your computer into eth1 or any port which has been assigned to switch0.</p>
+<p class="p1">4. Reconnect to the CLI for the device at 192.168.2.1.</p>
+<p class="p1">5.&nbsp;Remove address from eth0 and assign eth0 to switch0.</p>
+<pre>configure<br>delete interfaces ethernet eth0 address<br>set interfaces switch switch0 switch-port interface eth0<br>commit<br>save<br>exit</pre>
+<p class="wysiwyg-text-align-left"><span class="wysiwyg-font-size-large"><a name="User Notes"></a></span></p>
+<p class="wysiwyg-text-align-left"><span class="wysiwyg-font-size-large">User Notes &amp; Tips</span></p>
+<hr>
+<p class="wysiwyg-text-align-left"><span class="wysiwyg-font-size-small"><a href="https://help.ubnt.com/hc/en-us/articles/219327077#top">Back to Top</a></span></p>
+<p class="wysiwyg-text-align-left"><em>These notes have been added thanks to user collaboration. Have anything to contribute? Click on the&nbsp;<strong>Give Feedback</strong> button below!</em></p>
+<ul>
+<li>QoS will only work in Router Mode.&nbsp;</li>
+</ul>
+      </div>
+      <div class="article-attachments">
+        <ul class="attachments">
+          
+        </ul>
+      </div>    
+      <footer class="article-footer clearfix art__footer">
+        
+          <div class="article-vote">
+            <span class="article-vote-question">Was this article helpful?</span>
+            <div class="article-vote-controls">
+              <a role="button" rel="nofollow" class="article-vote-up" title="Yes" aria-selected="false" data-auth-action="signin" href="https://help.ubnt.com/hc/en-us/signin?return_to=https%3A%2F%2Fhelp.ubnt.com%2Fhc%2Fen-us%2Farticles%2F217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch"></a>
+              <a role="button" rel="nofollow" class="article-vote-down" title="No" aria-selected="false" data-auth-action="signin" href="https://help.ubnt.com/hc/en-us/signin?return_to=https%3A%2F%2Fhelp.ubnt.com%2Fhc%2Fen-us%2Farticles%2F217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch"></a>
+            </div>
+            <small class="article-vote-count">
+              <span class="article-vote-label">3 out of 3 found this helpful</span>
+            </small>
+          </div>
+        
+        <div class="feedback">
+          <a href="mailto:helpcenter_feedback@ubnt.com?subject=EdgeRouter%20-%20Configure%20an%20EdgeRouter%20as%20a%20Layer%202%20Switch">
+            <span class="feedback__icon">
+              <img src="./EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch – Ubiquiti Networks Support and Help Center_files/feedback_icon.svg">
+            </span>
+            <strong>Give Feedback</strong>
+          </a>
+        </div>
+        <ul class="share">
+  <li><a href="https://www.facebook.com/share.php?title=EdgeRouter+-+Configure+an+EdgeRouter+as+a+Layer+2+Switch&amp;u=https%3A%2F%2Fhelp.ubnt.com%2Fhc%2Fen-us%2Farticles%2F217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch" class="share-facebook">Facebook</a></li>
+  <li><a href="https://twitter.com/share?lang=en&amp;text=EdgeRouter+-+Configure+an+EdgeRouter+as+a+Layer+2+Switch&amp;url=https%3A%2F%2Fhelp.ubnt.com%2Fhc%2Fen-us%2Farticles%2F217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch" class="share-twitter">Twitter</a></li>
+  <li><a href="https://www.linkedin.com/shareArticle?mini=true&amp;source=Ubiquiti+Networks&amp;title=EdgeRouter+-+Configure+an+EdgeRouter+as+a+Layer+2+Switch&amp;url=https%3A%2F%2Fhelp.ubnt.com%2Fhc%2Fen-us%2Farticles%2F217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch" class="share-linkedin">LinkedIn</a></li>
+  <li><a href="https://plus.google.com/share?hl=en-us&amp;url=https%3A%2F%2Fhelp.ubnt.com%2Fhc%2Fen-us%2Farticles%2F217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch" class="share-googleplus">Google+</a></li>
+</ul>
+
+      </footer>
+    </article>
+    <div class="article__footer">
+      <p>Don’t see what you are looking for? Get advice for UniFi from our Community or Submit a Help Ticket.</p>
+      <div class="btn-wrap">
+        
+        <a href="http://community.ubnt.com/airmax" id="btn-cat-200319710" class="btn js-btn-comm hide">Airmax Community</a>
+        <a href="http://community.ubnt.com/airfiber" id="btn-cat-200323764" class="btn js-btn-comm hide">Airfiber Community</a>
+        <a href="http://community.ubnt.com/edgemax" id="btn-cat-200321064" class="btn js-btn-comm">Edgemax Community</a>
+        <a href="http://community.ubnt.com/unifi" id="btn-cat-200320654" class="btn js-btn-comm hide">Unifi Community</a>
+        <a href="http://community.ubnt.com/t5/UniFi-Video/ct-p/airVision" id="btn-cat-200320774" class="btn js-btn-comm hide">Unifi Video Community</a>
+        <a href="http://community.ubnt.com/mfi" id="btn-cat-200323774" class="btn js-btn-comm hide">mFI Community</a>                        
+        <a href="http://community.ubnt.com/" class="btn btn-default js-btn-comm hide">Community</a>
+        
+        <a href="https://ubnt.zendesk.com/hc/en-us/requests/new" class="btn btn__secondary">Submit a Request</a>
+      </div>
+    </div>
+  </div>    
+</div><!-- /.inner-block -->
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner inner-block">
+    <div class="footer__links">
+  <ul>
+    <li>
+      <a href="http://www.ubnt.com/">Ubiquiti Home</a>
+    </li>
+    <li>
+      <a href="https://www.ubnt.com/compliance/">Compliance Info</a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="https://www.ubnt.com/support/warranty/">Warranty &amp; RMA</a>
+    </li>
+    <li>
+      <a href="https://www.ubnt.com/legal/termsofservice/">Terms &amp; Conditions</a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch#">Security Rewards</a>
+    </li>
+    <li>
+      <a href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch#">Legal</a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="https://www.ubnt.com/legal/privacypolicy/">Privacy Policy</a>
+    </li>
+    <li>
+      <a href="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch#">Copyright</a>
+    </li>
+  </ul>
+</div>
+
+
+
+
+  </div>
+  
+<script>
+  // filter only to the pre-sales department
+  $zopim(function() {
+    $zopim.livechat.departments.filter('UniFi WiFi','airMAX');
+    
+  });
+</script>
+</footer>
+
+    <div class="powered-by-zendesk" style="background-color: rgb(216, 216, 216);">
+  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" focusable="false" viewBox="0 0 26 26">
+    <path d="M12 8.2v14.5H0zM12 3c0 3.3-2.7 6-6 6S0 6.3 0 3h12zm2 19.7c0-3.3 2.7-6 6-6s6 2.7 6 6H14zm0-5.2V3h12z"></path>
+  </svg>
+
+  <a href="https://www.zendesk.com/help-center/?utm_source=helpcenter&amp;utm_medium=poweredbyzendesk&amp;utm_campaign=text&amp;utm_content=Ubiquiti%20Networks" target="_blank">Powered by Zendesk</a>
+</div>
+
+
+  <!-- / -->
+
+  <script type="text/javascript" src="./EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch – Ubiquiti Networks Support and Help Center_files/locales-e3b1ec4abe9919c863846ed182828463a5c86146.js"></script>
+  <script src="https://ubnt.zendesk.com/auth/v2/host.js" data-brand-id="394784" data-return-to="https://help.ubnt.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch" data-theme="hc" data-locale="1" data-auth-origin="394784,true,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"ubnt","environment":"production","name":"Ubiquiti Networks"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/default_avatar.png","organizations":[],"groups":[]};
+  HelpCenter.internal = {"asset_url":"//p6.zdassets.com/hc/assets/","current_session":{"locale":"en-us","csrf_token":"aDxsFdHao6OnDOC4xgXYFodGw5iEzOL1IwAN71pf5T8g+OIwr8iCvc2q2iF2iW/hGi0kfl9IkI+KRojJCs5ZHQ==","shared_csrf_token":null},"settings":{"zopim_enabled":true,"spam_filter_enabled":false},"current_record_id":"217990978","current_record_url":"/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch","current_record_title":"EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://ubnt.zendesk.com","current_path":"/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch","authentication_domain":"https://ubnt.zendesk.com","show_autocomplete_breadcrumbs":true,"heap_analytics_id":null,"user_info_changing_enabled":false,"has_user_profiles_enabled":false,"has_anonymous_kb_voting":false,"has_advanced_upsell":false,"has_multi_language_help_center":true,"has_user_segments":false,"mobile_device":false,"mobile_site_enabled":false,"show_at_mentions":false,"has_copied_content":false,"embeddables_config":{"embeddables_web_widget":false,"embeddables_automatic_answers":false,"embeddables_connect_ipms":false},"plans_url":"https://help.ubnt.com/hc/admin/plan?locale=en-us","manage_content_url":"https://help.ubnt.com/hc/en-us","arrange_content_url":"https://help.ubnt.com/hc/admin/arrange_contents?locale=en-us","general_settings_url":"https://help.ubnt.com/hc/admin/general_settings?locale=en-us","user_groups_url":"https://help.ubnt.com/hc/admin/user_segments?locale=en-us","has_community_enabled":false,"appearance_url":"https://help.ubnt.com/hc/admin/appearance?locale=en-us","has_multiselect_field":false};
+</script>
+
+  <script src="./EdgeRouter - Configure an EdgeRouter as a Layer 2 Switch – Ubiquiti Networks Support and Help Center_files/hc_enduser-8cc40eb4a7ba87f9c793.js"></script>
+  
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://help.ubnt.com/hc/tracking/events?locale=en-us";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("article_viewed", "BAh7BzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGkEQkf+DA==--060145c8ac09f84d0ac02da28bf78e47d6fad0f3");
+})();
+
+  </script>
+
+</body></html>
