@@ -23,7 +23,6 @@ This community-run public network supplies NYC Mesh with net-neutral internet co
 | Building    | Address                     | Ports   |
 |-------------|-----------------------------|---------|
 | Sabey       | 375 Pearl St, New York, NY | 1G / 10G |
-{: .table-bordered .table-peering }
 
 
 **Exchanges**
@@ -31,7 +30,6 @@ This community-run public network supplies NYC Mesh with net-neutral internet co
 | Exchange    | City       | IPv4           | IPv6                  | ASNs | Routes | Speed |
 |-------------|------------|----------------|-----------------------|------|--------|-------|
 | DE-CIX NY | New York, NY | 206.130.10.151 | 2001:504:36::c2ab:0:1 | 105  | ~122K  | 1G    |
-{: .table-bordered .table-peering }
 
 **Peering Data**
 
@@ -48,7 +46,7 @@ As a non-profit, please consider providing as many routes as possible, including
 We have direct peering sessions with the following networks  
 Thank you to those who have peered!  
 
-| ASN      | Organization         | Exchange  | 
+| ASN      | Organization         | Exchange  |
 |----------|----------------------|-----------|
 | AS42 | WoodyNet / Packet Clearing House | DE-CIX NY |
 | AS714 | Apple Inc. | DE-CIX NY |
@@ -64,5 +62,3 @@ Thank you to those who have peered!
 | AS46450 | Pilot Fiber, Inc. | DE-CIX NY |
 | AS53988 | Digi Desert LLC | DE-CIX NY |
 | AS54825 | Packet Host, Inc. | DE-CIX NY |
-{: .table-bordered .table-peering }
-
