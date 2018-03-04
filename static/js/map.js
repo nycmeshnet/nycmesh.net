@@ -138,7 +138,8 @@ function initMap() {
     zoomControl: true,
     scrollwheel: false,
     streetViewControl: false,
-    mapTypeControl: false
+    mapTypeControl: false,
+    backgroundColor: 'none'
   };
 
   var map = new google.maps.Map(document.getElementById("map-div"), mapOptions);
@@ -173,7 +174,6 @@ function initMap() {
       visible = false;
     }
     return {
-      scaledSize: new google.maps.Size(50, 50),
       title: feature.getProperty("id"),
       opacity: opacity,
       zIndex: 200,
@@ -182,15 +182,7 @@ function initMap() {
         url: url,
         anchor: new google.maps.Point(10, 10),
         labelOrigin: new google.maps.Point(28, 10)
-      },
-      shadow: 1
-        // label: {
-        //   color: "#ff3b30",
-        //   fontSize: "14",
-        //   fontWeight: "bold",
-        //   paddingLeft: "20",
-        //   text: feature.getProperty("id"),
-        // }
+      }
     };
   });
 
@@ -210,7 +202,6 @@ function initMap() {
       visible = false;
     }
     return {
-      scaledSize: new google.maps.Size(50, 50),
       title: feature.getProperty("id"),
       opacity: opacity,
       zIndex: 100,
@@ -252,7 +243,6 @@ function initMap() {
     var url = "/img/map/linkNYC.svg";
     var opacity = 0.5;
     return {
-      scaledSize: new google.maps.Size(50, 50),
       title: feature.getProperty("id"),
       opacity: opacity,
       zIndex: 9,
