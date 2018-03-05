@@ -1,0 +1,80 @@
+<section id="updates" class="bg-near-black f4 sans-serif near-white pv4 ph3">
+  <div class="f5 mw8 center flex-ns justify-center">
+
+    <!-- Blog -->
+    <div class="fl-ns w-25-ns w-100 ph3-ns pa0 overflow-auto">
+      <h2 class="fw5 f3">Blog</h2>
+      <ul class="list pa0 ma0">
+        {{ range first 3 (where .Data.Pages "Section" "blog") }}
+          <li class="mb4">
+            <time class="light-silver fw3 lh-title">{{ .Date.Format "January 2, 2006" }}</time>
+            <a href="{{ .RelPermalink }}" class="db mv1 light-blue no-underline lh-title">{{ .Title }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+
+    <!-- Press -->
+    <div class="fl-ns w-25-ns w-100 ph3-ns pa0 overflow-auto">
+      <h2 class="fw5">Press</h2>
+      <ul class="list pa0 ma0">
+        <li class="mb4">
+          <p class="mv0 light-silver fw3 lh-title">Motherboard</p>
+          <a href="https://motherboard.vice.com/en_us/article/how-a-diy-network-plans-to-subvert-time-warner-cables-nyc-internet-monopoly" class="db mv1 light-blue no-underline lh-title">
+            How a DIY Network Plans to Subvert Time Warner Cable's NYC Internet Monopoly
+          </a>
+        </li>
+        <li class="mb4">
+          <p class="mv0 light-silver fw3 lh-title">Downtown Express</p>
+          <a href="http://www.downtownexpress.com/2016/01/12/hooking-up-downtown-with-free-resilient-wi-fi/" class="db mv1 light-blue no-underline lh-title">
+            Hooking up Downtown with Free, Resilient <span class="nowrap">Wi-Fi</span>
+          </a>
+        </li>
+        <li class="mb4">
+          <p class="mv0 light-silver fw3 lh-title">Fast Company</p>
+          <a href="https://www.fastcompany.com/3044686/mesh-networks-and-the-local-internet-movement" class="db mv1 light-blue no-underline lh-title">
+            Why Communities are Building an Internet that's More Local
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Videos -->
+    <div class="fl-ns w-50-ns w-100 ph3-ns pa0 overflow-auto">
+      <h2 class="fw5 f3">Videos</h2>
+      <ul class="list pa0 ma0">
+        <li class="fl w-50 pr3 mv0-ns">
+          <time class="light-silver fw3 lh-title">January 11, 2018 Meetup</time>
+          <a class="mt1 db " href="https://www.youtube.com/watch?v=ykOqIh5Mt4Y">
+            <img class="w-100 ma0 pa0 br1 mv1" src="/img/video1.jpg"></img>
+          </a>
+          <a href="https://www.youtube.com/watch?v=ykOqIh5Mt4Y" class="light-blue no-underline lh-title">
+            State of the Mesh 2018
+          </a>
+        </li>
+        <li class="fl w-50 pr3 mv0-ns">
+          <time class="light-silver fw3 lh-title">January 10, 2017 Meetup</time>
+          <a class="mt1 db " href="https://www.youtube.com/watch?v=p2QQjIfvGgA">
+            <img class="w-100 ma0 pa0 br1 mv1" src="/img/video2.jpg"></img>
+          </a>
+          <a href="https://www.youtube.com/watch?v=p2QQjIfvGgA" class="light-blue no-underline lh-title">
+            Building a community owned network
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="ma4-ns mv4">
+    <form class="bg-dark-gray mw6-ns center pa4 br2">
+      <fieldset class="cf bn ma0 pa0">
+        <legend class="pa0 f4 mb3 white">Stay updated! Subscribe to our newsletter.</legend>
+        <div class="cf">
+          <label class="clip" for="email-address">Email Address</label>
+          <input class="f5 input-reset bn fl black-80 bg-near-white pa3 lh-solid w-100 w-75-ns br2 br--left-ns" placeholder="Your Email Address" type="text" name="email-address" value="" id="email-address">
+          <input class="f5 ttu button-reset fl pv3 tc bn bg-animate bg-green hover-bg-dark-green white pointer w-100 mv3 mv0-ns w-25-ns br2 br--right-ns" type="submit" value="Subscribe">
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</section>
