@@ -1,0 +1,20 @@
+{{ $currentPage := . }}
+<div class="docs-index br bg-near-white b--light-gray">
+	<ul class="list ma0 pa4">
+		{{ $docs := .Site.GetPage "section" "docs" }}
+		{{ range $docs.Sections }}
+			<li>
+				<a href="{{ .RelPermalink }}" class="mv3 db black {{ if eq $currentPage . }} blue fw6 {{ end }}">{{ .Title }}</a>
+				{{ if eq $currentPage . | or (eq $currentPage.Parent .) }}
+				<ul class="ma0 pa0 ml3">
+					{{ range .Data.Pages }}
+						<a href="{{ .RelPermalink }}" class="db mv3 ml0 gray {{ if eq $currentPage . }} blue fw6 {{ end }}">
+							{{ .Title }}
+						</a>
+					{{ end }}
+				</ul>
+				{{ end }}
+			</li>
+		{{ end }}
+	</ul>
+</div>
