@@ -1,5 +1,6 @@
 ---
-layout: page
+title: "Meshberry"
+aliases: [/meshberry/]
 ---
 
 # Meshberry v0.2
