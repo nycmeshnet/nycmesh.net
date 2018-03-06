@@ -1,5 +1,6 @@
 ---
 title: "FAQ"
+aliases: [/faq/]
 ---
 [Why are you building a community-owned network?](/docs/faq/why)  
 [Is there a monthly fee?](/docs/faq/fee)   

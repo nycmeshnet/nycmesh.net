@@ -1,6 +1,6 @@
 ---
-layout: post
 title: "Order, Download and Flash"
+aliases: [/download/]
 ---
 Please read our [FAQ](/faq) if you haven't already.
 
