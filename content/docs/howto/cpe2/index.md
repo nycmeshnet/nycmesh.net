@@ -1,6 +1,6 @@
 ---
-layout: page
-title: "Supernode CPE"
+title: "Supernode 2 CPE"
+aliases: [/cpe2/]
 ---
 
  #eastwburg_bushwick, English Kills

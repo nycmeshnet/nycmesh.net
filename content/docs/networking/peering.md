@@ -1,8 +1,7 @@
 ---
-layout: post
 title: "Peering"
+aliases: [/peering/]
 ---
-<br>
 ### NYC Mesh operates **AS395853** ### 
 
 ### Our peering Policy is **Yes** ###
