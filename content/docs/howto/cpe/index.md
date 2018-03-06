@@ -1,6 +1,6 @@
 ---
-layout: page
-title: "Supernode CPE"
+title: "Supernode 1 CPE"
+aliases: [/cpe/]
 ---
 
 Members can buy their own cpe on Amazon etc. We can swap it with a preconfigured one on site to save time.
