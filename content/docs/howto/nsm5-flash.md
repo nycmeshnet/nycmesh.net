@@ -1,5 +1,6 @@
 ---
-title: "Flashing Nanostation M5 with NYC Mesh Firmware"
+title: "Flashing NanoStation M5 with NYC Mesh Firmware"
+aliases: [/download/]
 ---
 
 Don't forget to read our [FAQ](https://nycmesh.net/faq) on the main site.  
