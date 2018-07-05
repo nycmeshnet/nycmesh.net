@@ -1,6 +1,23 @@
 {{ define "main" }}
-<main class="h-75">
-	<div id="map-div" class="relative h-100"></div>
+<main class="h-75 relative">
+	<div class="ma2 bg-white sans-serif black fw6 pa3 absolute-ns z-999">
+		<ul class="pa0 ma0">
+			<li class="mv1 flex items-center justify-start ma0 pa0">
+				<img src="/img/map/active.svg" /> <span class="ml2">Active</span>
+			</li>
+			<li class="mv1 flex items-center justify-start ma0 pa0">
+				<img src="/img/map/potential.svg" /> <span class="ml2">Potential</span>
+			</li>
+			<li class="mv1 flex items-center justify-start ma0 pa0">
+				<img src="/img/map/supernode.svg" /> <span class="ml2">Supernode</span>
+			</li>
+			<li class="mv1 flex items-center justify-start ma0 pa0">
+				<img src="/img/map/linkNYC.svg" /> <span class="ml2">Link NYC</span>
+			</li>
+		</ul>
+	</div>
+	<div id="map-div" class="relative h-100" />
+	<div class="absolute bg-white top-0 ma3 pa3 sans-serif" id="infoWindow" />
 </main>
 <script src="/js/map.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNClp7oJsw-eleEoR3-PQKV23tpeW-FpE&libraries=visualization&callback=initMap"
