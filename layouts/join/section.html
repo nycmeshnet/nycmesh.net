@@ -1,0 +1,21 @@
+{{ define "main" }}
+	<!-- <div class="bg-blue splash-small cover flex justify-center sans-serif">
+		<div class="flex items-center justify-center h-100 w-100">
+			<div class="measure-wide f5 w-100">
+				<h1 class=" f2 mv4">{{ .Title }}</h1>
+			</div>
+		</div>
+	</div> -->
+	<main class="bg-blue sans-serif pv0">
+		<div class="bg-blue ph3">
+			<div class="measure-wide f5 center pv4">
+					{{ partial "join" . }}
+			</div>
+		</div>
+		<div class="ph3 bg-white">
+			<div class="measure-wide f5 center pv3">
+				{{ .Content }}
+			</div>
+		</div>
+	</main>
+{{ end }}

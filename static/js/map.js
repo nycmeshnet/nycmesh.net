@@ -26,20 +26,22 @@ function initMap() {
       elementType: "labels",
       stylers: [{ visibility: "off" }]
     },
+
+    {
+      featureType: "poi.park",
+      elementType: "geometry",
+      stylers: [
+        {
+          visibility: "on",
+          color: "red"
+        }
+      ]
+    },
     {
       elementType: "geometry",
       stylers: [
         {
           color: "#f5f5f5"
-        }
-      ]
-    },
-    {
-      featureType: "landscape",
-      elementType: "labels",
-      stylers: [
-        {
-          // "visibility": "off"
         }
       ]
     },
@@ -136,7 +138,9 @@ function initMap() {
     disableDefaultUI: false,
     zoomControl: true,
     scrollwheel: false,
-    streetViewControl: false,
+    scrollwheel: false,
+    fullscreen: false,
+    gestureHandling: "greedy",
     mapTypeControl: false,
     backgroundColor: "none"
   };
@@ -197,7 +201,7 @@ function initMap() {
     }
     if (feature.getProperty("panoramas")) {
       //url = '../assets/images/potentialpano.svg';
-      opacity = 1;
+      opacity = 0.9;
     }
     if (
       searchQuery.length > 0 &&
