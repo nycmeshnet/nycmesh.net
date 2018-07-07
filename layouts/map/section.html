@@ -1,27 +1,32 @@
 {{ define "main" }}
-<main class="h-100 relative">
-	<div class="absolute z-999 mw8 center left-0 right-0 flex ma2">
-		<div class="dn flex flex-column ba b--silver bg-white sans-serif black fw6 pa1">
-			<input class="ma1 dn db-ns f5 pa2 bg-near-white ba b--near-white br2 mb2" placeholder="Search" />
-			<ul class="pa0 ma0 flex-none-ns flex flex-wrap flex-column justify-center f6">
-				<li class="ma1 flex items-center justify-start ma0 pa0">
-					<img src="/img/map/active.svg" /> <span class="ml2">Active (183)</span>
-				</li>
-				<li class="ma1 flex items-center justify-start ma0 pa0">
-					<img src="/img/map/potential.svg" /> <span class="ml2">Potential (1705)</span>
-				</li>
-				<li class="ma1 flex items-center justify-start ma0 pa0">
-					<img src="/img/map/supernode.svg" /> <span class="ml2">Supernode (2)</span>
-				</li>
-				<li class="ma1 flex items-center justify-start ma0 pa0">
-					<img src="/img/map/linkNYC.svg" /> <span class="ml2">Link NYC</span>
-				</li>
-			</ul>
+<main>
+	<div class="vh-75 relative">
+		<div class="pointer-events-none absolute z-999 mw8 center left-0 right-0 flex ma2">
+			<div class="pointer-events dn flex flex-column ba b--silver bg-white sans-serif black fw6 pa1">
+				<input class="ma1 dn db-ns f5 pa2 bg-near-white ba b--near-white br2 mb2" placeholder="Search" />
+				<ul class="pa0 ma0 flex-none-ns flex flex-wrap flex-column justify-center f6">
+					<li class="ma1 flex items-center justify-start ma0 pa0">
+						<img src="/img/map/active.svg" /> <span class="ml2">Active (183)</span>
+					</li>
+					<li class="ma1 flex items-center justify-start ma0 pa0">
+						<img src="/img/map/potential.svg" /> <span class="ml2">Potential (1705)</span>
+					</li>
+					<li class="ma1 flex items-center justify-start ma0 pa0">
+						<img src="/img/map/supernode.svg" /> <span class="ml2">Supernode (2)</span>
+					</li>
+					<li class="ma1 flex items-center justify-start ma0 pa0">
+						<img src="/img/map/linkNYC.svg" /> <span class="ml2">Link NYC</span>
+					</li>
+				</ul>
+			</div>
 		</div>
+		
+		<div id="map-div" class="relative h-100"></div>
 	</div>
-	
-	<div id="map-div" class="relative h-100" />
-	<div class="absolute bg-white top-0 ma3 pa3 sans-serif" id="infoWindow" />
+
+	<div class="pv4 sans-serif f5 measure-wide center">
+		{{ .Content }}
+	</div>
 </main>
 <script src="/js/map.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNClp7oJsw-eleEoR3-PQKV23tpeW-FpE&libraries=visualization&callback=initMap"

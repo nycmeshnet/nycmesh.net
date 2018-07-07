@@ -23,6 +23,14 @@ pre {
   overflow: scroll;
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.pointer-events {
+  pointer-events: all;
+}
+
 .blue {
   color: #007aff;
 }
