@@ -43,8 +43,21 @@ pre {
   }
 }
 
+.splash4 {
+  background-image: url("/img/splash4.jpg");
+  background-position: center 20%;
+  position: relative;
+}
+
 .splash-small {
-  background-image: url("/img/splash2.jpg");
+  height: 20vh;
+  background-image: url("/img/splash4.jpg");
+  background-position: center 16.45%;
+}
+
+.splash-install {
+  /*height: 50vh;*/
+  background-image: url("/img/splash5.jpg");
   background-position: center 50%;
 }
 

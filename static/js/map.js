@@ -154,6 +154,11 @@ function initMap() {
   var linksLayer = new google.maps.Data();
   var linkNYCLayer = new google.maps.Data();
   // var beamsLayer = new google.maps.Data();
+
+  drawSector(map, 40.711137, -74.001122, 3.2, 55, 90);
+  drawSector(map, 40.713991, -73.929049, 2.2, 180, 220);
+  drawSector(map, 40.685823, -73.917272, 2.2, 180, 360);
+
   activeNodesLayer.loadGeoJson("/nodes/active.json");
   potentialNodesLayer.loadGeoJson("/nodes/potential.json");
   linksLayer.loadGeoJson("/nodes/links.json");
@@ -164,6 +169,7 @@ function initMap() {
     var url = "/img/map/active.svg";
     var opacity = 0.75;
     var visible = true;
+    var rotation = 0;
     var notes = feature.getProperty("notes").toLowerCase();
     if (notes.indexOf("supernode") !== -1) {
       url = "/img/map/supernode.svg";
@@ -186,7 +192,9 @@ function initMap() {
       icon: {
         url: url,
         anchor: new google.maps.Point(10, 10),
-        labelOrigin: new google.maps.Point(28, 10)
+        labelOrigin: new google.maps.Point(28, 10),
+        rotation: rotation,
+        scale: 0.5
       }
     };
   });
@@ -323,4 +331,48 @@ function showDetails(event) {
 function hideDetails() {
   var infoWindow = document.getElementById("infoWindow");
   infoWindow.classList.remove("db");
+}
+
+function drawSector(map, lat, lng, r, azimuth, width) {
+  var centerPoint = new google.maps.LatLng(lat, lng);
+  var PRlat = r / 3963 * (180 / Math.PI); // using 3963 miles as earth's radius
+  var PRlng = PRlat / Math.cos(lat * (Math.PI / 180));
+  var PGpoints = [];
+  PGpoints.push(centerPoint);
+
+  with (Math) {
+    lat1 = lat + PRlat * cos(Math.PI / 180 * (azimuth - width / 2));
+    lon1 = lng + PRlng * sin(Math.PI / 180 * (azimuth - width / 2));
+    PGpoints.push(new google.maps.LatLng(lat1, lon1));
+
+    lat2 = lat + PRlat * cos(Math.PI / 180 * (azimuth + width / 2));
+    lon2 = lng + PRlng * sin(Math.PI / 180 * (azimuth + width / 2));
+
+    var theta = 0;
+    var gamma = Math.PI / 180 * (azimuth + width / 2);
+
+    for (var a = 1; theta < gamma; a++) {
+      theta = Math.PI / 180 * (azimuth - width / 2 + a);
+      PGlon = lng + PRlng * sin(theta);
+      PGlat = lat + PRlat * cos(theta);
+
+      PGpoints.push(new google.maps.LatLng(PGlat, PGlon));
+    }
+
+    PGpoints.push(new google.maps.LatLng(lat2, lon2));
+    PGpoints.push(centerPoint);
+  }
+
+  var poly = new google.maps.Polygon({
+    path: PGpoints,
+    strokeColor: "transparent",
+    strokeOpacity: 0,
+    strokeWidth: 0,
+    fillColor: "#007aff",
+    fillOpacity: 0.2,
+    map: map
+  });
+
+  poly.setMap(map);
+  return poly;
 }

@@ -1,10 +1,13 @@
 {{ define "main" }}
-<main class="pa3 sans-serif bg-white">
-	<div class="pv5 lh-copy near-black overflow-hidden f5 measure-wide center">
-		<h1 href="{{.Permalink}}" class="mv0 f2 fw6 flex justify-between">
+<main class="sans-serif bg-white">
+	<div class="splash-small cover"></div>
+	<div class="pv4 lh-copy near-black overflow-hidden f5 measure-wide center">
+		<h1 href="{{.Permalink}}" class="mv0 f3 fw7">
 			{{ .Title }}
 		</h1>
-		{{ .Content }}
+		<div>
+			{{ .Content }}
+		</div>
 	</div>
 </main>
 {{ end }}
