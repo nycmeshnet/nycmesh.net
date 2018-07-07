@@ -369,7 +369,7 @@ function drawSector(map, lat, lng, r, azimuth, width) {
     strokeOpacity: 0,
     strokeWidth: 0,
     fillColor: "#007aff",
-    fillOpacity: 0.2,
+    fillOpacity: 0.1,
     map: map
   });
 

@@ -1,24 +1,25 @@
 {{ define "main" }}
-<main class="h-75 relative">
-	<div class="absolute bg-red h5 w5 right-0 w-100">
+<main class="h-100 relative">
+	<div class="absolute z-999 mw8 center left-0 right-0 flex ma2">
+		<div class="dn flex flex-column ba b--silver bg-white sans-serif black fw6 pa1">
+			<input class="ma1 dn db-ns f5 pa2 bg-near-white ba b--near-white br2 mb2" placeholder="Search" />
+			<ul class="pa0 ma0 flex-none-ns flex flex-wrap flex-column justify-center f6">
+				<li class="ma1 flex items-center justify-start ma0 pa0">
+					<img src="/img/map/active.svg" /> <span class="ml2">Active (183)</span>
+				</li>
+				<li class="ma1 flex items-center justify-start ma0 pa0">
+					<img src="/img/map/potential.svg" /> <span class="ml2">Potential (1705)</span>
+				</li>
+				<li class="ma1 flex items-center justify-start ma0 pa0">
+					<img src="/img/map/supernode.svg" /> <span class="ml2">Supernode (2)</span>
+				</li>
+				<li class="ma1 flex items-center justify-start ma0 pa0">
+					<img src="/img/map/linkNYC.svg" /> <span class="ml2">Link NYC</span>
+				</li>
+			</ul>
+		</div>
 	</div>
-	<div class="flex flex-column ma2 pa3 ba b--silver bg-white sans-serif black fw6 pa1 absolute z-999">
-		<input class="f5 pa2 bg-near-white ba b--near-white br2" placeholder="Search for nodes" />
-		<ul class="pa0 ma0 mt3 flex-none-ns flex flex-wrap flex-column-ns justify-center f6">
-			<li class="ma1 flex flex-row-ns flex-column items-center justify-start ma0 pa0">
-				<img src="/img/map/active.svg" /> <span class="ml2">Active (183)</span>
-			</li>
-			<li class="ma1 flex flex-row-ns flex-column items-center justify-start ma0 pa0">
-				<img src="/img/map/potential.svg" /> <span class="ml2">Potential (1705)</span>
-			</li>
-			<li class="ma1 flex flex-row-ns flex-column items-center justify-start ma0 pa0">
-				<img src="/img/map/supernode.svg" /> <span class="ml2">Supernode (2)</span>
-			</li>
-			<li class="ma1 flex flex-row-ns flex-column items-center justify-start ma0 pa0">
-				<img src="/img/map/linkNYC.svg" /> <span class="ml2">Link NYC</span>
-			</li>
-		</ul>
-	</div>
+	
 	<div id="map-div" class="relative h-100" />
 	<div class="absolute bg-white top-0 ma3 pa3 sans-serif" id="infoWindow" />
 </main>
