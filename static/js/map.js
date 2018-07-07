@@ -12,38 +12,33 @@ function matchesSearch(query, id) {
 
 function initMap() {
   var styles = [
+    // {
+    //   featureType: "road",
+    //   elementType: "labels.text.fill",
+    //   stylers: [
+    //     {
+    //       color: "#777777"
+    //     }
+    //   ]
+    // },
+    // {
+    //   featureType: "poi",
+    //   elementType: "labels",
+    //   stylers: [{ visibility: "off" }]
+    // },
     {
-      featureType: "road",
-      elementType: "labels.text.fill",
-      stylers: [
-        {
-          color: "#777777"
-        }
-      ]
-    },
-    {
-      featureType: "poi",
-      elementType: "labels",
-      stylers: [{ visibility: "off" }]
-    },
-
-    {
-      featureType: "poi.park",
-      elementType: "geometry",
-      stylers: [
-        {
-          visibility: "on",
-          color: "red"
-        }
-      ]
-    },
-    {
+      featureType: "landscape",
       elementType: "geometry",
       stylers: [
         {
           color: "#f5f5f5"
         }
       ]
+    },
+    {
+      featureType: "poi.park",
+      elementType: "geometry",
+      stylers: [{ color: "#e4f6dd" }]
     },
     {
       elementType: "labels.icon",
@@ -58,22 +53,6 @@ function initMap() {
       stylers: [
         {
           color: "#f5f5f5"
-        }
-      ]
-    },
-    {
-      featureType: "administrative",
-      stylers: [
-        {
-          visibility: "off"
-        }
-      ]
-    },
-    {
-      featureType: "poi",
-      stylers: [
-        {
-          visibility: "off"
         }
       ]
     },
@@ -119,16 +98,16 @@ function initMap() {
           color: "#d9dde6"
         }
       ]
-    },
-    {
-      featureType: "water",
-      elementType: "labels.text.fill",
-      stylers: [
-        {
-          color: "#777777"
-        }
-      ]
     }
+    // {
+    //   featureType: "water",
+    //   elementType: "labels.text.fill",
+    //   stylers: [
+    //     {
+    //       color: "#777777"
+    //     }
+    //   ]
+    // }
   ];
   var styledMap = new google.maps.StyledMapType(styles, { name: "Styled Map" });
 
@@ -139,7 +118,7 @@ function initMap() {
     zoomControl: true,
     scrollwheel: false,
     scrollwheel: false,
-    fullscreen: false,
+    fullscreenControl: false,
     gestureHandling: "greedy",
     mapTypeControl: false,
     backgroundColor: "none"
@@ -201,7 +180,7 @@ function initMap() {
 
   potentialNodesLayer.setStyle(function(feature) {
     var url = "/img/map/potential.svg";
-    var opacity = 0.5;
+    var opacity = 1;
     var visible = true;
     var notes = feature.getProperty("notes").toLowerCase();
     if (notes.indexOf("supernode") !== -1) {
@@ -209,7 +188,7 @@ function initMap() {
     }
     if (feature.getProperty("panoramas")) {
       //url = '../assets/images/potentialpano.svg';
-      opacity = 0.9;
+      opacity = 1;
     }
     if (
       searchQuery.length > 0 &&
