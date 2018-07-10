@@ -1,5 +1,4 @@
 ---
-title: "NYC Mesh"
 ---
 
 ### [Join](/join) our community-owned network to replace your current internet connection.
