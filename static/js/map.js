@@ -134,12 +134,13 @@ function initMap() {
   var linkNYCLayer = new google.maps.Data();
   // var beamsLayer = new google.maps.Data();
 
-  drawSector(map, 40.711137, -74.001122, 3.2, 55, 90);
-  drawSector(map, 40.713991, -73.929049, 2.2, 180, 220);
-  drawSector(map, 40.685823, -73.917272, 2.2, 180, 360);
+  drawSector(map, 40.711137, -74.001122, 2, 55, 90);
+  drawSector(map, 40.713991, -73.929049, 2, 180, 220);
+  drawSector(map, 40.685823, -73.917272, 2, 180, 360);
+  // drawSector(map, 40.705619, -73.915235, 1.5, 220, 120, "red");
 
   activeNodesLayer.loadGeoJson("/nodes/active.json");
-  potentialNodesLayer.loadGeoJson("/nodes/potential.json");
+  // potentialNodesLayer.loadGeoJson("/nodes/potential.json");
   linksLayer.loadGeoJson("/nodes/links.json");
   linkNYCLayer.loadGeoJson("/nodes/linkNYC.json");
 
@@ -215,7 +216,7 @@ function initMap() {
     var visible = true;
     if (link.getProperty("status") != "active") {
       strokeColor = "gray";
-      opacity = 0.25;
+      opacity = 0;
     }
 
     if (searchQuery.length > 0) {
@@ -312,7 +313,7 @@ function hideDetails() {
   infoWindow.classList.remove("db");
 }
 
-function drawSector(map, lat, lng, r, azimuth, width) {
+function drawSector(map, lat, lng, r, azimuth, width, color) {
   var centerPoint = new google.maps.LatLng(lat, lng);
   var PRlat = r / 3963 * (180 / Math.PI); // using 3963 miles as earth's radius
   var PRlng = PRlat / Math.cos(lat * (Math.PI / 180));
@@ -348,7 +349,7 @@ function drawSector(map, lat, lng, r, azimuth, width) {
     strokeOpacity: 0,
     strokeWidth: 0,
     fillColor: "#007aff",
-    fillOpacity: 0.1,
+    fillOpacity: 0.125,
     map: map
   });
 
