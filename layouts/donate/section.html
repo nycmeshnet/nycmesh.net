@@ -1,0 +1,222 @@
+{{ define "main" }}
+<div class="splash-small cover"></div>
+<div class="ph4-ns ph3">
+<div id="donation-amounts" class="measure-wide f5  dt w-100 f3 center bg-white black">
+
+  <!-- Progress Bar -->
+  <div  class="mh3 center pt4 sans-serif">
+    <h2 class="f4 fw6 tl">Help us fund Supernodes 3 and 4!</h2>
+    <div class="h1 bg-light-gray w-100 br3">
+      <!-- You can also do style="width: calc(100% * 80 / 2650)" but 10% of users won't render correctly -->
+      <div style="width: 3%" class="h1 bg-gold br3"></div>
+    </div>
+    <div class="flex flex flex-column items-start mv3">
+      <span class="gold fw4">$80</span>
+      <span class="f6 gray mv1">pledged of $2,650 monthly maintenance costs</span>
+    </div>
+  </div>
+
+
+  
+  <div class="mt2 mb3 tc f3 sans-serif fw5 center flex flex-row-l flex-column justify-between-l items-center-l">
+    <div class="flex flex-column mv3">
+      <span class="f5 tl fw6">
+        Choose a monthly amount:
+      </span>
+      <div class="flex items-center justify-center-l mt3">
+        <div id="twenty-monthly" onclick="setAmount('twenty-monthly')" class="button  pa0 br0 ba b--moon-gray ph3 pv3 pointer hover-b--blue">
+          <span class="ma0 fw4 sans-serif">$20</span>
+        </div>
+        <div class="w1">
+        </div>
+        <div id="fifty-monthly" onclick="setAmount('fifty-monthly')" class="button  pa0 br0 ba b--moon-gray ph3 pv3 pointer hover-b--blue">
+          <span class="ma0 fw4 sans-serif">$50</span>
+        </div>
+        <div class="w1">
+        </div>
+        <div id="hundred-monthly" onclick="setAmount('hundred-monthly')" class="button  pa0 br0 ba b--moon-gray ph3 pv3 pointer hover-b--blue">
+          <span class="ma0 fw4 sans-serif">$100</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-column items-end-l items-start mv3">
+      <span class="f5 tr-l tl fw6">
+        Or make a one time donation:
+      </span>
+      <div class="flex items-center justify-center mt3">
+        <input id="custom" type="number"  min="0" onfocus="setAmount('custom')" style="min-width: 128px; height: 60px" maxlength="7" autocomplete="off" name="donation-amount" placeholder="$" class="fw4 pa0 ma0 f3 w3 db ba b--moon-gray pa3 br0 pointer">
+      </div>
+    </div>
+  </div>
+
+  <div class="flex flex-column items-center-l items-start">
+
+    <div  class="pt1 mt3-l mb3 mw5 f4 sans-serif">
+      <input id="payButton" type="submit" value="Donate with card" class="input-reset bw0 w-100 fw5 br3 pa3 white bg-blue ph4 mr5 pointer">
+      </input>
+      
+    </div>
+
+    <details>
+      <summary class="gray summary tc f6 noselect pointer">Donate with check</summary>
+        <p>Checks should be made out to</p>
+        <p class="b">
+          Internet Society New York
+        </p>
+        <p>With a memo</p>
+        <p class="b">
+          NYC Mesh
+        </p>
+        and mailed to:
+        <p class="b">
+          ISOC-NY (NYC Mesh)<br />
+          PO Box 1599<br />
+          Madison Square Station<br />
+          New York, NY 10159
+        </p>
+    </details>
+
+    <!-- Donation Details -->
+    <div class="gray serif pb3 pt2 mw6">
+      <p class="f6 lh-copy i tc-l tl measure">
+        All donations will go towards our expenses, and are tax deductible through our 501(c)(3) fiscal sponsor, <a class="no-underline light-silver" href="https://isoc-ny.org">ISOC-NY</a>.
+      </p>
+    </div>
+  </div>	
+</div>
+</div>
+
+
+
+    <div class="w-100 bg-near-white">
+        <div class="measure-wide center pv4">
+        {{ .Content }}
+      </div>
+    </div>
+
+
+<script>
+    var donationAmount, donationType, customAmount;
+    var customDonation = document.getElementById('custom');
+    customDonation.onkeypress = function(e) {
+      const notNumber = e.which < 48 || e.which > 57
+      const notDelete = e.which !== 8
+      if (notNumber && notDelete)
+        e.preventDefault()
+    }
+
+    customDonation.addEventListener('input', function(e) {
+      var dollars = e.target.value;
+      donationAmount = dollars*100;
+      customAmount = dollars*100;
+    })
+
+    customDonation.addEventListener('focus', function(e) {
+      var tmpStr = e.target.value;
+      e.target.value = '';
+      e.target.value = tmpStr;
+      donationAmount = customAmount;
+    })
+
+    function setAmount(amount) {
+      // deselect selected
+      var selected = document.getElementById(donationAmount) || document.getElementById('custom');
+      if (selected) {
+        if (selected.id == 'custom')
+          selected.className = "fw4 pa0 ma0 f3 w3 db ba b--moon-gray pa3 br0 pointer"
+        else
+          selected.className = "button  pa0 br0 ba b--moon-gray ph3 pv3 pointer hover-b--blue"
+      }
+
+      // highlight choice and set amount
+      var button = document.getElementById(amount);
+      if (amount == 'custom') {
+        button.className = "fw4 pa0 ma0 f3 w3 db ba b--blue bg-blue-50 pa3 br0 pointer"
+        donationAmount = customAmount;
+      }
+      else {
+        button.className = "button pa0 br0 ba b--blue bg-blue-50 ph3 pv3 pointer";
+        donationAmount = amount;
+      }
+    }
+  </script>
+
+  <script src="https://checkout.stripe.com/checkout.js"></script>
+
+  <script>
+
+    function token(token) {
+      var request = new XMLHttpRequest();
+      request.onload = function() {
+        if (request.status === 200) {
+          window.location = '/pay/thanks'
+        } else {
+          window.location = '/pay/error'
+        }
+      }
+      request.open('POST', 'https://donate2.nycmesh.net/donate', true);
+      request.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+      request.send(JSON.stringify({
+        stripeToken: token,
+        donationAmount: donationAmount
+      }));
+    }
+
+    var stripeConfig = {
+      key: 'pk_live_srTdi5OfErTSw5BGXqEkY9C1',
+      image: 'https://nycmesh.net:/assets/images/logo.png',
+      locale: 'auto',
+      zipCode: true,
+      token: token
+    }
+
+    var handler = StripeCheckout.configure(stripeConfig);
+
+    var payButton = document.getElementById('payButton');
+    payButton.addEventListener('click', function(e) {
+
+      if (parseInt(donationAmount) && donationAmount > 0) {
+        stripeConfig.bitcoin = true;
+        handler = StripeCheckout.configure(stripeConfig);
+        handler.open({
+          name: 'NYC Mesh',
+          description: 'Donation',
+          amount: donationAmount
+        });
+      }
+
+      else if (donationAmount == 'twenty-monthly')
+        handler.open({
+          name: 'NYC Mesh',
+          description: 'Monthly Donation',
+          amount: 2000
+        });
+
+      else if (donationAmount == 'fifty-monthly')
+        handler.open({
+          name: 'NYC Mesh',
+          description: 'Monthly Donation',
+          amount: 5000
+        });
+
+      else if (donationAmount == 'hundred-monthly')
+        handler.open({
+          name: 'NYC Mesh',
+          description: 'Monthly Donation',
+          amount: 10000
+        });
+
+      else {
+        alert('Please enter a valid donation amount.')
+      }
+
+      e.preventDefault();
+    });
+
+    // Close Checkout on page navigation:
+    window.addEventListener('popstate', function() {
+      handler.close();
+    });
+  </script>
+{{ end }}
