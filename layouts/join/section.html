@@ -1,8 +1,10 @@
 {{ define "main" }}
-	<main class="sans-serif pv0">
-		<div class="bg-blue ph3 relative">
-			<div class="measure-wide z-999 f5 center pv4 white"> 
-				<h1 class="mt0 mb3">Join the Mesh</h1>
+	<main class="bg-near-white sans-serif pv0">
+		<div class="relative ph3">
+			<div class="ph3 pt4">
+				<h1 class="ma0 f2 fw6 tc">Join the Mesh</h1>
+			</div>
+			<div class="measure-wide z-999 f5 center pv4"> 
 				{{ partial "join" . }}
 			</div>
 		</div>
@@ -12,4 +14,30 @@
 			</div>
 		</div>
 	</main>
+
+	<script>
+      var map, autocomplete, marker;
+      function initMap() {
+        var search = document.getElementById('autocomplete')
+        autocomplete = new google.maps.places.Autocomplete(
+          search,
+          {types: ['geocode']});
+        // autocomplete.addListener('place_changed', fillInAddress);
+      }
+      function fillInAddress() {
+        var place = autocomplete.getPlace();
+        console.log(place)
+        if (place.formatted_address) {
+          var val = place.formatted_address;
+          var search = document.getElementById('autocomplete')
+          search.value = val;
+          console.log(place)
+          map.setCenter(place.geometry.location)
+          map.setZoom(17)
+          marker.setPosition(place.geometry.location)
+        }
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNClp7oJsw-eleEoR3-PQKV23tpeW-FpE&libraries=places&callback=initMap"
+    async defer></script>
 {{ end }}

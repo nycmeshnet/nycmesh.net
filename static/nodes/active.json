@@ -1,1 +1,2640 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"id":2,"status":"Installed","notes":"Peter","roof":"","panoramas":["2.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.990838,40.712378],"type":"Point"}},{"type":"Feature","properties":{"id":3,"status":"Installed","notes":"Brian, Rob, Lee-Ann","roof":"","panoramas":["3.jpg","3a.jpg","3b.jpg"],"otherNodes":", 191, 232, 240, 352"},"geometry":{"coordinates":[-73.987882,40.72486],"type":"Point"}},{"type":"Feature","properties":{"id":7,"status":"Installed","notes":"DBA bar -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.988137,40.724396],"type":"Point"}},{"type":"Feature","properties":{"id":19,"status":"Installed","notes":"","roof":"","panoramas":["19.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.984527,40.720405],"type":"Point"}},{"type":"Feature","properties":{"id":23,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.941273,40.723368],"type":"Point"}},{"type":"Feature","properties":{"id":28,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-73.956811,40.805056],"type":"Point"}},{"type":"Feature","properties":{"id":42,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-74.000317,40.679267],"type":"Point"}},{"type":"Feature","properties":{"id":77,"status":"Installed","notes":"","roof":"","otherNodes":", 103"},"geometry":{"coordinates":[-73.958762,40.763989],"type":"Point"}},{"type":"Feature","properties":{"id":81,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-73.970627,40.686137],"type":"Point"}},{"type":"Feature","properties":{"id":83,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-73.966608,40.709592],"type":"Point"}},{"type":"Feature","properties":{"id":84,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-73.267172,41.383133],"type":"Point"}},{"type":"Feature","properties":{"id":86,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-123.207201,39.150739],"type":"Point"}},{"type":"Feature","properties":{"id":87,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.998426,40.637905],"type":"Point"}},{"type":"Feature","properties":{"id":90,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-74.34167,40.926559],"type":"Point"}},{"type":"Feature","properties":{"id":93,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.983212,40.696102],"type":"Point"}},{"type":"Feature","properties":{"id":95,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["95.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.971844,40.579881],"type":"Point"}},{"type":"Feature","properties":{"id":100,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-73.982533,40.678031],"type":"Point"}},{"type":"Feature","properties":{"id":105,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.9766,40.746547],"type":"Point"}},{"type":"Feature","properties":{"id":108,"status":"Installed","notes":"","roof":"","panoramas":["108.jpg","108a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.935929,40.848555],"type":"Point"}},{"type":"Feature","properties":{"id":109,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.948654,40.673975],"type":"Point"}},{"type":"Feature","properties":{"id":111,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["111.jpg","111a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.976364,40.686133],"type":"Point"}},{"type":"Feature","properties":{"id":129,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["129.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.950006,40.710337],"type":"Point"}},{"type":"Feature","properties":{"id":131,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.963965,40.808075],"type":"Point"}},{"type":"Feature","properties":{"id":135,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["135.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.944384,40.827368],"type":"Point"}},{"type":"Feature","properties":{"id":142,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["142.jpg","142a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.892393,40.744189],"type":"Point"}},{"type":"Feature","properties":{"id":147,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-73.957592,40.729888],"type":"Point"}},{"type":"Feature","properties":{"id":157,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.93121,40.697748],"type":"Point"}},{"type":"Feature","properties":{"id":161,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-74.014392,40.709942],"type":"Point"}},{"type":"Feature","properties":{"id":164,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["164.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.979201,40.731889],"type":"Point"}},{"type":"Feature","properties":{"id":171,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-73.926,40.772606],"type":"Point"}},{"type":"Feature","properties":{"id":173,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["173.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.924795,40.83702],"type":"Point"}},{"type":"Feature","properties":{"id":182,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-73.981673,40.683627],"type":"Point"}},{"type":"Feature","properties":{"id":183,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["183.jpg","183a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.976727,40.724777],"type":"Point"}},{"type":"Feature","properties":{"id":194,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-73.992953,40.735063],"type":"Point"}},{"type":"Feature","properties":{"id":201,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["201.jpg","201a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.986585,40.727886],"type":"Point"}},{"type":"Feature","properties":{"id":209,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-118.207683,34.117537],"type":"Point"}},{"type":"Feature","properties":{"id":218,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["218.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.925531,40.70113],"type":"Point"}},{"type":"Feature","properties":{"id":225,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["225.jpg"],"otherNodes":", 229"},"geometry":{"coordinates":[-73.946721,40.716848],"type":"Point"}},{"type":"Feature","properties":{"id":227,"status":"Installed","notes":"Supernode 1, Sector facing North -roof","roof":"roof","panoramas":["227.png","227a.jpg","227b.jpg"],"otherNodes":""},"geometry":{"coordinates":[-74.001122,40.711137],"type":"Point"}},{"type":"Feature","properties":{"id":230,"status":"Installed","notes":"tree node -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.986312,40.660428],"type":"Point"}},{"type":"Feature","properties":{"id":248,"status":"Installed","notes":"","roof":"","panoramas":["248.jpg"],"otherNodes":", 593"},"geometry":{"coordinates":[-73.998017,40.712112],"type":"Point"}},{"type":"Feature","properties":{"id":258,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["258.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.971608,40.687746],"type":"Point"}},{"type":"Feature","properties":{"id":269,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-118.076392,34.058778],"type":"Point"}},{"type":"Feature","properties":{"id":288,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["288.jpg","288a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-74.009446,40.716772],"type":"Point"}},{"type":"Feature","properties":{"id":305,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-73.97823,40.747195],"type":"Point"}},{"type":"Feature","properties":{"id":311,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-74.079826,40.642611],"type":"Point"}},{"type":"Feature","properties":{"id":315,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-73.989166,40.729517],"type":"Point"}},{"type":"Feature","properties":{"id":323,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["323.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.938944,40.71366],"type":"Point"}},{"type":"Feature","properties":{"id":324,"status":"Installed","notes":"Danny, Oliver","roof":"","otherNodes":", 328"},"geometry":{"coordinates":[-73.987694,40.724776],"type":"Point"}},{"type":"Feature","properties":{"id":329,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["329.jpg","329a.jpg","329b.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.941833,40.717625],"type":"Point"}},{"type":"Feature","properties":{"id":330,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-73.988147,40.724619],"type":"Point"}},{"type":"Feature","properties":{"id":339,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-73.992261,40.757931],"type":"Point"}},{"type":"Feature","properties":{"id":354,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["354.jpg","354a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.942555,40.714475],"type":"Point"}},{"type":"Feature","properties":{"id":355,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.932987,40.710899],"type":"Point"}},{"type":"Feature","properties":{"id":363,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-73.997892,40.753914],"type":"Point"}},{"type":"Feature","properties":{"id":368,"status":"Installed","notes":"","roof":"","panoramas":["368.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.967288,40.634489],"type":"Point"}},{"type":"Feature","properties":{"id":376,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-73.944886,40.684365],"type":"Point"}},{"type":"Feature","properties":{"id":386,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-74.035181,40.721315],"type":"Point"}},{"type":"Feature","properties":{"id":393,"status":"Installed","notes":"kiosk","roof":"","otherNodes":""},"geometry":{"coordinates":[-73.997031,40.661111],"type":"Point"}},{"type":"Feature","properties":{"id":407,"status":"Installed","notes":"Chinatown Hub -roof","roof":"roof","panoramas":["407.jpg","407a.jpg","407b.jpg","407c.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.990363,40.713245],"type":"Point"}},{"type":"Feature","properties":{"id":423,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["423.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.982726,40.679116],"type":"Point"}},{"type":"Feature","properties":{"id":441,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-73.98608,40.679126],"type":"Point"}},{"type":"Feature","properties":{"id":465,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["465.jpg","465a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.987946,40.713756],"type":"Point"}},{"type":"Feature","properties":{"id":467,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["467.jpg","467a.jpg","467b.jpg"],"otherNodes":", 606"},"geometry":{"coordinates":[-73.988465,40.724751],"type":"Point"}},{"type":"Feature","properties":{"id":468,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["468.jpg","468a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.986759,40.728456],"type":"Point"}},{"type":"Feature","properties":{"id":472,"status":"Installed","notes":"","roof":"","panoramas":["472.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.989811,40.714112],"type":"Point"}},{"type":"Feature","properties":{"id":497,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["497.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.985508,40.728241],"type":"Point"}},{"type":"Feature","properties":{"id":510,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-73.97673,40.731487],"type":"Point"}},{"type":"Feature","properties":{"id":519,"status":"Installed","notes":"Kiosk bridge -roof","roof":"roof","panoramas":["519.jpg","519a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.976001,40.687357],"type":"Point"}},{"type":"Feature","properties":{"id":529,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["529.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.922893,40.704449],"type":"Point"}},{"type":"Feature","properties":{"id":534,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["534.jpg","534a.jpg","534b.jpg","534c.jpg","550.jpg"],"otherNodes":", 549, 550, 559, 560, 590"},"geometry":{"coordinates":[-73.991521,40.713716],"type":"Point"}},{"type":"Feature","properties":{"id":535,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.982505,40.718327],"type":"Point"}},{"type":"Feature","properties":{"id":536,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.975768,40.672121],"type":"Point"}},{"type":"Feature","properties":{"id":556,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["556.jpg","556a.jpg"],"otherNodes":", 1497"},"geometry":{"coordinates":[-73.977156,40.723515],"type":"Point"}},{"type":"Feature","properties":{"id":561,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["561.jpg","561a.jpg","561b.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.996049,40.713096],"type":"Point"}},{"type":"Feature","properties":{"id":565,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["565.jpg","565a.jpg","565b.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.979898,40.725551],"type":"Point"}},{"type":"Feature","properties":{"id":570,"status":"Installed","notes":"Supernode 2 -roof","roof":"roof","panoramas":["570.jpg","570a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.929049,40.713991],"type":"Point"}},{"type":"Feature","properties":{"id":574,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-118.076432,34.058852],"type":"Point"}},{"type":"Feature","properties":{"id":576,"status":"Installed","notes":"","roof":"","panoramas":["576.jpg","576a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.982902,40.71519],"type":"Point"}},{"type":"Feature","properties":{"id":583,"status":"Installed","notes":"","roof":"","panoramas":["583.jpg","583a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.986763,40.777444],"type":"Point"}},{"type":"Feature","properties":{"id":588,"status":"Installed","notes":"Kiosk bridge -roof","roof":"roof","panoramas":["588.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.982561,40.735176],"type":"Point"}},{"type":"Feature","properties":{"id":609,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["609.jpg","609a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.926303,40.708213],"type":"Point"}},{"type":"Feature","properties":{"id":623,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.982549,40.657986],"type":"Point"}},{"type":"Feature","properties":{"id":627,"status":"Installed","notes":"did diy -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.933929,40.683638],"type":"Point"}},{"type":"Feature","properties":{"id":650,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["650.jpg","650a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.999172,40.717016],"type":"Point"}},{"type":"Feature","properties":{"id":659,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["659.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.990353,40.714725],"type":"Point"}},{"type":"Feature","properties":{"id":664,"status":"Installed","notes":"Cypress Inn, hub -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.915235,40.705619],"type":"Point"}},{"type":"Feature","properties":{"id":667,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["667.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.929177,40.6922],"type":"Point"}},{"type":"Feature","properties":{"id":686,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["686.jpg","686a.jpg"],"otherNodes":", 1226, 1401"},"geometry":{"coordinates":[-73.991317,40.713453],"type":"Point"}},{"type":"Feature","properties":{"id":699,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["699.jpg"],"otherNodes":", 1597"},"geometry":{"coordinates":[-73.990348,40.727573],"type":"Point"}},{"type":"Feature","properties":{"id":719,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.92833,40.706577],"type":"Point"}},{"type":"Feature","properties":{"id":729,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["729.jpg","729a.jpg","729b.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.980396,40.729267],"type":"Point"}},{"type":"Feature","properties":{"id":760,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.95608,40.680124],"type":"Point"}},{"type":"Feature","properties":{"id":761,"status":"Installed","notes":"","roof":"","panoramas":["761.jpg","761a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.944908,40.812909],"type":"Point"}},{"type":"Feature","properties":{"id":789,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.995928,40.721966],"type":"Point"}},{"type":"Feature","properties":{"id":794,"status":"Installed","notes":"","roof":"","panoramas":["794.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.978205,40.713168],"type":"Point"}},{"type":"Feature","properties":{"id":825,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["825.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.983103,40.73009],"type":"Point"}},{"type":"Feature","properties":{"id":836,"status":"Installed","notes":"","roof":"","panoramas":["836.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.999432,40.716898],"type":"Point"}},{"type":"Feature","properties":{"id":844,"status":"Installed","notes":"kiosk -roof","roof":"roof","panoramas":["844.jpg","844a.jpg","844b.jpg","844c.jpg","844d.jpg"],"otherNodes":", 1580, 1581, 1600"},"geometry":{"coordinates":[-73.955797,40.722812],"type":"Point"}},{"type":"Feature","properties":{"id":865,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["865.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.949739,40.707237],"type":"Point"}},{"type":"Feature","properties":{"id":873,"status":"Installed","notes":"kiosk","roof":"","panoramas":["873.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.963048,40.6755],"type":"Point"}},{"type":"Feature","properties":{"id":944,"status":"Installed","notes":"hub? kiosk -roof","roof":"roof","panoramas":["944.jpg","944a.jpg","944b.jpg","944c.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.954799,40.680215],"type":"Point"}},{"type":"Feature","properties":{"id":960,"status":"Installed","notes":"","roof":"","panoramas":["960.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.934393,40.713634],"type":"Point"}},{"type":"Feature","properties":{"id":994,"status":"Installed","notes":"","roof":"","panoramas":["994.jpg","1275.jpg"],"otherNodes":", 1275"},"geometry":{"coordinates":[-73.99453,40.711367],"type":"Point"}},{"type":"Feature","properties":{"id":997,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.927419,40.700394],"type":"Point"}},{"type":"Feature","properties":{"id":1049,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["1049.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.925552,40.704108],"type":"Point"}},{"type":"Feature","properties":{"id":1126,"status":"Installed","notes":"Bronx Hub -roof","roof":"roof","panoramas":["1126.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.870058,40.863532],"type":"Point"}},{"type":"Feature","properties":{"id":1138,"status":"Installed","notes":"","roof":"","panoramas":["1138.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.986802,40.728445],"type":"Point"}},{"type":"Feature","properties":{"id":1147,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["1147.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.984913,40.729202],"type":"Point"}},{"type":"Feature","properties":{"id":1158,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["1158.jpg","1158a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.979415,40.724073],"type":"Point"}},{"type":"Feature","properties":{"id":1163,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["1163.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.98755,40.730655],"type":"Point"}},{"type":"Feature","properties":{"id":1167,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.946053,40.72755],"type":"Point"}},{"type":"Feature","properties":{"id":1189,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.932605,40.707865],"type":"Point"}},{"type":"Feature","properties":{"id":1201,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.953559,40.729099],"type":"Point"}},{"type":"Feature","properties":{"id":1237,"status":"Installed","notes":"kiosk bridge -roof","roof":"roof","panoramas":["1237.jpg","1237a.jpg","1237b.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.967627,40.799292],"type":"Point"}},{"type":"Feature","properties":{"id":1258,"status":"Installed","notes":"","roof":"","panoramas":["1258.jpg","1258a.jpg","1258b.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.987696,40.725231],"type":"Point"}},{"type":"Feature","properties":{"id":1267,"status":"Installed","notes":"The Lot Radio, kiosk -roof","roof":"roof","panoramas":["1267.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.95405,40.722814],"type":"Point"}},{"type":"Feature","properties":{"id":1278,"status":"Installed","notes":"","roof":"","panoramas":["1278.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.992944,40.722215],"type":"Point"}},{"type":"Feature","properties":{"id":1327,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.997536,40.717609],"type":"Point"}},{"type":"Feature","properties":{"id":1340,"status":"Installed","notes":"hub -roof","roof":"roof","panoramas":["1340.jpg","1340a.png","1340b.jpg","1340c.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.917272,40.685823],"type":"Point"}},{"type":"Feature","properties":{"id":1358,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-74.071297,40.725777],"type":"Point"}},{"type":"Feature","properties":{"id":1384,"status":"Installed","notes":"hub?","roof":"","panoramas":["1384.jpg","1384a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.978904,40.713895],"type":"Point"}},{"type":"Feature","properties":{"id":1386,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.984538,40.725932],"type":"Point"}},{"type":"Feature","properties":{"id":1417,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.935649,40.713504],"type":"Point"}},{"type":"Feature","properties":{"id":1423,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.991784,40.717144],"type":"Point"}},{"type":"Feature","properties":{"id":1425,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["1425.jpg"],"otherNodes":""},"geometry":{"coordinates":[-74.000748,40.655059],"type":"Point"}},{"type":"Feature","properties":{"id":1440,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.995514,40.712029],"type":"Point"}},{"type":"Feature","properties":{"id":1452,"status":"Installed","notes":"","roof":"","panoramas":["1452.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.963466,40.720213],"type":"Point"}},{"type":"Feature","properties":{"id":1471,"status":"Installed","notes":"did diy kiosk with nsm5 - privacy concerns - no  twitter","roof":"","panoramas":["1471.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.960933,40.763499],"type":"Point"}},{"type":"Feature","properties":{"id":1474,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["1474.jpg","1474a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.979996,40.677529],"type":"Point"}},{"type":"Feature","properties":{"id":1490,"status":"Installed","notes":"Kiosk -roof","roof":"roof","panoramas":["1490.jpg","1490a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.945982,40.720875],"type":"Point"}},{"type":"Feature","properties":{"id":1491,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["1491.jpg","1491a.jpg","1491b.jpg","1491c.jpg","1491d.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.923444,40.706284],"type":"Point"}},{"type":"Feature","properties":{"id":1496,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["1496.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.994524,40.711672],"type":"Point"}},{"type":"Feature","properties":{"id":1515,"status":"Installed","notes":"Domino refinery, hub -roof","roof":"roof","panoramas":["1515.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.967858,40.714722],"type":"Point"}},{"type":"Feature","properties":{"id":1524,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["1524.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.934392,40.682086],"type":"Point"}},{"type":"Feature","properties":{"id":1550,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["1550.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.988952,40.712937],"type":"Point"}},{"type":"Feature","properties":{"id":1560,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.988063,40.715889],"type":"Point"}},{"type":"Feature","properties":{"id":1567,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["1567.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.986435,40.72782],"type":"Point"}},{"type":"Feature","properties":{"id":1570,"status":"Installed","notes":"kiosk -roof","roof":"roof","panoramas":["1570.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.993999,40.721662],"type":"Point"}},{"type":"Feature","properties":{"id":1590,"status":"Installed","notes":"kiosk -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.987571,40.730635],"type":"Point"}},{"type":"Feature","properties":{"id":1599,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.916209,40.690447],"type":"Point"}},{"type":"Feature","properties":{"id":1612,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["1612.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.987916,40.724487],"type":"Point"}},{"type":"Feature","properties":{"id":1625,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["1625.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.998085,40.712316],"type":"Point"}},{"type":"Feature","properties":{"id":1627,"status":"Installed","notes":"","roof":"","panoramas":["1627.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.984449,40.727451],"type":"Point"}},{"type":"Feature","properties":{"id":1636,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.919954,40.693118],"type":"Point"}},{"type":"Feature","properties":{"id":1660,"status":"Installed","notes":"connected to prism2 -roof","roof":"roof","panoramas":["1660.jpg","1660a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.983026,40.724469],"type":"Point"}},{"type":"Feature","properties":{"id":1663,"status":"Installed","notes":"kiosk -roof","roof":"roof","panoramas":["1663.jpg","1663a.jpg","1663b.jpg","1663c.jpg","1663d.jpg","1663e.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.958766,40.651547],"type":"Point"}},{"type":"Feature","properties":{"id":1710,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.904923,40.703521],"type":"Point"}},{"type":"Feature","properties":{"id":1776,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.919609,40.703015],"type":"Point"}},{"type":"Feature","properties":{"id":1795,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["1795.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.907476,40.704006],"type":"Point"}},{"type":"Feature","properties":{"id":1796,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["1796.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.935828,40.697145],"type":"Point"}},{"type":"Feature","properties":{"id":1825,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["1825.jpg","1825a.jpg","1825b.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.907679,40.694313],"type":"Point"}},{"type":"Feature","properties":{"id":1835,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["1835.jpg","1835a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.985689,40.728283],"type":"Point"}},{"type":"Feature","properties":{"id":1846,"status":"Installed","notes":"","roof":"","panoramas":["1846.jpg","1846a.jpg"],"otherNodes":", 1922"},"geometry":{"coordinates":[-73.988363,40.725159],"type":"Point"}},{"type":"Feature","properties":{"id":1854,"status":"Installed","notes":"","roof":"","otherNodes":""},"geometry":{"coordinates":[-73.959218,40.730952],"type":"Point"}},{"type":"Feature","properties":{"id":1862,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["1862.jpg","1862a.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.907276,40.699353],"type":"Point"}},{"type":"Feature","properties":{"id":1893,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["1893.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.922079,40.683993],"type":"Point"}},{"type":"Feature","properties":{"id":1923,"status":"Installed","notes":" -roof","roof":"roof","otherNodes":""},"geometry":{"coordinates":[-73.940416,40.715466],"type":"Point"}},{"type":"Feature","properties":{"id":1929,"status":"Installed","notes":"NanoStation facing park","roof":"","panoramas":["1929.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.982695,40.715689],"type":"Point"}},{"type":"Feature","properties":{"id":1930,"status":"Installed","notes":" -roof","roof":"roof","panoramas":["1930.jpg"],"otherNodes":""},"geometry":{"coordinates":[-73.988922,40.713415],"type":"Point"}}]}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2,
+				"status": "Installed",
+				"notes": "Peter",
+				"roof": "",
+				"panoramas": ["2.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.990838, 40.712378],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 3,
+				"status": "Installed",
+				"notes": "Brian, Rob, Lee-Ann",
+				"roof": "",
+				"panoramas": ["3.jpg", "3a.jpg", "3b.jpg"],
+				"otherNodes": ", 191, 232, 240, 352"
+			},
+			"geometry": {
+				"coordinates": [-73.987882, 40.72486],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 7,
+				"status": "Installed",
+				"notes": "DBA bar -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.988137, 40.724396],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 19,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["19.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.984527, 40.720405],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 23,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.941273, 40.723368],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 28,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.956811, 40.805056],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 42,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-74.000317, 40.679267],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 77,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ", 103"
+			},
+			"geometry": {
+				"coordinates": [-73.958762, 40.763989],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 81,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.970627, 40.686137],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 83,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.966608, 40.709592],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 84,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.267172, 41.383133],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 86,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-123.207201, 39.150739],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 87,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.998426, 40.637905],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 90,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-74.34167, 40.926559],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 93,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.983212, 40.696102],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 95,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["95.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.971844, 40.579881],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 100,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.982533, 40.678031],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 105,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.9766, 40.746547],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 108,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["108.jpg", "108a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.935929, 40.848555],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 109,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.948654, 40.673975],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 111,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["111.jpg", "111a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.976364, 40.686133],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 129,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["129.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.950006, 40.710337],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 131,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.963965, 40.808075],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 135,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["135.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.944384, 40.827368],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 142,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["142.jpg", "142a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.892393, 40.744189],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 147,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.957592, 40.729888],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 157,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.93121, 40.697748],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 161,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-74.014392, 40.709942],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 164,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["164.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.979201, 40.731889],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 171,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": { "coordinates": [-73.926, 40.772606], "type": "Point" }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 173,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["173.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.924795, 40.83702],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 182,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.981673, 40.683627],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 183,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["183.jpg", "183a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.976727, 40.724777],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 194,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.992953, 40.735063],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 201,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["201.jpg", "201a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.986585, 40.727886],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 209,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-118.207683, 34.117537],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 218,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["218.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.925531, 40.70113],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 225,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["225.jpg"],
+				"otherNodes": ", 229"
+			},
+			"geometry": {
+				"coordinates": [-73.946721, 40.716848],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 227,
+				"status": "Installed",
+				"notes": "Supernode 1, Sector facing North -roof",
+				"roof": "roof",
+				"panoramas": ["227.png", "227a.jpg", "227b.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-74.001122, 40.711137],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 230,
+				"status": "Installed",
+				"notes": "tree node -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.986312, 40.660428],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 248,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["248.jpg"],
+				"otherNodes": ", 593"
+			},
+			"geometry": {
+				"coordinates": [-73.998017, 40.712112],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 258,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["258.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.971608, 40.687746],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 269,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-118.076392, 34.058778],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 288,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["288.jpg", "288a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-74.009446, 40.716772],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 305,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.97823, 40.747195],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 311,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-74.079826, 40.642611],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 315,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.989166, 40.729517],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 323,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["323.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.938944, 40.71366],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 324,
+				"status": "Installed",
+				"notes": "Danny, Oliver",
+				"roof": "",
+				"otherNodes": ", 328"
+			},
+			"geometry": {
+				"coordinates": [-73.987694, 40.724776],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 329,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["329.jpg", "329a.jpg", "329b.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.941833, 40.717625],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 330,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.988147, 40.724619],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 339,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.992261, 40.757931],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 346,
+				"status": "Installed",
+				"notes": "did diy -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.933892, 40.683456],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 354,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["354.jpg", "354a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.942555, 40.714475],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 355,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.932987, 40.710899],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 363,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.997892, 40.753914],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 368,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["368.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.967288, 40.634489],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 376,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.944886, 40.684365],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 386,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-74.035181, 40.721315],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 393,
+				"status": "Installed",
+				"notes": "kiosk",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.997031, 40.661111],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 407,
+				"status": "Installed",
+				"notes": "Chinatown Hub -roof",
+				"roof": "roof",
+				"panoramas": ["407.jpg", "407a.jpg", "407b.jpg", "407c.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.990363, 40.713245],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 423,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["423.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.982726, 40.679116],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 441,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.98608, 40.679126],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 465,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["465.jpg", "465a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.987946, 40.713756],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 467,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["467.jpg", "467a.jpg", "467b.jpg"],
+				"otherNodes": ", 606"
+			},
+			"geometry": {
+				"coordinates": [-73.988465, 40.724751],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 468,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["468.jpg", "468a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.986759, 40.728456],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 472,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["472.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.989811, 40.714112],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 497,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["497.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.985508, 40.728241],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 510,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.97673, 40.731487],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 519,
+				"status": "Installed",
+				"notes": "Kiosk bridge -roof",
+				"roof": "roof",
+				"panoramas": ["519.jpg", "519a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.976001, 40.687357],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 529,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["529.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.922893, 40.704449],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 534,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": [
+					"534.jpg",
+					"534a.jpg",
+					"534b.jpg",
+					"534c.jpg",
+					"550.jpg"
+				],
+				"otherNodes": ", 549, 550, 559, 560, 590"
+			},
+			"geometry": {
+				"coordinates": [-73.991521, 40.713716],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 535,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.982505, 40.718327],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 536,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.975768, 40.672121],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 556,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["556.jpg", "556a.jpg"],
+				"otherNodes": ", 1497"
+			},
+			"geometry": {
+				"coordinates": [-73.977156, 40.723515],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 561,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["561.jpg", "561a.jpg", "561b.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.996049, 40.713096],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 565,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["565.jpg", "565a.jpg", "565b.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.979898, 40.725551],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 570,
+				"status": "Installed",
+				"notes": "Supernode 2 -roof",
+				"roof": "roof",
+				"panoramas": ["570.jpg", "570a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.929049, 40.713991],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 574,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-118.076432, 34.058852],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 576,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["576.jpg", "576a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.982902, 40.71519],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 583,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["583.jpg", "583a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.986763, 40.777444],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 588,
+				"status": "Installed",
+				"notes": "Kiosk bridge -roof",
+				"roof": "roof",
+				"panoramas": ["588.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.982561, 40.735176],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 609,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["609.jpg", "609a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.926303, 40.708213],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 623,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.982549, 40.657986],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 650,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["650.jpg", "650a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.999172, 40.717016],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 659,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["659.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.990353, 40.714725],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 664,
+				"status": "Installed",
+				"notes": "Cypress Inn, hub -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.915235, 40.705619],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 667,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["667.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.929177, 40.6922],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 686,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["686.jpg", "686a.jpg"],
+				"otherNodes": ", 1226, 1401"
+			},
+			"geometry": {
+				"coordinates": [-73.991317, 40.713453],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 699,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["699.jpg"],
+				"otherNodes": ", 1597"
+			},
+			"geometry": {
+				"coordinates": [-73.990348, 40.727573],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 719,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.92833, 40.706577],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 729,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["729.jpg", "729a.jpg", "729b.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.980396, 40.729267],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 760,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.95608, 40.680124],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 761,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["761.jpg", "761a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.944908, 40.812909],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 789,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.995928, 40.721966],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 794,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["794.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.978205, 40.713168],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 825,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["825.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.983103, 40.73009],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 836,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["836.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.999432, 40.716898],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 844,
+				"status": "Installed",
+				"notes": "kiosk -roof",
+				"roof": "roof",
+				"panoramas": [
+					"844.jpg",
+					"844a.jpg",
+					"844b.jpg",
+					"844c.jpg",
+					"844d.jpg"
+				],
+				"otherNodes": ", 1580, 1581, 1600"
+			},
+			"geometry": {
+				"coordinates": [-73.955797, 40.722812],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 865,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["865.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.949739, 40.707237],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 873,
+				"status": "Installed",
+				"notes": "kiosk",
+				"roof": "",
+				"panoramas": ["873.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.963048, 40.6755],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 944,
+				"status": "Installed",
+				"notes": "hub? kiosk -roof",
+				"roof": "roof",
+				"panoramas": ["944.jpg", "944a.jpg", "944b.jpg", "944c.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.954799, 40.680215],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 960,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["960.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.934393, 40.713634],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 994,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["994.jpg", "1275.jpg"],
+				"otherNodes": ", 1275"
+			},
+			"geometry": {
+				"coordinates": [-73.99453, 40.711367],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 997,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.927419, 40.700394],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1049,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1049.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.925552, 40.704108],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1126,
+				"status": "Installed",
+				"notes": "Bronx Hub -roof",
+				"roof": "roof",
+				"panoramas": ["1126.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.870058, 40.863532],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1138,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["1138.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.986802, 40.728445],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1147,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1147.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.984913, 40.729202],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1158,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1158.jpg", "1158a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.979415, 40.724073],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1163,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1163.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.98755, 40.730655],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1167,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.946053, 40.72755],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1189,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.932605, 40.707865],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1201,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.953559, 40.729099],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1237,
+				"status": "Installed",
+				"notes": "kiosk bridge -roof",
+				"roof": "roof",
+				"panoramas": ["1237.jpg", "1237a.jpg", "1237b.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.967627, 40.799292],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1258,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["1258.jpg", "1258a.jpg", "1258b.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.987696, 40.725231],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1267,
+				"status": "Installed",
+				"notes": "The Lot Radio, kiosk -roof",
+				"roof": "roof",
+				"panoramas": ["1267.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.95405, 40.722814],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1278,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["1278.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.992944, 40.722215],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1294,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1294.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.922959, 40.683023],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1327,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.997536, 40.717609],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1340,
+				"status": "Installed",
+				"notes": "hub -roof",
+				"roof": "roof",
+				"panoramas": [
+					"1340.jpg",
+					"1340a.png",
+					"1340b.jpg",
+					"1340c.jpg"
+				],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.917272, 40.685823],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1358,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-74.071297, 40.725777],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1384,
+				"status": "Installed",
+				"notes": "hub",
+				"roof": "",
+				"panoramas": ["1384.jpg", "1384a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.978904, 40.713895],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1386,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.984538, 40.725932],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1417,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.935649, 40.713504],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1423,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.991784, 40.717144],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1425,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1425.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-74.000748, 40.655059],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1440,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.995514, 40.712029],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1452,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["1452.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.963466, 40.720213],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1471,
+				"status": "Installed",
+				"notes":
+					"did diy kiosk with nsm5 - privacy concerns - no  twitter",
+				"roof": "",
+				"panoramas": ["1471.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.960933, 40.763499],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1474,
+				"status": "Installed",
+				"notes": "kiosk install -roof",
+				"roof": "roof",
+				"panoramas": ["1474.jpg", "1474a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.979996, 40.677529],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1490,
+				"status": "Installed",
+				"notes": "Kiosk -roof",
+				"roof": "roof",
+				"panoramas": ["1490.jpg", "1490a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.945982, 40.720875],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1491,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": [
+					"1491.jpg",
+					"1491a.jpg",
+					"1491b.jpg",
+					"1491c.jpg",
+					"1491d.jpg"
+				],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.923444, 40.706284],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1496,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1496.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.994524, 40.711672],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1515,
+				"status": "Installed",
+				"notes": "Domino refinery, hub -roof",
+				"roof": "roof",
+				"panoramas": ["1515.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.967858, 40.714722],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1524,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1524.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.934392, 40.682086],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1546,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.946755, 40.687631],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1550,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1550.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.988952, 40.712937],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1560,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.988063, 40.715889],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1567,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1567.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.986435, 40.72782],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1570,
+				"status": "Installed",
+				"notes": "kiosk -roof",
+				"roof": "roof",
+				"panoramas": ["1570.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.993999, 40.721662],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1583,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1583.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.917094, 40.684214],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1590,
+				"status": "Installed",
+				"notes": "kiosk -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.987571, 40.730635],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1599,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.916209, 40.690447],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1612,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1612.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.987916, 40.724487],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1625,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1625.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.998085, 40.712316],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1627,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["1627.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.984449, 40.727451],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1636,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.919954, 40.693118],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1659,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1659.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.918365, 40.68814],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1660,
+				"status": "Installed",
+				"notes": "connected to prism2 -roof",
+				"roof": "roof",
+				"panoramas": ["1660.jpg", "1660a.jpg", "1660b.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.983026, 40.724469],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1663,
+				"status": "Installed",
+				"notes": "kiosk -roof",
+				"roof": "roof",
+				"panoramas": [
+					"1663.jpg",
+					"1663a.jpg",
+					"1663b.jpg",
+					"1663c.jpg",
+					"1663d.jpg",
+					"1663e.jpg"
+				],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.958766, 40.651547],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1710,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.904923, 40.703521],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1776,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.919609, 40.703015],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1779,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1779.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.954856, 40.693992],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1795,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1795.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.907476, 40.704006],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1796,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1796.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.935828, 40.697145],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1825,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1825.jpg", "1825a.jpg", "1825b.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.907679, 40.694313],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1835,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1835.jpg", "1835a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.985689, 40.728283],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1846,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["1846.jpg", "1846a.jpg"],
+				"otherNodes": ", 1922"
+			},
+			"geometry": {
+				"coordinates": [-73.988363, 40.725159],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1848,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1848.jpg"],
+				"otherNodes": ", 2088"
+			},
+			"geometry": {
+				"coordinates": [-73.996938, 40.713099],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1854,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.959218, 40.730952],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1862,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1862.jpg", "1862a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.907276, 40.699353],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1893,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1893.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.922079, 40.683993],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1923,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.940416, 40.715466],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1929,
+				"status": "Installed",
+				"notes": "NanoStation facing park",
+				"roof": "",
+				"panoramas": ["1929.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.982695, 40.715689],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1930,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1930.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.988922, 40.713415],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1977,
+				"status": "Installed",
+				"notes": "kiosk",
+				"roof": "",
+				"panoramas": ["1977.jpg", "1977a.jpg", "1977b.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.964132, 40.6729],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1997,
+				"status": "Installed",
+				"notes": "kiosk -roof",
+				"roof": "roof",
+				"panoramas": ["1997.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.951288, 40.725754],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2006,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.998005, 40.715618],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2012,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ", 2082, 2083"
+			},
+			"geometry": {
+				"coordinates": [-73.939438, 40.688718],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2026,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["2026.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": { "coordinates": [-73.988, 40.714603], "type": "Point" }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2039,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["2039.jpg", "2039a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.913685, 40.699891],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2047,
+				"status": "Installed",
+				"notes": "kiosk -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.957175, 40.67224],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2058,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.91876, 40.687077],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2071,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.914419, 40.703511],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2074,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.979333, 40.713153],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2098,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.914594, 40.706773],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2111,
+				"status": "Installed",
+				"notes": "hub? -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.9484, 40.711003],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2116,
+				"status": "Installed",
+				"notes": "NSM5 -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-74.04249, 40.750667],
+				"type": "Point"
+			}
+		}
+	]
+}

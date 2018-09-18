@@ -129,7 +129,7 @@ function initMap() {
   map.setMapTypeId("map_style");
 
   var activeNodesLayer = new google.maps.Data();
-  var potentialNodesLayer = new google.maps.Data();
+  // var potentialNodesLayer = new google.maps.Data();
   var linksLayer = new google.maps.Data();
   var linkNYCLayer = new google.maps.Data();
   // var beamsLayer = new google.maps.Data();
@@ -179,36 +179,36 @@ function initMap() {
     };
   });
 
-  potentialNodesLayer.setStyle(function(feature) {
-    var url = "/img/map/potential.svg";
-    var opacity = 1;
-    var visible = true;
-    var notes = feature.getProperty("notes").toLowerCase();
-    if (notes.indexOf("supernode") !== -1) {
-      url = "/img/map/supernode-potential.svg";
-    }
-    if (feature.getProperty("panoramas")) {
-      //url = '../assets/images/potentialpano.svg';
-      opacity = 1;
-    }
-    if (
-      searchQuery.length > 0 &&
-      !matchesSearch(searchQuery, feature.getProperty("id"))
-    ) {
-      visible = false;
-    }
-    return {
-      title: feature.getProperty("id"),
-      opacity: opacity,
-      zIndex: 100,
-      visible: visible,
-      icon: {
-        url: url,
-        anchor: new google.maps.Point(10, 10),
-        labelOrigin: new google.maps.Point(28, 10)
-      }
-    };
-  });
+  // potentialNodesLayer.setStyle(function(feature) {
+  //   var url = "/img/map/potential.svg";
+  //   var opacity = 1;
+  //   var visible = true;
+  //   var notes = feature.getProperty("notes").toLowerCase();
+  //   if (notes.indexOf("supernode") !== -1) {
+  //     url = "/img/map/supernode-potential.svg";
+  //   }
+  //   if (feature.getProperty("panoramas")) {
+  //     //url = '../assets/images/potentialpano.svg';
+  //     opacity = 1;
+  //   }
+  //   if (
+  //     searchQuery.length > 0 &&
+  //     !matchesSearch(searchQuery, feature.getProperty("id"))
+  //   ) {
+  //     visible = false;
+  //   }
+  //   return {
+  //     title: feature.getProperty("id"),
+  //     opacity: opacity,
+  //     zIndex: 100,
+  //     visible: visible,
+  //     icon: {
+  //       url: url,
+  //       anchor: new google.maps.Point(10, 10),
+  //       labelOrigin: new google.maps.Point(28, 10)
+  //     }
+  //   };
+  // });
 
   linksLayer.setStyle(function(link) {
     var strokeColor = "#ff3b30";
@@ -251,11 +251,11 @@ function initMap() {
 
   var infowindow = new google.maps.InfoWindow();
   activeNodesLayer.addListener("click", showDetails);
-  potentialNodesLayer.addListener("click", showDetails);
+  // potentialNodesLayer.addListener("click", showDetails);
 
   linksLayer.setMap(map);
-  linkNYCLayer.setMap(map);
-  potentialNodesLayer.setMap(map);
+  // linkNYCLayer.setMap(map);
+  // potentialNodesLayer.setMap(map);
   activeNodesLayer.setMap(map);
 }
 
