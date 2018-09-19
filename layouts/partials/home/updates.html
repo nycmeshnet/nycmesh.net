@@ -1,59 +1,65 @@
 <section id="updates" class="bg-near-white f4 pv4 ph4-ns ph3">
   <div class="f5 mw8 center">
 
-    <!-- Blog -->
-    <div class="man3  flex-ns flex-wrap justify-start">
-      <div class="w-25-l w-50-m w-100 ph3-ns pa0 overflow-auto">
+    <div class="mhn2 flex flex-row-l flex-wrap measure-wide-m center justify-start">
+
+      <!-- Blog -->
+      <div class="w-25-l w-50-m ph2 overflow-auto">
         <a href="/blog" class="black">
           <h2 class="fw5 f3">Blog</h2>
         </a>
         <ul class="list pa0 ma0">
           {{ range first 3 (where .Data.Pages "Section" "blog") }}
             <li class="mb4">
-              <time class="silver lh-title">{{ .Date.Format "January 2, 2006" }}</time>
-              <a href="{{ .RelPermalink }}" class="db mv1 no-underline lh-title">{{ .Title }}</a>
+              <time class="silver lh-title">
+                {{ .Date.Format "January 2, 2006" }}
+              </time>
+              <a href="{{ .RelPermalink }}" class="db mv1 fw5 no-underline lh-title">
+                  {{ .Title }}
+              </a>
             </li>
           {{ end }}
         </ul>
       </div>
 
       <!-- Press -->
-       <div class="w-25-l w-50-m w-100 ph3-ns pa0 overflow-auto">
+       <div class="w-25-l w-50-m ph2 overflow-auto">
         <a href="/press" class="black">
-          <h2 class="fw5 f3">Press</h2>
+          <h2 class="fw5 f3">
+            Press
+          </h2>
         </a>
         <ul class="list pa0 ma0">
           {{ range first 3 (where .Data.Pages "Section" "press") }}
             <li class="mb4">
-              <p class="silver lh-title mv0">{{ .Params.Publication }}</p>
-              <a href="{{ .Params.Link }}" class="db mv1 no-underline lh-title">{{ .Title }}</a>
+              <p class="silver lh-title mv0">
+                {{ .Params.Publication }}
+              </p>
+              <a href="{{ .Params.Link }}" class="db mv1 fw5 no-underline lh-title">
+                {{ .Title }}
+              </a>
             </li>
           {{ end }}
         </ul>
       </div>
 
       <!-- Videos -->
-      <div class="w-50-ns w-100 ph3-ns pa0 overflow-auto">
-        <h2 class="fw5 f3">Videos</h2>
-        <ul class="list pa0 ma0">
-          <li class="fl w-50 pr3 mv0-ns">
-            <a class="mt1 db " href="https://www.youtube.com/watch?v=ykOqIh5Mt4Y">
-              <img class="w-100 ma0 pa0 br1 mb1" src="/img/video1.jpg"></img>
-            </a>
-            <a href="https://www.youtube.com/watch?v=ykOqIh5Mt4Y" class="db mb1 fw5 no-underline lh-title">
-              State of the Mesh 2018
-            </a>
-            <time class="gray f6 fw3 lh-title">5 months ago</time>
-          </li>
-          <li class="fl w-50 pr3 mv0-ns">
-            <a class="mt1 db " href="https://www.youtube.com/watch?v=ykOqIh5Mt4Y">
-              <img class="w-100 ma0 pa0 br1 mb1" src="/img/video2.jpg"></img>
-            </a>
-            <a href="https://www.youtube.com/watch?v=ykOqIh5Mt4Y" class="db mb1 fw5 no-underline lh-title">
-              Another Video
-            </a>
-            <time class="gray f6 fw3 lh-title">5 months ago</time>
-          </li>
+      <div class="w-50-l w-100 pa0 overflow-auto">
+        <h2 class="fw5 f3 ph2">Videos</h2>
+        <ul class="flex list pa0 ma0">
+          {{ range first 2 (where .Data.Pages "Section" "videos") }}
+            <li class="flex-1 mh2">
+              <a class="mt1 db " href="{{ .Params.Link }}">
+                <img class="w-100 ma0 pa0 br2 mb1" src="{{ .Params.Image }}"></img>
+              </a>
+              <a href="{{ .Params.Link }}" class="db mb1 fw5 no-underline lh-title">
+                {{ .Title }}
+              </a>
+              <time class="silver lh-title">
+                {{ .Date.Format "January 2, 2006" }}
+              </time>
+            </li>
+          {{ end }}
         </ul>
       </div>
     </div>
