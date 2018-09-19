@@ -1,0 +1,30 @@
+{{ define "main" }}
+<main class="sans-serif bg-white">
+	<div class="splash-small cover"></div>
+	<div class="pa3">
+		<div class="lh-copy near-black f4 measure-wide center">
+			
+			<div class="mv3 mt3 flex items-center">
+				<img src='/img/bhny.jpg' class="bg-light-gray h3 w3 br-pill mr3"></img>
+				<div>
+					<p class="ma0 fw4">
+						{{ .Params.author }}
+					</p>
+
+					<time class="gray f6 ma0">
+						{{ .Date.Format "January 2 2006"}}
+					</time>
+				</div>
+			</div>
+
+			<h1 href="{{.Permalink}}" class="mt0 f2 fw7">
+				{{ .Title }}
+			</h1>
+
+			<div>
+				{{ .Content }}
+			</div>
+		</div>
+	</div>
+</main>
+{{ end }}

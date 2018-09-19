@@ -1,7 +1,8 @@
-@import 'tachyons.min.css';
+@import "tachyons.min.css";
 
-html, body {
-	height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 body {
@@ -11,41 +12,110 @@ body {
 }
 
 a {
-	color: #007aff;
-	text-decoration: none;
+  color: #007aff;
+  text-decoration: none;
 }
 
 pre {
-	border: 1px solid #aaa;
-	padding: 1rem;
-	border-radius: 0.25rem;
-	overflow: scroll;
+  border: 1px solid #aaa;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  overflow: scroll;
+}
+
+::placeholder {
+  color: #777;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.pointer-events {
+  pointer-events: all;
+}
+
+.man3 {
+  margin: -1rem;
 }
 
 .blue {
-	color: #007aff;
+  color: #007aff;
 }
 
 .bg-blue {
-	background-color: #007aff;
+  background-color: #007aff;
+}
+
+.bg-blue-50 {
+  background-color: rgba(0, 122, 255, 0.0625);
+}
+
+.b--blue {
+  border-color: #007aff;
+}
+
+.hover-b--blue:hover {
+  border-color: #007aff;
 }
 
 .splash1 {
-	background-image: url('../img/splash1.jpg');
-	background-position: center center;
+  background-image: url("/img/splash4.jpg");
+  background-position: center 20%;
+  height: 20vh;
+}
+
+.splash-blog {
+  background-image: url("/img/splash3.jpg");
+  background-position: center 65%;
+  height: 20vh;
+}
+
+.splash4 {
+  background-image: url("/img/splash4.jpg");
+  background-position: center 20%;
+  position: relative;
+}
+
+.splash-small {
+  height: 20vh;
+  background-image: url("/img/splash5.jpg");
+  background-position: center 35%;
+}
+
+.noselect {
+  outline: none;
+}
+
+@media screen and (min-width: 60em) {
+  .splash1 {
+    height: 40vh;
+  }
+  .splash-small {
+    height: 40vh;
+  }
+  .splash-blog {
+    height: 40vh;
+  }
+}
+
+.splash-install {
+  /*height: 50vh;*/
+  background-image: url("/img/splash5.jpg");
+  background-position: center 50%;
 }
 
 .bg-map {
   background-position: center center;
-  background-image: url('/img/map.png');
+  background-image: url("/img/map.png");
 }
 
 .bg-red-75 {
-	background-color: rgba(255, 59, 48, 0.75);
+  background-color: rgba(255, 59, 48, 0.75);
 }
 
 .dimmed:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
@@ -56,24 +126,27 @@ pre {
   opacity: 1;
 }
 
-
-.button {
-	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
-	transition: all .15s ease;
+/*.button {
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: all 0.15s ease;
 }
 
 .button:hover {
-	transform: translateY(-1px);
-	box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}*/
+
+.h1-5 {
+  height: 1.5rem;
 }
 
 .inputfile {
-	width: 0.1px;
-	height: 0.1px;
-	opacity: 0;
-	overflow: hidden;
-	position: absolute;
-	z-index: -1;
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
 }
 
 .hidden {
@@ -81,26 +154,26 @@ pre {
   visibility: hidden;
 }
 
-input[type=radio]:checked ~ label div,
-input[type=radio]:checked ~ label input {
-  background-color: #96CCFF;
+input[type="radio"]:checked ~ label div,
+input[type="radio"]:checked ~ label input {
+  background-color: #96ccff;
   color: white;
-  border-color: rgba(0,0,0,0.1);
+  border-color: rgba(0, 0, 0, 0.1);
   outline: none;
 }
 
 ul li .check::before {
   display: block;
   position: absolute;
-	content: '';
+  content: "";
   border-radius: 100%;
   height: 15px;
   width: 15px;
   top: 5px;
-	left: 5px;
+  left: 5px;
   margin: auto;
-	transition: background 0.25s linear;
-	-webkit-transition: background 0.25s linear;
+  transition: background 0.25s linear;
+  -webkit-transition: background 0.25s linear;
 }
 
 #map-div {
@@ -109,7 +182,6 @@ ul li .check::before {
 
 .docs-index {
   min-width: 22rem;
-  width: calc(((100% - 98rem) / 2) + 22rem);;
+  width: calc(((100% - 98rem) / 2) + 22rem);
   padding-left: calc((100% - 98rem) / 2);
 }
-
