@@ -12,21 +12,22 @@ function matchesSearch(query, id) {
 
 function initMap() {
   var styles = [
+    // {
+    //   featureType: "road",
+    //   elementType: "labels.text.fill",
+    //   stylers: [
+    //     {
+    //       color: "#777777"
+    //     }
+    //   ]
+    // },
+    // {
+    //   featureType: "poi",
+    //   elementType: "labels",
+    //   stylers: [{ visibility: "off" }]
+    // },
     {
-      featureType: "road",
-      elementType: "labels.text.fill",
-      stylers: [
-        {
-          color: "#777777"
-        }
-      ]
-    },
-    {
-      featureType: "poi",
-      elementType: "labels",
-      stylers: [{ visibility: "off" }]
-    },
-    {
+      featureType: "landscape",
       elementType: "geometry",
       stylers: [
         {
@@ -35,13 +36,9 @@ function initMap() {
       ]
     },
     {
-      featureType: "landscape",
-      elementType: "labels",
-      stylers: [
-        {
-          // "visibility": "off"
-        }
-      ]
+      featureType: "poi.park",
+      elementType: "geometry",
+      stylers: [{ color: "#e4f6dd" }]
     },
     {
       elementType: "labels.icon",
@@ -56,22 +53,6 @@ function initMap() {
       stylers: [
         {
           color: "#f5f5f5"
-        }
-      ]
-    },
-    {
-      featureType: "administrative",
-      stylers: [
-        {
-          visibility: "off"
-        }
-      ]
-    },
-    {
-      featureType: "poi",
-      stylers: [
-        {
-          visibility: "off"
         }
       ]
     },
@@ -117,16 +98,16 @@ function initMap() {
           color: "#d9dde6"
         }
       ]
-    },
-    {
-      featureType: "water",
-      elementType: "labels.text.fill",
-      stylers: [
-        {
-          color: "#777777"
-        }
-      ]
     }
+    // {
+    //   featureType: "water",
+    //   elementType: "labels.text.fill",
+    //   stylers: [
+    //     {
+    //       color: "#777777"
+    //     }
+    //   ]
+    // }
   ];
   var styledMap = new google.maps.StyledMapType(styles, { name: "Styled Map" });
 
@@ -136,7 +117,9 @@ function initMap() {
     disableDefaultUI: false,
     zoomControl: true,
     scrollwheel: false,
-    streetViewControl: false,
+    scrollwheel: false,
+    fullscreenControl: false,
+    gestureHandling: "greedy",
     mapTypeControl: false,
     backgroundColor: "none"
   };
@@ -146,12 +129,18 @@ function initMap() {
   map.setMapTypeId("map_style");
 
   var activeNodesLayer = new google.maps.Data();
-  var potentialNodesLayer = new google.maps.Data();
+  // var potentialNodesLayer = new google.maps.Data();
   var linksLayer = new google.maps.Data();
   var linkNYCLayer = new google.maps.Data();
   // var beamsLayer = new google.maps.Data();
+
+  drawSector(map, 40.711137, -74.001122, 2, 55, 90);
+  drawSector(map, 40.713991, -73.929049, 2, 180, 220);
+  drawSector(map, 40.685823, -73.917272, 2, 180, 360);
+  // drawSector(map, 40.705619, -73.915235, 1.5, 220, 120, "red");
+
   activeNodesLayer.loadGeoJson("/nodes/active.json");
-  potentialNodesLayer.loadGeoJson("/nodes/potential.json");
+  // potentialNodesLayer.loadGeoJson("/nodes/potential.json");
   linksLayer.loadGeoJson("/nodes/links.json");
   linkNYCLayer.loadGeoJson("/nodes/linkNYC.json");
 
@@ -160,6 +149,7 @@ function initMap() {
     var url = "/img/map/active.svg";
     var opacity = 0.75;
     var visible = true;
+    var rotation = 0;
     var notes = feature.getProperty("notes").toLowerCase();
     if (notes.indexOf("supernode") !== -1) {
       url = "/img/map/supernode.svg";
@@ -182,41 +172,43 @@ function initMap() {
       icon: {
         url: url,
         anchor: new google.maps.Point(10, 10),
-        labelOrigin: new google.maps.Point(28, 10)
+        labelOrigin: new google.maps.Point(28, 10),
+        rotation: rotation,
+        scale: 0.5
       }
     };
   });
 
-  potentialNodesLayer.setStyle(function(feature) {
-    var url = "/img/map/potential.svg";
-    var opacity = 0.5;
-    var visible = true;
-    var notes = feature.getProperty("notes").toLowerCase();
-    if (notes.indexOf("supernode") !== -1) {
-      url = "/img/map/supernode-potential.svg";
-    }
-    if (feature.getProperty("panoramas")) {
-      //url = '../assets/images/potentialpano.svg';
-      opacity = 1;
-    }
-    if (
-      searchQuery.length > 0 &&
-      !matchesSearch(searchQuery, feature.getProperty("id"))
-    ) {
-      visible = false;
-    }
-    return {
-      title: feature.getProperty("id"),
-      opacity: opacity,
-      zIndex: 100,
-      visible: visible,
-      icon: {
-        url: url,
-        anchor: new google.maps.Point(10, 10),
-        labelOrigin: new google.maps.Point(28, 10)
-      }
-    };
-  });
+  // potentialNodesLayer.setStyle(function(feature) {
+  //   var url = "/img/map/potential.svg";
+  //   var opacity = 1;
+  //   var visible = true;
+  //   var notes = feature.getProperty("notes").toLowerCase();
+  //   if (notes.indexOf("supernode") !== -1) {
+  //     url = "/img/map/supernode-potential.svg";
+  //   }
+  //   if (feature.getProperty("panoramas")) {
+  //     //url = '../assets/images/potentialpano.svg';
+  //     opacity = 1;
+  //   }
+  //   if (
+  //     searchQuery.length > 0 &&
+  //     !matchesSearch(searchQuery, feature.getProperty("id"))
+  //   ) {
+  //     visible = false;
+  //   }
+  //   return {
+  //     title: feature.getProperty("id"),
+  //     opacity: opacity,
+  //     zIndex: 100,
+  //     visible: visible,
+  //     icon: {
+  //       url: url,
+  //       anchor: new google.maps.Point(10, 10),
+  //       labelOrigin: new google.maps.Point(28, 10)
+  //     }
+  //   };
+  // });
 
   linksLayer.setStyle(function(link) {
     var strokeColor = "#ff3b30";
@@ -224,7 +216,7 @@ function initMap() {
     var visible = true;
     if (link.getProperty("status") != "active") {
       strokeColor = "gray";
-      opacity = 0.25;
+      opacity = 0;
     }
 
     if (searchQuery.length > 0) {
@@ -259,11 +251,11 @@ function initMap() {
 
   var infowindow = new google.maps.InfoWindow();
   activeNodesLayer.addListener("click", showDetails);
-  potentialNodesLayer.addListener("click", showDetails);
+  // potentialNodesLayer.addListener("click", showDetails);
 
   linksLayer.setMap(map);
-  linkNYCLayer.setMap(map);
-  potentialNodesLayer.setMap(map);
+  // linkNYCLayer.setMap(map);
+  // potentialNodesLayer.setMap(map);
   activeNodesLayer.setMap(map);
 }
 
@@ -319,4 +311,48 @@ function showDetails(event) {
 function hideDetails() {
   var infoWindow = document.getElementById("infoWindow");
   infoWindow.classList.remove("db");
+}
+
+function drawSector(map, lat, lng, r, azimuth, width, color) {
+  var centerPoint = new google.maps.LatLng(lat, lng);
+  var PRlat = r / 3963 * (180 / Math.PI); // using 3963 miles as earth's radius
+  var PRlng = PRlat / Math.cos(lat * (Math.PI / 180));
+  var PGpoints = [];
+  PGpoints.push(centerPoint);
+
+  with (Math) {
+    lat1 = lat + PRlat * cos(Math.PI / 180 * (azimuth - width / 2));
+    lon1 = lng + PRlng * sin(Math.PI / 180 * (azimuth - width / 2));
+    PGpoints.push(new google.maps.LatLng(lat1, lon1));
+
+    lat2 = lat + PRlat * cos(Math.PI / 180 * (azimuth + width / 2));
+    lon2 = lng + PRlng * sin(Math.PI / 180 * (azimuth + width / 2));
+
+    var theta = 0;
+    var gamma = Math.PI / 180 * (azimuth + width / 2);
+
+    for (var a = 1; theta < gamma; a++) {
+      theta = Math.PI / 180 * (azimuth - width / 2 + a);
+      PGlon = lng + PRlng * sin(theta);
+      PGlat = lat + PRlat * cos(theta);
+
+      PGpoints.push(new google.maps.LatLng(PGlat, PGlon));
+    }
+
+    PGpoints.push(new google.maps.LatLng(lat2, lon2));
+    PGpoints.push(centerPoint);
+  }
+
+  var poly = new google.maps.Polygon({
+    path: PGpoints,
+    strokeColor: "transparent",
+    strokeOpacity: 0,
+    strokeWidth: 0,
+    fillColor: "#007aff",
+    fillOpacity: 0.125,
+    map: map
+  });
+
+  poly.setMap(map);
+  return poly;
 }

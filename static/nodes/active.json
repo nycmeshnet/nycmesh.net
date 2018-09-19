@@ -750,6 +750,20 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"id": 346,
+				"status": "Installed",
+				"notes": "did diy -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.933892, 40.683456],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"id": 354,
 				"status": "Installed",
 				"notes": " -roof",
@@ -786,7 +800,7 @@
 				"otherNodes": ""
 			},
 			"geometry": {
-				"coordinates": [-73.951305, 40.759369],
+				"coordinates": [-73.997892, 40.753914],
 				"type": "Point"
 			}
 		},
@@ -1497,6 +1511,21 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"id": 994,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["994.jpg", "1275.jpg"],
+				"otherNodes": ", 1275"
+			},
+			"geometry": {
+				"coordinates": [-73.99453, 40.711367],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"id": 997,
 				"status": "Installed",
 				"notes": " -roof",
@@ -1505,21 +1534,6 @@
 			},
 			"geometry": {
 				"coordinates": [-73.927419, 40.700394],
-				"type": "Point"
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": 1013,
-				"status": "Installed",
-				"notes": "",
-				"roof": "",
-				"panoramas": ["1013.jpg"],
-				"otherNodes": ""
-			},
-			"geometry": {
-				"coordinates": [-73.966594, 40.713422],
 				"type": "Point"
 			}
 		},
@@ -1703,21 +1717,6 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": 1275,
-				"status": "Installed",
-				"notes": "",
-				"roof": "",
-				"panoramas": ["1275.jpg"],
-				"otherNodes": ""
-			},
-			"geometry": {
-				"coordinates": [-73.99453, 40.711367],
-				"type": "Point"
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"id": 1278,
 				"status": "Installed",
 				"notes": "",
@@ -1727,6 +1726,21 @@
 			},
 			"geometry": {
 				"coordinates": [-73.992944, 40.722215],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1294,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1294.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.922959, 40.683023],
 				"type": "Point"
 			}
 		},
@@ -1751,7 +1765,12 @@
 				"status": "Installed",
 				"notes": "hub -roof",
 				"roof": "roof",
-				"panoramas": ["1340.jpg", "1340a.png", "1340b.jpg"],
+				"panoramas": [
+					"1340.jpg",
+					"1340a.png",
+					"1340b.jpg",
+					"1340c.jpg"
+				],
 				"otherNodes": ""
 			},
 			"geometry": {
@@ -1778,7 +1797,7 @@
 			"properties": {
 				"id": 1384,
 				"status": "Installed",
-				"notes": "hub?",
+				"notes": "hub",
 				"roof": "",
 				"panoramas": ["1384.jpg", "1384a.jpg"],
 				"otherNodes": ""
@@ -1877,9 +1896,25 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"id": 1471,
+				"status": "Installed",
+				"notes":
+					"did diy kiosk with nsm5 - privacy concerns - no  twitter",
+				"roof": "",
+				"panoramas": ["1471.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.960933, 40.763499],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"id": 1474,
 				"status": "Installed",
-				"notes": " -roof",
+				"notes": "kiosk install -roof",
 				"roof": "roof",
 				"panoramas": ["1474.jpg", "1474a.jpg"],
 				"otherNodes": ""
@@ -1901,6 +1936,27 @@
 			},
 			"geometry": {
 				"coordinates": [-73.945982, 40.720875],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1491,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": [
+					"1491.jpg",
+					"1491a.jpg",
+					"1491b.jpg",
+					"1491c.jpg",
+					"1491d.jpg"
+				],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.923444, 40.706284],
 				"type": "Point"
 			}
 		},
@@ -1946,6 +2002,20 @@
 			},
 			"geometry": {
 				"coordinates": [-73.934392, 40.682086],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1546,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.946755, 40.687631],
 				"type": "Point"
 			}
 		},
@@ -2011,6 +2081,21 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"id": 1583,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1583.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.917094, 40.684214],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"id": 1590,
 				"status": "Installed",
 				"notes": "kiosk -roof",
@@ -2019,6 +2104,20 @@
 			},
 			"geometry": {
 				"coordinates": [-73.987571, 40.730635],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1599,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.916209, 40.690447],
 				"type": "Point"
 			}
 		},
@@ -2055,6 +2154,65 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"id": 1627,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["1627.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.984449, 40.727451],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1636,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.919954, 40.693118],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1659,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1659.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.918365, 40.68814],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1660,
+				"status": "Installed",
+				"notes": "connected to prism2 -roof",
+				"roof": "roof",
+				"panoramas": ["1660.jpg", "1660a.jpg", "1660b.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.983026, 40.724469],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"id": 1663,
 				"status": "Installed",
 				"notes": "kiosk -roof",
@@ -2071,6 +2229,410 @@
 			},
 			"geometry": {
 				"coordinates": [-73.958766, 40.651547],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1710,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.904923, 40.703521],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1776,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.919609, 40.703015],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1779,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1779.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.954856, 40.693992],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1795,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1795.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.907476, 40.704006],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1796,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1796.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.935828, 40.697145],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1825,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1825.jpg", "1825a.jpg", "1825b.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.907679, 40.694313],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1835,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1835.jpg", "1835a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.985689, 40.728283],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1846,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["1846.jpg", "1846a.jpg"],
+				"otherNodes": ", 1922"
+			},
+			"geometry": {
+				"coordinates": [-73.988363, 40.725159],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1848,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1848.jpg"],
+				"otherNodes": ", 2088"
+			},
+			"geometry": {
+				"coordinates": [-73.996938, 40.713099],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1854,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.959218, 40.730952],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1862,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1862.jpg", "1862a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.907276, 40.699353],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1893,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1893.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.922079, 40.683993],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1923,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.940416, 40.715466],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1929,
+				"status": "Installed",
+				"notes": "NanoStation facing park",
+				"roof": "",
+				"panoramas": ["1929.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.982695, 40.715689],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1930,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"panoramas": ["1930.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.988922, 40.713415],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1977,
+				"status": "Installed",
+				"notes": "kiosk",
+				"roof": "",
+				"panoramas": ["1977.jpg", "1977a.jpg", "1977b.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.964132, 40.6729],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1997,
+				"status": "Installed",
+				"notes": "kiosk -roof",
+				"roof": "roof",
+				"panoramas": ["1997.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.951288, 40.725754],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2006,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.998005, 40.715618],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2012,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ", 2082, 2083"
+			},
+			"geometry": {
+				"coordinates": [-73.939438, 40.688718],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2026,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["2026.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": { "coordinates": [-73.988, 40.714603], "type": "Point" }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2039,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"panoramas": ["2039.jpg", "2039a.jpg"],
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.913685, 40.699891],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2047,
+				"status": "Installed",
+				"notes": "kiosk -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.957175, 40.67224],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2058,
+				"status": "Installed",
+				"notes": "",
+				"roof": "",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.91876, 40.687077],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2071,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.914419, 40.703511],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2074,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.979333, 40.713153],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2098,
+				"status": "Installed",
+				"notes": " -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.914594, 40.706773],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2111,
+				"status": "Installed",
+				"notes": "hub? -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-73.9484, 40.711003],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2116,
+				"status": "Installed",
+				"notes": "NSM5 -roof",
+				"roof": "roof",
+				"otherNodes": ""
+			},
+			"geometry": {
+				"coordinates": [-74.04249, 40.750667],
 				"type": "Point"
 			}
 		}

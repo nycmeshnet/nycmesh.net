@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="490px" height="488px" viewBox="0 0 490 488" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="70.9433023%" x2="134.240351%" y2="17.9792936%" id="linearGradient-1">
+            <stop stop-color="#007AFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#007AFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0,0.406605716 C149.129512,5.18313518 267.926244,56.4370074 356.390195,154.168222 C444.854146,251.899437 489.086122,363.176697 489.086122,488 L0,488 L0,0.406605716 Z" id="Triangle" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

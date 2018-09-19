@@ -1,5 +1,0 @@
----
-title: DNS
----
-
-soemthing

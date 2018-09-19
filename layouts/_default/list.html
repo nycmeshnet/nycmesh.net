@@ -1,15 +1,21 @@
 {{ define "main" }}
-<main class="pa3 bg-white">
-	<ul class="ma0 pv5 mw8 center list sans-serif f4 pa0 center measure-wide">
-		<!-- Ranges through content/post/*.md -->
-		{{ range .Data.Pages }}
-			<li class="bb b--light-gray">
-				<a href="{{ .RelPermalink }}" class="pv3 f3 fw6 flex justify-between items-center">
-					{{ .Title }}
-				<span class="nowrap f4 fw4 gray">{{ .Date.Format "Jan 2, 2006" }}</span>
-				</a>
-			</li>
-		{{ end }}
-	</ul>
+<main class=" bg-white">
+	<div class="splash-blog cover"></div>
+	<div class="ph4-ns ph3">
+		<div class="pv0 center measure-wide f4 sans-serif">
+			<h1>{{ .Title }}</h1>
+			<ul class="ma0 list pa0 pb4">
+				<!-- Ranges through content/post/*.md -->
+				{{ range .Data.Pages }}
+					<li class="bb b--light-gray">
+						<a href="{{ .RelPermalink }}" class="pv3 fw6 flex justify-between items-center">
+							{{ .Title }}
+						<span class="nowrap f5 fw5 gray">{{ .Date.Format "Jan 2, 2006" }}</span>
+						</a>
+					</li>
+				{{ end }}
+			</ul>
+		</div>
+	</div>
 </main>
 {{ end }}

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Install info"
 ---
 
@@ -13,7 +12,7 @@ DIY installs are possible, or you can pay us $110 to cover hardware (basically c
 
 You need to be within about two miles of a supernode, and [inside this downtown area](/panorama/227.png) or this [Brooklyn area](/panorama/570a.jpg) We can usually tell by a panorama pic whether this install will work for you.
 
-***Equipment needed***-
+**_Equipment needed_**-
 
 We supply the LiteBeamAC, antenna mount (if needed), outdoor ethernet cable, ethernet switch (if needed) and indoor router.
 
@@ -22,7 +21,6 @@ The total for the equipment is [$110](https://nycmesh.net/donate/), and the inst
 $160 per apartment is due on the day of the install. We also suggest a monthly subscription of $20 to help us maintain our network.
 
 It is possible to do this yourself. Ask us for help configuring the LiteBeamAC. If you are installing in a window we suggest the much smaller NanoBeamAC 16. If you DIY please consider also connecting your neighbors. This is the whole point of the mesh.
-
 
 **2) Kiosk client install**
 
@@ -47,10 +45,3 @@ For DIY NanoStation installs [download our firmware](/download) and read our [in
 **4) Point to point**
 
 Email us directly for details on a point to point connection. This can be as fast as a gigabit, but requires dedicated hardware. We can also wire the entire building with ethernet to provide all residents with a connection. Hardware can be as little as $130 for two LiteBeams or $3000 for a pair of gigabit AirFiber.
-
-
-
-
-
-
-
