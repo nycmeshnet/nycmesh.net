@@ -27,12 +27,66 @@ pre {
   color: #777;
 }
 
-.pointer-events-none {
-  pointer-events: none;
+
+/* Dropdown / Hamburger Nav */
+
+@media screen and (min-width: 40em) {
+  .showDropdown,
+  .hideDropdown {
+    display: none;
+    outline: none;
+  }
 }
 
-.pointer-events {
-  pointer-events: all;
+@media screen and (max-width: 40em) {
+  .dropdown-content {
+    display: none;
+    align-items: center;
+    position: fixed;
+    z-index: 9998;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 4rem;
+    background-color: white;
+    flex-direction: column;
+    font-size: 2rem;
+  }
+}
+
+.showDropdown,
+.hideDropdown {
+  position: fixed;
+  top: 0;
+  right: 0;
+  outline: none;
+}
+
+.showDropdown:focus {
+  width: 0;
+  height: 0;
+}
+
+.showDropdown:focus ~ .dropdown-content,
+.dropdown-content:hover ~ .hideDropdown {
+  display: block;
+}
+
+.hideDropdown:focus ~ .dropdown-content {
+  display: none;
+}
+
+.showDropdown:focus ~ .dropdown-content {
+  display: flex;
+}
+
+.dropdown-content:hover {
+  display: flex;
+}
+
+nav a {
+  outline: none;
 }
 
 .man3 {
