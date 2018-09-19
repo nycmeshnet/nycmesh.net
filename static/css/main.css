@@ -57,7 +57,7 @@ pre {
 
 .showDropdown,
 .hideDropdown {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   outline: none;
@@ -85,9 +85,7 @@ pre {
   display: flex;
 }
 
-nav a {
-  outline: none;
-}
+/* End Dropdown / Hamburger Nav */
 
 .man3 {
   margin: -1rem;
