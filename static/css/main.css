@@ -49,6 +49,10 @@ pre {
   margin-right: -0.5rem;
 }
 
+.mb-last-0:last-of-type {
+  margin-bottom: 0;
+}
+
 .blue {
   color: #007aff;
 }
