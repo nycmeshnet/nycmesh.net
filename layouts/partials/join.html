@@ -1,28 +1,29 @@
-<div class="bg-white br2 dark-gray pa4 f4">
+<div class="bg-white br2 dark-gray f4">
+  <h2 class="f4 fw6">Request a Node</h2>
   <form action="https://docs.google.com/forms/d/1w1d2qiCerKxjR5uu7gnqRqF9XpYeRvTDPqHbCE4Cftc/formResponse" method="POST" class="w-100 f4-ns f5">
     <div class="flex">
       <div class="w-50 pr2">
-        <label for="name" class="f5 b db mb2">Name</label>
-        <input placeholder="Your Name" type="text" class="f5 input-reset black w-100 bg-white ba bw1 b--light-gray br2 pa2"></input>
+        <label for="name" class="f5 fw6 db mb2">Name</label>
+        <input placeholder="Your Name" type="text" class="f5 input-reset black w-100 bg-white ba b--moon-gray pa2"></input>
       </div>
 
       <div class="w-50 pl2">
-        <label for="phone" class="f5 b db mb2">Phone</label>
-        <input placeholder="212-123-4567" type="tel" class="f5 input-reset  w-100 black bg-white ba bw1 b--light-gray br2 pa2"></input>
+        <label for="phone" class="f5 fw6 db mb2">Phone</label>
+        <input placeholder="212-123-4567" type="tel" class="f5 input-reset  w-100 black bg-white ba b--moon-gray pa2"></input>
       </div>
   </div>
 
       <div>
-        <label for="email" class="mt3 f5 b db mb2">Email</label>
-        <input required placeholder="you@example.com" type="email" class="f5 input-reset  w-100 black bg-white ba bw1 b--light-gray br2 pa2"></input>
+        <label for="email" class="mt3 f5 fw6 db mb2">Email</label>
+        <input required placeholder="you@example.com" type="email" class="f5 input-reset  w-100 black bg-white ba b--moon-gray pa2"></input>
       </div>
 
       <div>
-        <label for="address" class="mt3 f5 b db mb2">Street Address</label>
-        <input id="autocomplete" required id="autocomplete" placeholder="285 Fulton Street, New York, NY, USA" type="text" class="f5 input-reset  w-100 black bg-white ba b--light-gray br2 pa2"></input>
+        <label for="address" class="mt3 f5 fw6 db mb2">Street Address</label>
+        <input id="autocomplete" required id="autocomplete" placeholder="285 Fulton Street, New York, NY, USA" type="text" class="f5 input-reset w-100 black bg-white ba b--moon-gray pa2"></input>
       </div>
 
-    <div class="f5 pt3 flex flex-row-ns flex-column items-center justify-between">
+    <div class="f5 pt3 flex flex-row-ns flex-column items-center-ns items-start justify-between">
       <div>
         <div class="flex items-center mv2">
           <input required oninvalid="this.setCustomValidity('Please read the Network Common License')" type="checkbox"></input>
@@ -35,9 +36,13 @@
         </div>
       </div>
 
-      <input class="fw9 f5 fw6 white bw0 db pv2 ph3 pointer br2 bg-blue dark-gray" type="submit" value="Submit"> 
-      </input>
     </div>
+
+
+      <div class="mw5 mt3">
+        <input id="payButton" type="submit" value="Submit request" class="input-reset bw0 f4 fw5 br3 pa3 white bg-blue ph4 pointer">
+        </input>
+      </div>
 
   </form>
 </div>

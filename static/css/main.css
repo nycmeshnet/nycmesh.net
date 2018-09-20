@@ -53,6 +53,10 @@ pre {
     flex-direction: column;
     font-size: 2rem;
   }
+
+  .dropdown-content a {
+    margin-bottom: 0.5rem;
+  }
 }
 
 .showDropdown,
@@ -83,10 +87,6 @@ pre {
 
 .dropdown-content:hover {
   display: flex;
-}
-
-.dropdown-content a {
-  margin-bottom: 0.5rem;
 }
 
 .pointer-events-none {
@@ -153,8 +153,8 @@ pre {
 
 .splash-small {
   height: 20vh;
-  background-image: url("/img/splash5.jpg");
-  background-position: center 35%;
+  background-image: url("/img/splash3.jpg");
+  background-position: center 65%;
 }
 
 .noselect {
@@ -170,10 +170,10 @@ pre {
     height: 40vh;
   }
   .splash-small {
-    height: 40vh;
+    height: 20vh;
   }
   .splash-blog {
-    height: 40vh;
+    height: 20vh;
   }
 }
 
