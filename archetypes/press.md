@@ -1,6 +1,7 @@
 ---
 title: ""
 publication: ""
-date: "2017-01-15"
-link: "https://..."
+date: "0000-00-00"
+link: ""
+quote: ""
 ---
