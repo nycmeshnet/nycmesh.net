@@ -33,7 +33,7 @@ Measuring Mb: It is difficult to monitor each router to record how much bandwidt
 
 With Ethereum you could have a smart contract that moves meshcoins from the user to the sharer for the time connected. How exactly would this work? Seems like a lot of hand-waving.
 
-NYC Mesh routers are open and all members agree to [our license (NCL)](https://nycmesh.net/ncl.pdf). This makes it impossible for us to convert the existing nodes to a closed micro-payment system. The whole idea of NYC Mesh is to have an open network.
+NYC Mesh routers are open and all members agree to [our license (NCL)](/ncl.pdf). This makes it impossible for us to convert the existing nodes to a closed micro-payment system. The whole idea of NYC Mesh is to have an open network.
 
 In conclusion: I like the idea of gamifying nodes, so people see how much each node is contributing. I think that is more than enough motivation for many people. Most people involved in the mesh are inspired by their hatred of the big ISPs. Earning a tiny amount in some obscure alt-coin isn't going to motivate anything. Also the reason there is no working meshcoin system is that it is impossible to do in the real world.
 

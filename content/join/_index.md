@@ -22,13 +22,13 @@ You have to have line-of-sight to one of our supernodes to for this type of conn
 
 **Here is the [coverage map for Brooklyn supernode2](../panorama/570a.jpg).**
 
-We currently have two options for non-supernode routers- an indoor router and a $90 outdoor router. You can buy the routers online and configure them yourself using our simple [download](../download) instructions. Otherwise, you can come to our [meetups](http://www.meetup.com/nycmesh/) where we often sell preconfigured routers that you can simply plug in.
+We currently have two options for non-supernode routers- an indoor router and a $90 outdoor router. You can buy the routers online and configure them yourself using our simple [download](../download) instructions. Otherwise, you can come to our [meetups](https://www.meetup.com/nycmesh/) where we often sell preconfigured routers that you can simply plug in.
 
 Here are the two router choices for local mesh connections:
 
-1.  [An indoor TP-Link 842ND router](http://www.amazon.com/dp/B006E04T9I/?tag=tl-wr842nd-nycmesh-20) (~$33) **This is only available second-hand. We are looking for a replacement**
+1.  [An indoor TP-Link 842ND router](https://www.amazon.com/dp/B006E04T9I/?tag=tl-wr842nd-nycmesh-20) (~$33) **This is only available second-hand. We are looking for a replacement**
 
-2.  [An outdoor NSM5 Ubiquiti 5GHz router](http://www.amazon.com/dp/B0049AVWAO/?tag=nsm5-nycmesh-20) (~$95)
+2.  [An outdoor NSM5 Ubiquiti 5GHz router](https://www.amazon.com/dp/B0049AVWAO/?tag=nsm5-nycmesh-20) (~$95)
 
 ---
 
