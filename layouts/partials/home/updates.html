@@ -54,7 +54,7 @@
           {{ range first 2 (where .Data.Pages "Section" "videos") }}
             <li class="flex-1 mh2">
               <a class="mt1 db " href="{{ .Params.Link }}">
-                <img class="w-100 ma0 pa0 br2 mb1" src="{{ .Params.Image }}"></img>
+                <img class="w-100 ma0 pa0 br1 mb1" src="{{ .Params.Image }}"></img>
               </a>
               <a href="{{ .Params.Link }}" class="db mb1 fw5 no-underline lh-title">
                 {{ .Title }}
