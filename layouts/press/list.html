@@ -6,15 +6,16 @@
 			<h1 class="f2">{{ .Title }}</h1>
 			<ul class="ma0 list pa0 pb4 f4">
 				{{ range .Data.Pages }}
-					<li class="bb b--light-gray">
-						<a href="{{ .RelPermalink }}" class="pv3 flex justify-between items-center">
-							<span class="fw5">
-								{{ .Title }}
-							</span>
-							<span class="nowrap gray ml3">
-								{{ .Date.Format "Jan 2, 2006" }}
-							</span>
+					<li class="bb b--light-gray pv3">
+						<span class="f4 silver mb1 db">
+			                {{ .Params.Publication }} - {{ .Date.Format "Jan 2, 2006" }}
+						</span>
+						<a href="{{ .Params.Link }}" class="f4 fw5">
+							{{ .Title }}
 						</a>
+						<p class="i">
+							"{{ .Params.Quote }}"
+						</p>
 					</li>
 				{{ end }}
 			</ul>

@@ -1,5 +1,5 @@
 ---
-title: "City should do more to promote broadband"
+title: "City Should do More to Promote Broadband"
 publication: "Houston Chronicle"
 date: "2017-01-15"
 link: "https://www.houstonchronicle.com/opinion/outlook/article/Reichman-City-should-do-more-to-promote-broadband-12469229.php"

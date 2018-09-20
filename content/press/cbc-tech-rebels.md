@@ -1,5 +1,5 @@
 ---
-title: "'Anti-authority' tech rebels take on ISPs, connect NYC with cheap Wi-Fi
+title: "'Anti-authority' Tech Rebels Take on ISPs, Connect NYC with Cheap Wi-Fi
 "
 publication: "Canadian Broadcasting Corporation"
 date: "2018-05-02"

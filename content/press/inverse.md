@@ -1,5 +1,5 @@
 ---
-title: "Is It Time To Build Your Own Internet?"
+title: "Is it Time to Build Your Own Internet?"
 publication: "Inverse"
 date: "2017-12-22"
 link: "https://www.inverse.com/article/39507-mesh-networks-net-neutrality-fcc"

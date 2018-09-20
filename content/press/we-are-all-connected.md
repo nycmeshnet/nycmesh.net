@@ -1,5 +1,5 @@
 ---
-title: "Urban And Rural Digital Divide: NYC Mesh"
+title: "Urban and Rural Digital Divide: NYC Mesh"
 publication: "We Are All Connected"
 date: "2016-01-25"
 link: "https://goo.gl/ivqPth"

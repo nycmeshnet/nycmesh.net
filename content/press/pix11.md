@@ -1,5 +1,5 @@
 ---
-title: "An escape from the Internet Goliaths? NYC Mesh decentralizes the network"
+title: "An Escape from the Internet Goliaths? NYC Mesh Decentralizes the Network"
 publication: "PIX11"
 date: "2015-05-29"
 link: "http://pix11.com/2015/05/29/an-escape-from-the-internet-goliaths-nyc-mesh-decentralizes-the-network/"
