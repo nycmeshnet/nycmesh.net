@@ -1,5 +1,5 @@
 ---
-title: "NYC Mesh works to replace Time Warner Cable one router at a time"
+title: "NYC Mesh Works to Replace Time Warner Cable One Router at a Time"
 publication: "Metro"
 date: "2015-10-04"
 link: "http://ow.ly/T2196"
