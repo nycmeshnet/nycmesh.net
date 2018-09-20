@@ -1,5 +1,6 @@
 ---
 title: "Donate"
+aliases: ["/donation"]
 ---
 
 ### Corporate Donors
