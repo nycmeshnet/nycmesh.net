@@ -1,0 +1,25 @@
+{{ define "main" }}
+<main class=" bg-white">
+	<div class="splash-blog cover"></div>
+	<div class="ph4-ns ph3 pv4">
+		<div class="pv0 center mw8 f5 sans-serif">
+			<h1 class="f2">{{ .Title }}</h1>
+			<ul class="list pa0 pb4 f5 flex flex-wrap mhn2">
+				{{ range .Data.Pages }}
+					<li class="w-25-ns w-100 pa2">
+		              <a class="mt1 db " href="{{ .Params.Link }}">
+		                <img class="w-100 ma0 pa0 br1 mb1" src="{{ .Params.Image }}"></img>
+		              </a>
+		              <a href="{{ .Params.Link }}" class="db mb1 fw5 no-underline lh-title">
+		                {{ .Title }}
+		              </a>
+		              <time class="silver lh-title">
+		                {{ .Date.Format "January 2, 2006" }}
+		              </time>
+		            </li>
+				{{ end }}
+			</ul>
+		</div>
+	</div>
+</main>
+{{ end }}
