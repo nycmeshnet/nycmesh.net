@@ -5,12 +5,13 @@
 		<div class="pv0 center measure-wide f5 sans-serif">
 			<h1 class="f2">{{ .Title }}</h1>
 			<ul class="ma0 list pa0 pb4 f4">
-				<!-- Ranges through content/post/*.md -->
 				{{ range .Data.Pages }}
 					<li class="bb b--light-gray">
 						<a href="{{ .RelPermalink }}" class="pv3 fw6 flex justify-between items-center">
 							{{ .Title }}
-						<span class="nowrap f5 fw5 gray">{{ .Date.Format "Jan 2, 2006" }}</span>
+							<span class="nowrap f5 fw5 gray ml3">
+								{{ .Date.Format "Jan 2, 2006" }}
+							</span>
 						</a>
 					</li>
 				{{ end }}

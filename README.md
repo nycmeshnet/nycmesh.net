@@ -20,7 +20,7 @@ Navigate to the site at http://localhost:1313.
 
 ## Adding Content
 
-Content is stored as markdown in `content`. 
+Content is stored as markdown in `content`. You can create files manually, or use hugo.
 
 New blog:
 
