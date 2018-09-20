@@ -89,6 +89,10 @@ pre {
   margin-bottom: 0.5rem;
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
 /* End Dropdown / Hamburger Nav */
 
 .man3 {
@@ -155,6 +159,10 @@ pre {
 
 .noselect {
   outline: none;
+}
+
+.noscroll {
+  overflow: hidden;
 }
 
 @media screen and (min-width: 60em) {
