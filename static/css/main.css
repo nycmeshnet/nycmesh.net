@@ -85,6 +85,10 @@ pre {
   display: flex;
 }
 
+.dropdown-content a {
+  margin-bottom: 0.5rem;
+}
+
 /* End Dropdown / Hamburger Nav */
 
 .man3 {
