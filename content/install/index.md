@@ -16,7 +16,7 @@ You need to be within about two miles of a supernode, and [inside this downtown 
 
 We supply the LiteBeamAC, antenna mount (if needed), outdoor ethernet cable, ethernet switch (if needed) and indoor router.
 
-The total for the equipment is [$110](https://nycmesh.net/donate/), and the install is $50 (paid to an independent installer).
+The total for the equipment is [$110](/donate/), and the install is $50 (paid to an independent installer).
 
 $160 per apartment is due on the day of the install. We also suggest a monthly subscription of $20 to help us maintain our network.
 
@@ -28,7 +28,7 @@ This is similar to supernode client but uses a NanoStation aimed at a LinkNYC ki
 
 We supply the NanoStation NSM5, antenna mount (if needed), ethernet, ethernet switch (if needed) and indoor router.
 
-The total for the equipment is [$110](https://nycmesh.net/donate/), and the install is $50 (paid to an independent installer).
+The total for the equipment is [$110](/donate/), and the install is $50 (paid to an independent installer).
 
 $160 per apartment is due on the day of the install. We also suggest a monthly subscription of $20 to help us maintain our network.
 

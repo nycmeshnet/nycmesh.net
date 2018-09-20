@@ -37,7 +37,7 @@ We are just starting some exciting collaborations with Zoetic Networks and Brook
 
 **5. Donations**
 
-The supernode has a monthly cost and we need to get monthly donations to cover this. So far we have over $4000 donated, and mostly from a few generous people, which will cover most of the install. You can donate via our [donate page.](/donate). We have also just received $30,000 in grant money which will cover our expenses for 2017.
+The supernode has a monthly cost and we need to get monthly donations to cover this. So far we have over $4000 donated, and mostly from a few generous people, which will cover most of the install. You can donate via our [donate page](/donate). We have also just received $30,000 in grant money which will cover our expenses for 2017.
 
 **6. Work and storage space**
 

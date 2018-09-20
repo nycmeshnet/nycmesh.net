@@ -8,17 +8,17 @@ The third weekly meeting was today and things are looking good. Now that it's cl
 
 ## The map
 
-We recently got a map up where anyone can place a pin wherever they are in NYC. This is key when it comes to organizing and finding peers near you. If you're at all interested in joining, go over to [map.nycmesh.net](http://map.nycmesh.net) and make yourself known!
+We recently got a map up where anyone can place a pin wherever they are in NYC. This is key when it comes to organizing and finding peers near you. If you're at all interested in joining, go over to [map.nycmesh.net](https://map.nycmesh.net) and make yourself known!
 
 ## The starter kit
 
 Setting up cjdns and communication over long distances can be accomplished in many different ways, but what we really want is a clear and simple way to get people who are interested on the network as soon as possible. Though the components we use may change over time, the following is what we plan to use to get our initial nodes setup:
 
-- __[Ubiquiti Nanostation M5](http://www.amazon.com/Ubiquiti-NSM5-NanoStation-M5/dp/B0049AVWAO)__ to communicate with the peers in your area (~$90)
-- __[Raspberry Pi Model B](http://www.amazon.com/RASPBERRY-MODEL-756-8308-Raspberry-Pi/dp/B009SQQF9C/)__ to run cjdns (~$40)
-- __[4GB SD Card](http://www.amazon.com/Kingston-Class-Memory-SD4-4GB/dp/B000MX48VM/)__ for the Raspberry Pi to use as storage (~$5)
-- __[5V Micro USB Power Supply](http://www.amazon.com/Kootek-Raspberry-Supply-Charger-Adapter/dp/B00FIFYQMA/)__ to power the Raspberry Pi (~$10)
-- __[USB to Ethernet adapter](http://www.amazon.com/Cable-Matters-Ethernet-Adapter-Black/dp/B00ET4KHJ2/)__ to connect a second Ethernet cable from your Raspberry Pi to your wireless router (~$10)
+- __[Ubiquiti Nanostation M5](https://www.amazon.com/Ubiquiti-NSM5-NanoStation-M5/dp/B0049AVWAO)__ to communicate with the peers in your area (~$90)
+- __[Raspberry Pi Model B](https://www.amazon.com/RASPBERRY-MODEL-756-8308-Raspberry-Pi/dp/B009SQQF9C/)__ to run cjdns (~$40)
+- __[4GB SD Card](https://www.amazon.com/Kingston-Class-Memory-SD4-4GB/dp/B000MX48VM/)__ for the Raspberry Pi to use as storage (~$5)
+- __[5V Micro USB Power Supply](https://www.amazon.com/Kootek-Raspberry-Supply-Charger-Adapter/dp/B00FIFYQMA/)__ to power the Raspberry Pi (~$10)
+- __[USB to Ethernet adapter](https://www.amazon.com/Cable-Matters-Ethernet-Adapter-Black/dp/B00ET4KHJ2/)__ to connect a second Ethernet cable from your Raspberry Pi to your wireless router (~$10)
 - Two __Ethernet cables__*, one to connect your Nanostation to your Raspberry Pi, and the other to connect your Raspberry Pi to your home router (~$10/cable)
 
 \* The length of the Ethernet cables you need depends completely on your intended setup.

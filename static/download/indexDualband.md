@@ -22,9 +22,9 @@ For indoors-
 A dual-band router can mesh over-the-air (or by ethernet) with both the Ubiquiti and other TP-Links. The single band router can  mesh over-the-air with other TP-Links, and it can connect to the Ubiquiti via ethernet cable.
 
 Buy on Amazon:   
-[Ubiquiti NanoStation NSM5](http://www.amazon.com/dp/B0049AVWAO/?tag=nsm5-nycmesh-20)  
-[TP-Link router TL-WR842ND](http://www.amazon.com/dp/B006E04T9I/?tag=tl-wr842nd-nycmesh-20)  
-[TP-Link dual-band router TL-WDR3600](http://www.amazon.com/dp/B008RV51EE/-nycmesh-20)
+[Ubiquiti NanoStation NSM5](https://www.amazon.com/dp/B0049AVWAO/?tag=nsm5-nycmesh-20)  
+[TP-Link router TL-WR842ND](https://www.amazon.com/dp/B006E04T9I/?tag=tl-wr842nd-nycmesh-20)  
+[TP-Link dual-band router TL-WDR3600](https://www.amazon.com/dp/B008RV51EE/-nycmesh-20)
 
 Buy at B&H: (free delivery)   
 [Ubiquiti NanoStation NSM5](http://www.bhphotovideo.com/c/product/1049768-REG/)  
@@ -37,8 +37,8 @@ Buy at B&H: (free delivery)
 **TP-Link instructions**
 
 * Click your model to download the firmware to your computer-  
-  [TL-WR842N  download](http://nycmeshnet.github.io/download/WR842N.html)  
-  [TL-WDR3600 dual-band download](http://nycmeshnet.github.io/download/WDR3600.html)  
+  [TL-WR842N  download](/download/WR842N.html)  
+  [TL-WDR3600 dual-band download](/download/WDR3600.html)  
   (For upgrades see below)
 * Connect to the router via Wi-Fi. It has a name like "TP-LINK_ABC123"
 * Enter the "wireless password/pin" that is printed on the bottom of the router e.g. "12341234"
@@ -73,7 +73,7 @@ Wait ten minutes or so and connect to the router via Wi-Fi. It now has a SSID na
 * Select the AirOS file
 * Click "Upload"
 * Wait until it reboots
-* Download our firmware- [NSM5 XW download](http://nycmeshnet.github.io/download/NSM5-XW.html) 
+* Download our firmware- [NSM5 XW download](/download/NSM5-XW.html) 
 * Go to [192.168.1.20](http://192.168.1.20), login and select "System" again
 * Make sure you are now running 5.5.10 and NOT 5.6.x
 * Click "Upload Firmware: Choose File"
@@ -90,13 +90,13 @@ Wait ten minutes or so. It now has a SSID name like "nycmesh 1a2b" and a random 
 **Upgrades**  
 Upgrades are for when your router is already running nycmesh/qMp or another version of OpenWrt.
 
-[WR842N upgrade download](http://nycmeshnet.github.io/download/WR842N-upgrade.html)  
-[WDR3600 upgrade download](http://nycmeshnet.github.io/download/WDR3600-upgrade.html)  
-[NSM5-XW upgrade download](http://nycmeshnet.github.io/download/NSM5-XW-upgrade.html)  
+[WR842N upgrade download](/download/WR842N-upgrade.html)  
+[WDR3600 upgrade download](/download/WDR3600-upgrade.html)  
+[NSM5-XW upgrade download](/download/NSM5-XW-upgrade.html)  
 
 **Older (2014 or earlier) XM NSM5s**  
-[NSM5-XM download](http://nycmeshnet.github.io/download/NSM5-XM.html)  
-[NSM5-XM upgrade download](http://nycmeshnet.github.io/download/NSM5-XM-upgrade.html)  
+[NSM5-XM download](/download/NSM5-XM.html)  
+[NSM5-XM upgrade download](/download/NSM5-XM-upgrade.html)  
 
 **Firmware**  
 [Our firmware](https://github.com/nycmeshnet) is based on [qMp](http://qmp.cat/), which is an [OpenWrt](https://openwrt.org/) package using [BMX6](http://bmx6.net/projects/bmx6) meshing protocol. Thanks to Roger at qMp for all of his help.

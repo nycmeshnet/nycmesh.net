@@ -18,7 +18,7 @@ We need to organize an install team. The involves climbing on roofs, drilling ho
 
 **Install Planning**
 
-We have hundreds of node applications. See if you can join the rooftops together on our [map](https://nycmesh.net/map/) and plan an install. This takes lots of emailing and phone calls. Join the [#installs](https://nycmesh.slack.com/messages/installs) channel.
+We have hundreds of node applications. See if you can join the rooftops together on our [map](/map/) and plan an install. This takes lots of emailing and phone calls. Join the [#installs](https://nycmesh.slack.com/messages/installs) channel.
 
 **Network Admins**
 
@@ -46,7 +46,7 @@ Our very successful grant writer is leaving the country. We need someone to look
 
 **Donate Money**
 
-[Donations](https://nycmesh.net/donate/) are tax deductible and go towards expanding our network!
+[Donations](/donate/) are tax deductible and go towards expanding our network!
 
  
 

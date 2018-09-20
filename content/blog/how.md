@@ -57,13 +57,13 @@ Some groups never get around to installing anything. Just go and install your fi
 
 * Planning (Trello)
 
-* Build your website with a map, join form, blog and your [commons license](https://nycmesh.net/ncl.pdf)
+* Build your website with a map, join form, blog and your [commons license](/ncl.pdf)
 
 * Tweet and get local news involved. Local news gets stories from the hashtags for their area.
 
 **Commons license**
 
-The [commons license](https://nycmesh.net/ncl.pdf) is important as it is has the rules to help the network sustain and expand. The basic idea is that anyone can join the network but they also must agree to not harm the network and also to extend the network by letting other people join their node. It has a similar function to the GNU GPL license for open source software, where you are free to use the software but must share the changes you make to the code.
+The [commons license](/ncl.pdf) is important as it is has the rules to help the network sustain and expand. The basic idea is that anyone can join the network but they also must agree to not harm the network and also to extend the network by letting other people join their node. It has a similar function to the GNU GPL license for open source software, where you are free to use the software but must share the changes you make to the code.
 
 The basic tenets are:
 

@@ -137,24 +137,28 @@ pre {
   background-image: url("/img/splash4.jpg");
   background-position: center 20%;
   height: 20vh;
+  background-color: #f5f5f5;
 }
 
 .splash-blog {
   background-image: url("/img/splash3.jpg");
   background-position: center 65%;
   height: 20vh;
+  background-color: #f5f5f5;
 }
 
 .splash4 {
   background-image: url("/img/splash4.jpg");
   background-position: center 20%;
   position: relative;
+  background-color: #f5f5f5;
 }
 
 .splash-small {
   height: 20vh;
   background-image: url("/img/splash3.jpg");
   background-position: center 65%;
+  background-color: #f5f5f5;
 }
 
 .noselect {
