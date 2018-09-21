@@ -109,6 +109,10 @@ pre {
   margin-right: -0.5rem;
 }
 
+.min-w2 {
+  min-width: 2rem;
+}
+
 .mb-last-0:last-of-type {
   margin-bottom: 0;
 }
