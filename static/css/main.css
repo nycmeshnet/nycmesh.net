@@ -175,13 +175,7 @@ pre {
 
 @media screen and (min-width: 60em) {
   .splash1 {
-    height: 40vh;
-  }
-  .splash-small {
-    height: 20vh;
-  }
-  .splash-blog {
-    height: 20vh;
+    height: 30vh;
   }
 }
 
