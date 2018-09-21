@@ -1,6 +1,6 @@
 ---
 title: ""
-date: "2018-01-30"
+date: "2000-00-00"
 image: "/img/videos/..."
-link: "https://..."
+link: ""
 ---
