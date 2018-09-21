@@ -6,14 +6,14 @@
 			<h1 class="f2">{{ .Title }}</h1>
 			<ul class="ma0 list pa0 pb4 f4">
 				{{ range .Data.Pages }}
-					<li class="bb b--light-gray pv3">
+					<li class="bb b--light-gray pv4">
 						<span class="f4 silver mb1 db">
 			                {{ .Params.Publication }} - {{ .Date.Format "Jan 2, 2006" }}
 						</span>
 						<a href="{{ .Params.Link }}" class="f4 fw5">
 							{{ .Title }}
 						</a>
-						<p class="i">
+						<p class="i mb0">
 							"{{ .Params.Quote }}"
 						</p>
 					</li>
