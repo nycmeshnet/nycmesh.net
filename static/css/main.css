@@ -95,6 +95,12 @@ pre {
 
 /* End Dropdown / Hamburger Nav */
 
+@media screen and (min-width: 60rem) {
+  .donate-check {
+    text-align: center;
+  }
+}
+
 .man3 {
   margin: -1rem;
 }
