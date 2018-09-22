@@ -11,10 +11,10 @@
         <ul class="list pa0 ma0">
           {{ range first 4 (where .Data.Pages "Section" "blog") }}
             <li class="mb4 mb-last-0">
-              <time class="silver lh-title">
+              <time class="silver lh-title db mb1">
                 {{ .Date.Format "January 2, 2006" }}
               </time>
-              <a href="{{ .RelPermalink }}" class="db mv1 fw5 no-underline lh-title">
+              <a href="{{ .RelPermalink }}" class="fw5 no-underline lh-title">
                   {{ .Title }}
               </a>
             </li>
@@ -32,10 +32,10 @@
         <ul class="list pa0 ma0">
           {{ range first 3 (where .Data.Pages "Section" "press") }}
             <li class="mb4 mb-last-0">
-              <p class="silver lh-title mv0">
+              <p class="silver lh-title mt0 mb1">
                 {{ .Params.Publication }}
               </p>
-              <a href="{{ .Params.Link }}" class="db mv1 fw5 no-underline lh-title">
+              <a href="{{ .Params.Link }}" class="fw5 no-underline lh-title">
                 {{ .Title }}
               </a>
             </li>
@@ -56,7 +56,7 @@
               <a class="mt1 db " href="{{ .Params.Link }}">
                 <img class="w-100 ma0 pa0 br1 mb1" src="{{ .Params.Image }}"></img>
               </a>
-              <a href="{{ .Params.Link }}" class="db mb1 fw5 no-underline lh-title">
+              <a href="{{ .Params.Link }}" class="mb1 fw5 no-underline lh-title">
                 {{ .Title }}
               </a>
             </li>
