@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10">
+	<circle
+	    fill="#01a2eb"
+	  	stroke="white"
+	  	r="3"
+	    stroke-width="2"
+	  	cx="5"
+	  	cy="5"
+	/>
+</svg>
