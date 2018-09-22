@@ -49,7 +49,7 @@ pre {
     right: 0;
     bottom: 0;
     padding-top: 4rem;
-    background-color: white;
+    /*background-color: white;*/
     flex-direction: column;
     font-size: 2rem;
   }
@@ -68,8 +68,15 @@ pre {
 }
 
 .showDropdown:focus {
-  width: 0;
-  height: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  width: auto;
+  z-index: 9997;
+  cursor: default;
 }
 
 .showDropdown:focus ~ .dropdown-content,
@@ -91,6 +98,10 @@ pre {
 
 .pointer-events-none {
   pointer-events: none;
+}
+
+.pointer-events {
+  pointer-events: all;
 }
 
 /* End Dropdown / Hamburger Nav */
