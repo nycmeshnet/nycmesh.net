@@ -3,11 +3,11 @@
       <div class="flex flex-row-l flex-wrap mhn3">
       <!-- Blog -->
       <div class="w-25-l w-50-m ph3 overflow-auto mb0-l mb4">
-        <a href="/blog" class="black">
           <h2 class="fw5 f4">
-            Blog
+            <a href="/blog" class="black">
+                Blog
+            </a>
           </h2>
-        </a>
         <ul class="list pa0 ma0">
           {{ range first 4 (where .Data.Pages "Section" "blog") }}
             <li class="mb4 mb-last-0">
@@ -24,11 +24,11 @@
 
       <!-- Press -->
        <div class="w-25-l w-50-m ph3 overflow-auto mb0-l mb4">
-        <a href="/press" class="black">
-          <h2 class="fw5 f4">
+        <h2 class="fw5 f4">
+          <a href="/press" class="black">
             Press
-          </h2>
-        </a>
+          </a>
+        </h2>
         <ul class="list pa0 ma0">
           {{ range first 3 (where .Data.Pages "Section" "press") }}
             <li class="mb4 mb-last-0">
@@ -45,11 +45,11 @@
 
       <!-- Videos -->
       <div class="w-50-l w-100 ph3">
-        <a href="/videos" class="black">
-          <h2 class="fw5 f4">
+        <h2 class="fw5 f4">
+          <a href="/videos" class="black">
             Videos
-          </h2>
-        </a>
+          </a>
+        </h2>
         <ul class="flex list pa0 mv0 mhn2">
           {{ range first 2 (where .Data.Pages "Section" "videos") }}
             <li class="flex-1 mh2">
