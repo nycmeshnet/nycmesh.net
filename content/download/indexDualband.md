@@ -37,8 +37,8 @@ Buy at B&H: (free delivery)
 **TP-Link instructions**
 
 * Click your model to download the firmware to your computer-  
-  [TL-WR842N  download](/download/WR842N.html)  
-  [TL-WDR3600 dual-band download](/download/WDR3600.html)  
+  [TL-WR842N  download](/download/nycmesh_TP-Link-TL-WR842N-v2_factory_20150914-2017.bin)  
+  [TL-WDR3600 dual-band download](/download/nycmesh_TP-Link_TL-WDR3600-v1_factory_20150914-2023.bin)  
   (For upgrades see below)
 * Connect to the router via Wi-Fi. It has a name like "TP-LINK_ABC123"
 * Enter the "wireless password/pin" that is printed on the bottom of the router e.g. "12341234"
@@ -73,7 +73,7 @@ Wait ten minutes or so and connect to the router via Wi-Fi. It now has a SSID na
 * Select the AirOS file
 * Click "Upload"
 * Wait until it reboots
-* Download our firmware- [NSM5 XW download](/download/NSM5-XW.html) 
+* Download our firmware- [NSM5 XW download](/download/nycmesh_Ubiquiti_NanoStation-M5-XW_factory_20150915-1731.bin) 
 * Go to [192.168.1.20](http://192.168.1.20), login and select "System" again
 * Make sure you are now running 5.5.10 and NOT 5.6.x
 * Click "Upload Firmware: Choose File"
@@ -90,13 +90,13 @@ Wait ten minutes or so. It now has a SSID name like "nycmesh 1a2b" and a random 
 **Upgrades**  
 Upgrades are for when your router is already running nycmesh/qMp or another version of OpenWrt.
 
-[WR842N upgrade download](/download/WR842N-upgrade.html)  
-[WDR3600 upgrade download](/download/WDR3600-upgrade.html)  
-[NSM5-XW upgrade download](/download/NSM5-XW-upgrade.html)  
+[WR842N upgrade download](/download/nycmesh_TP-Link-TL-WR842N-v2_sysupgrade_20150914-2017.bin)  
+[WDR3600 upgrade download](/download/nycmesh_TP-Link_TL-WDR3600-v1_sysupgrade_20150914-2023.bin)  
+[NSM5-XW upgrade download](/download/nycmesh_Ubiquiti_NanoStation-M5-XW_sysupgrade_20150915-1731.bin)  
 
 **Older (2014 or earlier) XM NSM5s**  
-[NSM5-XM download](/download/NSM5-XM.html)  
-[NSM5-XM upgrade download](/download/NSM5-XM-upgrade.html)  
+[NSM5-XM download](/download/NanoStationM5-nycmesh-factory-20150619_1751.bin)  
+[NSM5-XM upgrade download](/download/NanoStationM5-nycmesh-sysupgrade-20150619_1751.bin)  
 
 **Firmware**  
 [Our firmware](https://github.com/nycmeshnet) is based on [qMp](http://qmp.cat/), which is an [OpenWrt](https://openwrt.org/) package using [BMX6](http://bmx6.net/projects/bmx6) meshing protocol. Thanks to Roger at qMp for all of his help.

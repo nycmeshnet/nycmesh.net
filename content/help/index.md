@@ -65,4 +65,4 @@ We need a space to store equipment (cables and antennas), prepare installs, and 
 
 ***
 
-**Email us about any of the above positions- [help@nycmesh.net](help@nycmesh.net)**
+**Email us about any of the above positions- [help@nycmesh.net](mailto:help@nycmesh.net)**
