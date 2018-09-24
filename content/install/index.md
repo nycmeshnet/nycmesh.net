@@ -32,7 +32,7 @@ The total for the equipment is [$110](/donate/), and the install is $50 (paid to
 
 $160 per apartment is due on the day of the install. We also suggest a monthly subscription of $20 to help us maintain our network.
 
-If you want to try this yourself read this [blog post](../public-access-points).
+If you want to try this yourself read this [blog post](/blog/public-access-points).
 
 **3) Building to building**
 

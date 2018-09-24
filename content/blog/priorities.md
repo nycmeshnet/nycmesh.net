@@ -29,7 +29,7 @@ Once we have a tall structure in a neighborhood we can link to apartment buildin
 
 **3. Public Access Points as gateways**
 
-Apart from the supernode, we need more internet gateways. Another kind of gateway is a public wifi access point. By using directional routers we can extend the range of public access points very easily. We have discussed this with some city infrastructure people and we think it is important to pursue this method. It will help us expand very quickly. Here are some instructions- [how to connect to a kiosk.](../public-access-points). This uses a NanoStation. If we use a 802.11ac like a LigoDLB we could get faster speeds, but the stock firmware doesn't support the DFS channels that the kiosk uses.
+Apart from the supernode, we need more internet gateways. Another kind of gateway is a public wifi access point. By using directional routers we can extend the range of public access points very easily. We have discussed this with some city infrastructure people and we think it is important to pursue this method. It will help us expand very quickly. Here are some instructions- [how to connect to a kiosk.](/blog/public-access-points). This uses a NanoStation. If we use a 802.11ac like a LigoDLB we could get faster speeds, but the stock firmware doesn't support the DFS channels that the kiosk uses.
 
 **4. Collaborations**
 
