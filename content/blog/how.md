@@ -96,7 +96,7 @@ Try to get whole buildings to install a rooftop antenna and then run ethernet to
 
 Plan your internet gateways. Initially you will probably use your home ISP connection (totally legal in this country). Eventually you may want a "supernode" with bigger bandwidth. An IXP or ISP may donate a connection, as DE-CIX and Packet.net did for us.
 
-Another kind of gateway is a public wifi access point. By using directional routers you can extend the range of public access points very easily. Here are some instructions- [how to connect to a kiosk.](../public-access-points). This uses a NanoStation.
+Another kind of gateway is a public wifi access point. By using directional routers you can extend the range of public access points very easily. Here are some instructions- [how to connect to a kiosk.](/blog/public-access-points). This uses a NanoStation.
 
 **Tall structures**
 

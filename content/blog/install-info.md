@@ -45,7 +45,7 @@ This is similar to supernode client but uses NanoStation M5 connected to a nearb
 
 $160 per apartment is due on the day of the install. We also suggest a monthly subscription of $20 to help us maintain our network.
 
-For DIY NanoStation installs [download our firmware](/download) and read our [install instructions](../nsm5-install).
+For DIY NanoStation installs [download our firmware](/download) and read our [install instructions](https://docs.nycmesh.net/installs/nsm5/).
 
 **4) Point to point**
 

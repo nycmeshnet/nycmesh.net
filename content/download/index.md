@@ -6,7 +6,7 @@ Please read our [FAQ](../faq) if you haven't already.
 **Join the mesh**  
 First you need to enter a [new node request](../join). This will add your router to our list of node requests and put your location on our map. If you have multiple locations enter them separately. If you are within range of a supernode and have line-of-sight you may be able to connect directly. Otherwise we will try to connect you to a nearby rooftop.
 
-To connect to the supernode, please [contact us](mailto:install@nycmesh.net) and we will advise. This usually uses a LiteBeamAC or NanoBeamAC. Configuration info is [here](https://docs.nycmesh.net/hardware/cpe).
+To connect to the supernode, please [contact us](mailto:install@nycmesh.net) and we will advise. This usually uses a LiteBeamAC or NanoBeamAC. Configuration info is [here](https://docs.nycmesh.net/installs/cpe).
 
 To setup a rooftop to rooftop connection you can use two NanoStation M5s. You can also just set up a public access point and aim it towards the street. It is best to figure out exactly what kind of connection you are making before proceeding. Chat with us first to make sure.
 
@@ -54,7 +54,7 @@ Firstly you need to get your NSM5 back to AirOS 5.5.
 * There are two loading screens here, and if you don't go through both, you will irreparably break the router.
 * Wait until it reboots
 * Make sure you are now running 5.5.10 and NOT 5.6.x or 6.x. Double check. Triple check. If not, you'll permanently break the router.
-* Download our firmware- [NSM5 XW download](/download/NSM5-XW.html) 
+* Download our firmware- [NSM5 XW download](/download/nycmesh_Ubiquiti_NanoStation-M5-XW_factory_20150915-1731.bin) 
 * Go to [192.168.1.20](http://192.168.1.20), login and select "System" again
 * Click "Upload Firmware: Choose File"
 * Select the M5-XW factory image you downloaded
@@ -69,18 +69,18 @@ Wait ten minutes or so. It now has a SSID name like "-NYC Mesh- 1a2b" and a rand
 
 **You must also install a watchdog script to keep the network stable**. [Here are the instructions](/blog/watchdog). <a href="mailto:newnode@nycmesh.net">Email us</a> if you are not comfortable doing this. This script will be included in the next version of our firmware.
 
-Now your router is flashed, read how to [install a NanoStation](../blog/nsm5-install/)
+Now your router is flashed, read how to [install a NanoStation](https://docs.nycmesh.net/installs/nsm5/)
 
 **Upgrades**  
 Upgrades are for when your router is already running nycmesh/qMp or another version of OpenWrt.
 
-[WR842N upgrade download](/download/WR842N-upgrade.html)  
-[WDR3600 upgrade download](/download/WDR3600-upgrade.html)  
-[NSM5-XW upgrade download](/download/NSM5-XW-upgrade.html)  
+[WR842N upgrade download](/download/nycmesh_TP-Link-TL-WR842N-v2_sysupgrade_20150914-2017.bin)  
+[WDR3600 upgrade download](/download/nycmesh_TP-Link_TL-WDR3600-v1_sysupgrade_20150914-2023.bin)  
+[NSM5-XW upgrade download](/download/nycmesh_Ubiquiti_NanoStation-M5-XW_sysupgrade_20150915-1731.bin)  
 
 **Older (2014 or earlier) XM NSM5s**  
-[NSM5-XM download](/download/NSM5-XM.html)  
-[NSM5-XM upgrade download](/download/NSM5-XM-upgrade.html)  
+[NSM5-XM download](/download/NanoStationM5-nycmesh-factory-20150619_1751.bin)  
+[NSM5-XM upgrade download](/download/NanoStationM5-nycmesh-sysupgrade-20150619_1751.bin)  
 
 **Firmware**  
 [Our firmware](https://github.com/nycmeshnet) is based on [qMp](http://qmp.cat/), which is an [OpenWrt](https://openwrt.org/) package using [BMX6](http://bmx6.net/projects/bmx6) meshing protocol. Thanks to Roger at qMp for all of his help.
@@ -100,7 +100,7 @@ Here are our old TP-Link instructions in case you find an old TL-WR842N on ebay-
 **TP-Link instructions**
 
 * Click to download the firmware to your computer-  
-  [TL-WR842N  download](/download/WR842N.html)
+  [TL-WR842N  download](/download/nycmesh_TP-Link-TL-WR842N-v2_factory_20150914-2017.bin)
   (For upgrades see above)
 * Connect to the router via Wi-Fi. It has a name like "TP-LINK_ABC123"
 * Enter the "wireless password/pin" that is printed on the bottom of the router e.g. "12341234"

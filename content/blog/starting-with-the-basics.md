@@ -8,7 +8,7 @@ The third weekly meeting was today and things are looking good. Now that it's cl
 
 ## The map
 
-We recently got a map up where anyone can place a pin wherever they are in NYC. This is key when it comes to organizing and finding peers near you. If you're at all interested in joining, go over to [map.nycmesh.net](https://map.nycmesh.net) and make yourself known!
+We recently got a map up where anyone can place a pin wherever they are in NYC. This is key when it comes to organizing and finding peers near you. If you're at all interested in joining, go over to [https://nycmesh.net/map](https://nycmesh.net/map) and make yourself known!
 
 ## The starter kit
 
