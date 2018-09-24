@@ -199,7 +199,6 @@ input[type=number]::-webkit-outer-spin-button {
     payButton.addEventListener('click', function(e) {
 
       if (parseInt(donationAmount) && donationAmount > 0) {
-        stripeConfig.bitcoin = true;
         handler = StripeCheckout.configure(stripeConfig);
         handler.open({
           name: 'NYC Mesh',
