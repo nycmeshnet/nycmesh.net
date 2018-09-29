@@ -27,7 +27,6 @@ pre {
   color: #777;
 }
 
-
 /* Dropdown / Hamburger Nav */
 
 @media screen and (min-width: 40em) {
@@ -56,6 +55,7 @@ pre {
 
   .dropdown-content a {
     margin-bottom: 0.5rem;
+    margin-left: 0;
   }
 }
 
