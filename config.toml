@@ -1,4 +1,4 @@
-baseURL = "https://nycmesh.net/"
+baseURL = "https://nycmesh.net"
 languageCode = "en-us"
 title = "NYC Mesh"
 pygmentsCodefences = true

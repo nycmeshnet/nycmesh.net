@@ -27,7 +27,7 @@
     {{ if .Params.thumbnail }}
     <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
     {{ else }}
-    <meta property="og:image" content="/img/logo.png">
+    <meta property="og:image" content="{{ .Site.BaseURL }}img/logo.png">
     {{ end }}
     {{ range .Params.tags }}
     <meta property="og:tags" content="{{ . }}">
