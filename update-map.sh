@@ -6,5 +6,7 @@ cd node-map-public
 npm run update-data
 npm install
 npm run build
-cp build/index.html ../layouts/partials/node-map.html
+rm -rf ../static/map/static/
 cp -r build/static/ ../static/map/static/
+ls -R ../static/map/
+cp build/index.html ../layouts/partials/node-map.html
