@@ -33,3 +33,9 @@ New press:
 ```bash
 hugo new press/article-title.md
 ```
+
+New presentation:
+
+```bash
+hugo new presentations/presentation-title.md
+```

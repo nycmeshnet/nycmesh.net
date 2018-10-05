@@ -43,23 +43,29 @@
         </ul>
       </div>
 
-      <!-- Videos -->
+      <!-- Presentations -->
       <div class="w-50-l w-100 ph3">
         <h2 class="fw5 f4">
-          <a href="/videos" class="black">
-            Videos
+          <a href="/presentations" class="black">
+            Presentations
           </a>
         </h2>
-        <ul class="flex list pa0 mv0 mhn2">
-          {{ range first 2 (where .Data.Pages "Section" "videos") }}
-            <li class="flex-1 mh2">
-              <a class="mt1 db " href="{{ .Params.Link }}">
-                <img class="w-100 ma0 pa0 br1 mb1" src="{{ .Params.Image }}"></img>
-              </a>
-              <a href="{{ .Params.Link }}" class="mb1 fw5 no-underline lh-title">
-                {{ .Title }}
-              </a>
-            </li>
+        <ul class="flex list pa0 mv0 man2">
+          {{ range first 2 (where .Data.Pages "Section" "presentations") }}
+            <li class="mt1 w-50-ns w-100 pa2 mb2">
+                  <a class="db " href="{{ .Params.Link }}">
+                    <div class="aspect-ratio aspect-ratio--16x9 mb2">
+                <div class="aspect-ratio--object cover bg-center cover" style="background:url({{ .Params.Image }}) center;">
+                </div>
+            </div>
+                  </a>
+                  <a href="{{ .Params.Link }}" class="db mb1 fw5 no-underline lh-title">
+                    {{ .Title }}
+                  </a>
+                  <time class="silver lh-title">
+                    {{ .Date.Format "January 2, 2006" }}
+                  </time>
+                </li>
           {{ end }}
         </ul>
       </div>
