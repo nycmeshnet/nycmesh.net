@@ -1,143 +1,290 @@
 ---
-layout: page
 title: "Frequently asked questions"
 ---
-[Why are you building a community-owned network?](#why)  
-[Is there a monthly fee?](#fee)   
-[What is your business plan?](#business)   
-[Is this a replacement for my current internet connection?](#replace-isp)   
-[What can I do on the mesh that I can't do on the internet?](#mesh-services)   
-[Why should I join the mesh now?](#why-join)   
-[Can the mesh cover the whole country?](#coverage)   
-[Are you an internet Service Provider (ISP)?](#isp)   
-[What is a node?](#node)  
-[What is the difference between a router and an antenna?](#router)  
-[What software/firmware do you use?](#firmware)   
-[Can I use my own different router?](#other-router)   
-[Can I install a router if I have no view or rooftop access?](#no-view)   
-[What is involved in a rooftop or window install?](#install)   
-[I want a NanoStation but I'm not ready for a rooftop install?](#nsm5-indoor)   
-[I can see another node from my window. Can I put a router there?](#window)   
-[Why don't we mesh mobile phones instead of routers?](#mobile)   
-[Is the mesh secure?](#secure)   
-[What is your user data policy?](#data)  
-[Blockchain?](#blockchain)  
-[Why aren't you doing this obvious thing I just thought of?](#obvious)   
 
-## <a name="why"></a>Why are you building a community-owned network?
+**About NYC Mesh**
 
-This is our most common question, so we made it into a blog post- [12 Reasons for mesh](/blog/twelve-reasons-for-mesh/)
- 
-## <a name="business"></a>What is your business plan?
+*   [Why is NYC Mesh building a community-owned network?](#why)
+*   [How does it work?](#how)
+*   [Is this a replacement for my current Internet connection?](#replace)
+*   [Is the mesh secure?](#security)
+*   [What is your user data policy?](#userdata)
+*   [Who owns NYC Mesh?](#ownership)
+*   [What is your business plan?](#businessplan)
+*   [What can I do on the mesh that I can’t do on the internet?](#meshonly)
 
-We are not a business and we are not an ISP! We don't have "customers" or "users", we have members. Being a member of our network has many benefits including replacing your current ISP with real, unmonitored internet access. Businesses are free to join or connect to the mesh as long as they obey the [network commons license](../ncl.pdf).
+**Joining the Community**
 
-## <a name="fee"></a>Is there a monthly fee?
+*   [How do I sign up?](#signup)
+*   [How much does it cost to join?](#cost)
+*   [I heard that NYC Mesh is free Internet. Is that true?](#free)
+*   [What are my obligations as an NYC Mesh community member?](#obligations)
+*   [How can I volunteer? What if I don’t know anything about networking?](#volunteer)
+*   [I have neighbors who would also like to join NYC Mesh. Can we get connected together?](#neighbors)
+*   [Do I need to provide identification to join NYC Mesh?](#id)
+*   [What is Slack and how do I use it?](#slack)
 
-Once you buy a router and install it you are part of NYC Mesh. There is no compulsory fee. Donations help us cover maintenance. By joining the mesh you are obliged to share and extend the mesh in the same way that it was shared with you.
+**Getting connected to the mesh**
 
-If you are benefitting from the network, or you would like to help us extend the network, please pay a small [monthly donation.](/donate) If you cannot afford this, we understand!
+*   [How can I tell if I’m in the coverage zone for NYC Mesh?](#covered)
+*   [My neighbor has a rooftop router and is connected to NYC Mesh. Can I also use it to connect?](#alsouse)
+*   [What is the wait time for an installation? How do you decide who to connect first?](#waittime)
+*   [What is involved in a typical installation?](#typicalinstall)
+*   [How should I prepare before the install team arrives?](#prepare)
+*   [What happens if the install team can’t connect me to the mesh?](#nogo)
+*   [What if I can’t get roof access?](#noroof)
+*   [Can I install a router if I have no view or no rooftop access?](#noview)
+*   [Can I install the hardware and connect to NYC Mesh on my own?](#bymylonesome)
+*   [Can I use any router to connect?](#anyrouter)
 
-We also do installs for entire buildings and set up high-bandwidth point-to-point connections with dedicated hardware. If your building would like this dedicated service please [email us](mailto:install@nycmesh.net) or call us on (646) 727-0866. Using this service can replace your current ISP for very large buildings.
+**Hardware, software and networking**
 
-## <a name="replace-isp"></a>Is this a replacement for my current internet connection?
+*   [What is a router? What is an antenna? What is a radio? Are they different things?](#defrouter)
+*   [What is a Node? What is a Supernode? What is a Hub Node?](#defnode)
+*   [What software/firmware do you use?](#software)
 
-We are connected to the internet through peering at an internet exchange point. If you have line-of-sight to supernode1 in downtown Manhattan, or supernode2 in Brooklyn you can have a fast, reliable connection with suitable hardware, and replace your ISP.
+**Everything Else**
 
-Many members who cannot connect directly to our supernode are sharing their internet. If you have line-of-sight to another member or they are very close by you can ask if it is OK to share internet. We encourage people to share or make deals with their neighbors. If you are within range of the mesh, your router will automatically use the fastest internet connection.
-   
-## <a name="mesh-services"></a>What can I do on the mesh that I can't do on the internet?
+*   [What exactly is the Internet anyway?](#definternet)
+*   [Why don’t we mesh mobile phones instead of routers?](#phones)
+*   [How far can the mesh extend? Could it cover the whole country?](#far)
+*   [Blockchain?](#blockchain)
+*   [Why aren't you doing this obvious thing I just thought of?](#obvious)
 
-It is possible to connect directly to other people on the mesh without using the internet. If for some reason the internet is shut down by a fascist dictator, the mesh will still work. Internet shutdowns are becoming increasingly common in the world. 
+---
 
-The mesh has small web servers that show local information and allow you to chat and post messages. So far we have servers in five locations- Harlem, Bay Ridge, 3rd St. and 7th St. in the East Village, and our main directory "wiki.mesh" in Williamsburg. We are in need of volunteers to help add content and maintain our servers.
+# About NYC Mesh
 
-## <a name="why-join"></a>Why should I join the mesh now?
+## <a name="why"></a>Why is NYC Mesh building a community-owned network?
 
-By joining the mesh you help us grow and increase our reach across the city. This is a community project and you will be helping to create a decentralized infrastructure, free from traditional business interests.
+Here’s a list of our reasons for building a community-owned mesh network:
 
-You can also help your neighborhood by providing access points for local parks, cafes and bars. Local businesses are often keen to host a node once you explain the benefits to them.
+*   Freedom from the telecom [oligopoly](https://www.newyorker.com/news/daily-comment/we-need-real-competition-not-a-cable-internet-monopoly) of Verizon, Optimum and Spectrum
+*   Bridging the [Digital Divide](https://en.wikipedia.org/wiki/Digital_divide) by connecting underserved communities to the Internet
+*   A [neutral network](https://en.wikipedia.org/wiki/Net_neutrality_in_the_United_States) that does not block or discriminate content or throttle data
+*   Emergency community networking (for the next [hurricane](http://nymag.com/selectall/2017/10/what-happens-to-the-internet-after-a-disaster.html))
+*   No [personal data collection](https://techcrunch.com/2017/03/23/senate-votes-to-allow-isps-to-collect-personal-data-without-permission/)
+*   Decentralized, with no single point of failure
+*   Self-configuring (simple!)
+*   An infrastructure commons in which the community owns the network
+*   Community-building with highly localized websites
+*   Eventual self-sufficient network as alternative to the corporate-owned Internet
+*   Providing public wifi access points
+*   Allows fast uploads as well as downloads, so members can serve content and services rather than only consume them from centralized hosts.
 
-## <a name="coverage"></a>Is it possible for the mesh to cover the whole country?
+## <a name="how"></a>How does it work?
 
-Yes, there is a mesh network called "Guifi" in Spain that covers a large part of the country. In order to do this, they have a backbone of many long distance WiFi connections and also community owned fiber.
+Most NYC Mesh members (“nodes”) use wireless routers mounted on a rooftop or window to connect to other nodes, forming a network. Our network in turn peers (connects) with many other networks at an [Internet exchange point (IX)](https://en.wikipedia.org/wiki/Internet_exchange_point), providing direct access to the Internet without the intermediary of a commercial Internet Service Provider. NYC Mesh maintains a number of primary Internet exchange points that we call “Supernodes.”
 
-## <a name="isp"></a>Are you an Internet Service Provider (ISP)?
+## <a name="replace"></a>Is this a replacement for my current Internet connection?
 
-No, we are not an ISP, we are a community that shares ownership of a network. Collectively we have our own internet connection at our "supernode". Also some of our members share their own internet connections. 
+NYC Mesh provides an independent, fast, and reliable connection to the Internet. Many of our members have ended their contracts with commercial Internet Service Providers (ISPs) and now exclusively rely on their NYC Mesh connection.
 
-Our network peers with other networks at an internet exchange point and provides access to the internet without traditional ISPs. We are a non-profit project of the New York chapter of the Internet Society (ISOC-NY).
+Service disruptions are possible for both commercial ISPs and NYC Mesh. Extreme weather such as heavy rain, blizzards and hail, for example, can decrease connection speeds as they affect the router’s wireless signal. Our community actively monitors the health of the network, and, unlike commercial ISPs, responds quickly to service requests.
 
-## <a name="node"></a>What is a node?
+## <a name="security"></a>Is the mesh secure?
 
-A node is a location with one or more routers or antennas, i.e. it is usually a dot on our map. Some dots have multiple apartments with installs in the same building so that would be one node per apartment. A supernode will have multiple radios, routers, antennas and maybe a server too.
+By default, our mesh router is firewalled from your local network. It is not possible to reach beyond the mesh router to your local access network (LAN).
 
-## <a name="router"></a>What is the difference between a router and an antenna?
+Network traffic within the mesh is not encrypted by default. When connecting through the mesh you should use the same standard precautions as you would when connecting to Wi-Fi at a coffee shop or airport: use [https](https://en.wikipedia.org/wiki/HTTPS) (lock icon) web sites for secure connections (most browsers do this by default nowadays), or use a VPN service.
 
-Most of the devices we use, such as a LiteBeam or NanoStation are self-contained so they have an antenna, radio and ethernet router all in one. "Wireless router with antenna" is too long so we usually call the whole thing a router, just like your home wifi "router". Sector antennas usually have a separate radio plugged into the back of them so we call those antennas (although some sectors are self-contained). 
+If you connect to the mesh network indirectly over the internet (for example over a cable ISP connection) this is by [tinc VPN](https://www.tinc-vpn.org/) and is secure.
 
-Ubiquiti call their self-contained AirFiber a "radio", and others call an AirFiber a router or an antenna, so yes everyone is confused about what term to use.
+## <a name="userdata"></a>What is your user data policy?
 
-## <a name="firmware"></a>What software/firmware do you use?
+NYC Mesh does not collect, store, or log any user traffic or content that passes through our network.
 
-We are using an OpenWrt package made by qMp. This uses the BMX6 mesh protocol. We have added tinc tunneling so a router can mesh over the internet when out of range using a secure virtual private network (VPN). 
+NYC Mesh may periodically look at [traffic headers](https://en.wikipedia.org/wiki/IPv6_packet) for troubleshooting purposes as traffic passes through the NYC Mesh network, however, this data is never logged or stored. NYC Mesh may collect aggregate statistics to monitor traffic flow to ensure a successful network.
 
-Our point-to-point connections use factory firmware such as AirOS. The supernode is running Linux with Quagga and BGP. For network monitoring we use Nagios and Icinga2.
+The NYC Mesh network is unencrypted, easy to join, and depends on donated internet from individuals and other companies which is outside the control of NYC Mesh, therefore NYC Mesh is unable to detect or prevent traffic monitored at those access points.
 
-We also have some members experimenting with and contributing to cjdns/hyperboria software. Let us know if you are interested in this.
+NYC Mesh will comply with all laws in the jurisdictions where it operates; however, as per our community policy, no data is collected or stored, and therefore no data exists to provide to agents who request it.
 
-## <a name="other-router"></a>Can I use my own different router?
+## <a name="ownership"></a>Who owns NYC Mesh?
 
-No, the router we currently support and recommend for building-to-building is the Ubiquiti NanoStation M5. We might be updating that soon. For supernode connections you will need a LiteBeamAC or NanoBeamAC router. Our [download page](../download) has our firmware for the NanoStation and links to buy. We are working on supporting other routers. 
+We are a non-profit project of the New York chapter of the [Internet Society](https://www.internetsociety.org/) (ISOC-NY). Most of the equipment that makes up the Mesh is owned by the individual members. Some common infrastructure is owned or rented by the project under ISOC-NY, or by individual members who are donating it. Intellectual property is limited and is under open licenses such as GNU and Creative Commons.
 
-TP-Link have locked down some of their routers, and others are not supported well by OpenWrt, so we unfortunately are looking at other options for indoor routers at the moment.
+## <a name="businessplan"></a>What is your business plan?
 
-## <a name="no-view"></a>Can I install a router if I have no view or no rooftop access?
+We are not a business and we are not a commercial Internet Service Provider! We aim to grow our community in a sustainable and inclusive way for the benefit of all of our members. We don’t see members as customers, consumers or users, but as contributors to our community. Being a member of our network has many benefits, including replacing your current ISP with fast, neutral, affordable, and unmonitored Internet access. Businesses are free to join or connect to the mesh as long as they obey the [network commons license](../ncl.pdf).
 
-Yes you can. Because you may be out of range of other mesh nodes, your router will use secure VPN tunneling to connect to the mesh over the internet. You will still see the exclusive mesh web content. Neighbors could also install routers creating a mesh for your building. 
+## <a name="meshonly"></a>What can I do on the mesh that I can’t do on the internet?
 
-## <a name="install"></a>What is involved in a rooftop or window install?
+Other than the benefit of not paying the cable cartel for overpriced Internet access, it is also possible to connect directly to other people on the mesh without using the Internet. If for some reason the Internet is shut down (hurricane, government crackdown, cyberattack, zombie apocalypse), the mesh will likely still work for a while longer.
 
-Rooftop installs are mostly to connect you to a supernode or a second hop from a supernode. Look at our [map](../map) to find line-of-sight to another node location less than two miles away. You can also talk to people in the neighborhood and convince them to also install a node. We also have a collection of rooftop panoramas where you can check for possible line-of-sight connections. 
+The mesh also has its own web servers that show local information and allow you to chat and post messages. So far we have servers in five locations: Harlem, Bay Ridge, 3rd St. and 7th St. in the East Village, and our main directory “wiki.mesh” in Williamsburg. We are in need of [volunteers](../help) to help add content and maintain our servers.
 
-The other type of install is where a directional Ubiquiti router is aimed at a nearby public space (park, cafe, bar etc.) as a public Wi-Fi access point. We currently have five public spaces with this type of install. 
+---
 
-We support one outdoor router, the Ubiquiti Nanostation NSM5 (~$90). We have links for this on the [download page](../download)
+# Joining the Community
 
-We can help you with the rooftop installation. Typically one or two routers are attached to a pole on the roof and an ethernet cable is run to the apartment, and connected to the TP-Link mesh router and an internet gateway. The install cost is usually $160 including labor and equipment. The ethernet cable also supplies the power to the router using "power over ethernet". If the roof (or balcony or window) is close to your apartment you might not need an additional mesh router.
+## <a name="signup"></a>How do I sign up?
 
-## <a name="nsm5-indoor"></a>I want a NanoStation but I'm not ready for a rooftop install
+After reading through the FAQs, fill out the [join form](../join) to be assigned a node, and look for an email from one of our volunteers with next steps (check your email spam folder or contact us directly at install@nycmesh.net if you don’t receive any reply).
 
-It is easy to use the NanoStation indoors. It is 5GHz router, and all modern phones and most laptops support that. It looks a little strange but has a very good signal. If you have a long apartment or thick walls, a NanoStation is ideal.
+If you would like to volunteer with NYC Mesh, reach out on [slack](https://slack.nycmesh.net/) or join us at our monthly [meetup](https://www.meetup.com/nycmesh/).
 
-## <a name="window"></a>I can see another node from my window. Can I put a router there?
+## <a name="cost"></a>How much does it cost to join?
 
-Yes! You can use a directional NanoStation in your window. It will work from behind glass if you are unable to place it outside the window. The simplest install is to velcro the flat surface of the NanoStation NSM5 to the window. We have a [docs page about NSM5 installs.](https://docs.nycmesh.net/installs/nsm5/)
+To cover our operating costs (mostly paying for infrastructure for fast access to the Internet “backbone”), we request a $20 recurring monthly donation. For the initial hardware installation, we charge $110 to cover parts and equipment and an additional $50 to cover labor-related expenses. If we are not able to connect you, you do not need to pay the parts and equipment fee and you can decide whether or not you want to pay the labor fee.
 
-## <a name="mobile"></a>Why don't we mesh mobile phones instead of routers?
+## <a name="free"></a>I heard that NYC Mesh is free Internet. Is that true?
 
-There is "mesh" software for mobile phones such as Serval and FireChat. This is mainly used for chat messages. It stores the messages until a phone is within range and then transfers the data. Mobile "mesh" networks are very low bandwidth, not real-time and require many phones in a small area. They are great for events or some emergency situations.
+NYC Mesh costs money and time to operate and maintain. We may not demand a set monthly fee like a commercial Internet Service Provider, but we rely on recurring donations from our members as well as installation fees to sustain and grow our network.
 
-## <a name="secure"></a>Is the mesh secure?
+## <a name="obligations"></a>What are my obligations as an NYC Mesh community member?
 
-If you use the internet while on the mesh, you should use standard precautions such as using https (lock icon) web sites for secure connections, or use a VPN service.
+By joining the mesh you are obliged to share and extend the mesh in the same way that it was shared with you. At a minimum, this requires providing power to your rooftop router so that other members can connect to it. (It uses less power in a whole day than it takes to lightly toast a slice of bread). We may also request access to your rooftop after the initial installation in order to upgrade the rooftop router infrastructure. You are not obligated to pay a monthly fee although we request a recurring donation if you can afford it, to help keep the network running and growing.
 
-By default, our mesh router is firewalled from your local network. It is not possible to reach beyond the mesh router to your LAN. Mesh tunneling over the internet is by tinc VPN and is secure. Network traffic within the mesh is not encrypted by default.
+## <a name="volunteer"></a>How can I volunteer? What if I don’t know anything about networking?
 
-## <a name="data"></a>What is your user data policy?
+NYC Mesh welcomes people with diverse skill sets and from all backgrounds. Many of our volunteers started without any technical background. Join as at our monthly [meetup](https://www.meetup.com/nycmesh/) or reach out to us on [slack](https://slack.nycmesh.net/) to start a conversation about how you can contribute to our community. You can also read about some ways to help [here](../help).
 
-NYC Mesh does not collect, store, monitor, or log any user traffic or content that passes through our network. 
+## <a name="neighbors"></a>I have neighbors who would also like to join NYC Mesh. Can we get connected together?
 
-NYC Mesh may periodically look at traffic headers for troubleshooting purposes as traffic passes through the NYC Mesh network, however, this data is never logged or stored. NYC Mesh may collect aggregate statistics on links to monitor traffic flow to ensure a successful network. 
+Yes! We prioritize installs for entire buildings and set up high-bandwidth point-to-point connections with dedicated hardware. If your building would like this dedicated service please email us, reach out to us on [slack](https://slack.nycmesh.net/), send us an email at install@nycmesh.net or call us directly at (646) 727-0866. Using this service can replace your current ISP for very large buildings.
 
-Beyond the scope of NYC Mesh, the NYC Mesh network is unencrypted, open, and depends on donated internet from individuals and other companies which is outside the control of NYC Mesh, therefore NYC Mesh is unable to detect or prevent traffic monitored at those points. 
+## <a name="id"></a>Do I need to provide identification to join NYC Mesh?
 
-NYC Mesh will comply with all federal laws in the countries it operates, however, as policy, no data is collected and therefore no data exists to provide requestors.
+NYC Mesh asks for only basic contact information to be able to carry out the install. We welcome all New Yorkers to join the community regardless of immigration status or life circumstance. If you have concerns about privacy, please send us an email at help@nycmesh.net or talk to us in person at our monthly [meetup](https://www.meetup.com/nycmesh/).
+
+## <a name="slack"></a>What is Slack and how do I use it?
+
+Slack is the main communication and collaboration platform we use at NYC Mesh. It consists of public channels, which anyone can post messages to, and invitation-only channels, which serve specific community groups and volunteer teams. Go to the [NYC Mesh Slack page](https://slack.nycmesh.net/) to sign up for an account and join the conversation!
+
+---
+
+# Getting connected to the mesh
+
+## <a name="covered"></a>How can I tell if I’m in the coverage zone for NYC Mesh?
+
+Connecting to the Internet with NYC Mesh requires a direct line of sight to an existing node. Look at our [map](../map) to see if you’re either:
+
+*   within the coverage zone of a supernode, or
+*   within two miles of an active node, or
+*   close to a LinkNYC kiosk. You will need to see the kiosk from your window or rooftop to connect to it.
+    close to another public Wi-Fi access point (park, cafe, bar etc.).
+
+If any of the above are true, there is a good chance you will be able to connect to NYC Mesh. Fill out the [join form](../join) and we will assess your location. If we need more information, we may ask you to take a picture or panorama from your window or rooftop.
+
+Some additional things you can do to determine if you are in a coverage zone:
+
+*   Click on active nodes around you on the [map](../map) to see if a panorama photo is available. If you can see your building in the photo, you are in the node’s coverage zone.
+*   Use 3D mode in Google Maps or Google Earth to see if there is a likely line of sight from your building to an active node.
+
+## <a name="alsouse"></a>My neighbor has a rooftop router and is connected to NYC Mesh. Can I also use it to connect?
+
+We encourage neighbors to share their Internet access. Ask your neighbor for permission to connect via their router and reach out to us on [slack](https://slack.nycmesh.net/). We can probably install a switch at the rooftop router and run an ethernet cable to your apartment. We have a standard $160 install fee, and we ask for a $20 monthly donation if you can afford it.
+
+## <a name="waittime"></a>What is the wait time for an installation? How do you decide who to connect first?
+
+Once you submit your node request form, we will make sure your address is in a coverage zone and then invite you to schedule an appointment on our install calendar. Wait times will vary based on the availability of volunteer installers and the potential to connect in your individual area. If you can convince your neighbors to also join, we will put you at the top of the install list.
+
+## <a name="typicalinstall"></a>What is involved in a typical installation?
+
+NYC Mesh will send a team of volunteers to your building to conduct a site survey and, if a connection is possible to an existing node, we will install all the necessary hardware to get you connected to the mesh.
+
+Typically, installs take between one and three hours to complete, but in certain cases they can take longer. We require you to be present for the duration of the install, so we recommend that you plan to remain at your apartment for at least four hours from the start of the install. We will update you on the progress of the install in case of major delays.
+
+Most installations proceed in the following order:
+
+*   Survey the apartment and rooftop
+*   Decide where ethernet cable should enter the apartment
+*   Test signal strength to confirm connection is possible
+*   Install mounting hardware and align router
+*   Run cable into apartment
+*   Set up indoor WiFi router
+*   Speed test
+*   Clean up
+
+*   In case of bad weather conditions, we will notify you that the install has been canceled and will invite you to make a new appointment.
+
+## <a name="prepare"></a>How should I prepare before the install team arrives?
+
+First, make sure that you will be able to be present at your apartment for at least four hours from the start of the install.
+
+To ensure the safety of volunteer installers, please check the rooftop and the ladder or stairs to the rooftop for any obstacles or hazards. Please remove any obstacles you find and inform us of any hazards. Be prepared to lead volunteers up to the roof if you are able to safely climb the ladder or stairs yourself.
+
+If you would like to participate in the install, please let us know and read our [safety guidelines](https://docs.nycmesh.net/installs/safety/).
+
+## <a name="nogo"></a>What happens if the install team can’t connect me to the mesh?
+
+If we are not able to connect you, we will not charge you the $110 parts and equipment fee, and you can decide whether or not you want to pay the $50 labor fee.
+
+If we think a connection may be possible by installing a mast, mounting equipment to a neighbor’s roof or another method, we will discuss those options with you on site.
+
+## <a name="noroof"></a>What if I can't get roof access?
+
+You may be able to connect from your window if you have a good view, or you are very near another access point.
+
+Once you fill out the [join form](../join), we can help you determine the viability of a window install. If you would like to install an NSM5 router on your own, see this [blog post](/blog/nsm5-install/). If you would like to connect to LinkNYC kiosk [see here](https://docs.nycmesh.net/installs/linknyc/)
+
+## <a name="noview"></a>Can I install a router if I have no view or no rooftop access?
+
+In some cases you might be close enough to another node to get signal without line of sight to it.
+
+If you’re in an area that’s currently underserved by NYC Mesh but can get a dozen or more of your neighbors together, you can also create your own hub or supernode which would expand the mesh further. Contact us on [slack](https://slack.nycmesh.net/) or email us at install@nycmesh.net to discuss this option further.
+
+If you can’t connect to any existing node yet but would still like to access community tools or content that are only available on the mesh, you have the option of [“tunneling”](https://en.wikipedia.org/wiki/Tunneling_protocol) over the Internet.
+
+## <a name="bymylonesome"></a>Can I install the hardware and connect to NYC Mesh on my own?
+
+Yes you can. Make sure to sign up for a node by filling out our [join form](../join) even if you are installing by yourself.
+
+We provide a list of hardware you can purchase along with firmware and configuration instructions [here](../download). For guidance on hardware installation, check out our [docs pages](https://docs.nycmesh.net/).
+
+If you need assistance with your self-installs, reach out to us on the #support channel on [slack](https://slack.nycmesh.net/).
+
+## <a name="anyrouter"></a>Can I use any router to connect?
+
+To connect to NYC Mesh you must use routers supported by NYC Mesh, which are listed [here](../download).
+
+# Hardware, software and networking
+
+## <a name="defrouter"></a>What is a router? What is an antenna? What is a radio? Are they different things?
+
+Most of the devices we use, such as a LiteBeam or NanoStation, are self-contained so they have an antenna, radio and ethernet router all in one. Ubiquiti call their self-contained AirFiber device a “radio”, other manufacturers call similar devices a router or an antenna, and “wireless router with antenna” is a real mouthful to say, so to avoid confusion, we usually call the self-contained device a router and the home WiFi router you connect your laptop and phone to the “home router” or “indoor router.”
+
+Sector antennas used on supernodes and hub nodes usually have a separate radio plugged into the back of them so we call those antennas (although some sectors are self-contained).
+
+## <a name="defnode"></a>What is a Node? What is a Supernode? What is a Hub Node?
+
+A node is a location with one or more [routers](#defrouter).
+
+A supernode is a node that has multiple routers and maybe a server too It connects to many other nodes. Supernodes often also offer a fast connection (gateway) to the rest of the Internet.
+
+A hub node is a node that extends the mesh to a few nodes around it, but has only one router.
+
+## <a name="software"></a>What software/firmware do you use?
+
+We are using an OpenWrt package made by qMp. This uses the BMX6 mesh protocol. We have added tinc tunneling so a router can mesh over the internet when out of range using a secure virtual private network (VPN).
+
+Our point-to-point connections use factory firmware such as AirOS. The supernodes are running Linux with Quagga and BGP. For network monitoring we use Nagios and Icinga2.
+
+We also have some members experimenting with and contributing to cjdns/hyperboria software. Let us know if you are interested in this by reaching out on [slack](https://slack.nycmesh.net/).
+
+---
+
+# Everything Else
+
+## <a name="definternet"></a>What exactly is the Internet anyway?
+
+The Internet is a decentralized, global network of networks. No-one owns it and it is governed by voluntary agreements between network owners. For an easy-to-read introduction to how the Internet works, check out [this article](https://web.archive.org/web/20180720113259/https://www.vox.com/cards/the-internet/what-is-the-internet).
+
+## <a name="phones"></a>Why don’t we mesh mobile phones instead of routers?
+
+Our focus at the moment is to connect buildings and expand an open, neutral, resilient, and affordable broadband network that connects to the wider Internet. Mobile “mesh” networks are very low bandwidth, not real-time, and require phones to connect in close range. They are great for events or some emergency situations, and we’re happy to see them developed alongside our project, but consider them out of our scope for now.
+
+## <a name="far"></a>How far can the mesh extend? Could it cover the whole country?
+
+Yes, it could. In Spain there is a mesh network called [Guifi](https://guifi.net/) that covers a large part of the country. In order to do this, they have a backbone of many long distance WiFi connections and also community-owned fiber.
 
 ## <a name="blockchain"></a>Blockchain?
 
-[Meshcoin](/blog/meshcoin). 
+[Meshcoin](/blog/meshcoin).
 
 ## <a name="obvious"></a>Why aren't you doing this obvious thing I just thought of?
 
-We have a lot on our to-do list and everyone is a volunteer. Please [email us](mailto:contact@nycmesh.net) with suggestions, or better still volunteer to help us. [Join our slack.com group](https://slack.nycmesh.net/) where we do our planning. We need help with everything such as publicity, emailing, printing leaflets, writing FAQs, and installing routers on rooftops.
+We have a lot on our to-do list and everyone is a volunteer. We welcome new ideas big and small, but the best way to move ideas forward is for you to take initiative to help implement them.
+
+Our community on [slack](https://slack.nycmesh.net/) is a great forum for new ideas, and you can also start a conversation with long-term and new members at one of our [meetups](https://www.meetup.com/nycmesh/).
