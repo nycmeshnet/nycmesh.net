@@ -10,7 +10,7 @@ DIY installs are possible, or you can pay us $110 to cover hardware (basically c
 
 **1) Supernode client**
 
-You need to be within about two miles of a supernode, and [inside this downtown area](/panorama/227.png) or this [Brooklyn area](/panorama/570a.jpg) We can usually tell by a panorama pic whether this install will work for you.
+You need to be within about two miles of a supernode, and [inside this downtown area](/map/nodes/227) or this [Brooklyn area](/map/nodes/570) We can usually tell by a panorama pic whether this install will work for you.
 
 **_Equipment needed_**-
 
