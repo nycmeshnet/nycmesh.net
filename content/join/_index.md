@@ -4,7 +4,7 @@ title: "Join the Mesh"
 
 **We auto-reply to your Join request within 5 minutes. If you do not see the reply, check your spam folder and mark it "not spam". You can also [email us.](mailto:install@nycmesh.net)**
 
-**Please read our [FAQ](../faq) and the Network Commons License [(NCL.pdf)](../ncl.pdf) before filling in the Join form. Also read our [install info.](../install)**
+**Please read our [FAQ](/faq) and the Network Commons License [(NCL.pdf)](/ncl.pdf) before filling in the Join form. Also read our [install info.](/install)**
 
 If you can convince your neighbors to also join, we will put you at the top of the install list. It is easier for us to do multiple installs in the one building.
 
@@ -22,7 +22,7 @@ You have to have line-of-sight to one of our supernodes to for this type of conn
 
 **Here is the [coverage map for Brooklyn supernode2](/map/nodes/570).**
 
-We currently have two options for non-supernode routers- an indoor router and a $90 outdoor router. You can buy the routers online and configure them yourself using our simple [download](../download) instructions. Otherwise, you can come to our [meetups](https://www.meetup.com/nycmesh/) where we often sell preconfigured routers that you can simply plug in.
+We currently have two options for non-supernode routers- an indoor router and a $90 outdoor router. You can buy the routers online and configure them yourself using our simple [download](/download) instructions. Otherwise, you can come to our [meetups](https://www.meetup.com/nycmesh/) where we often sell preconfigured routers that you can simply plug in.
 
 Here are the two router choices for local mesh connections:
 
@@ -52,6 +52,6 @@ It is easy to set up your own server and connect it to the TP-Link router. The m
 
 **How to configure them**-
 
-There is nothing to configure. Go to our [download](../download) page and follow the instructions for installing the firmware and the router will automatically be configured.
+There is nothing to configure. Go to our [download](/download) page and follow the instructions for installing the firmware and the router will automatically be configured.
 
 If you would like to play around with the setting you can email us for the login info.
