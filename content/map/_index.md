@@ -1,5 +1,6 @@
 ---
 title: "Map"
+description: "Our node locations."
 ---
 
 This map shows our node locations. The colored markers are active nodes. The gray markers are node requests from our [join form](/join). We are working to turn these into active nodes by increasing our rate of installs.
