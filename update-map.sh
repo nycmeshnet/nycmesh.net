@@ -8,5 +8,4 @@ npm install
 npm run build
 rm -rf ../static/map/static/
 cp -r build/static/ ../static/map/static/
-ls -R ../static/map/
 cp build/index.html ../layouts/partials/node-map.html

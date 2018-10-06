@@ -6,6 +6,8 @@ command = "sh update-map.sh && hugo --minify"
 HUGO_VERSION = "0.48"
 HUGO_ENV = "production"
 
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.48"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.48"

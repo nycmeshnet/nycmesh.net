@@ -1,0 +1,37 @@
+{{ define "main" }}
+<div class="splash-small cover"></div>
+  <div class="ph4-ns ph3 pb5">
+    <div class="measure-wide f5 w-100 f3 center bg-white black">
+      <div  class="mh3 center pt4 sans-serif">
+        <h2 class="f4 fw6 tl">Follow our Newsletter</h2>
+      </div>
+
+      <form
+        action="https://nicholasfrota.us9.list-manage.com/subscribe/post?u=cf667149616fd293afa115f5a&id=ebe72854f3"
+        method="POST"
+        class="w-100 f4-ns f5">
+          <div>
+            <label for="email" class="mt3 f5 fw6 db mb2">Email</label>
+            <input
+              required
+              placeholder="you@example.com"
+              type="email"
+              name="EMAIL"
+              class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2">
+            </input>
+          </div>
+
+          <div class="mw5 mt4">
+            <input
+              type="submit"
+              value="Subscribe"
+              class="input-reset bw0 f4 fw5 br3 pa3 white bg-blue ph4 pointer">
+            </input>
+          </div>
+      </form>
+
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+{{ end }}
