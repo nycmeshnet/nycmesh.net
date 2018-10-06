@@ -106,13 +106,13 @@ We are a non-profit project of the New York chapter of the [Internet Society](ht
 
 ## <a name="businessplan"></a>What is your business plan?
 
-We are not a business and we are not a commercial Internet Service Provider! We aim to grow our community in a sustainable and inclusive way for the benefit of all of our members. We don’t see members as customers, consumers or users, but as contributors to our community. Being a member of our network has many benefits, including replacing your current ISP with fast, neutral, affordable, and unmonitored Internet access. Businesses are free to join or connect to the mesh as long as they obey the [network commons license](../ncl.pdf).
+We are not a business and we are not a commercial Internet Service Provider! We aim to grow our community in a sustainable and inclusive way for the benefit of all of our members. We don’t see members as customers, consumers or users, but as contributors to our community. Being a member of our network has many benefits, including replacing your current ISP with fast, neutral, affordable, and unmonitored Internet access. Businesses are free to join or connect to the mesh as long as they obey the [network commons license](/ncl.pdf).
 
 ## <a name="meshonly"></a>What can I do on the mesh that I can’t do on the internet?
 
 Other than the benefit of not paying the cable cartel for overpriced Internet access, it is also possible to connect directly to other people on the mesh without using the Internet. If for some reason the Internet is shut down (hurricane, government crackdown, cyberattack, zombie apocalypse), the mesh will likely still work for a while longer.
 
-The mesh also has its own web servers that show local information and allow you to chat and post messages. So far we have servers in five locations: Harlem, Bay Ridge, 3rd St. and 7th St. in the East Village, and our main directory “wiki.mesh” in Williamsburg. We are in need of [volunteers](../help) to help add content and maintain our servers.
+The mesh also has its own web servers that show local information and allow you to chat and post messages. So far we have servers in five locations: Harlem, Bay Ridge, 3rd St. and 7th St. in the East Village, and our main directory “wiki.mesh” in Williamsburg. We are in need of [volunteers](/help) to help add content and maintain our servers.
 
 ---
 
@@ -120,7 +120,7 @@ The mesh also has its own web servers that show local information and allow you 
 
 ## <a name="signup"></a>How do I sign up?
 
-After reading through the FAQs, fill out the [join form](../join) to be assigned a node, and look for an email from one of our volunteers with next steps (check your email spam folder or contact us directly at install@nycmesh.net if you don’t receive any reply).
+After reading through the FAQs, fill out the [join form](/join) to be assigned a node, and look for an email from one of our volunteers with next steps (check your email spam folder or contact us directly at install@nycmesh.net if you don’t receive any reply).
 
 If you would like to volunteer with NYC Mesh, reach out on [slack](https://slack.nycmesh.net/) or join us at our monthly [meetup](https://www.meetup.com/nycmesh/).
 
@@ -138,7 +138,7 @@ By joining the mesh you are obliged to share and extend the mesh in the same way
 
 ## <a name="volunteer"></a>How can I volunteer? What if I don’t know anything about networking?
 
-NYC Mesh welcomes people with diverse skill sets and from all backgrounds. Many of our volunteers started without any technical background. Join as at our monthly [meetup](https://www.meetup.com/nycmesh/) or reach out to us on [slack](https://slack.nycmesh.net/) to start a conversation about how you can contribute to our community. You can also read about some ways to help [here](../help).
+NYC Mesh welcomes people with diverse skill sets and from all backgrounds. Many of our volunteers started without any technical background. Join as at our monthly [meetup](https://www.meetup.com/nycmesh/) or reach out to us on [slack](https://slack.nycmesh.net/) to start a conversation about how you can contribute to our community. You can also read about some ways to help [here](/help).
 
 ## <a name="neighbors"></a>I have neighbors who would also like to join NYC Mesh. Can we get connected together?
 
@@ -158,18 +158,18 @@ Slack is the main communication and collaboration platform we use at NYC Mesh. I
 
 ## <a name="covered"></a>How can I tell if I’m in the coverage zone for NYC Mesh?
 
-Connecting to the Internet with NYC Mesh requires a direct line of sight to an existing node. Look at our [map](../map) to see if you’re either:
+Connecting to the Internet with NYC Mesh requires a direct line of sight to an existing node. Look at our [map](/map) to see if you’re either:
 
 *   within the coverage zone of a supernode, or
 *   within two miles of an active node, or
 *   close to a LinkNYC kiosk. You will need to see the kiosk from your window or rooftop to connect to it.
     close to another public Wi-Fi access point (park, cafe, bar etc.).
 
-If any of the above are true, there is a good chance you will be able to connect to NYC Mesh. Fill out the [join form](../join) and we will assess your location. If we need more information, we may ask you to take a picture or panorama from your window or rooftop.
+If any of the above are true, there is a good chance you will be able to connect to NYC Mesh. Fill out the [join form](/join) and we will assess your location. If we need more information, we may ask you to take a picture or panorama from your window or rooftop.
 
 Some additional things you can do to determine if you are in a coverage zone:
 
-*   Click on active nodes around you on the [map](../map) to see if a panorama photo is available. If you can see your building in the photo, you are in the node’s coverage zone.
+*   Click on active nodes around you on the [map](/map) to see if a panorama photo is available. If you can see your building in the photo, you are in the node’s coverage zone.
 *   Use 3D mode in Google Maps or Google Earth to see if there is a likely line of sight from your building to an active node.
 
 ## <a name="alsouse"></a>My neighbor has a rooftop router and is connected to NYC Mesh. Can I also use it to connect?
@@ -217,7 +217,7 @@ If we think a connection may be possible by installing a mast, mounting equipmen
 
 You may be able to connect from your window if you have a good view, or you are very near another access point.
 
-Once you fill out the [join form](../join), we can help you determine the viability of a window install. If you would like to install an NSM5 router on your own, see this [blog post](/blog/nsm5-install/). If you would like to connect to LinkNYC kiosk [see here](https://docs.nycmesh.net/installs/linknyc/)
+Once you fill out the [join form](/join), we can help you determine the viability of a window install. If you would like to install an NSM5 router on your own, see this [blog post](/blog/nsm5-install/). If you would like to connect to LinkNYC kiosk [see here](https://docs.nycmesh.net/installs/linknyc/)
 
 ## <a name="noview"></a>Can I install a router if I have no view or no rooftop access?
 
@@ -229,15 +229,15 @@ If you can’t connect to any existing node yet but would still like to access c
 
 ## <a name="bymylonesome"></a>Can I install the hardware and connect to NYC Mesh on my own?
 
-Yes you can. Make sure to sign up for a node by filling out our [join form](../join) even if you are installing by yourself.
+Yes you can. Make sure to sign up for a node by filling out our [join form](/join) even if you are installing by yourself.
 
-We provide a list of hardware you can purchase along with firmware and configuration instructions [here](../download). For guidance on hardware installation, check out our [docs pages](https://docs.nycmesh.net/).
+We provide a list of hardware you can purchase along with firmware and configuration instructions [here](/download). For guidance on hardware installation, check out our [docs pages](https://docs.nycmesh.net/).
 
 If you need assistance with your self-installs, reach out to us on the #support channel on [slack](https://slack.nycmesh.net/).
 
 ## <a name="anyrouter"></a>Can I use any router to connect?
 
-To connect to NYC Mesh you must use routers supported by NYC Mesh, which are listed [here](../download).
+To connect to NYC Mesh you must use routers supported by NYC Mesh, which are listed [here](/download).
 
 # Hardware, software and networking
 
