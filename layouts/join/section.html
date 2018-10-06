@@ -13,30 +13,4 @@
 			</div>
 		</div>
 	</main>
-
-	<script>
-      var map, autocomplete, marker;
-      function initMap() {
-        var search = document.getElementById('autocomplete')
-        autocomplete = new google.maps.places.Autocomplete(
-          search,
-          {types: ['geocode']});
-        // autocomplete.addListener('place_changed', fillInAddress);
-      }
-      function fillInAddress() {
-        var place = autocomplete.getPlace();
-        console.log(place)
-        if (place.formatted_address) {
-          var val = place.formatted_address;
-          var search = document.getElementById('autocomplete')
-          search.value = val;
-          console.log(place)
-          map.setCenter(place.geometry.location)
-          map.setZoom(17)
-          marker.setPosition(place.geometry.location)
-        }
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNClp7oJsw-eleEoR3-PQKV23tpeW-FpE&libraries=places&callback=initMap"
-    async defer></script>
 {{ end }}
