@@ -1,5 +1,6 @@
 ---
 title: "Donate"
+description: "Help us fund Supernodes 3 and 4!"
 aliases: ["/donation"]
 ---
 

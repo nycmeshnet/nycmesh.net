@@ -3,3 +3,4 @@ languageCode = "en-us"
 title = "NYC Mesh"
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
+summaryLength = 10

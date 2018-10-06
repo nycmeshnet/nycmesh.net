@@ -3,46 +3,116 @@
   <form action="https://docs.google.com/forms/d/1w1d2qiCerKxjR5uu7gnqRqF9XpYeRvTDPqHbCE4Cftc/formResponse" method="POST" class="w-100 f4-ns f5">
     <div class="flex">
       <div class="w-50 pr2">
-        <label for="name" class="f5 fw6 db mb2">Name</label>
-        <input placeholder="Your Name" type="text" name="entry.508902369" class="border-box f5 input-reset black w-100 bg-white ba b--moon-gray pa2"></input>
+        <label for="name" class="f5 fw6 db mb2">
+          Name
+        </label>
+        <input
+          placeholder="Your Name"
+          type="text"
+          id="name"
+          name="entry.508902369"
+          class="border-box f5 input-reset black w-100 bg-white ba b--moon-gray pa2" />
       </div>
 
       <div class="w-50 pl2">
-        <label for="phone" class="f5 fw6 db mb2">Phone</label>
-        <input placeholder="212-123-4567" type="tel" name="entry.1046234029" class="border-box f5 input-reset  w-100 black bg-white ba b--moon-gray pa2"></input>
+        <label for="phone" class="f5 fw6 db mb2">
+          Phone
+        </label>
+        <input
+          placeholder="212-123-4567"
+          type="tel"
+          id="phone"
+          name="entry.1046234029"
+          class="border-box f5 input-reset  w-100 black bg-white ba b--moon-gray pa2" />
       </div>
-  </div>
+    </div>
 
-      <div>
-        <label for="email" class="mt3 f5 fw6 db mb2">Email</label>
-        <input required placeholder="you@example.com" type="email" name="entry.119277156" class="border-box f5 input-reset  w-100 black bg-white ba b--moon-gray pa2"></input>
-      </div>
+    <div>
+      <label for="email" class="mt3 f5 fw6 db mb2">
+        Email
+      </label>
+      <input
+        required
+        type="email"
+        id="email"
+        name="entry.119277156"
+        placeholder="you@example.com"
+        class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2" />
+    </div>
 
-      <div>
-        <label for="address" class="mt3 f5 fw6 db mb2">Street Address</label>
-        <input id="autocomplete" required name="entry.214227195" placeholder="285 Fulton Street, New York, NY, USA" type="text" class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2"></input>
-      </div>
+    <div>
+      <label for="address" class="mt3 f5 fw6 db mb2">
+        Street Address
+      </label>
+      <input
+        required
+        type="text"
+        id="address"
+        name="entry.214227195"
+        placeholder="285 Fulton Street, New York, NY, USA"
+        class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2" />
+    </div>
 
     <div class="f5 pt3 flex flex-row-ns flex-column items-center-ns items-start justify-between">
       <div>
         <div class="flex items-center mv2">
-          <input required type="checkbox" name="entry.1263551439"></input>
-          <p class="mv0 ml2 mid-gray">I agree to the <a class="blue no-underline" href="/ncl.pdf" target="_">Network Commons License</a></p>
+          <input
+            required
+            type="checkbox"
+            id="ncl"
+            name="entry.1263551439" />
+          <label for="ncl" class="mv0 ml2 mid-gray">
+            I agree to the 
+            <a class="blue no-underline" href="/ncl.pdf" target="_">
+              Network Commons License
+            </a>
+          </label>
         </div>
 
         <div class="flex items-center mv2">
-          <input type="checkbox" name="entry.108879804"></input>
-          <p class="mv0 ml2 mid-gray">I might have roof access!</p>
+          <input
+            type="checkbox"
+            id="roofAccess"
+            name="entry.108879804"
+            value="I have Rooftop access" />
+          <label for="roofAccess" class="mv0 ml2 mid-gray">
+            I might have roof access!
+          </label>
         </div>
       </div>
-
     </div>
 
 
-      <div class="mw5 mt3">
-        <input type="submit" value="Submit request" class="input-reset bw0 f4 fw5 br3 pa3 white bg-blue ph4 pointer">
-        </input>
-      </div>
+    <div class="mw5 mt3">
+      <input type="submit" value="Submit request" class="input-reset bw0 f4 fw5 br3 pa3 white bg-blue ph4 pointer">
+      </input>
+    </div>
 
   </form>
 </div>
+
+<script>
+  var map, autocomplete, marker;
+  function initMap() {
+    var search = document.getElementById('address')
+    autocomplete = new google.maps.places.Autocomplete(
+      search,
+      {types: ['geocode']});
+    // autocomplete.addListener('place_changed', fillInAddress);
+  }
+  function fillInAddress() {
+    var place = autocomplete.getPlace();
+    console.log(place)
+    if (place.formatted_address) {
+      var val = place.formatted_address;
+      var search = document.getElementById('address')
+      search.value = val;
+      console.log(place)
+      map.setCenter(place.geometry.location)
+      map.setZoom(17)
+      marker.setPosition(place.geometry.location)
+    }
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNClp7oJsw-eleEoR3-PQKV23tpeW-FpE&libraries=places&callback=initMap"
+async defer></script>

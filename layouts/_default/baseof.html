@@ -14,30 +14,33 @@
 	<link href='{{ "/css/main.css" }}' rel='stylesheet' />
 
 	 <!-- Open Graph -->
-    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:title" content="{{ $title }}">
     {{ if .Description }}
-    <meta property="og:description" content="{{ .Description }}">
+        <meta property="og:description" content="{{ .Description }}">
+    {{ else }}
+        <meta property="og:description" content="{{ .Summary }}">
     {{ end }}
+
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:site_name" content="{{ .Site.Title }}">
     
     {{ range .Params.tags }}
-    <meta property="og:tags" content="{{ . }}">
+        <meta property="og:tags" content="{{ . }}">
     {{ end }}
    
     {{ if .IsPage }}
-    <meta property="og:type" content="article">
-    {{ if .Params.Date }}
-    <meta property="article:published_time" content="{{ .Date.Format "2006-01-02" }}">
-    {{ end }}
+        <meta property="og:type" content="article">
+        {{ if .Params.Date }}
+            <meta property="article:published_time" content="{{ .Date.Format "2006-01-02" }}">
+        {{ end }}
     {{ else }}
-    <meta property="og:type" content="website">
+        <meta property="og:type" content="website">
     {{ end }}
     
     {{ if .Params.thumbnail }}
-    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+        <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
     {{ else }}
-    <meta property="og:image" content="{{ .Site.BaseURL }}img/logo.png">
+        <meta property="og:image" content="{{ .Site.BaseURL }}img/splash4.jpg">
     {{ end }}
     <!-- End Open Graph -->
 </head>

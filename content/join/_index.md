@@ -1,5 +1,6 @@
 ---
 title: "Join the Mesh"
+description: "Request a Node"
 ---
 
 **We auto-reply to your Join request within 5 minutes. If you do not see the reply, check your spam folder and mark it "not spam". You can also [email us.](mailto:install@nycmesh.net)**
