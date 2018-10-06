@@ -14,8 +14,10 @@
 	<link href='{{ "/css/main.css" }}' rel='stylesheet' />
 
 	 <!-- Open Graph -->
-    <meta property="og:title" content="{{ $title }}">
+    <meta property="og:title" content="{{ .Title }}">
+    {{ if .Description }}
     <meta property="og:description" content="{{ .Description }}">
+    {{ end }}
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:site_name" content="{{ .Site.Title }}">
     
@@ -25,7 +27,9 @@
    
     {{ if .IsPage }}
     <meta property="og:type" content="article">
+    {{ if .Params.Date }}
     <meta property="article:published_time" content="{{ .Date.Format "2006-01-02" }}">
+    {{ end }}
     {{ else }}
     <meta property="og:type" content="website">
     {{ end }}
