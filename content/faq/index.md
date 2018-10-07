@@ -8,7 +8,7 @@ title: "Frequently asked questions"
 *   [How does it work?](#how)
 *   [Is this a replacement for my current Internet connection?](#replace)
 *   [Is the mesh secure?](#security)
-*   [What is your user data policy?](#userdata)
+*   [What is your user data policy?](#data)
 *   [Who owns NYC Mesh?](#ownership)
 *   [What is your business plan?](#businessplan)
 *   [What can I do on the mesh that I can’t do on the internet?](#meshonly)
@@ -89,8 +89,10 @@ By default, our mesh router is firewalled from your local network. It is not pos
 Network traffic within the mesh is not encrypted by default. When connecting through the mesh you should use the same standard precautions as you would when connecting to Wi-Fi at a coffee shop or airport: use [https](https://en.wikipedia.org/wiki/HTTPS) (lock icon) web sites for secure connections (most browsers do this by default nowadays), or use a VPN service.
 
 If you connect to the mesh network indirectly over the internet (for example over a cable ISP connection) this is by [tinc VPN](https://www.tinc-vpn.org/) and is secure.
-
-## <a name="userdata"></a>What is your user data policy?
+<!---
+ "data" links from a few different places
+-->
+## <a name="data"></a>What is your user data policy?
 
 NYC Mesh does not collect, store, or log any user traffic or content that passes through our network.
 
