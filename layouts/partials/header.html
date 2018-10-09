@@ -1,10 +1,12 @@
 <header class="pa3 sans-serif bg-white">
 	<div class="mw8 center w-100 flex items-center justify-between">
 		<div class="flex">
-                <a href="/" title="Home" class="f3-ns f4 ttu fw7 black">
+                <a href="/" title="Home" class="f3-ns f4 fw7 black">
                     <div class="nowrap flex items-center">
-                        <img src="/img/logo.svg" alt="logo" class="h2 mr2" /> 
-                        <span class="f4">NYC Mesh</span>
+                        <div class="h2 w2">
+                            {{ partial "logo.svg" . }}
+                        </div>
+                        <span class="f4 ml2">NYC Mesh</span>
                     </div>
                 </a>
         </div>
