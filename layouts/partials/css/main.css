@@ -1,5 +1,4 @@
-@import "tachyons.min.css";
-
+<style>
 html,
 body {
   height: 100%;
@@ -112,6 +111,14 @@ pre {
   }
 }
 
+.h1-5 {
+  height: 1.25rem;
+}
+
+.w1-5 {
+  width: 1.25rem;
+}
+
 .man3 {
   margin: -1rem;
 }
@@ -156,13 +163,6 @@ pre {
 
 .hover-b--blue:hover {
   border-color: #007aff;
-}
-
-.splash1 {
-  background-image: url("/img/splash4.jpg");
-  background-position: center 20%;
-  height: 20vh;
-  background-color: #f5f5f5;
 }
 
 .splash-blog {
@@ -286,3 +286,4 @@ ul li .check::before {
   width: calc(((100% - 98rem) / 2) + 22rem);
   padding-left: calc((100% - 98rem) / 2);
 }
+</style>
