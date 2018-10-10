@@ -2,7 +2,7 @@
 description: "Join our community-owned network to replace your current internet connection."
 ---
 
-Sorry we're having ongoing problems in Brooklyn. Our Supernode 2 had to be taken down for roof repair which forced us to do major changes to the network there. The good new is there are many more hub nodes appearing so there will be more choices to connect to in the coming weeks.
+_Sorry we are having ongoing problems in Brooklyn. Our Supernode 2 had to be taken down for roof repair which forced us to make major changes to the network there. The good news is many new hub nodes are appearing so there will be more choices to connect to in the coming weeks._
 
 ### [Join](/join) our community-owned network to replace your current internet connection.
 
