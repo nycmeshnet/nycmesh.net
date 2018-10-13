@@ -19,3 +19,7 @@ If you are a network operator, please consider [peering](https://docs.nycmesh.ne
 ### Our mission
 
 We aim to create an open, resilient, neutral network that serves both for daily internet use, and for emergency use during power outages or internet disruption, running software that helps our community.
+
+### Get involved!
+
+We are a community of volunteers and welcome people of all backgrounds.
