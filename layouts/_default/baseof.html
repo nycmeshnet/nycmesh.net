@@ -11,8 +11,12 @@
 		{{ $title }}
 	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    {{ partial "css/tachyons.css" . }}
-    {{ partial "css/main.css" . }}
+    <style>
+        {{ partial "css/tachyons.css" . | safeCSS }}
+    </style>
+    <style>
+        {{ partial "css/main.css" . | safeCSS }}
+    </style>
 
 	 <!-- Open Graph -->
     <meta property="og:title" content="{{ $title }}">
