@@ -247,23 +247,22 @@ To connect to NYC Mesh you must use routers supported by NYC Mesh, which are lis
 
 Most of the devices we use, such as a LiteBeam or NanoStation, are self-contained so they have an antenna, radio and ethernet router all in one. Ubiquiti call their self-contained AirFiber device a “radio”, other manufacturers call similar devices a router or an antenna, and “wireless router with antenna” is a real mouthful to say, so to avoid confusion, we usually call the self-contained device a router and the home WiFi router you connect your laptop and phone to the “home router” or “indoor router.”
 
-Sector antennas used on supernodes and hub nodes usually have a separate radio plugged into the back of them so we call those antennas (although some sectors are self-contained).
+Sector antennas used on supernodes and hub nodes may have a separate radio plugged into the back of them so we call those antennas (although some sectors are self-contained).
 
 ## <a name="defnode"></a>What is a Node? What is a Supernode? What is a Hub Node?
 
 A node is a location with one or more [routers](#defrouter).
 
-A supernode is a node that has multiple routers and maybe a server too It connects to many other nodes. Supernodes often also offer a fast connection (gateway) to the rest of the Internet.
+A supernode is a node that has multiple routers and maybe a server too. It connects to many other nodes. Supernodes also have a fast connection (gateway) to the rest of the Internet.
 
-A hub node is a node that extends the mesh to a few nodes around it, but has only one router.
+A hub node is an important neighborhood node that extends the mesh around it, without having it's own gateway. Our largest hub node, 1340, has four sector antennas, six access points, two ethernet routers, four powerline adapters and a "pi" computer for monitoring. A small hub may have just a LiteBeam and an OmniTik access point.
 
 ## <a name="software"></a>What software/firmware do you use?
+We use a variety of open source and proprietary firmware. Lately we have been using a lot of BGP and WDS to mesh things together.
 
-We are using an OpenWrt package made by qMp. This uses the BMX6 mesh protocol. We have added tinc tunneling so a router can mesh over the internet when out of range using a secure virtual private network (VPN).
+We also use an OpenWrt package made by qMp. This uses the BMX6 mesh protocol. We have added tinc tunneling so a router can mesh over the internet when out of range using a secure virtual private network (VPN).
 
-Our point-to-point connections use factory firmware such as AirOS. The supernodes are running Linux with Quagga and BGP. For network monitoring we use Nagios and Icinga2.
-
-We also have some members experimenting with and contributing to cjdns/hyperboria software. Let us know if you are interested in this by reaching out on [slack](https://slack.nycmesh.net/).
+Our point-to-point connections use factory firmware such as AirOS. The supernodes are running Linux with Bird and BGP. For network monitoring we use Grafana and other packages.
 
 ---
 
