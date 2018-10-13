@@ -253,9 +253,9 @@ Sector antennas used on supernodes and hub nodes may have a separate radio plugg
 
 A node is a location with one or more [routers](#defrouter).
 
-A supernode is a node that has multiple routers and maybe a server too. It connects to many other nodes. Supernodes also have a fast connection (gateway) to the rest of the Internet.
+A supernode is a node that has multiple routers and maybe a server too. It connects to many other nodes. Supernodes also have a fast connection (gateway) to the rest of the Internet. Supernode 1 has five sector antennas, an AirFiber24, a LiteBeam, two ethernet switches, two servers and gigabit fiber.
 
-A hub node is an important neighborhood node that extends the mesh around it, without having it's own gateway. Our largest hub node, 1340, has four sector antennas, six access points, two ethernet routers, four powerline adapters and a "pi" computer for monitoring. A small hub may have just a LiteBeam and an OmniTik access point.
+A hub node is an important neighborhood node that extends the mesh around it, without having it's own gateway. Our largest hub node, [1340](../map/nodes/1340), has four sector antennas, two LiteBeams (in P2P mode), six access points, two ethernet routers, four powerline adapters and a "pi" computer for monitoring. A small hub may have just a LiteBeam and an OmniTik access point.
 
 ## <a name="software"></a>What software/firmware do you use?
 We use a variety of open source and proprietary firmware. Lately we have been using a lot of BGP and WDS to mesh things together.
