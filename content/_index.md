@@ -1,8 +1,8 @@
 ---
 description: "Join our community-owned network to replace your current internet connection."
+alertTitle: "⚠️ Brooklyn Connectivity Issues ⚠️"
+alertURL: "/brooklyn-connectivity"
 ---
-
-_Sorry, we are having ongoing problems in Brooklyn. Our Supernode 2 had to be taken down for roof repair which forced us to make major changes to the network there. (The good news is many new hub nodes are appearing so there will be more choices to connect to in the coming weeks.) If you are experiencing issues with your connection, please contact us on the #support channel on [slack](https://nycmesh.slack.com/)_
 
 ### [Join](/join) our community-owned network to replace your current internet connection.
 

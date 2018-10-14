@@ -50,8 +50,9 @@
     <!-- End Open Graph -->
 </head>
 <body class="sans-serif">
-	{{ partial "header" . }}
-	{{ block "main" . }}
+    {{ partial "alert" . }}
+    {{ partial "header" . }}
+    {{ block "main" . }}
     {{ end }}
     {{ partial "footer" . }}
 </body>
