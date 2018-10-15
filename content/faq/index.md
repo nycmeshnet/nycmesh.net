@@ -108,13 +108,13 @@ We are a non-profit project of the New York chapter of the [Internet Society](ht
 
 ## <a name="businessplan"></a>What is your business plan?
 
-We are not a business and we are not a commercial Internet Service Provider! We aim to grow our community in a sustainable and inclusive way for the benefit of all of our members. We don’t see members as customers, consumers or users, but as contributors to our community. Being a member of our network has many benefits, including replacing your current ISP with fast, neutral, affordable, and unmonitored Internet access. Businesses are free to join or connect to the mesh as long as they obey the [network commons license](/ncl.pdf).
+We are not a business and we are not a commercial Internet Service Provider! We aim to grow our community in a sustainable and inclusive way for the benefit of all of our members. Our members are contributors to our community, not customers, consumers or users. Being a member of our network has many benefits, including replacing your current ISP with fast, neutral, affordable, and unmonitored Internet access. Businesses are free to join or connect to the mesh as long as they obey the [network commons license](/ncl.pdf).
 
 ## <a name="meshonly"></a>What can I do on the mesh that I can’t do on the internet?
 
 Other than the benefit of not paying the cable cartel for overpriced Internet access, it is also possible to connect directly to other people on the mesh without using the Internet. If for some reason the Internet is shut down (hurricane, government crackdown, cyberattack, zombie apocalypse), the mesh will likely still work for a while longer.
 
-The mesh also has its own web servers that show local information and allow you to chat and post messages. So far we have servers in five locations: Harlem, Bay Ridge, 3rd St. and 7th St. in the East Village, and our main directory “wiki.mesh” in Williamsburg. We are in need of [volunteers](/help) to help add content and maintain our servers.
+The mesh also has its own web servers that show local information and allow you to chat and post messages. We are in need of [volunteers](/help) to help add content and maintain our servers.
 
 ---
 
@@ -160,12 +160,10 @@ Slack is the main communication and collaboration platform we use at NYC Mesh. I
 
 ## <a name="covered"></a>How can I tell if I’m in the coverage zone for NYC Mesh?
 
-Connecting to the Internet with NYC Mesh requires a direct line of sight to an existing node. Look at our [map](/map) to see if you’re either:
+Connecting to the Internet with NYC Mesh requires a direct line-of-sight to an existing supernode or hub node. Look at our [map](/map) to see if you’re either:
 
-*   within the coverage zone of a supernode, or
-*   within two miles of an active node, or
-*   close to a LinkNYC kiosk. You will need to see the kiosk from your window or rooftop to connect to it.
-    close to another public Wi-Fi access point (park, cafe, bar etc.).
+*   within range of a supernode or hub node
+*   close to a LinkNYC kiosk
 
 If any of the above are true, there is a good chance you will be able to connect to NYC Mesh. Fill out the [join form](/join) and we will assess your location. If we need more information, we may ask you to take a picture or panorama from your window or rooftop.
 
@@ -270,9 +268,9 @@ Our point-to-point connections use factory firmware such as AirOS. The supernode
 
 ## <a name="definternet"></a>What exactly is the Internet anyway?
 
-The Internet is a decentralized, global network of networks. No-one owns it and it is governed by voluntary agreements between network owners. For an easy-to-read introduction to how the Internet works, check out [this article](https://web.archive.org/web/20180720113259/https://www.vox.com/cards/the-internet/what-is-the-internet).
+The Internet is a decentralized, global network of networks. No-one owns it and it is governed by voluntary agreements between network owners. For an easy-to-read introduction to how the Internet works, check out [this article](https://www.vox.com/cards/the-internet/what-is-the-internet).
 
-## <a name="phones"></a>Why don’t we mesh mobile phones instead of routers?
+## <a name="phones"></a>Why don't we mesh mobile phones instead of routers?
 
 Our focus at the moment is to connect buildings and expand an open, neutral, resilient, and affordable broadband network that connects to the wider Internet. Mobile “mesh” networks are very low bandwidth, not real-time, and require phones to connect in close range. They are great for events or some emergency situations, and we’re happy to see them developed alongside our project, but consider them out of our scope for now.
 
