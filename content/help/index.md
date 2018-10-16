@@ -11,13 +11,15 @@ You can also reach out to us on [Slack](https://slack.nycmesh.net), our communit
 
 Or email us at help@nycmesh.net.
 
+![Installing_a_rooftop_router](https://i.imgur.com/mofKoBJ.jpg "Installing a rooftop router")
+
 ***
 
 **Here are just some of the roles you could fill as a NYC Mesh volunteer.** (Many of our volunteers take on multiple roles and responsibilities.) 
 
 ***
 
-**Installer [#Install](https://nycmesh.slack.com/messages/install)**
+**Installer [#install](https://nycmesh.slack.com/messages/install)**
 Help connect new NYC Mesh members to the network (and help them reconnect when they have service issues). This involves installing and configuring routers and networking equipment on rooftops and in members' apartments and carrying out configuration. 
 
 **Install team leader**: Organize and lead site surveys and installations. Teach new volunteers how to install hardware and configure software. Communicate with new NYC Mesh members and the install support team. Help shape our installation best practices. 
@@ -37,10 +39,10 @@ Get our firmware running on more devices. We need support for inexpensive 2.4GHz
 **Neighborhood organizer [#neighborhoods](https://nycmesh.slack.com/messages/neighborhoods)**
 Coordinate an install for people in your building or for your neighbors or a community organization or a local business. We prioritize installs that serve multiple members from one hub location. 
 
-**Community outreach leader[#outreach](https://nycmesh.slack.com/messages/outreach)** 
+**Community outreach leader [#outreach](https://nycmesh.slack.com/messages/outreach)** 
 Encourage people in your community to join NYC Mesh by distributing pamphlets and organizing informational events. Do you speak multiple languages? Help us reach out to people who don't speak English and provide translation assistance. We aim to be a service for all New Yorkers.
 
-**Grant writer and sponsorship coordinator [#Funding](https://nycmesh.slack.com/messages/funding)**
+**Grant writer and sponsorship coordinator [#funding](https://nycmesh.slack.com/messages/funding)**
 We need help identifying grants, writing applications and reaching out to sponsors.
 
 ***
