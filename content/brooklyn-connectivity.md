@@ -1,9 +1,16 @@
 ---
-title: "Brooklyn Connectivity Issues"
+title: "Brooklyn Connectivity Update 10/17"
 ---
 
-Sorry, we are having ongoing problems in Brooklyn. Our Supernode 2 had to be taken down for roof repair which forced us to make major changes to the area's network.There is more work being done today (October 17) that should improve speeds all around. We will need to go offline for an hour or so while this is configured.
+We've upgraded the connection from 1340 today. 
+It might still be a bit slow but we're working on improving its speed further in coming days.
+Please sign into the [#1340-alerts](https://nycmesh.slack.com/messages/CBK1FR63A/) channel on slack to receive updates.
 
-The good news is many new hub nodes are coming online, so there will be more choices to connect to in the coming weeks.
+As always, if you are experiencing issues with your connection, you can:
+  - Create a [support ticket](/support) or 
+  - Contact us on [the #support channel on slack](https://nycmesh.slack.com/messages/C679UKBUK). 
 
-If you are experiencing issues with your connection, please create a [support ticket](/support) or contact us on [slack](https://slack.nycmesh.net) in the #support channel.
+_Context: Our Supernode 2 had to be taken down for roof repair which forced us to make major changes to the area's network. 
+The good news is many new hub nodes are coming online, so there will be more choices to connect to in the coming weeks._ 
+
+
