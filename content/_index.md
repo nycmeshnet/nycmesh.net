@@ -1,6 +1,6 @@
 ---
 description: "Join our community-owned network to replace your current internet connection."
-alertTitle: "⚠️ Brooklyn Connectivity Issues ⚠️"
+alertTitle: "⚠️ Brooklyn Connectivity Update ⚠️"
 alertURL: "/brooklyn-connectivity"
 ---
 
