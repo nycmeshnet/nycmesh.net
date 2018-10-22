@@ -21,8 +21,6 @@ You have to have line-of-sight to one of our supernodes to for this type of conn
 
 **Here is the [coverage map for downtown Manhattan supernode1](/map/nodes/227)**
 
-**Here is the [coverage map for Brooklyn supernode2](/map/nodes/570).**
-
 We currently have two options for non-supernode routers- an indoor router and a $90 outdoor router. You can buy the routers online and configure them yourself using our simple [download](/download) instructions. Otherwise, you can come to our [meetups](https://www.meetup.com/nycmesh/) where we often sell preconfigured routers that you can simply plug in.
 
 Here are the two router choices for local mesh connections:
