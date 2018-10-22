@@ -1,22 +1,24 @@
 {{ define "main" }}
+{{ $progressFloat := float .Params.progress }}
+{{ $goalFloat := float .Params.goal }}
+{{ $remainingDonations := (div (sub $goalFloat $progressFloat) 20)}}
+{{ $percentComplete := mul (div $progressFloat $goalFloat) 100 }}
 <div class="splash-small cover"></div>
 <div class="ph4-ns ph3">
   <div id="donation-amounts" class="measure-wide f5  dt w-100 f3 center bg-white black">
 
     <!-- Progress Bar -->
     <div  class="mh3 center pt4 sans-serif">
-      <h2 class="f4 fw6 tl">Help us fund Supernodes 3 and 4!</h2>
+      <h2 class="f4 fw6 tl">Help us fund Supernodes 3 and 4</h2>
+      <p>{{ lang.NumFmt 0 $remainingDonations }} monthly donations remaining!</p>
       <div class="h1 bg-light-gray w-100 br3">
-        <!-- You can also do style="width: calc(100% * 80 / 2650)" but ~10% of users won't render correctly -->
-        <div style="width: 5.66%; min-width: 1rem;" class="h1 bg-gold br3"></div>
+        <div style="width: {{ $percentComplete }}%; min-width: 1rem;" class="h1 bg-gold br3"></div>
       </div>
       <div class="flex flex flex-column items-start mv3">
-        <span class="gold fw4">$150</span>
-        <span class="f6 gray mv1">pledged of $2,650 monthly maintenance costs</span>
+        <span class="gold fw4">${{ lang.NumFmt 0 .Params.progress }}</span>
+        <span class="f6 gray mv1">pledged of ${{ lang.NumFmt 0 .Params.goal }} monthly maintenance costs</span>
       </div>
     </div>
-
-
     
     <div class="mt2 mb3 tc f3 sans-serif fw5 center flex flex-row-l flex-column justify-between-l items-center-l">
       <div class="flex flex-column mv3">
