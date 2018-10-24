@@ -21,8 +21,40 @@ pre {
   overflow: scroll;
 }
 
+svg {
+  display: block;
+}
+
 ::placeholder {
   color: #777;
+}
+
+.top-05 {
+  top: 0.125rem;
+}
+
+.left-05 {
+  left: 0.125rem;
+}
+
+.percentBox {
+  padding-left: 0.125rem;
+  padding-right: 0.125rem;
+  padding-top: 0.0625rem;
+  padding-bottom: 0.0625rem;
+  background-color: rgb(205, 244, 212);
+  color: rgb(17, 80, 28);
+}
+
+.shadow-card {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.absolute--fill-1 {
+  top: 20;
+  right: 20;
+  bottom: 20;
+  left: 20;
 }
 
 /* Dropdown / Hamburger Nav */
@@ -222,6 +254,10 @@ pre {
 
 .bg-red-75 {
   background-color: rgba(255, 59, 48, 0.75);
+}
+
+.red {
+  color: rgb(255, 59, 48);
 }
 
 .dimmed:before {
