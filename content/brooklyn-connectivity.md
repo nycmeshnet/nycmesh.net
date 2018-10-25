@@ -2,8 +2,9 @@
 title: "Brooklyn Connectivity Update 2018-10-25"
 ---
 
-A failed update has caused downtime at the major hub node in Brooklyn. We are working on this and will update this message when it is working again.
-Please sign into the [#1340-alerts](https://nycmesh.slack.com/messages/CBK1FR63A/) channel on slack to receive updates.
+A failed upgrade has caused downtime at the major hub node in Brooklyn. We are working on this and will update this message when it is working again.
+
+You can also get updates in the [#1340-alerts](https://nycmesh.slack.com/messages/CBK1FR63A/) channel on Slack.
 
 As always, if you are experiencing issues with your connection, you can:
   - Create a [support ticket](/support) or 
