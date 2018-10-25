@@ -10,7 +10,6 @@ As always, if you are experiencing issues with your connection, you can:
   - Create a [support ticket](/support) or 
   - Contact us on [the #support channel on slack](https://nycmesh.slack.com/messages/C679UKBUK). 
 
-_Context: Our Supernode 2 had to be taken down for roof repair which forced us to make major changes to the area's network. 
-The good news is many new hub nodes are coming online, so there will be more choices to connect to in the coming weeks._ 
+_Context: Recently our Supernode 2 had to be taken down for roof repair which forced us to make major changes to the area's network. We are still working on improving the new connections. The good news is many new hub nodes are coming online, so there will be more choices to connect to in the coming weeks._ 
 
 
