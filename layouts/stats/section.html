@@ -84,7 +84,9 @@
 					<div class="mb3">
 						<h3 class="f5 fw6 mv0">Active Nodes</h3>
 						<div class="mt1 flex items-center">
-							<h2 class="f4 mv0 red">{{ $activeTotal }}</h2>
+							<h2 class="f4 mv0 red">
+								{{ lang.NumFmt 0 $activeTotal }}
+							</h2>
 							<span class="percentBox mh2 br1 dark-green f7 fw7">
 								+{{ lang.NumFmt 0 $activePercentChange }}%
 							</span>
@@ -118,18 +120,10 @@
 						<!-- TODO: Move these to svg -->
 						<div class="flex flex-column h3 justify-between f7 near-black">
 							<span class="w-100 tl gray pl1">
-								{{ if gt $activeTotal 1000 }}
-								{{ lang.NumFmt 1 (div $activeTotal 1000) }}K
-								{{ else }}
-								{{ $activeTotal }}
-								{{ end }}
+								{{ lang.NumFmt 0 $activeTotal }}
 							</span>
 							<span class="w-100 tl gray pl1">
-								{{ if gt $activeMin 1000 }}
-								{{ lang.NumFmt 1 (div $activeMin 1000) }}K
-								{{ else }}
-								{{ $activeMin }}
-								{{ end }}
+								{{ lang.NumFmt 0 $activeMin }}
 							</span>
 						</div>
 					</div>
@@ -141,7 +135,9 @@
 					<div class="mb3">
 						<h3 class="f5 fw6 mv0">Node Requests</h3>
 						<div class="mt1 flex items-center">
-							<h2 class="f4 mv0 gray">{{ $requestTotal }}</h2>
+							<h2 class="f4 mv0 gray">
+								{{ lang.NumFmt 0 $requestTotal }}
+							</h2>
 							<span class="percentBox mh2 br1 dark-green f7 fw7">
 								+{{ lang.NumFmt 0 $requestPercentChange }}%
 							</span>
@@ -175,18 +171,10 @@
 						<!-- TODO: Move these to svg -->
 						<div class="flex flex-column h3 justify-between f7 near-black">
 							<span class="w-100 tl gray pl1">
-								{{ if gt $requestTotal 1000 }}
-								{{ lang.NumFmt 1 (div $requestTotal 1000) }}K
-								{{ else }}
-								{{ $requestTotal }}
-								{{ end }}
+								{{ lang.NumFmt 0 $requestTotal }}
 							</span>
 							<span class="w-100 tl gray pl1">
-								{{ if gt $requestMin 1000 }}
-								{{ lang.NumFmt 1 (div $requestMin 1000) }}K
-								{{ else }}
-								{{ $requestMin }}
-								{{ end }}
+								{{ lang.NumFmt 0 $requestMin }}
 							</span>
 						</div>
 					</div>

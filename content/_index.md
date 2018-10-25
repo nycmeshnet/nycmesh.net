@@ -1,4 +1,5 @@
 ---
+title: "NYC Mesh"
 description: "Join our community-owned network to replace your current internet connection."
 alertTitle: "⚠️ Brooklyn Connectivity Update ⚠️"
 alertURL: "/brooklyn-connectivity"
