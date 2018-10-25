@@ -2,7 +2,7 @@
 title: "Brooklyn Connectivity Update 2018-10-25"
 ---
 
-A failed upgrade has caused downtime at the major hub node in Brooklyn. We are working on this and will update this message when it is working again. We hope to be replacing the faulty router around 2pm today.
+A failed upgrade has caused downtime at the major hub node in Brooklyn. We are working on this and will update this message when it is working again. We hope to be replacing the faulty router this afternoon.
 
 You can also get updates in the [#1340-alerts](https://nycmesh.slack.com/messages/CBK1FR63A/) channel on Slack.
 
