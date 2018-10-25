@@ -1,3 +1,4 @@
+title = "NYC Mesh"
 baseURL = "https://www.nycmesh.net/"
 languageCode = "en-us"
 pygmentsCodefences = true
