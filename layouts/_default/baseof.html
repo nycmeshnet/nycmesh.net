@@ -1,27 +1,22 @@
 {{ if isset .Params "title" }}
 	{{ .Scratch.Set "title" .Title }}
-	{{ .Scratch.Add "title" " - " }}
 {{ end }}
-{{ .Scratch.Add "title" .Site.Title }}
+{{ if .IsHome }}
+{{ else }}
+    {{ .Scratch.Add "title" " - " }}
+    {{ .Scratch.Add "title" .Site.Title }}
+{{ end }}
 {{ $title := .Scratch.Get "title" }}
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>
-        {{ $title }}
-    </title>
-    <style>
-        {{ partial "css/tachyons.css" . | safeCSS }}
-    </style>
-    <style>
-        {{ partial "css/main.css" . | safeCSS }}
-    </style>
-
+    <title>{{ $title }}</title>
+    <style>{{ partial "css/tachyons.css" . | safeCSS }}</style>
+    <style>{{ partial "css/main.css" . | safeCSS }}</style>
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
-
 </head>
 <body class="sans-serif">
     {{ partial "alert" . }}
