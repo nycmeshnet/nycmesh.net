@@ -1,9 +1,8 @@
 ---
-title: "Brooklyn Connectivity Update 10/17"
+title: "Brooklyn Connectivity Update 2018-10-25"
 ---
 
-We've upgraded the connection from 1340 today. 
-It might still be a bit slow but we're working on improving its speed further in coming days.
+A failed update has caused downtime at the major hub node in Brooklyn. We are working on this and will update this message when it is working again.
 Please sign into the [#1340-alerts](https://nycmesh.slack.com/messages/CBK1FR63A/) channel on slack to receive updates.
 
 As always, if you are experiencing issues with your connection, you can:
