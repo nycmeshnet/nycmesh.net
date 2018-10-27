@@ -3,7 +3,7 @@ title: "Does it mesh?"
 author: Brian
 draft: true
 ---
-As NYC Mesh has grown, people may wonder whether we are still a "real" mesh network. Yes we are! The network architecture has grown quite a bit and become complicated, but we still try to interconnect all of our nodes and maintain an internal network for running services independent from the internet. All of the people working on our network call it simply "the mesh".
+As NYC Mesh has grown, people may wonder whether we are still a "real" mesh network. Yes we are! The network architecture has grown quite a bit and become complicated, but we still try to interconnect all of our nodes, keep them decentralized, and maintain an internal network for running services independent from the internet. All of the people working on our network call it simply "the mesh".
 
 NYC Meshnet was originally part of the CJDNS "Project Meshnet" (now known as Hyperboria). In 2014 we switched to using a different mesh protocol- BMX6 and shortened our name to NYC Mesh. Dynamic mesh protocols like BMX6 are great for quickly creating small networks. They have a limit of around 30 routers. Beyond that the speed and reliability drastically decline. Basically this ad-hoc dynamic mesh can be used for the "last mile" but it isn't suited for getting huge bandwidth over a long distance. It is a nice idea that every router could have the same role and no router is more important than any other, but unfortunately this just doesn't scale. We still use BMX6 for local neighborhood mesh networks.
 
