@@ -2,8 +2,9 @@
 title: "NYC Mesh"
 description: "Join our community-owned network to replace your current internet connection."
 images: ["/img/splash9.jpg"]
-#alertTitle: "⚠️ Brooklyn Connectivity Update ⚠️"
-#alertURL: "/brooklyn-connectivity"
+alertTitle: "Network status"
+alertURL: "/network-status"
+
 ---
 
 ### [Join](/join) our community-owned network to replace your current internet connection.

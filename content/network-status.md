@@ -1,8 +1,15 @@
 ---
-title: "Brooklyn Connectivity Update 2018-10-25"
+title: "Network status 2018-10-25"
 ---
 
-Problem fixed!
+2018-10-27
+
+A storm took down our node 1417 and is affecting 3 nodes in the East Williamsburg area. We hope to have this fixed tomorrow.
+
+
+2018-10-25
+
+Problem fixed! All ok.
 
 A failed upgrade caused downtime at the major hub node in Brooklyn this morning. It was fixed at 4:15pm today.
 
