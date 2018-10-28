@@ -1,5 +1,5 @@
 ---
-title: "Network status 2018-10-25"
+title: "Network status"
 ---
 
 2018-10-27
