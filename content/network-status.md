@@ -2,6 +2,10 @@
 title: "Network status"
 ---
 
+2018-10-28
+
+Fixed node 1417 connection at 5:45pm
+
 2018-10-27
 
 A storm took down our node 1417 and is affecting 3 nodes in the East Williamsburg area. We hope to have this fixed tomorrow.
