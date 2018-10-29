@@ -4,23 +4,23 @@ title: "Leaflets and Outreach Material"
 
 **Flyers/Brochures**
 
-[Building Postcard](flyer.jpg)  
-[Building Postcard [Black & White]](flyer-bw.jpg)  
-[Building Postcard [Chinese]](flyer-chinese.jpg)
+[Building Postcard](./flyer.jpg)  
+[Building Postcard [Black & White]](./flyer-bw.jpg)  
+[Building Postcard [Chinese]](./flyer-chinese.jpg)
 
-[General One-Page Flyer [PDF]](leaflet-bw.pdf)  
-[General One-Page Flyer [Source]](leaflet-rtfd.zip)
+[General One-Page Flyer [PDF]](./leaflet-bw.pdf)  
+[General One-Page Flyer [Source]](./leaflet-rtfd.zip)
 
-[Brochure: Join NYC Mesh](NYC Mesh Brochure_01.jpg)
+[Brochure: Join NYC Mesh](./NYC Mesh Brochure_01.jpg)
 
-[Brochure 2: Join NYC Mesh](NYC Mesh Brochure_02.jpg)
+[Brochure 2: Join NYC Mesh](./NYC Mesh Brochure_02.jpg)
 
-[Old One-Page Flyer [PDF]](building-leaflet.pdf)  
-[Old One-Page Flyer [Source]](building-leaflet.rtfd.zip)
+[Old One-Page Flyer [PDF]](./building-leaflet.pdf)  
+[Old One-Page Flyer [Source]](./building-leaflet.rtfd.zip)
 
-[Tri-Fold Brochure](meshmail.pdf)
+[Tri-Fold Brochure](./meshmail.pdf)
 
-[Church Handout [PDF]](church.pdf)  
+[Church Handout [PDF]](./church.pdf)  
 [Church Handout [Source]](https://docs.google.com/document/d/1duBRyzncVxuODrXyH7ooDki2LEmwcyuOtkZJjcC3loo/edit?usp=sharing)
 
 **Letter Templates**
@@ -31,8 +31,7 @@ title: "Leaflets and Outreach Material"
 
 [Proposal to Building Management/Landlord](https://docs.google.com/document/d/1hmB5p-Zebi5frNimiwAoC7E-nAoWJGc49R2tNQW010Q/edit?usp=sharing)
 
-
 **Our logo**
 
-[NYC Mesh Logo [SVG]](logo.svg)  
-[NYC Mesh Logo [PNG]](logo.png)
+[NYC Mesh Logo [SVG]](./logo.svg)  
+[NYC Mesh Logo [PNG]](./logo.png)
