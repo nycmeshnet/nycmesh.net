@@ -1,5 +1,6 @@
 title = "NYC Mesh"
-baseURL = "https://www.nycmesh.net/"
+baseURL = ""
+relativeurls = true
 languageCode = "en-us"
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
