@@ -4,7 +4,7 @@ title: "Leaflets and Outreach Material"
 
 **Flyers/Brochures**
 
-[Building Postcard](./flyer.jpg)  
+[Building Postcard](/flyer.jpg)  
 [Building Postcard [Black & White]](./flyer-bw.jpg)  
 [Building Postcard [Chinese]](./flyer-chinese.jpg)
 
