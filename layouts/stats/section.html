@@ -8,9 +8,15 @@
 {{ $activePercentChange := mul 100 (div (sub $activeTotal $activeMin ) $activeMin) }}
 {{ $path := "M -10 110 L 0 102" }}
 {{ range $i, $sequence := .Params.dailyActive }}
-	{{ $height := sub 100 (mul (div (sub $activeMin (float $sequence)) (sub $activeMin $activeTotal)) 100) }}
-	{{ $paddingHeight := add $height $paddingVertical}}
-	{{ $path = (print $path " L " (add $i 1)  " " $paddingHeight) }}
+	{{ $height := 0 }}
+	{{ $diff := sub $activeMin (float $sequence) }}
+	{{ if gt (sub $activeTotal $activeMin) 0 }}
+		{{ $height = sub 100 (mul (div (sub $activeMin (float $sequence)) (sub $activeMin $activeTotal)) 100) }}
+		{{ $paddingHeight := add $height $paddingVertical}}
+		{{ $path = (print $path " L " (add $i 1)  " " $paddingHeight) }}
+	{{ else }}
+		{{ $path = "M 0 2 L 110 2" }}
+	{{ end }}
 {{ end }}
 {{ $path = (print $path "L 110 0 L 110 110 L -10 110 z") }}
 
@@ -20,9 +26,13 @@
 {{ $requestPercentChange := mul 100 (div (sub $requestTotal $requestMin ) $requestMin) }}
 {{ $path2 := "M -10 110 L 0 102" }}
 {{ range $i, $sequence := .Params.dailyRequests }}
-	{{ $height := sub 100 (mul (div (sub $requestMin (float $sequence)) (sub $requestMin $requestTotal)) 100) }}
-	{{ $paddingHeight := add $height $paddingVertical}}
-	{{ $path2 = (print $path2 " L " (add $i 1)  " " $paddingHeight) }}
+	{{ if gt (sub $requestTotal $requestMin) 0 }}
+		{{ $height := sub 100 (mul (div (sub $requestMin (float $sequence)) (sub $requestMin $requestTotal)) 100) }}
+		{{ $paddingHeight := add $height $paddingVertical}}
+		{{ $path2 = (print $path2 " L " (add $i 1)  " " $paddingHeight) }}
+	{{ else }}
+		{{ $path2 = "M 0 2 L 110 2" }}
+	{{ end }}
 {{ end }}
 {{ $path2 = (print $path2 "L 110 0 L 110 110 L -10 110 z") }}
 
