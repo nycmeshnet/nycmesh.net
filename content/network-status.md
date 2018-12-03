@@ -1,6 +1,11 @@
 ---
 title: "Network status"
 ---
+2018-12-3
+
+Antenna alignment today at Ehud to fix ongoing bandwidth problem at Saratoga in Brooklyn. Bandwidth should improve in the afternoon after a short downtime around noon.
+
+Rivington hub is still in process of upgrades. This is affecting 4 active nodes in the Lower East Side. We are planning to get full bandwidth there next week by connecting to Henry hub and SN1 using new gigabit 60Ghz gear.
 
 2018-10-28
 
