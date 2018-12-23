@@ -140,7 +140,7 @@ The mesh also has its own web servers that show local information and allow you 
 
 After reading through the FAQs, fill out the [join form](/join) to be assigned a node, and look for an email from one of our volunteers with next steps (check your email spam folder or contact us directly at install@nycmesh.net if you don’t receive any reply).
 
-If you would like to volunteer with NYC Mesh, reach out on [slack](https://slack.nycmesh.net/) or join us at our monthly [meetup](https://www.meetup.com/nycmesh/).
+If you would like to volunteer with NYC Mesh, reach out on [slack][] or join us at our monthly [meetup](https://www.meetup.com/nycmesh/).
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -164,13 +164,13 @@ By joining the mesh you are obliged to share and extend the mesh in the same way
 
 ### <a name="volunteer"></a>How can I volunteer? What if I don’t know anything about networking?
 
-NYC Mesh welcomes people with diverse skill sets and from all backgrounds. Many of our volunteers started without any technical background. Join as at our monthly [meetup](https://www.meetup.com/nycmesh/) or reach out to us on [slack](https://slack.nycmesh.net/) to start a conversation about how you can contribute to our community. You can also read about some ways to help [here](/help).
+NYC Mesh welcomes people with diverse skill sets and from all backgrounds. Many of our volunteers started without any technical background. Join as at our monthly [meetup](https://www.meetup.com/nycmesh/) or reach out to us on [slack][] to start a conversation about how you can contribute to our community. You can also read about some ways to help [here](/help).
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
 ### <a name="neighbors"></a>I have neighbors who would also like to join NYC Mesh. Can we get connected together?
 
-Yes! We prioritize installs for entire buildings and set up high-bandwidth point-to-point connections with dedicated hardware. If your building would like this dedicated service please email us, reach out to us on [slack](https://slack.nycmesh.net/), send us an email at install@nycmesh.net or call us directly at (646) 727-0866. Using this service can replace your current ISP for very large buildings.
+Yes! We prioritize installs for entire buildings and set up high-bandwidth point-to-point connections with dedicated hardware. If your building would like this dedicated service please email us, reach out to us on [slack][], send us an email at install@nycmesh.net or call us directly at (646) 727-0866. Using this service can replace your current ISP for very large buildings.
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -208,7 +208,7 @@ Some additional things you can do to determine if you are in a coverage zone:
 
 ### <a name="alsouse"></a>My neighbor has a rooftop router and is connected to NYC Mesh. Can I also use it to connect?
 
-We encourage neighbors to share their Internet access. Ask your neighbor for permission to connect via their router and reach out to us on [slack](https://slack.nycmesh.net/). We can probably install a switch at the rooftop router and run an ethernet cable to your apartment. We have a standard $160 install fee, and we ask for a $20 monthly donation if you can afford it.
+We encourage neighbors to share their Internet access. Ask your neighbor for permission to connect via their router and reach out to us on [slack][]. We can probably install a switch at the rooftop router and run an ethernet cable to your apartment. We have a standard $160 install fee, and we ask for a $20 monthly donation if you can afford it.
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -269,7 +269,7 @@ Once you fill out the [join form](/join), we can help you determine the viabilit
 
 In some cases you might be close enough to another node to get signal without line of sight to it.
 
-If you’re in an area that’s currently underserved by NYC Mesh but can get a dozen or more of your neighbors together, you can also create your own hub or supernode which would expand the mesh further. Contact us on [slack](https://slack.nycmesh.net/) or email us at install@nycmesh.net to discuss this option further.
+If you’re in an area that’s currently underserved by NYC Mesh but can get a dozen or more of your neighbors together, you can also create your own hub or supernode which would expand the mesh further. Contact us on [slack][] or email us at install@nycmesh.net to discuss this option further.
 
 If you can’t connect to any existing node yet but would still like to access community tools or content that are only available on the mesh, you have the option of [“tunneling”](https://en.wikipedia.org/wiki/Tunneling_protocol) over the Internet.
 
@@ -281,7 +281,7 @@ Yes you can. Make sure to sign up for a node by filling out our [join form](/joi
 
 We provide a list of hardware you can purchase along with firmware and configuration instructions [here](/download). For guidance on hardware installation, check out our [docs pages](https://docs.nycmesh.net/).
 
-If you need assistance with your self-installs, reach out to us on the #support channel on [slack](https://slack.nycmesh.net/).
+If you need assistance with your self-installs, reach out to us on the #support channel on [slack][].
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -354,6 +354,8 @@ Yes, it could. In Spain there is a mesh network called [Guifi](https://guifi.net
 
 We have a lot on our to-do list and everyone is a volunteer. We welcome new ideas big and small, but the best way to move ideas forward is for you to take initiative to help implement them.
 
-Our community on [slack](https://slack.nycmesh.net/) is a great forum for new ideas, and you can also start a conversation with long-term and new members at one of our [meetups](https://www.meetup.com/nycmesh/).
+Our community on [slack][] is a great forum for new ideas, and you can also start a conversation with long-term and new members at one of our [meetups](https://www.meetup.com/nycmesh/).
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
+
+[slack]: https://join.slack.com/t/nycmesh/shared_invite/enQtNDk0NDA4OTAyNDY0LTU5NWMyODY5ZTYyMDY2NzgzOTJmZjFmZTg3YWRjYjE0M2EyMzlhNDE3YmIxZmZhYTZmNjIwNTVkMDIwMjI2ZDg
