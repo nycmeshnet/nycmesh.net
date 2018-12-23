@@ -10,7 +10,7 @@ Here is the older blog post-
 
 **Ways you can help us:**
 
-First [email us](mailto:slack@nycmesh.net?Subject=Join%20Slack&Body=Please%20add%20me%20to%20your Slack%20group,%20thanks!) and get on our Slack group. Then pick something from the list below-
+First [join our slack](https://join.slack.com/t/nycmesh/shared_invite/enQtNDk0NDA4OTAyNDY0LTU5NWMyODY5ZTYyMDY2NzgzOTJmZjFmZTg3YWRjYjE0M2EyMzlhNDE3YmIxZmZhYTZmNjIwNTVkMDIwMjI2ZDg) group. Then pick something from the list below-
 
 **Installers**
 
