@@ -182,7 +182,7 @@ NYC Mesh asks for only basic contact information to be able to carry out the ins
 
 ### <a name="slack"></a>What is Slack and how do I use it?
 
-Slack is the main communication and collaboration platform we use at NYC Mesh. It consists of public channels, which anyone can post messages to, and invitation-only channels, which serve specific community groups and volunteer teams. Go to the [NYC Mesh Slack page](https://slack.nycmesh.net/) to sign up for an account and join the conversation!
+Slack is the main communication and collaboration platform we use at NYC Mesh. It consists of public channels, which anyone can post messages to, and invitation-only channels, which serve specific community groups and volunteer teams. Go to the [NYC Mesh Slack page][slack] to sign up for an account and join the conversation!
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
