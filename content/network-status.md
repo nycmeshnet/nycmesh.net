@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2018-12-15
+
+Finished connecting Henry to SN1 using 60GHz gear, this upgrades Rivington connection to about 800Mbps.
+
 2018-12-3
 
 Antenna alignment today at Ehud to fix ongoing bandwidth problem at Saratoga in Brooklyn. Bandwidth should improve in the afternoon after a short downtime around noon.
