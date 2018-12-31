@@ -59,14 +59,14 @@ title: "Frequently asked questions"
 
 Here’s a list of our reasons for building a community-owned mesh network:
 
-*   Freedom from the telecom [oligopoly](https://www.newyorker.com/news/daily-comment/we-need-real-competition-not-a-cable-internet-monopoly) of Verizon, Optimum and Spectrum
-*   Bridging the [Digital Divide](https://en.wikipedia.org/wiki/Digital_divide) by connecting underserved communities to the Internet
+*   An infrastructure commons in which the community owns the network
 *   A [neutral network](https://en.wikipedia.org/wiki/Net_neutrality_in_the_United_States) that does not block or discriminate content or throttle data
-*   Emergency community networking (for the next [hurricane](http://nymag.com/selectall/2017/10/what-happens-to-the-internet-after-a-disaster.html))
 *   No [personal data collection](https://techcrunch.com/2017/03/23/senate-votes-to-allow-isps-to-collect-personal-data-without-permission/)
+*   Bridging the [Digital Divide](https://en.wikipedia.org/wiki/Digital_divide) by connecting underserved communities to the Internet
+*   Freedom from the telecom [oligopoly](https://www.newyorker.com/news/daily-comment/we-need-real-competition-not-a-cable-internet-monopoly) of Verizon, Optimum and Spectrum
+*   Emergency community networking (for the next [hurricane](http://nymag.com/selectall/2017/10/what-happens-to-the-internet-after-a-disaster.html))
 *   Decentralized, with no single point of failure
 *   Self-configuring (simple!)
-*   An infrastructure commons in which the community owns the network
 *   Community-building with highly localized websites
 *   Eventual self-sufficient network as alternative to the corporate-owned Internet
 *   Providing public wifi access points
