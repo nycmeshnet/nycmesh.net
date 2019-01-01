@@ -1,4 +1,3 @@
-<style>
 html,
 body {
   height: 100%;
@@ -22,8 +21,40 @@ pre {
   overflow: scroll;
 }
 
+svg {
+  display: block;
+}
+
 ::placeholder {
   color: #777;
+}
+
+.top-05 {
+  top: 0.125rem;
+}
+
+.left-05 {
+  left: 0.125rem;
+}
+
+.percentBox {
+  padding-left: 0.125rem;
+  padding-right: 0.125rem;
+  padding-top: 0.0625rem;
+  padding-bottom: 0.0625rem;
+  background-color: rgb(205, 244, 212);
+  color: rgb(17, 80, 28);
+}
+
+.shadow-card {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.absolute--fill-1 {
+  top: 20;
+  right: 20;
+  bottom: 20;
+  left: 20;
 }
 
 /* Dropdown / Hamburger Nav */
@@ -63,6 +94,7 @@ pre {
   position: absolute;
   top: 0;
   right: 0;
+  bottom: 0;
   outline: none;
 }
 
@@ -166,24 +198,33 @@ pre {
 }
 
 .splash-blog {
-  background-image: url("/img/splash3.jpg");
-  background-position: center 65%;
+  background-image: url("/img/splash9.jpg");
+  background-position: center 51%;
   height: 20vh;
   background-color: #f5f5f5;
+  background-size: cover;
 }
 
 .splash4 {
-  background-image: url("/img/splash4.jpg");
-  background-position: center 20%;
-  position: relative;
+  background-image: url("/img/splash9.jpg");
+  background-position: center 51%;
+  height: 20vh;
   background-color: #f5f5f5;
+  background-size: cover;
+}
+
+@media screen and (min-width: 40rem) {
+  .splash4 {
+    height: 30vh;
+  }
 }
 
 .splash-small {
+  background-image: url("/img/splash9.jpg");
+  background-position: center 51%;
   height: 20vh;
-  background-image: url("/img/splash3.jpg");
-  background-position: center 65%;
   background-color: #f5f5f5;
+  background-size: cover;
 }
 
 .noselect {
@@ -213,6 +254,10 @@ pre {
 
 .bg-red-75 {
   background-color: rgba(255, 59, 48, 0.75);
+}
+
+.red {
+  color: rgb(255, 59, 48);
 }
 
 .dimmed:before {
@@ -286,4 +331,3 @@ ul li .check::before {
   width: calc(((100% - 98rem) / 2) + 22rem);
   padding-left: calc((100% - 98rem) / 2);
 }
-</style>

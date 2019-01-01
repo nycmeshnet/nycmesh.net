@@ -1,8 +1,11 @@
 ---
+title: "NYC Mesh"
 description: "Join our community-owned network to replace your current internet connection."
----
+images: ["/img/splash9.jpg"]
+alertTitle: "Network status"
+alertURL: "/network-status"
 
-_Sorry we are having ongoing problems in Brooklyn. Our Supernode 2 had to be taken down for roof repair which forced us to make major changes to the network there. The good news is many new hub nodes are appearing so there will be more choices to connect to in the coming weeks._
+---
 
 ### [Join](/join) our community-owned network to replace your current internet connection.
 
@@ -19,3 +22,7 @@ If you are a network operator, please consider [peering](https://docs.nycmesh.ne
 ### Our mission
 
 We aim to create an open, resilient, neutral network that serves both for daily internet use, and for emergency use during power outages or internet disruption, running software that helps our community.
+
+### Get involved!
+
+We are a community of volunteers and welcome people of all backgrounds.

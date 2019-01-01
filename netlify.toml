@@ -1,13 +1,13 @@
 [build]
 publish = "public"
-command = "sh update-map.sh && hugo --minify"
+command = "sh update-map.sh && sh update-stats.sh && hugo"
 
 [context.production.environment]
-HUGO_VERSION = "0.48"
+HUGO_VERSION = "0.49"
 HUGO_ENV = "production"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.48"
+HUGO_VERSION = "0.49"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.48"
+HUGO_VERSION = "0.49"

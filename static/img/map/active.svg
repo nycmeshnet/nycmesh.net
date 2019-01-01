@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
 	<circle
 	    fill="rgb(255,59,48)"
 		stroke="white"
-		r="8"
+		r="6"
 	    stroke-width="2"
-		cx="10"
-		cy="10"
+		cx="8"
+		cy="8"
 	/>
 </svg>
