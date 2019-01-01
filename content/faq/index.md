@@ -76,7 +76,7 @@ Here’s a list of our reasons for building a community-owned mesh network:
 
 ### <a name="how"></a>How does it work?
 
-Most NYC Mesh members (“nodes”) use wireless routers mounted on a rooftop or window to connect to other nodes, forming a network. Our network in turn peers (connects) with many other networks at an [Internet exchange point (IX)](https://en.wikipedia.org/wiki/Internet_exchange_point), providing direct access to the Internet without the intermediary of a commercial Internet Service Provider. NYC Mesh maintains a number of primary Internet exchange points that we call “Supernodes.”
+Most NYC Mesh members (“nodes”) use wireless routers mounted on a rooftop or window to connect to other nodes, forming a network. Our network in turn peers (connects) with many other networks at an [Internet exchange point (IXP)](https://en.wikipedia.org/wiki/Internet_exchange_point), providing direct access to the Internet without the intermediary of a commercial Internet Service Provider. NYC Mesh maintains a number of primary Internet exchange points that we call “Supernodes.”
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -92,7 +92,7 @@ Service disruptions are possible for both commercial ISPs and NYC Mesh. Extreme 
 
 By default, our mesh router is firewalled from your local network. It is not possible to reach beyond the mesh router to your local access network (LAN).
 
-Network traffic within the mesh is not encrypted by default. When connecting through the mesh you should use the same standard precautions as you would when connecting to Wi-Fi at a coffee shop or airport: use [https](https://en.wikipedia.org/wiki/HTTPS) (lock icon) web sites for secure connections (most browsers do this by default nowadays), or use a VPN service.
+Network traffic within the mesh is not encrypted by default. When connecting through the mesh you should use the same standard precautions as you would when connecting to WiFi at a coffee shop or airport: use [https](https://en.wikipedia.org/wiki/HTTPS) (lock icon) web sites for secure connections (most browsers do this by default nowadays), or use a VPN service.
 
 If you connect to the mesh network indirectly over the internet (for example over a cable ISP connection) this is by [tinc VPN](https://www.tinc-vpn.org/) and is secure.
 <!---
@@ -136,9 +136,9 @@ The mesh also has its own web servers that show local information and allow you 
 
 # Joining the Community
 
-### <a name="signup"></a>How do I sign up?
+## <a name="signup"></a>How do I sign up to get connected?
 
-After reading through the FAQs, fill out the [join form](/join) to be assigned a node, and look for an email from one of our volunteers with next steps (check your email spam folder or contact us directly at install@nycmesh.net if you don’t receive any reply).
+After reading through the FAQs, fill out the [join form](/join) to be assigned a Potential Node, and look for an email with next steps (check your email spam folder or contact us directly at install@nycmesh.net if you don’t receive any reply).
 
 If you would like to volunteer with NYC Mesh, reach out on [slack][] or join us at our monthly [meetup](https://www.meetup.com/nycmesh/).
 
@@ -146,7 +146,7 @@ If you would like to volunteer with NYC Mesh, reach out on [slack][] or join us 
 
 ### <a name="cost"></a>How much does it cost to join?
 
-To cover our operating costs (mostly paying for infrastructure for fast access to the Internet “backbone”), we request a $20 recurring monthly donation. For the initial hardware installation, we charge $110 to cover parts and equipment and an additional $50 to cover labor-related expenses. If we are not able to connect you, you do not need to pay the parts and equipment fee and you can decide whether or not you want to pay the labor fee.
+To cover our operating costs (mostly paying for infrastructure for fast access to the Internet “backbone”), we request that every Node owner pay a $20 recurring monthly donation. For a volunteer-led install, we charge $110 to cover parts and equipment and an additional $50 to cover labor-related expenses. (If we are not able to connect you, you do not need to pay the parts and equipment fee and you can decide whether or not you want to pay the labor fee.) For a do-it-yourself install, you can purchase compatible equipment on your own. 
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -164,7 +164,7 @@ By joining the mesh you are obliged to share and extend the mesh in the same way
 
 ### <a name="volunteer"></a>How can I volunteer? What if I don’t know anything about networking?
 
-NYC Mesh welcomes people with diverse skill sets and from all backgrounds. Many of our volunteers started without any technical background. Join as at our monthly [meetup](https://www.meetup.com/nycmesh/) or reach out to us on [slack][] to start a conversation about how you can contribute to our community. You can also read about some ways to help [here](/help).
+NYC Mesh welcomes people with diverse skill sets and from all backgrounds. Many of our volunteers started without any technical background. Join as at our monthly [meetup](https://www.meetup.com/nycmesh/) or reach out to us on [slack](https://slack.nycmesh.net/) to start a conversation about how you can contribute to our community. You can also read about some ways to help [here](/help).
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -176,7 +176,7 @@ Yes! We prioritize installs for entire buildings and set up high-bandwidth point
 
 ### <a name="id"></a>Do I need to provide identification to join NYC Mesh?
 
-NYC Mesh asks for only basic contact information to be able to carry out the install. We welcome all New Yorkers to join the community regardless of immigration status or life circumstance. If you have concerns about privacy, please send us an email at help@nycmesh.net or talk to us in person at our monthly [meetup](https://www.meetup.com/nycmesh/).
+NYC Mesh asks for only basic contact information to be able to carry out the install. We welcome everyone living in New York to join the community regardless of immigration status or life circumstance. If you have concerns about privacy, please send us an email at help@nycmesh.net or talk to us in person at our monthly [meetup](https://www.meetup.com/nycmesh/).
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -197,7 +197,7 @@ Connecting to the Internet with NYC Mesh requires a direct line-of-sight to an e
 *   within range of a supernode or hub node
 *   close to a LinkNYC kiosk
 
-If any of the above are true, there is a good chance you will be able to connect to NYC Mesh. Fill out the [join form](/join) and we will assess your location. If we need more information, we may ask you to take a picture or panorama from your window or rooftop.
+If any of the above are true, there is a good chance you will be able to connect to NYC Mesh. Fill out the [join form](/join) and we will assess your location. We will also ask you to take a picture or panorama from your window or rooftop.
 
 Some additional things you can do to determine if you are in a coverage zone:
 
@@ -208,19 +208,15 @@ Some additional things you can do to determine if you are in a coverage zone:
 
 ### <a name="alsouse"></a>My neighbor has a rooftop router and is connected to NYC Mesh. Can I also use it to connect?
 
-We encourage neighbors to share their Internet access. Ask your neighbor for permission to connect via their router and reach out to us on [slack][]. We can probably install a switch at the rooftop router and run an ethernet cable to your apartment. We have a standard $160 install fee, and we ask for a $20 monthly donation if you can afford it.
+We encourage neighbors to share their Internet access. Ask your neighbor for permission to connect via their rooftop router and reach out to us on [slack](https://slack.nycmesh.net/). We can probably install a switch at the rooftop router and run an ethernet cable to your apartment. We have a standard $160 install fee, and we ask for a $20 monthly donation if you can afford it.
 
-<font size="3"> <a href="#top">&#8598; Back to top</a> </font>
+## <a name="waittime"></a>What is the wait time for an volunteer-led installation? How do you decide who to connect first?
 
-### <a name="waittime"></a>What is the wait time for an installation? How do you decide who to connect first?
+Once you submit your node request form, we will request a panoramic photo from your rooftop or window to assess line of sight to nearby nodes and we will then invite you to schedule an appointment on our install calendar. Wait times will vary based on the availability of volunteer installers. If you can convince your neighbors to also join, we will put you at the top of the install list.
 
-Once you submit your node request form, we will make sure your address is in a coverage zone and then invite you to schedule an appointment on our install calendar. Wait times will vary based on the availability of volunteer installers and the potential to connect in your individual area. If you can convince your neighbors to also join, we will put you at the top of the install list.
+## <a name="typicalinstall"></a>What is involved in a typical volunteer-led installation?
 
-<font size="3"> <a href="#top">&#8598; Back to top</a> </font>
-
-### <a name="typicalinstall"></a>What is involved in a typical installation?
-
-NYC Mesh will send a team of volunteers to your building to conduct a site survey and, if a connection is possible to an existing node, we will install all the necessary hardware to get you connected to the mesh.
+For a volunteer-led install, NYC Mesh will send a team of volunteers to your building to conduct a site survey. If we can connect to an existing node from your rooftop or window, we will install all the necessary hardware to get you connected to the mesh.
 
 Typically, installs take between one and three hours to complete, but in certain cases they can take longer. We require you to be present for the duration of the install, so we recommend that you plan to remain at your apartment for at least four hours from the start of the install. We will update you on the progress of the install in case of major delays.
 
@@ -271,11 +267,9 @@ In some cases you might be close enough to another node to get signal without li
 
 If you’re in an area that’s currently underserved by NYC Mesh but can get a dozen or more of your neighbors together, you can also create your own hub or supernode which would expand the mesh further. Contact us on [slack][] or email us at install@nycmesh.net to discuss this option further.
 
-If you can’t connect to any existing node yet but would still like to access community tools or content that are only available on the mesh, you have the option of [“tunneling”](https://en.wikipedia.org/wiki/Tunneling_protocol) over the Internet.
+If you can’t connect to any existing node yet but would still like to access community tools or content that are only available on the mesh, you have the option of [“tunneling”](https://en.wikipedia.org/wiki/Tunneling_protocol) over the Internet by VPN.
 
-<font size="3"> <a href="#top">&#8598; Back to top</a> </font>
-
-### <a name="bymylonesome"></a>Can I install the hardware and connect to NYC Mesh on my own?
+## <a name="bymylonesome"></a>Can I install the hardware and connect to NYC Mesh on my own (DIY)?
 
 Yes you can. Make sure to sign up for a node by filling out our [join form](/join) even if you are installing by yourself.
 
@@ -287,7 +281,7 @@ If you need assistance with your self-installs, reach out to us on the #support 
 
 ### <a name="anyrouter"></a>Can I use any router to connect?
 
-To connect to NYC Mesh you must use routers supported by NYC Mesh, which are listed [here](/download).
+To connect to NYC Mesh you must use outdoor routers supported by NYC Mesh, which are listed [here](/download). For your indoor router, you may use any product.
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
