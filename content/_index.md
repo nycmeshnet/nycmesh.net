@@ -11,9 +11,9 @@ alertURL: "/network-status"
 
 ### <a href="/join" class="blue">Get connected</a> and stop overpaying for Internet.
 
-### <a href="/donate" class="orange">Volunteer</a> to help build our network.
+### <a href="/donate" class="blue">Volunteer</a> to help build our network.
 
-### Read our <a href="/faq" class="gold">FAQ</a> to learn how NYC Mesh works.
+### Read our <a href="/faq" class="blue">FAQ</a> to learn how NYC Mesh works.
 
 The Internet is central to our lives. But in New York City, our access is controlled by a cartel of cable companies who overcharge and underdeliver.
 
