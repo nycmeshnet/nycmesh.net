@@ -11,7 +11,7 @@ alertURL: "/network-status"
 
 ### <a href="/join" class="blue">Get connected</a> and stop overpaying for Internet.
 
-### <a href="/donate" class="blue">Volunteer</a> to help build our network.
+### <a href="/help" class="blue">Volunteer</a> to help build our network.
 
 ### Read our <a href="/faq" class="blue">FAQ</a> to learn how NYC Mesh works.
 
