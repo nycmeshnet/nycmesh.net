@@ -1,28 +1,24 @@
 ---
 title: "NYC Mesh"
-description: "Join our community-owned network to replace your current internet connection."
+description: "Join our community-owned network for fast, affordable and fair access to the Internet."
 images: ["/img/splash9.jpg"]
-alertTitle: "Network status"
+alertTitle: "Network status updates"
 alertURL: "/network-status"
 
 ---
 
-### [Join](/join) our community-owned network to replace your current internet connection.
+## Join our community-owned network for fast, affordable and fair access to the Internet.
 
-### <a href="/donate" class="gold">Donate</a> to help us grow.
+### <a href="/join" class="blue">Get connected</a> and stop overpaying for Internet.
 
-Our network consists of Wi-Fi router “nodes”, “supernodes” and fiber spread throughout the city. The network connects directly to the internet backbone, so we do not rely on an ISP. All of our network nodes cooperate in the distribution of data, so the network can function independently in case of emergencies or internet shutdown.
+### <a href="/help" class="blue">Volunteer</a> to help build our network.
 
-NYC Mesh is a neutral network that does not block or discriminate content. We do not collect, store, monitor, or log any user traffic or content that passes through our network.
+### Read our <a href="/faq" class="blue">FAQ</a> to learn how NYC Mesh works.
 
-We can connect whole buildings by wireless for speeds between 80 Mbps up to 1 Gbps, or by fiber at 20 Gbps (20,000 Mbps). The buildings we are currently planning include co-ops, a school and housing association buildings. Fiber involves an install fee and a monthly rental. For a quote, [email us](mailto:install@nycmesh.net).
+The Internet is central to our lives. But in New York City, our access is controlled by a cartel of cable companies who overcharge and underdeliver.
 
-If you are a network operator, please consider [peering](https://docs.nycmesh.net/networking/peering/) with our open network to provide bandwidth!
+We are a diverse group of people living in New York who decided to set up our own network, NYC Mesh, to bypass the cable cartel and connect directly to the Internet backbone. We now get Internet that's cheaper, faster and more secure, and our network is supported by a community of dedicated volunteers. 
 
-### Our mission
+NYC Mesh connects apartments, small businesses, schools and entire buildings to the Internet using wireless routers and fiber. These individual "nodes" connect to "hubs" and "supernodes," where we have specialized gear to keep our network running even through emergencies. We are a neutral network and do not monitor, collect, store or block any user data or content.
 
-We aim to create an open, resilient, neutral network that serves both for daily internet use, and for emergency use during power outages or internet disruption, running software that helps our community.
 
-### Get involved!
-
-We are a community of volunteers and welcome people of all backgrounds.
