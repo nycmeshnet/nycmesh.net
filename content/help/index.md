@@ -55,7 +55,7 @@ We have a lot of larger projects that require long-term planning, organizing and
 
 ***
 
-**Donate Space [#hq](https://nycmesh.slack.com/messages/hq)**
+**Donate Space [#general](https://nycmesh.slack.com/messages/general)**
 We need space to store equipment (cables and antennas), prepare installs, and host MeetUps.
 
 **Donate Money**
