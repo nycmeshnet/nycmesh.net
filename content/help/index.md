@@ -34,7 +34,7 @@ Help connect new NYC Mesh members to the network (and help them reconnect when t
 **Hardware and software hacker [#hardware](https://nycmesh.slack.com/messages/hardware) [#software](https://nycmesh.slack.com/messages/software-firmware)**
 Get our firmware running on more devices. We need support for inexpensive 2.4GHz and dual band routers. Clone our [nycmeshfeed](https://github.com/nycmeshnet/nycmeshfeed) on our [github](https://github.com/nycmeshnet).
 
-**Website developer [#website}](https://nycmesh.slack.com/messages/website)**
+**Website developer [#website](https://nycmesh.slack.com/messages/website)**
 Help us improve our website. Edit existing documentation and add new information. Help improve our message and outreach. We use markdown and git to collaboratively develop the website - both are easy to learn.
 
 ***
