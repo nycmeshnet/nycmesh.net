@@ -39,3 +39,7 @@ New presentation:
 ```bash
 hugo new presentations/presentation-title.md
 ```
+
+## Map
+
+The code for the map is located [here](https://github.com/nycmeshnet/node-map).
