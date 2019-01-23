@@ -4,6 +4,7 @@ languageCode = "en-us"
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
 summaryLength = 10
+hrefTargetBlank = true
 
 [params]
   title = "NYC Mesh"
