@@ -2,9 +2,9 @@
 	<circle
 	    fill="rgb(255,59,48)"
 		stroke="white"
-		r="6"
+		r="5"
 	    stroke-width="2"
-		cx="8"
-		cy="8"
+		cx="7"
+		cy="7"
 	/>
 </svg>
