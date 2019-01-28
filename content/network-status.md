@@ -1,6 +1,13 @@
 ---
 title: "Network status"
 ---
+2019-1-28
+
+DE-CIX New York, our internet exchange point is giving us new IPv4 addresses. This will cause a small amount of downtime as we switch addresses over the next two days.
+
+Change period starts: on 2019-01-28 at 10:00 EST (15:00 UTC)
+End of change period: on 2019-01-30 at 07:00 EST (12:00 UTC)
+
 2018-12-15
 
 Finished connecting Henry to SN1 using 60GHz gear, this upgrades Rivington connection to about 800Mbps.
