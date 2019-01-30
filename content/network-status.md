@@ -3,7 +3,9 @@ title: "Network status"
 ---
 2019-1-30
 
-**9:24am There is a power outage at our Saratoga hub. This is causing problems in a large part of Brooklyn. We are sending someone out now to fix this.**
+**5:45pm Electricians have arrived at the Saratoga building and will be working on this tonight until fixed.**
+
+9:24am There is a power outage at our Saratoga hub. This is causing problems in a large part of Brooklyn. We are sending someone out now to look at this.
 
 2019-1-28
 
