@@ -1,6 +1,9 @@
 ---
 title: "Network status"
 ---
+2019-1-30
+There is a power outage at our Saratoga hub. This is causing problems in a large part of Brooklyn. We are sending someone out now to fix this.
+
 2019-1-28
 
 DE-CIX New York, our internet exchange point is giving us new IPv4 addresses. This will cause a small amount of downtime as we switch addresses over the next two days.
