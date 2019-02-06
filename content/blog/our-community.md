@@ -18,7 +18,7 @@ In 2019, we’re planning to bring more regular content on this blog about cyber
 Without further ado, let’s meet our volunteers!
  
 
-<img align="left" src="/img/blog/Marie.jpg" alt="Marie" width="200" border="10" class="ba bw2 mr3"> Name:  Marie Lauder
+<img align="left" src="/img/blog/Marie.jpg" alt="Marie" width="200" border="10" class="ba bw2 mr3"> **Name:**  Marie Lauder
 
 **How long have you been involved in NYC Mesh:**
 
@@ -40,7 +40,7 @@ I have led installs 4 or 5 times since last December, and this year I want to be
 ______________________
 
 
-<div class="br bw5"><img align="left" src="/img/blog/Adam.jpg" alt="Adam" width="200" class="ba bw2 mr3"></div>Name: Adam Ibrahim
+<img align="left" src="/img/blog/Adam.jpg" alt="Adam" width="200" class="ba bw2 mr3"> **Name:** Adam Ibrahim
 
 **How long have you been involved in NYC Mesh:**
 
