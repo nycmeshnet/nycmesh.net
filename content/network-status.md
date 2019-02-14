@@ -3,7 +3,9 @@ title: "Network status"
 ---
 2019-2-14
 
-**Due to maintenance at one of our main Brooklyn hubs there may be some temporary interruptions to between 12:30pm and 1pm today**
+1:43pm maintenance completed
+
+Due to maintenance at one of our main Brooklyn hubs there may be some temporary interruptions to between 12:30pm and 1pm today
 
 2019-1-30
 
