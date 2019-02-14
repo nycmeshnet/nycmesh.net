@@ -1,9 +1,13 @@
 ---
 title: "Network status"
 ---
+2019-2-14
+
+**Due to maintenance at one of our main Brooklyn hubs there may be some temporary interruptions to between 12:30pm and 1pm today**
+
 2019-1-30
 
-**6:00pm Power restored. All connections should be good now**
+6:00pm Power restored. All connections should be good now
 
 5:45pm Electricians have arrived at the Saratoga building and will be working on this tonight until fixed.
 
