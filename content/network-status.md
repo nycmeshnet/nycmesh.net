@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2019-2-16
+
+There will be a couple of short interuptions between 2pm and 3pm today as a cable is changed at Supernode 1
+
 2019-2-14
 
 1:43pm maintenance completed
