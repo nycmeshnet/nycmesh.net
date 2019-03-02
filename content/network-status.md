@@ -1,6 +1,12 @@
 ---
 title: "Network status"
 ---
+2019-3-1
+
+Brooklyn is experiencing slow speeds especially around 8 to 9pm ("Netflix time"). We are working on fixing this.
+
+A few people are having problems with LinkNYC kiosk using our new SXTsq VPN config. We are trying to solve this problem, but it might be better to switch back to the non-vpn config for now.
+
 2019-2-16
 
 There will be a couple of short interuptions between 2pm and 3pm today as a cable is changed at Supernode 1
