@@ -3,7 +3,7 @@ title: "Donate"
 description: "Help us fund Supernodes 3 and 4!"
 aliases: ["/donation"]
 goal: 2650
-progress: 360
+progress: 380
 ---
 
 ### Corporate Donors
