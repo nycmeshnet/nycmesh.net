@@ -3,7 +3,9 @@ title: "Network status"
 ---
 2019-3-8
 
-One of the Rivington Sectors is having problems taking down 100Ava and about 5 connected nodes in the LES and East Village. We are working on this at the moment
+1pm: We rebooted the Rivington sector and it is working normally again
+
+11am: One of the Rivington Sectors is having problems disconnecting 100Ava and about 5 connected nodes in the LES and East Village. We are working on this at the moment
 
 2019-3-1
 
