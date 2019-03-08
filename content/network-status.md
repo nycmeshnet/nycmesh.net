@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2019-3-8
+
+One of the Rivington Sectors is having problems taking down 100Ava and about 5 connected nodes in the LES and East Village. We are working on this at the moment
+
 2019-3-1
 
 Brooklyn is experiencing slow speeds especially around 8 to 9pm ("Netflix time"). We are working on fixing this.
