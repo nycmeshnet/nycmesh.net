@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2019-3-10
+
+Five nodes connected to Ave A hub were down around 2pm today due to a configuration issue. They are back up as of 6:20pm
+
 2019-3-8
 
 1pm: We rebooted the Rivington sector and it is working normally again
