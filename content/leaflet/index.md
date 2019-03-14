@@ -4,6 +4,9 @@ title: "Leaflets and Outreach Material"
 
 **Flyers/Brochures**
 
+[Two page brochure](/Brochure.pdf)
+[One pager](/Priorities-One-Pager.pdf)
+
 [Building Postcard](/leaflet/flyer.jpg)  
 [Building Postcard [Black & White]](/leaflet/flyer-bw.jpg)  
 [Building Postcard [Chinese]](/leaflet/flyer-chinese.jpg)
