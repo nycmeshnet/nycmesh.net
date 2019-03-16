@@ -4,7 +4,7 @@ author: Brian
 date: "2019-03-16"
 ---
 
-This year we've been extremely busy with many exciting new projects. We have our second collaboration with the city- an install at Manhattan Borough President, Gale Brewer’s office at 1 Centre St. Our initial install connects them to one of our hub nodes. This install, designed by Olivier, is actually faster than their current connection and is receiving a lot of use in the office and at our demonstration booth. We are upgrading that to a gigabit point-to-point connection to Supernode 1 this weekend and we will hopefully being connecting more floors at Center St. the coming months.
+This year we've been extremely busy with many exciting new projects. We have our second collaboration with the city- an install at Manhattan Borough President, Gale Brewer’s office at 1 Centre St. This install, designed by Olivier, is actually faster than their current connection and is receiving a lot of use in the office and at our demonstration booth. This weekend we are upgrading it to a gigabit point-to-point connection to Supernode 1, and we will hopefully being connecting more floors at Center St. in the coming months.
 
 Jillian and Shea helped organize a meeting with Brooklyn Public Library which went very well. We look forward to working with the library system to help extend some of their existing networks, such as one in Brownsville, and creating new connections for other underserved areas. 
 
@@ -14,7 +14,7 @@ Three affordable housing management groups have approached us about connecting t
 
 Our install teams have been doing a great job. We now have about 10 install leaders so we can easily do two or more installs at the same time. We've had 14 installs and 84 requests in the [past 4 weeks](https://www.nycmesh.net/stats/4w), which works out to 3.5 a week. Not bad for this weather.
 
-Our new hub node strategy has been a great success downtown. These "hub" nodes are rooftops with a good view of the neighborhood and a fast connection to another node. Most of our new rooftop installs are connecting to these hubs rather than directly to supernodes. The hubs also have OmniTik access points so you are very likely to see our -NYC Mesh Community WiFi- ssid on your phone when you are anywhere downtown. These OmniTiks are also running mesh software configured by Zach, so they work as a backup connection by meshing with each other. The network architecture has many layers now and will be the subject of another blog post.
+Our new hub node strategy has been a great success downtown. These "hub" nodes are rooftops with a good view of the neighborhood and a fast connection to another node. Most of our new rooftop installs are connecting to these hubs rather than directly to supernodes. The hubs also have OmniTik access points so you are very likely to see our -NYC Mesh Community WiFi- ssid on your phone when you are anywhere downtown. These OmniTiks are also running mesh software configured by Zach, and work as a backup connection by meshing with each other. The network architecture has many layers now and will be the subject of another blog post.
 
 We still need some neighborhood coordinators to help expand. Please volunteer to [help us](/help) if you can. Greenpoint, for example, has many great rooftops just waiting to be connected. We also plan to do some installs in the Bronx soon to extend the reach of our hub there.
 
@@ -28,5 +28,5 @@ Supernode 3 is taking much longer than expected. We have run half a mile of cabl
 
 We have been using LinkNYC kiosks to bootstrap areas and connect people that are out of range of our antennas. This has been working well over the past year or two. A few of these installs are within range our our new hubs and we have been able to switch them over. Unfortunately LinkNYC have changed some of their network settings this year and our repeaters are no longer reliable in some areas. We are halting kiosk installs for now until we can get reliable connections again.
 
-Jesse was one of the main people behind our Brooklyn expansion a few years ago. He did amazing work in setting up Supernode 2 and Saratoga, and worked on many installs in the area and helped with networking problems. He is taking a break from the mesh and will be missed!
+Jesse was one of the main people behind our Brooklyn expansion a couple of years ago. He did amazing work in setting up Supernode 2 and Saratoga, and he worked on many installs in the area. Jesse helped with the general network configuration we are using and fixed some major problems. He is taking a break from the mesh and will be missed!
 
