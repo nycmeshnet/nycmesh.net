@@ -12,7 +12,7 @@ We have been in talks with many people from the city and Scott has been doing an
 
 Three affordable housing management groups have approached us about connecting their buildings. This is a perfect match for us as we will be able connect the unconnected and expand our network further. Our first install with one of these groups was completed two weeks ago at the [RiseBoro Youth Center](https://www.nycmesh.net/map/nodes/2932-1340). We have many more buildings planned throughout Brooklyn.
 
-Our install teams have been doing a great job. We now have about 10 install leaders so we can easily do two or more installs at the same time. We've had 14 installs and 84 requests in the [past 4 weeks](https://www.nycmesh.net/stats/4w), which works out to 3.5 a week. Not bad for this weather.
+Our install teams have been doing a great job. We now have about 10 install leaders so we can easily do two or more installs at the same time. We've had 14 installs and 84 requests in the [past 4 weeks](https://www.nycmesh.net/stats/4w), which works out to 3.5 installs a week. Not bad for this weather.
 
 Our new hub node strategy has been a success downtown. These "hub" nodes are rooftops with a good view of the neighborhood and a fast connection to another node. Most of our new rooftop installs are connecting to these hubs rather than directly to supernodes. The hubs also have OmniTik access points so you are very likely to see *-NYC Mesh Community WiFi-* on your phone when you are anywhere downtown. These OmniTiks are also running mesh software configured by Zach, and work as a backup connection by meshing with each other. The network architecture has many layers now and will be the subject of another blog post.
 
