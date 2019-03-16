@@ -7,7 +7,7 @@ title: "Sponsors - Corporate Donors"
 <div class="flex flex-wrap justify-between">
 
 <div class="h-auto w-50 pa0 mr2 mt2">
-    <code><img src="/sponsors/logo_isoc_568×205.png" alt="ISOC" style="width:142px;height:50px;" ></code>
+<code><img src="/sponsors/logo_isoc_568×205.png" alt="ISOC" style="width:142px;height:50px;" ></code>
 </div>
 <div class=" w-40 pa mr0 ph0 mt2">
     <code><a href="https://www.internetsociety.org"> ISOC</a> Beyond the Net 2016 </code>
@@ -23,7 +23,7 @@ title: "Sponsors - Corporate Donors"
 
 
 <div class="h-auto pa0 mr0 mt4">
-    <code><img src="/sponsors/logo_Packet_2106×764.png" alt="packet" style="width:95px;height:50px;" ></code>
+<code><img src="/sponsors/logo_Packet_2106×764.png" alt="packet" style="width:95px;height:50px;" ></code>
 </div>
 <div class=" h-auto pa0 mr0 ph0 mt4">
 <code><a href="https://www.packet.com">Packet Host Inc.</a> Cloud delivered on bare metal </code>
