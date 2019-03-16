@@ -4,13 +4,13 @@
       <!-- Blog -->
       <div class="w-25-l w-50-m ph3 overflow-auto mb0-l mb4">
           <h2 class="fw5 f4">
-            <a href="/blog" class="black">
-                Blog
+            <a href="/blog" class="blue">
+                <u>Blog</u>
             </a>
           </h2>
         <ul class="list pa0 ma0">
           {{ range first 4 (where .Data.Pages "Section" "blog") }}
-            <li class="mb4 mb-last-0">
+            <li class=" mb4 mb-last-0">
               <time class="silver lh-title db mb1">
                 {{ .Date.Format "January 2, 2006" }}
               </time>
@@ -25,8 +25,8 @@
       <!-- Press -->
        <div class="w-25-l w-50-m ph3 overflow-auto mb0-l mb4">
         <h2 class="fw5 f4">
-          <a href="/press" class="black">
-            Press
+          <a href="/press" class="blue">
+            <u>Press</u>
           </a>
         </h2>
         <ul class="list pa0 ma0">
@@ -46,8 +46,8 @@
       <!-- Presentations -->
       <div class="w-50-l w-100 ph3">
         <h2 class="fw5 f4">
-          <a href="/presentations" class="black">
-            Presentations
+          <a href="/presentations" class="blue">
+            <u>Presentations</u>
           </a>
         </h2>
         <ul class="flex list pa0 mv0 man2">
