@@ -1,5 +1,7 @@
 {{ define "main" }}
-	{{ partial "home/splash" . }}
-	{{ partial "home/get-involved" . }}
-	{{ partial "home/updates" . }}
+	<div class="relative overflow-hidden">
+		{{ partial "home/splash" . }}
+		{{ partial "home/about" . }}
+		{{ partial "home/press" . }}
+	</div>
 {{ end }}

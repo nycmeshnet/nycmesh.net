@@ -2,9 +2,6 @@
 title: "NYC Mesh"
 description: "Join our community-owned network for fast, affordable and fair access to the Internet."
 images: ["/img/splash9.jpg"]
-alertTitle: "Network status updates"
-alertURL: "/network-status"
-
 ---
 
 ## Join our community-owned network for fast, affordable and fair access to the Internet.

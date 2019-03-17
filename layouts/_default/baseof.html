@@ -18,11 +18,15 @@
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
 </head>
-<body class="sans-serif">
-    {{ partial "alert" . }}
-    {{ partial "header" . }}
-    {{ block "main" . }}
-    {{ end }}
-    {{ partial "footer" . }}
+<body class="helvetica" style="min-height: 100vh;">
+    <div class="flex flex-column justify-between h-100">
+        <div>
+            {{ partial "alert" . }}
+            {{ partial "header" . }}
+            {{ block "main" . }}
+            {{ end }}
+        </div>
+        {{ partial "footer" . }}
+    </div>
 </body>
 </html>
