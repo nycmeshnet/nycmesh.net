@@ -1,6 +1,11 @@
 ---
 title: "Network status"
 ---
+
+2019-3-20
+
+11:00am We had a problem with our internet exchange for the past two hours. It appears to be back to normal now.
+
 2019-3-10
 
 Five nodes connected to Ave A hub were down around 2pm today due to a configuration issue. They are back up as of 6:20pm
