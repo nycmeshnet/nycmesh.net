@@ -29,8 +29,27 @@ svg {
   color: #777;
 }
 
+.pac-item {
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.pac-icon {
+  display: none;
+}
+
+.pac-item-query {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.pac-matched {
+  background-color: papayawhip;
+}
+
 .bg-blue-10 {
-  background-color: rgba(0,122,255,0.05);
+  background-color: rgba(0, 122, 255, 0.05);
 }
 
 .top-05 {
@@ -42,7 +61,7 @@ svg {
 }
 
 .bg-white-gradient {
-  background: linear-gradient(rgba(255,255,255,0), white)
+  background: linear-gradient(rgba(255, 255, 255, 0), white);
 }
 
 .percentBox {
@@ -64,7 +83,7 @@ svg {
 }
 
 .bg-red {
-  background-color: rgb(255,45,85)
+  background-color: rgb(255, 45, 85);
 }
 
 .absolute--fill-1 {
@@ -72,6 +91,10 @@ svg {
   right: 20;
   bottom: 20;
   left: 20;
+}
+
+.animate-width {
+  transition: width 0.3s;
 }
 
 /* Dropdown / Hamburger Nav */
@@ -87,21 +110,24 @@ svg {
 @media screen and (max-width: 40em) {
   .dropdown-content {
     display: none;
-    align-items: center;
+    align-items: start;
     position: fixed;
-    z-index: 9998;
+    z-index: 9;
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
     padding-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     /*background-color: white;*/
     flex-direction: column;
-    font-size: 2rem;
+    font-size: 1.25rem;
+    font-weight: 400;
   }
 
   .dropdown-content a {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     margin-left: 0;
   }
 }
@@ -123,7 +149,7 @@ svg {
   left: 0;
   height: auto;
   width: auto;
-  z-index: 9997;
+  z-index: 9;
   cursor: default;
 }
 
