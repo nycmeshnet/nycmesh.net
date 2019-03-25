@@ -112,7 +112,7 @@ svg {
     display: none;
     align-items: start;
     position: fixed;
-    z-index: 9;
+    z-index: 9999 !important;
     left: 0;
     top: 0;
     right: 0;
