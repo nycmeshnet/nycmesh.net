@@ -2,6 +2,10 @@
 title: "Network status"
 ---
 
+2019-3-29
+
+4:25pm: Our Henry St hub is having problems and this is affecting many of our downtown nodes. We are working on fixing this now.
+
 2019-3-20
 
 11:00am: We had a problem with our internet exchange for the past two hours. It appears to be back to normal now.
