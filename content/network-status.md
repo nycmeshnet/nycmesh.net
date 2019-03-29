@@ -4,6 +4,8 @@ title: "Network status"
 
 2019-3-29
 
+4:30pm: Normal service resumed downtown. This was a problem with integrating our new mesh configuration with some older installs.
+
 4:25pm: Our Henry St hub is having problems and this is affecting many of our downtown nodes. We are working on fixing this now.
 
 2019-3-20
