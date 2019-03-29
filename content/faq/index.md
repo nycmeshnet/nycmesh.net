@@ -352,4 +352,4 @@ Our community on [slack][] is a great forum for new ideas, and you can also star
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
-[slack]: https://join.slack.com/t/nycmesh/shared_invite/enQtNDk0NDA4OTAyNDY0LTU5NWMyODY5ZTYyMDY2NzgzOTJmZjFmZTg3YWRjYjE0M2EyMzlhNDE3YmIxZmZhYTZmNjIwNTVkMDIwMjI2ZDg
+[slack]: https://slack.nycmesh.net
