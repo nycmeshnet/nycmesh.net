@@ -224,6 +224,10 @@ svg {
   color: #007aff;
 }
 
+.hover-blue:hover {
+  color: #007aff;
+}
+
 .bg-blue {
   background-color: #007aff;
 }
