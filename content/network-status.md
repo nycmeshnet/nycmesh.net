@@ -1,6 +1,9 @@
 ---
 title: "Network status"
 ---
+2019-4-23
+
+We are having problems with some hub nodes in Brooklyn since midnight. We are looking into this now.
 
 2019-3-29
 
