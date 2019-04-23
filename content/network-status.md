@@ -3,7 +3,7 @@ title: "Network status"
 ---
 2019-4-23
 
-We are having problems with some hub nodes in Brooklyn since midnight. We are looking into this now.
+We are having problems with our [Soft Surplus hub node (1417)](../map/nodes/1417) in Brooklyn since midnight. We are looking into this now. This is affecting the 9 connected nodes.
 
 2019-3-29
 
