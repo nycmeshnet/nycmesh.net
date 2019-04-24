@@ -1,9 +1,16 @@
 ---
 title: "Network status"
 ---
+
 2019-4-23
 
-We are having problems with our [Soft Surplus hub node (1417)](../map/nodes/1417) in Brooklyn since midnight. We are looking into this now. This is affecting the 9 connected nodes.
+12:10am: There was an 8 minute downtime due to an internet exchange problem. Back to normal now.
+
+2019-4-23
+
+8:00pm: Things should be connected again and bandwidth should improve over the next few days.
+
+12:00pm: We are having problems with our [Soft Surplus hub node (1417)](../map/nodes/1417) in Brooklyn since midnight. We are looking into this now. This is affecting the 9 connected nodes.
 
 2019-3-29
 
