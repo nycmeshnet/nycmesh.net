@@ -2,7 +2,7 @@
 title: "Network status"
 ---
 
-2019-4-23
+2019-4-24
 
 12:10am: There was an 8 minute downtime due to an internet exchange problem. Back to normal now.
 
