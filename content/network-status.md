@@ -4,7 +4,7 @@ title: "Network status"
 
 2019-4-26
 
-2:10pm: We have a problem at Henry hub affecting Rivington, Ave A, 7th St and Ave D hubs downtown Manhattan. Looking into this now.
+2:10pm: We have a problem at Henry hub affecting Rivington, Ave A, 7th St and Ave D hubs downtown Manhattan. Looking into this now. We should have a temporary fix by 4:30pm.
 
 2019-4-24
 
