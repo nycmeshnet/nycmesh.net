@@ -2,6 +2,10 @@
 title: "Network status"
 ---
 
+2019-4-26
+
+2:10pm: We have a problem at Henry hub affecting Rivington, Ave A, 7th St and Ave D hubs downtown Manhattan. Looking into this now.
+
 2019-4-24
 
 12:10am: There was an 8 minute downtime due to an internet exchange problem. Back to normal now.
