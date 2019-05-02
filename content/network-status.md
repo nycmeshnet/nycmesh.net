@@ -2,6 +2,10 @@
 title: "Network status"
 ---
 
+2019-5-2
+
+2:45pm We are replacing a cable at Henry hub. This means there will be 3 minutes downtime while the router reboots. After the cable is replaced speeds from downtown hubs should increase significantly.
+
 2019-4-26
 
 3:45pm: Fixed the problem, just a reboot needed. Back to normal now.
