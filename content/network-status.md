@@ -2,6 +2,10 @@
 title: "Network status"
 ---
 
+2019-5-11
+
+11:50pm We've just fixed a problem at Soft Surplus that was causing slow speeds in Brooklyn since this afternoon. 
+
 2019-5-2
 
 2:45pm We are replacing a cable at Henry hub. This means there will be 3 minutes downtime while the router reboots. After the cable is replaced speeds from downtown hubs should increase significantly.
