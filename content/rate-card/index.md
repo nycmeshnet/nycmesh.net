@@ -32,7 +32,7 @@ NYC Mesh is a neutral network and does not have any network management practices
 Additional information on network management can be found in NYC Mesh's Network Commons License- [nycmesh.net/ncl.pdf](../ncl.pdf) 
 
 ## Privacy Policy:  
-We are a neutral network and do not monitor, collect, store or block any user data or content. More information about our commitment to privacy is available in our privacy policy- [nycmesh.net/privacy-policy]
+We are a neutral network and do not monitor, collect, store or block any user data or content. More information about our commitment to privacy is available in our privacy policy- [nycmesh.net/privacy-policy](../privacy-policy)
  
 ## Support:
 
