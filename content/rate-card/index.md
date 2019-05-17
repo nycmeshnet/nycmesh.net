@@ -15,4 +15,4 @@ Volunteer-Led Installation Fee:                                                 
  
 **Individuals may also elect to join the NYC Mesh network by ordering and installing the equipment themselves in which case there are no “One-Time-Charges.” NYC Mesh volunteers are happy to answer questions about how to order and install the equipment. For further information, please visit the NYC Mesh [docs](https://docs.nycmesh.net/) page or reach out on [Slack](https://nycmesh.slack.com).
  
-NYC Mesh is a community network committed to connecting all New Yorkers. We believe that cost shouldn’t prohibit anyone from accessing the internet.
+**NYC Mesh is a community network committed to connecting all New Yorkers. We believe that cost shouldn’t prohibit anyone from accessing the internet.**
