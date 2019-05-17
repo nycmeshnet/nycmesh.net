@@ -1,18 +1,57 @@
 ---
 title: "NYC Mesh Community Network Rate Card"
 ---
-Suggested Donation For Home NYC Mesh Connection:*                               	$20.00/mo
+
+## NYC MESH MEMBERSHIP OFFERINGS (MONTH-TO-MONTH PLAN)
  
-Optional One-Time-Charges**
+
+NYC Mesh Membership  	
+$20.00 Suggested Donation  
+$50.00 Suggested Donation  
+$100.00 Suggested Donation  (business)
+
+## OTHER CHARGES AND TERMS
  
-Volunteer-Led Installation Equipment Charge (includes purchase of 
-wireless antenna, router, mounts, and ethernet cable):                          	$110.00
+Data included with monthly charge:	**Unlimited**  
+Charges for additional data usage:	**No Charge**  
+
+## STANDARD ONE-TIME-CHARGES
  
-Volunteer-Led Installation Fee:                                                 	$50.00
+Labor Charge $50.00  
+Self-Installation (DIY)	$0.00  
+WiFi Router + Rooftop Antenna	$110.00  
+* Rates my vary for non standard events or service requests.
  
+## PERFORMANCE: INDIVIDUAL EXPERIENCE MAY VARY
  
-*NYC Mesh is a non-profit community network and depends on the generous support of those using the network and volunteers. Internet speeds may vary due to a variety of factors including home network configuration, router, the time of day, and the location within New York City. For further information, please visit our [FAQ page](https://www.nycmesh.net/faq) or email questions to info@nycmesh.net.
+NYC Mesh Internet	
+Typical median download speed	60 Mbps  
+Typical median upload speed	40 Mbps  
+Typical median latency (in milliseconds)	10 ms  
+Typical median packet loss	< 1%  
+
+Metrics based upon network monitoring and member reported speeds. Speeds are not guaranteed due to vicissitudes of wireless connections.
+
+NYC Mesh members can check the performance of their current Internet connection using speedtest.net, which tests the speed that they are receiving on NYC Mesh's network to the end user device. These tests are dependent on a variety of factors, including the customer's home network configuration, router, and Internet connected devices, and the time of day, and therefore do not reflect the performance of the NYC Mesh network only.
+
+Network Management:  
+NYC Mesh is a neutral network and does not have any network management practices that are specific to any application or subscriber.
+
+
+Additional information on network management can be found in NYC Mesh's [Network Commons License](../ncl.pdf).
+
+Privacy Policy:  
+We are a neutral network and do not monitor, collect, store or block any user data or content.
  
-**Individuals may also elect to join the NYC Mesh network by ordering and installing the equipment themselves in which case there are no “One-Time-Charges.” NYC Mesh volunteers are happy to answer questions about how to order and install the equipment. For further information, please visit the NYC Mesh [docs](https://docs.nycmesh.net/) page or reach out on [Slack](https://nycmesh.slack.com).
+Support:
+
+https://www.nycmesh.net/support
+
+## FCC Resources
+Learn more about the terms used on this form and other relevant information at the following FCC's links:  
+* https://www.fcc.gov/general/glossary-telecommunications-terms
+* https://www.fcc.gov/consumers/guides/consumer-labels-broadband-services?from=home	
+
  
-**NYC Mesh is a community network committed to connecting all New Yorkers. We believe that cost shouldn’t prohibit anyone from accessing the internet.**
+
+Mambership available: New York, NY; Brooklyn, NY; Bronx, NY; Queens, NY
