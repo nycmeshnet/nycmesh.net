@@ -110,6 +110,8 @@ The NYC Mesh network is unencrypted, easy to join, and depends on donated intern
 
 NYC Mesh will comply with all laws in the jurisdictions where it operates; however, as per our community policy, no data is collected or stored, and therefore no data exists to provide to agents who request it.
 
+Here is our [privacy-policy](../privacy-policy)
+
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
 ### <a name="ownership"></a>Who owns NYC Mesh?
@@ -147,6 +149,8 @@ If you would like to volunteer with NYC Mesh, reach out on [slack][] or join us 
 ### <a name="cost"></a>How much does it cost to join?
 
 To cover our operating costs (mostly paying for infrastructure for fast access to the Internet “backbone”), we request that every Node owner pay a $20 recurring monthly donation. For a volunteer-led install, we charge $110 to cover parts and equipment and an additional $50 to cover labor-related expenses. (If we are not able to connect you, you do not need to pay the parts and equipment fee and you can decide whether or not you want to pay the labor fee.) For a do-it-yourself install, you can purchase compatible equipment on your own. 
+
+Here is our ["rate card"](../rate-card) for more details
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
