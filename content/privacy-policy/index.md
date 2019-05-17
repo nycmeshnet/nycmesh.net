@@ -4,7 +4,7 @@ title: "Privacy Policy"
 
 ## Our Collection and Use of Anonymized Data
 
-NYC Mesh does not monitor, collect, store, or log any user data content that passes through our network. During required network maintenance and troubleshooting, network packets, including content, may be monitored to ensure successful network functionality.
+NYC Mesh does not collect, store, or log any user data content that passes through our network. During required network maintenance and troubleshooting, network packets, including content, may be monitored to ensure successful network functionality.
 
 NYC Mesh may process network packet headers for traffic passing through the NYC Mesh network for the following purposes:
 
