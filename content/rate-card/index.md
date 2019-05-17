@@ -3,12 +3,11 @@ title: "NYC Mesh Community Network Rate Card"
 ---
 
 ## NYC MESH MEMBERSHIP OFFERINGS (MONTH-TO-MONTH PLAN)
- 
 
-NYC Mesh Membership  	
-$20.00 Suggested Donation  
-$50.00 Suggested Donation  
-$100.00 Suggested Donation  (business)
+NYC Mesh Internet  	
+$20.00 Optional Donation  
+$50.00 Optional Donation  
+$100.00 Optional Donation  (business)
 
 ## OTHER CHARGES AND TERMS
  
@@ -51,7 +50,5 @@ https://www.nycmesh.net/support
 Learn more about the terms used on this form and other relevant information at the following FCC's links:  
 * https://www.fcc.gov/general/glossary-telecommunications-terms
 * https://www.fcc.gov/consumers/guides/consumer-labels-broadband-services?from=home	
-
- 
 
 Mambership available: New York, NY; Brooklyn, NY; Bronx, NY; Queens, NY
