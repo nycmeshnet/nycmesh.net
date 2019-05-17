@@ -23,10 +23,13 @@ WiFi Router + Rooftop Antenna	$110.00
  
 ## PERFORMANCE: INDIVIDUAL EXPERIENCE MAY VARY
 
-Speeds vary considerably due to distance from our main antennas, type of connection (point to point, multipoint, fiber). Wireless connection speeds particularly may vary considerably. NYC Mesh uses best-effort for speed and support. 
+Speeds vary due to distance from our main antennas, type of connection (point to point, multipoint, fiber). Wireless connection speeds vary considerably. NYC Mesh uses best-effort for speed and support.
 
 ## Network Management:  
-NYC Mesh is a neutral network and does not have any network management practices that are specific to any application or subscriber. Additional information on network management can be found in NYC Mesh's [Network Commons License](../ncl.pdf).
+NYC Mesh is a neutral network and does not have any network management practices that are specific to any application or subscriber.
+
+
+Additional information on network management can be found in NYC Mesh's Network Commons License- [nycmesh.net/ncl.pdf](../ncl.pdf) 
 
 ## Privacy Policy:  
 We are a neutral network and do not monitor, collect, store or block any user data or content.
