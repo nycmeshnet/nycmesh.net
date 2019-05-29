@@ -2,6 +2,10 @@
 title: "Network status"
 ---
 
+2019-5-29
+
+6:20pm Downtown Manhattan is experiencing outages at the major hubs. We are looking into this at the moment
+
 2019-5-11
 
 11:50pm We've just fixed a problem at Soft Surplus that was causing slow speeds in Brooklyn since this afternoon. 
