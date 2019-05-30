@@ -4,6 +4,8 @@ title: "Network status"
 
 2019-5-29
 
+7:25pm Back to normal
+
 6:20pm Downtown Manhattan is experiencing outages at the major hubs. We are looking into this at the moment
 
 2019-5-11
