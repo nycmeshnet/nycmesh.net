@@ -326,7 +326,7 @@ Our point-to-point connections use factory firmware such as AirOS. The supernode
 
 ### <a name="definternet"></a>What exactly is the Internet anyway?
 
-The Internet is a decentralized, global network of networks. No-one owns it and it is governed by voluntary agreements between network owners. For an easy-to-read introduction to how the Internet works, check out [this article](https://www.vox.com/cards/the-internet/what-is-the-internet).
+The Internet is a decentralized, global network of networks. No-one owns it and it is governed by voluntary agreements between network owners. For an easy-to-read introduction to how the Internet works, check out [this article](https://www.vox.com/2014/6/16/18076282/the-internet).
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
