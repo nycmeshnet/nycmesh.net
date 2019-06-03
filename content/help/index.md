@@ -29,7 +29,7 @@ Help connect new NYC Mesh members to the network (and help them reconnect when t
 **Install planner**: We have hundreds of node applications. See if you can join the rooftops together on our [map](/map/) and plan an install. This takes lots of emailing, phone calls and meeting neighbors.
 
 ***
-**Network admininstrator [#monitoring](https://nycmesh.slack.com/messages/monitoring)**: Do you know Grafana, Icinga or Nagios? Know how to write bash scripts? Help us by monitoring nodes and alerting users to problems.
+**Network administrator [#monitoring](https://nycmesh.slack.com/messages/monitoring)**: Do you know Grafana, Icinga or Nagios? Know how to write bash scripts? Help us by monitoring nodes and alerting users to problems.
 
 **Hardware and software hacker [#hardware](https://nycmesh.slack.com/messages/hardware) [#software](https://nycmesh.slack.com/messages/software-firmware)**
 Get our firmware running on more devices. We need support for inexpensive 2.4GHz and dual band routers. Clone our [nycmeshfeed](https://github.com/nycmeshnet/nycmeshfeed) on our [github](https://github.com/nycmeshnet).
