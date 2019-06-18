@@ -1,12 +1,15 @@
 ---
 title: "Network status"
 ---
+2019-6-18
+
+9:38am The Saratoga hub gateway has been switched from Ehud to a 600 Mbps connection at Soft Surplus. This will improve bandwidth and latency for much of Brooklyn.
 
 2019-5-29
 
 7:25pm Back to normal
 
-6:20pm Downtown Manhattan is experiencing outages at the major hubs. We are looking into this at the moment
+6:20pm Downtown Manhattan is experiencing outages at the major hubs. We are looking into this at the moment.
 
 2019-5-11
 
