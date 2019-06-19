@@ -3,6 +3,8 @@ title: "Network status"
 ---
 2019-6-18
 
+8:00pm The Rivington hub has disconnected causing outages downtown and at node 2090 in Greenpoint
+
 9:38am The Saratoga hub gateway has been switched from Ehud to a 600 Mbps connection at Soft Surplus. This will improve bandwidth and latency for much of Brooklyn.
 
 2019-5-29
