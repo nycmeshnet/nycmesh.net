@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2019-6-20
+
+3:24pm Henry St hub is down affecting downtown Manhattan. We expect it to be back up within the hour
+
 2019-6-18
 
 8:30pm Rivington is back online. 
