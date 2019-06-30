@@ -2,7 +2,7 @@
 title: "Sponsors - Corporate Donors"
 ---
 
-[<img src="/sponsors/logo_isoc_568×205.png" alt="ISOC" style="width:142px;"/>](https://www.internetsociety.org)<code>&nbsp;&nbsp;</code> Beyond the Net 2016
+[<img src="/sponsors/logo_isoc_568×205.png" alt="ISOC" style="width:120px;"/>](https://www.internetsociety.org)<code>&nbsp;&nbsp;</code> Beyond the Net 2016
 
 <br>
 
@@ -14,11 +14,11 @@ title: "Sponsors - Corporate Donors"
 
 <br>
 
-[<img src="/sponsors/logo_Webair_494×158.png" alt="Webair" style="width:95px;"/>](https://www.webair.com) <code>&nbsp;&nbsp;&nbsp;&nbsp;</code> Managed Hosting solutions
+[<img src="/sponsors/logo_Webair_494×158.png" alt="Webair" style="width:115px;"/>](https://www.webair.com) <code>&nbsp;&nbsp;</code> Managed Hosting solutions
 
 <br>
 
-[<img src="/sponsors/ubnt.jpg" alt="Ubiquiti" style="width:95px;"/>](https://www.ui.com/) <code>&nbsp;&nbsp;&nbsp;&nbsp;</code> Cloud delivered on bare metal
+[<img src="/sponsors/ubnt.jpg" alt="Ubiquiti" style="width:105px;"/>](https://www.ui.com/) <code>&nbsp;&nbsp;</code> Democratizing Professional Network Technology
 
 <br>
 
