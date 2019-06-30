@@ -1,11 +1,20 @@
 ---
-title: "Sponsors - Corporate Donors"
+title: "Sponsors"
+---
+
+---
+Grants
 ---
 
 [<img src="/sponsors/logo_isoc_568×205.png" alt="ISOC" style="width:120px;"/>](https://www.internetsociety.org)<code>&nbsp;&nbsp;</code> Beyond the Net 2016
 
 <br>
 
+[<img src="/sponsors/moz.png" alt="Mozilla" style="width:100px;"/>](https://foundation.mozilla.org)<code>&nbsp;&nbsp;</code> Stage 1 of the Mozilla/NSF-WINS Challenge 2018
+
+---
+Corporate Donors
+---
 [<img src="/sponsors/logo_de-cix1476×1353.png" alt="DE-CIX" style="height:61px;"/>](https://de-cix.net) <code>&nbsp;&nbsp;&nbsp;&nbsp;</code> Premium network interconnection services
 
 <br>
