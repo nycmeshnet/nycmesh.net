@@ -44,4 +44,4 @@ Learn more about the terms used on this form and other relevant information at t
 * https://www.fcc.gov/consumers/guides/consumer-labels-broadband-services?from=home	
 
 
-Membership available: New York, NY; Brooklyn, NY; Bronx, NY; Queens, NY
+Membership available: New York Metropolitan Area
