@@ -9,9 +9,9 @@ First you need to enter a [new node request](/join). This will add your router t
 
 To connect to the supernode, please [contact us](mailto:install@nycmesh.net) and we will advise. This usually uses a LiteBeamAC or NanoBeamAC. Configuration info is [here](https://docs.nycmesh.net/installs/cpe).
 
-To setup a rooftop to rooftop connection we now use [Mikrotik Omnitiks(https://docs.nycmesh.net/hardware/mikrotikomnitik5ac/). docs.nycmesh.net/
+To setup a rooftop to rooftop connection we now use [Mikrotik Omnitiks](https://docs.nycmesh.net/hardware/mikrotikomnitik5ac/)
 
-**Our network started with NanoStation M5s running OpenWrt firmware and we still have many of these running and maintained. It became difficult to keep up with hardware changes and people have reported it as impossible to install OpenWrt on the newest models. These instructions are left here for people who want to experiment or maintain older hardware**
+**Our network started with NanoStation M5s running OpenWrt firmware and we still have many of these running and maintained. It became difficult to keep up with hardware changes and people have reported it as impossible to install OpenWrt on the newest models. These instructions are left here for people who want to experiment or maintain older hardware. Please see [our docs](https://docs.nycmesh.net) for our latest instructions.** 
 
 To join two rooftops you can use two NanoStation M5s. You can also just set up a public access point and aim it towards the street. It is best to figure out exactly what kind of connection you are making before proceeding. Chat with us first to make sure.
 
