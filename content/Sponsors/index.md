@@ -1,9 +1,5 @@
 ---
-title: "Sponsors"
----
-
----
-Grants
+title: "Grants"
 ---
 
 [<img src="/sponsors/logo_isoc_568×205.png" alt="ISOC" style="width:120px;"/>](https://www.internetsociety.org)<code>&nbsp;&nbsp;</code> Beyond the Net 2016
