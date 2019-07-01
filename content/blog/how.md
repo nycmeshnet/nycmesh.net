@@ -37,13 +37,13 @@ Community organizations with shared resources often fail. This is called the tra
 
 NYC Mesh is a hybrid network of point-to-point, point-to-multipoint (sector antennas), ethernet and mesh. It is important to pick the right solution for each networking problem. 
 
-Mesh usually uses different firmware from the factory firmware, and is good for the last mile as it re-configures automatically. If there is a mesh network on your block, often you can just velcro a NanoStation to your window and you are connected. 
+Mesh usually uses different firmware from the factory firmware, and is good for the last mile as it re-configures automatically. If there is a mesh network on your block, often you can use just one device to extend the network.
 
 Point-to-multipoint sector antennas are good for getting high-bandwidth into neighborhoods. Put one or more of these on a tall building. You don't need to flash these with mesh software, just use the factory software such as AirMax, usually set in "bridge" mode.
 
 Point-to-point is used to go long distances often with expensive equipment such as an AirFiber pair.
 
-For mesh protocols use a BATMAN protocol such as bmx6 or batman-adv (bmx7 is still experimental). There are prebuilt packages- Libremesh, qMp and Gluon. We use [qMp](http://qmp.cat). Don't try creating your own, just modify an existing package to your configuration. [Libremesh](https://libremesh.org/) has been very active lately and has support for a large range of routers. We are currently trying this as well.
+For mesh protocols we are currently using OSPF in a MikroTik Omnitik. We have our own config generator for this to make it simple. We have used BATMAN protocols such as bmx6 or batman-adv (bmx7 is still experimental). There are prebuilt packages- Libremesh, qMp and Gluon. We use [qMp](http://qmp.cat). Don't try creating your own, just modify an existing package to your configuration. [Libremesh](https://libremesh.org/) has been very active lately and has support for a large range of routers. We are currently trying this as well.
 
 **Install your first node**
 
