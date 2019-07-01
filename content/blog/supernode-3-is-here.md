@@ -4,7 +4,9 @@ author: Zach
 date: "2019-06-30"
 ---
 
-Supernode 3 has finally landed, and in a big way. This node will help bring major connectivity to Brooklyn and launch the movement of the mesh to lower Brooklyn, expending as far as hopefully Staten Island.
+Supernode 3 has finally landed, and in a big way. This node will help bring major connectivity to Brooklyn and launch the movement of the mesh to lower Brooklyn, expending as far as hopefully Staten Island.   
+
+Earlier this month a presentaton was given at the Org Meeting: [NYC Mesh Org Meeting - June 11 2019](https://www.youtube.com/watch?v=nGTmmcUcdmA)
 
 ### This Supernode features:   
 
