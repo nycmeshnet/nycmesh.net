@@ -1,5 +1,6 @@
 ---
 title: "NYC Mesh Begins Massive, High-Speed Wireless Broadband Expansion in Brooklyn"
+date: "2019-06-13"
 ---
 
 *Building a community-owned and -operated internet network for all New Yorkers*
