@@ -1,6 +1,6 @@
-<section class="pv6-l pv5 ph3">
-	<div class="absolute overflow-hidden absolute--fill">
-		<div class="relative z-1">
+<section class="pt6-l pt5 pb6 ph3 bg-near-white relative">
+	<div class="hero absolute overflow-hidden absolute--fill no-repeat">
+		<div class="relative z-1 dn">
 			{{ partial "home/circle" (dict "context" . "diameter" 24 "color" "rgba(0,122,255,0.05)")  }}
 			{{ partial "home/circle" (dict "context" . "diameter" 36 "color" "rgba(0,122,255,0.05)")  }}
 			{{ partial "home/circle" (dict "context" . "diameter" 48 "color" "rgba(0,122,255,0.05)")  }}
@@ -13,9 +13,11 @@
 			{{ partial "home/circle" (dict "context" . "diameter" 132 "color" "rgba(0,122,255,0.05)")  }}
 		</div>
 	</div>
-	<div class="relative z-5 flex flex-column justify-center items-start mw8 center">
-		<h1 class=" mv0 measure-narrow lh-title f2-ns f3 fw6">Your friendly neighborhood internet</h1>
-		<p class="measure-narrow f3-ns f4 lh-copy mv4">Join our community-owned network and say goodbye to internet service providers.</p>
-		<a href="/join" class="pa3 white bg-red br2 fw6 f5-ns f6 ttu shadow mt4-ns mt3">Get Connected</a>
+	<div class="relative z-5 mw8 center">
+		<div class="flex flex-column justify-center items-start ">
+			<h1 class=" mv0 measure-narrow lh-title f2-ns f3 fw6 near-black">Fast, affordable and fair internet</h1>
+			<p class="measure-narrow f3-ns f4 lh-copy mv4 dark-gray">Join our community-owned network and say goodbye to internet service providers.</p>
+			<a href="/join" class="pa3 white bg-red br2 fw6 f5-ns f6 ttu shadow mv4-ns mt2 mb0-m mb4">Get Connected</a>
+		</div>
 	</div>
 </section>

@@ -29,6 +29,27 @@ svg {
   color: #777;
 }
 
+.hero {
+  background-image: url("/img/3d2.png");
+  background-position: 53% bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (min-width: 30em) {
+  .hero {
+    background-image: url("/img/3d9-small.png");
+    background-position: 43% bottom;
+  }
+}
+
+@media screen and (min-width: 70em) {
+  .hero {
+    background-image: url("/img/3d9.png");
+    background-position: 40% bottom;
+  }
+}
+
 .pac-item {
   padding: 1rem;
   cursor: pointer;

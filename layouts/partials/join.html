@@ -1,14 +1,37 @@
 <div class="bg-white br2 f5 tc pv5">
-  <h2 class="f3 fw6 mt0 mb4">Let's see if you can connect</h2>
+  <div class="measure center">
+    <h2 class="f3 fw6 mt0 mb4">Join the Mesh</h2>
+    <p class="mid-gray">To start, let's check if your building is within range.</p>
+  </div>
   <form
     action="https://docs.google.com/forms/d/1w1d2qiCerKxjR5uu7gnqRqF9XpYeRvTDPqHbCE4Cftc/formResponse"
     method="POST"
     class="w-100 flex flex-column items-center"
   >
-  <div class="flex items-center justify-center w-100 center">
-    <input class="pa3 mv4 mw7 w-100 f4 br2 ba b--light-gray animate-width" required="" type="text" id="address" name="entry.214227195" placeholder="Street address" autocomplete="off" spellcheck="off" autocorrect="off" />
-    <input class="pa3 mv4 ml2 w-100 mw5 f4 br2 ba b--light-gray animate-width dn" required="" type="text" id="address2" name="entry.214227195" placeholder="Apt" autocomplete="off" spellcheck="off" autocorrect="off" />
-  </div>
+    <div class="flex items-center justify-center w-100 center">
+      <input
+        class="pa3 mv4 mw7 w-100 f4 br2 ba b--light-gray shadow animate-width"
+        required=""
+        type="text"
+        id="address"
+        name="entry.214227195"
+        placeholder="Street address"
+        autocomplete="off"
+        spellcheck="off"
+        autocorrect="off"
+      />
+      <input
+        class="pa3 mv4 ml2 w-100 mw5 f4 br2 ba b--light-gray shadow animate-width dn"
+        required=""
+        type="text"
+        id="address2"
+        name="entry.214227195"
+        placeholder="Apt"
+        autocomplete="off"
+        spellcheck="off"
+        autocorrect="off"
+      />
+    </div>
   </form>
 </div>
 <script>
@@ -17,21 +40,22 @@
 
   function initMap() {
     autocomplete = new google.maps.places.Autocomplete(searchInput, {
-      types: ["geocode"]
+      types: ["address"]
     });
-    autocomplete.addListener('place_changed', handlePlaceChange);
+    autocomplete.addListener("place_changed", handlePlaceChange);
   }
-
-
 
   function handlePlaceChange() {
     var place = autocomplete.getPlace();
     if (place.formatted_address) {
-      document.getElementById("address2").classList.remove("dn")
+      document.getElementById("address2").classList.remove("dn");
     } else {
-      document.getElementById("address2").classList.add("dn")
+      document.getElementById("address2").classList.add("dn");
     }
   }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNClp7oJsw-eleEoR3-PQKV23tpeW-FpE&libraries=places&callback=initMap" async defer>
-</script>
+<script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNClp7oJsw-eleEoR3-PQKV23tpeW-FpE&libraries=places&callback=initMap"
+  async
+  defer
+></script>
