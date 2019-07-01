@@ -3,7 +3,6 @@ baseURL = "https://www.nycmesh.net/"
 languageCode = "en-us"
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
-summaryLength = 10
 
 [params]
   title = "NYC Mesh"

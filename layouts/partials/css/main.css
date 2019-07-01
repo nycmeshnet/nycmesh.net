@@ -265,6 +265,12 @@ svg {
   border-color: #007aff;
 }
 
+@media screen and (max-height: 700px) and (max-width: 30em) {
+  .splash {
+    height: calc(100vh - 64px);
+  }
+}
+
 .splash-blog {
   background-image: url("/img/splash9.jpg");
   background-position: center 51%;
