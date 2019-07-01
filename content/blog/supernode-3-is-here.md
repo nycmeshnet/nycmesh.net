@@ -4,7 +4,7 @@ author: Zach
 date: "2019-06-30"
 ---
 
-Supernode 3 has finally landed, and in a big way. This node will help bring major connectivity to Brooklyn and launch the movement of the mesh to lower Brooklyn, expending as far as hopefully Staten Island.   
+Supernode 3 has finally landed, and in a big way. This node will help bring major connectivity to Brooklyn and launch the movement of the mesh to lower Brooklyn, extending as far as hopefully Staten Island.   
 
 Earlier this month a presentaton was given at the Org Meeting: [NYC Mesh Org Meeting - June 11 2019](https://www.youtube.com/watch?v=nGTmmcUcdmA)
 
@@ -31,10 +31,14 @@ Earlier this month a presentaton was given at the Org Meeting: [NYC Mesh Org Mee
 
 With __40Gbit connectivity__, we have set ourselves up for 40x-50x above our previous network capabilities. Yes, 1x40 is 40x higher, not 50x ( We had 1G before ), but our hardware couldn't quite hit 1G. With the new design we should be able to not only hit higher numbers, but actually achieve them. Not only does this bring a very stable connection to the Supernode, it unlocks many community benefits. We now have the bandwidth to: Host Sites, Support community livestreams, Open Source mirror projects, Firmware build servers and firmware distribution, and anything else we can put our mind to. We should be able to support other major projects by helping to __host public resources__.  
 As a tag-along, Pilot has also offered to support us with a __40Gbit at Supernode 1__ as well, growing our entire network from 1G total to 81G total, later this year.  
+![Speedtest](/img/blog/sn3speedtest.png)
+
   
 __Community Colo__ is a great opportunity for NYC Mesh Members who want to host a server somewhere for personal use and/or development. Rather than hosting at some company for a high monthly price, and also VPNing back to the mesh, and also supporting the mesh via a donation; simply put your server at Supernode 3 instead. We have a server rack and can acquire whatever space and power is needed as we grow. This helps the mesh pay for itself, and fills a need that some of us think is lacking in the area - affordable non-business server space for fun, experimenting, and personal use. We feel this fits under one of our core missions -- __Providing affordable and accessible community resources__ open to all with no limits, filtering, "gotcha's", contracts, etc.
+![Rack](/img/blog/sn3insidefinal.jpg)
 
 Our __rooftop position__ is also a major win. Although Supernode 3 is much lower than Supernode 1, and it can't see most of our major hubs, the huge capability of network and power to the rooftop should allow us to establish hubs around the area in big way, and, in __areas we couldn't previously reach__. We can easily add Point To Point antennas to sites that arise without hesitation nor months of planning.
+![Mount One](/img/blog/sn3mountone.jpg)
 
 New __VPN Exit__ for remote nodes. Supernode 1 was struggling to keep up under the load of the remote VPN traffic. The huge new connection offers a new place to bounce the traffic off a Supernode without contention. Latency has already dropped in a major way for many members.
 
@@ -63,6 +67,7 @@ Big thanks to:
 - Brooks and Tony for donating early and being the first Community Colo members
 - All who helped with the elevator shaft mounting and datacenter cabling ( Tony, Jonathan, Olivier, Brian, Brooks, Jason, Zach )
 - Jason, and others ( Olivier, Duncan ), for learning and executing the antenna mast mountings; This was a big work including concrete drilling, epoxy, bolts, generators, many drillbits, metal plates, etc.
+- All the cabling and crimping ( Olivier, Logan, Tony, Jason, Zach )
 - Logan for beautifying the wiring.
 
 Join us via Supernode 3 if you're in the area, or if you'd like to host a server inside.
