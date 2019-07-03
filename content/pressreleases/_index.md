@@ -1,3 +1,3 @@
 ---
-title: "Press Releases"
+title: "Press releases"
 ---
