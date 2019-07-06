@@ -18,17 +18,17 @@ input[type=number]::-webkit-outer-spin-button {
     </div>
 
     <p>
-      The NYC Mesh subsidized install costs $160. The installer receives $50 for labor and $110 helps cover some of the equipment. The total of $160 per apartment is due on completion.
+      The NYC Mesh install costs $290. The installer receives $50 for labor and $240 covers the cost of the equipment. The total of $160 per apartment is due on completion.
 <br>
 <br>
-The full cost of equipment averages $240, so if you can afford to, <a href="../pay240">please select that option.</a>
+The full cost of equipment averages $240, thank you for choosing that option. Please remember to pay the installer $50.
     </p>
 
     <div class="flex items-center justify-between bt bb">
       <p>Parts and Equipment</p>
       <div class="flex items-center">
         <span class="mr0 db">$</span>
-        <span contenteditable="" onfocus="setAmount('custom')" id="custom">110</span>
+        <span contenteditable="" onfocus="setAmount('custom')" id="custom">240</span>
       </div>
     </div>
     
@@ -108,7 +108,7 @@ The full cost of equipment averages $240, so if you can afford to, <a href="../p
     var amount = url.searchParams.get("a");
 
 
-    var donationAmount = amount * 100 || 11000
+    var donationAmount = amount * 100 || 24000
     
     var subscriptionPlan = 'twenty-monthly'
     var plan = url.searchParams.get("sub") || url.searchParams.get("s");
