@@ -1,0 +1,39 @@
+<div class="mt2 mb3">
+  <span class="f5 tl fw6 mv3 db">
+    Please also subscribe me to a monthly donation:
+  </span>
+  <form>
+    <div id="monthlyDonationSelector"></div>
+  </form>
+</div>
+
+<script>
+  // Add new monthly options here 
+  const planToInfo = {
+    '20': {
+      planId: 'twenty-monthly',
+      isDefaultValue: true,
+    },
+    '50': {
+      planId: 'fifty-monthly',
+    },
+    '100': {
+      planId: 'hundred-monthly',
+      label: '$100 (business)',
+    },
+  }
+
+  const noMonthlyPlanInfo = {
+    '0': {
+      planId: 'no-monthly',
+      label: 'I do not wish to donate',
+    }
+  }
+
+  const radioSelectionItem = ([amount, { planId, label, isDefaultValue }]) =>
+`<div><input class="w1" type="radio" name="monthlyDonation" value="${planId}" ${isDefaultValue && 'checked'}/><label class="fw${Object.keys(planToInfo).length}" for="${planId}">${label ? label : '$' + amount}</label></div>`;
+
+  document.getElementById("monthlyDonationSelector").innerHTML = Object.entries(planToInfo).concat(Object.entries(noMonthlyPlanInfo)).map(radioSelectionItem).join('');
+
+
+</script>
