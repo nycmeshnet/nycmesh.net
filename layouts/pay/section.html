@@ -17,8 +17,19 @@ input[type=number]::-webkit-outer-spin-button {
       <h2 class="f4 fw6 tl">Thank you for installing a mesh node!</h2>
     </div>
 
-    <p>
-      The NYC Mesh home install costs $<span class="total"></span>, $<span class="labor"></span> to be paid to the installer and $<span class="equipment"></span> to be paid below for parts and equipment. The total of $<span class="total"></span> per apartment is due on completion.
+
+    <p id=isSubsidized>
+      The NYC Mesh subsidized install costs $<span class="total"></span>. The installer receives $<span class="labor"></span> for labor and $<span class="equipment"></span> helps cover some of the equipment. The total of $<span class="total"></span> per apartment is due on completion.
+      <br>
+      <br>
+      The full cost of equipment averages $240, so if you can afford to, <a href="../pay?a=240">please select that option.</a>
+    </p>
+
+    <p id=isNotSubsidized>
+      The NYC Mesh total install cost of $<span class="total"></span> is due on completion. The installer receives $<span class="labor"></span> for labor and $<span class="equipment"></span> covers the cost of the equipment.
+      <br>
+      <br>
+      Thank you for choosing to cover the full cost of equipment. Please remember to pay the installer $<span class="labor"></span>.
     </p>
 
     <div class="flex items-center justify-between bt bb">
@@ -51,6 +62,7 @@ input[type=number]::-webkit-outer-spin-button {
   <script>
     const DEFAULT_ONE_TIME_DONATION_DOLLARS = 110;
     const DEFAULT_LABOR_FEE = 50;
+    const COST_OF_UNSUBSIDIZED_EQUIPMENT = 240;
 
     const url_string = window.location.href
     const url = new URL(url_string);
@@ -58,6 +70,9 @@ input[type=number]::-webkit-outer-spin-button {
     const amount = url.searchParams.get("a") || DEFAULT_ONE_TIME_DONATION_DOLLARS;
     const labor = url.searchParams.get("l") || DEFAULT_LABOR_FEE;
     const total = parseInt(amount) + labor;
+
+    const isSubsidized = amount < COST_OF_UNSUBSIDIZED_EQUIPMENT;
+    document.querySelector(isSubsidized ? "#isNotSubsidized" : "#isSubsidized").style.display = 'none';
 
     // Set one time values correctly in text spans
     const equipmentSpans = document.querySelectorAll('.equipment');
@@ -105,9 +120,6 @@ input[type=number]::-webkit-outer-spin-button {
 
     var payButton = document.getElementById('payButton');
     payButton.addEventListener('click', function(e) {
-
-      const subscriptionPlan = document.querySelector('input[name="monthlyDonation"]:checked').value;
-      console.log({ subscriptionPlan });
 
       if (parseInt(amount) && amount > 0) {
         handler = StripeCheckout.configure(stripeConfig);

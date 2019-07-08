@@ -1,0 +1,225 @@
+{{ define "main" }}
+<style>
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+[contenteditable]:focus {
+    outline: 0px solid transparent;
+}
+</style>
+<div class="splash-small cover"></div>
+<div class="ph4-ns ph3">
+  <div id="donation-amounts" class="measure-wide f5 dt w-100 f3 center bg-white black">
+
+    <div  class="pt4">
+      <h2 class="f4 fw6 tl">Thank you for installing a mesh node!</h2>
+    </div>
+
+    <p>
+      The NYC Mesh install costs $290. The installer receives $50 for labor and $240 covers the cost of the equipment. The total of $160 per apartment is due on completion.
+<br>
+<br>
+The full cost of equipment averages $240, thank you for choosing that option. Please remember to pay the installer $50.
+    </p>
+
+    <div class="flex items-center justify-between bt bb">
+      <p>Parts and Equipment</p>
+      <div class="flex items-center">
+        <span class="mr0 db">$</span>
+        <span contenteditable="" onfocus="setAmount('custom')" id="custom">240</span>
+      </div>
+    </div>
+    
+    <div class="mt2 mb3">
+        <span class="f5 tl fw6 mv3 db">
+          Please also subscribe me to a monthly donation:
+        </span>
+        <form>
+          <div>
+            <div class="mb1">
+              <input class="w1" type="radio" id="twenty-monthly"
+               name="contact" value="email" checked="checked" onclick="setSubscription('twenty-monthly')">
+              <label class="fw4" for="twenty-monthly">$20</label>
+            </div>
+
+            <div class="mb1">
+              <input class="w1" type="radio" id="fifty-monthly"
+               name="contact" value="phone" onclick="setSubscription('fifty-monthly')">
+              <label class="fw4" for="fifty-monthly">$50</label>
+            </div>
+
+            <div class="mb1">
+              <input class="w1" type="radio" id="hundred-monthly"
+               name="contact" value="mail" onclick="setSubscription('hundred-monthly')">
+              <label class="fw4" for="hundred-monthly">$100 (business)</label>
+            </div>
+
+            <div>
+              <input class="w1" type="radio" id="no-monthly"
+               name="contact" value="mail" onclick="setSubscription(undefined)">
+              <label class="fw4" for="no-monthly">I do not wish to donate</label>
+            </div>
+          </div>
+        </form>
+    </div>
+
+    <div class="flex flex-column items-center-l items-start">
+
+      <div  class="pt1 mt3-l mb3 mw5 f4 sans-serif">
+        <input id="payButton" type="submit" value="Pay with card" class="input-reset bw0 w-100 fw5 br3 pa3 white bg-blue ph4 mr5 pointer">
+        </input>
+      </div>
+
+      <!-- Donation Details -->
+      <div class="gray serif pb3 pt2 mw6">
+        <p class="f6 lh-copy i tc-l tl measure">
+          All donations will go towards our expenses and are tax deductible through our 501(c)(3) fiscal sponsor, <a class="no-underline light-silver" href="https://isoc-ny.org">ISOC-NY</a>.
+        </p>
+      </div>
+    </div>	
+  </div>
+</div>
+
+
+<script>
+    var donationAmount, donationType;
+
+    function setAmount(amount) {
+      // deselect selected
+      var selected = document.getElementById(donationAmount);
+      if (selected) {
+          selected.className = "button  pa0 br0 ba b--moon-gray ph3 pv3 pointer hover-b--blue"
+      }
+
+      // highlight choice and set amount
+      var button = document.getElementById(amount);
+      button.className = "button pa0 br0 ba b--blue bg-blue-50 ph3 pv3 pointer";
+      donationAmount = amount;
+    }
+  </script>
+
+  <script src="https://checkout.stripe.com/checkout.js"></script>
+
+  <script>
+    var url_string = window.location.href
+    var url = new URL(url_string);
+    var amount = url.searchParams.get("a");
+
+
+    var donationAmount = amount * 100 || 24000
+    
+    var subscriptionPlan = 'twenty-monthly'
+    var plan = url.searchParams.get("sub") || url.searchParams.get("s");
+    if (plan == 20) {
+      let planId = 'twenty-monthly'
+      document.getElementById(planId).checked = "checked"
+      setSubscription(planId)
+    }
+    if (plan == 50) {
+      let planId = 'fifty-monthly'
+      document.getElementById(planId).checked = "checked"
+      setSubscription(planId)
+    }
+    if (plan == 100) {
+      let planId = 'hundred-monthly'
+      document.getElementById(planId).checked = "checked"
+      setSubscription(planId)
+    }
+    if (plan == 'none' || plan == 0) {
+      let planId = 'no-monthly'
+      document.getElementById(planId).checked = "checked"
+      setSubscription(undefined)
+    }
+
+    var donationType, customAmount;
+    var customDonation = document.getElementById('custom');
+    customDonation.textContent = donationAmount / 100
+
+    customDonation.onkeypress = function(e) {
+      // not a number
+      if (e.which < 48 || e.which > 57)
+        e.preventDefault()
+    }
+
+    customDonation.addEventListener('input', function(e) {
+      var dollars = e.target.textContent;
+      donationAmount = dollars*100;
+      customAmount = dollars*100;
+    })
+
+    function setSubscription(plan) {
+      subscriptionPlan = plan;
+    }
+
+    function setAmount(amount) {
+      // deselect selected
+      var selected = document.getElementById(donationAmount) || document.getElementById('custom');
+
+      // highlight choice and set amount
+      var button = document.getElementById(amount);
+      if (amount == 'custom') {
+        donationAmount = customAmount;
+      }
+      else {
+        button.className = 'dtc mh2 w4 br2 bg-dark-gray selected';
+        donationAmount = amount;
+      }
+    }
+
+    function token(token) {
+      var request = new XMLHttpRequest();
+
+      request.onload = function() {
+        if (request.status === 200) {
+          window.location = '/pay/thanks'
+        } else {
+          window.location = '/pay/error'
+        }
+      }
+
+      request.open('POST', 'https://donate2.nycmesh.net/charge', true);
+      request.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+      request.send(JSON.stringify({
+        stripeToken: token,
+        donationAmount: donationAmount,
+        subscriptionPlan: subscriptionPlan
+      }));
+    }
+
+    var stripeConfig = {
+      key: 'pk_live_srTdi5OfErTSw5BGXqEkY9C1',
+      image: '/img/logo.svg',
+      locale: 'auto',
+      zipCode: true,
+      token: token
+    }
+
+    var handler = StripeCheckout.configure(stripeConfig);
+
+    var payButton = document.getElementById('payButton');
+    payButton.addEventListener('click', function(e) {
+
+      if (parseInt(donationAmount) && donationAmount > 0) {
+        handler = StripeCheckout.configure(stripeConfig);
+        handler.open({
+          name: 'NYC Mesh',
+          description: 'Donation',
+          amount: donationAmount
+        });
+      }
+
+      else {
+        alert('Please enter a valid donation amount.')
+      }
+
+      e.preventDefault();
+    });
+
+    // Close Checkout on page navigation:
+    window.addEventListener('popstate', function() {
+      handler.close();
+    });
+  </script>
+{{ end }}
