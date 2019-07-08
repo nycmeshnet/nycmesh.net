@@ -60,6 +60,7 @@ input[type=number]::-webkit-outer-spin-button {
   <script src="https://checkout.stripe.com/checkout.js"></script>
 
   <script>
+    // These are constants that should be updated when costs change
     const DEFAULT_ONE_TIME_DONATION_DOLLARS = 110;
     const DEFAULT_LABOR_FEE = 50;
     const COST_OF_UNSUBSIDIZED_EQUIPMENT = 240;
@@ -71,6 +72,7 @@ input[type=number]::-webkit-outer-spin-button {
     const labor = url.searchParams.get("l") || DEFAULT_LABOR_FEE;
     const total = parseInt(amount) + labor;
 
+    // Toggle display between the subsidized text and unsubsidized text
     const isSubsidized = amount < COST_OF_UNSUBSIDIZED_EQUIPMENT;
     document.querySelector(isSubsidized ? "#isNotSubsidized" : "#isSubsidized").style.display = 'none';
 
