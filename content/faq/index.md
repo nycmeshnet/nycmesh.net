@@ -30,6 +30,7 @@ title: "Frequently asked questions"
 *   [My neighbor has a rooftop router and is connected to NYC Mesh. Can I also use it to connect?](#alsouse)
 *   [What is the wait time for an installation? How do you decide who to connect first?](#waittime)
 *   [What is involved in a typical installation?](#typicalinstall)
+*   [What will the hardware setup look like?](#hardwaresetup)
 *   [How should I prepare before the install team arrives?](#prepare)
 *   [What happens if the install team can’t connect me to the mesh?](#nogo)
 *   [What if I can’t get roof access?](#noroof)
@@ -236,6 +237,15 @@ Most installations proceed in the following order:
 *   Clean up
 
 In case of bad weather conditions, we will notify you that the install has been canceled and will invite you to make a new appointment.
+
+<font size="3"> <a href="#top">&#8598; Back to top</a> </font>
+
+### <a name="hardwaresetup"></a>What will the hardware setup look like?
+
+Here's a diagram showing typical hardware and how it connects together.
+
+![Installing_a_rooftop_router](/img/diagram_textbottom.jpg "Typical installation diagram")
+
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
