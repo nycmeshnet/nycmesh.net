@@ -1,36 +1,35 @@
 ---
 title: "Priorities"
 author: Brian
-date: "2018-01-15"
+date: "2019-07-09"
 ---
 
 Here is my list of priorities for the mesh in order of importance. I'll keep this updated.
 
-**1. Increase install rate**  
-**2. Work and storage space**  
-**3. Software services**  
-**4. OpenWrt compatible 802.11ac**  
-**5. Tall structure installs**  
+**1. More weekday install leaders**    
+**2. Leaflets for multiple apartments in same building**  
+**3. USPS mailout to new areas like Greenwood**  
+**4. Complete setting up the mesh org**  
 **6. Collaborations**  
-**7. Donations**
+**7. Donations**  
 
 ---
 
-**1. Increase install rate**
+**1. Install leaders**
 
-We have over a thousand people waiting for installs. We need to drastically increase the install rate by having multiple install team coordinators. In the short term we want to increase the rate from a few a week to two per day. With multiple teams we should be able to get this to five per day.
+We have a huge amount of voluteers for installs but very few are available during weekdays and there are not currently enough install leaders. Please join [slack](https://slack.nycmesh.net) if you would like to help.
 
-**2. Work and storage space**
+**2. Leaflets**
 
-We need a place to store our install gear and also work on routers etc.
+We have installs on over 200 buildings but most of these only connect one apartment. We should go back to these buildings and distribute leaflets to get the rest of the building interested in installs. 
 
-**3. Software services**
+**3. USPS**
 
-The mesh network has around 5 small servers that can be accessed using our ".mesh" domain. This has been difficult to maintain. We do have IRC installed and running across three servers but it is rarely used. We need distributed software that will still work when servers are down or part of the network is not accessible. Guifi has a package called [Cloudy](http://cloudy.community/) that I would like to try.
+We can send postcards via USPS to new areas (zip codes) that we can connect like Greenwood, South Slope, Allerton (Bronx) and Alphabet City
 
-**4. OpenWrt compatible 802.11ac**
+**4. Complete setting up the mesh org**
 
-We need to start using gigabit 802.11ac routers for speed. We are currently looking at the indoor [GL-B1300](https://www.gl-inet.com/b1300/). For outdoor we don't have any 802.11ac that supports OpenWrt
+We have filed the papers to set up the org. We need to get a bank account and move ahead with some fiber contracts.
 
 **5.Tall structure installs**
 
@@ -40,8 +39,8 @@ Once we have a tall structure in a neighborhood we can link to apartment buildin
 
 **6. Collaborations**
 
-We are just starting some exciting collaborations with Zoetic Networks and Brooklyn Microgrid, and we are in talks with Chinatown B.I.D and NYCHA. This is essential to our growth and we should have more of this.
+We have many collaborations with building management companies. We need to prioritize this and expand on these projects.
 
 **7. Donations**
 
-Donations and subscriptions are support the cost for supernode1. We need more money to help us create more supernodes and expand. You can donate via our [donate page.](/donate).
+Donations and subscriptions pay for everything we do. We need more money to help us create more supernodes and expand. You can donate via our [donate page](/donate).
