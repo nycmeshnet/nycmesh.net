@@ -30,6 +30,7 @@ title: "Frequently asked questions"
 *   [My neighbor has a rooftop router and is connected to NYC Mesh. Can I also use it to connect?](#alsouse)
 *   [What is the wait time for an installation? How do you decide who to connect first?](#waittime)
 *   [What is involved in a typical installation?](#typicalinstall)
+*   [What will the hardware setup look like?](#hardwaresetup)
 *   [How should I prepare before the install team arrives?](#prepare)
 *   [What happens if the install team can’t connect me to the mesh?](#nogo)
 *   [What if I can’t get roof access?](#noroof)
@@ -138,7 +139,7 @@ The mesh also has its own web servers that show local information and allow you 
 
 # Joining the Community
 
-## <a name="signup"></a>How do I sign up to get connected?
+### <a name="signup"></a>How do I sign up to get connected?
 
 After reading through the FAQs, fill out the [join form](/join) to be assigned a Potential Node, and look for an email with next steps (check your email spam folder or contact us directly at install@nycmesh.net if you don’t receive any reply).
 
@@ -214,11 +215,11 @@ Some additional things you can do to determine if you are in a coverage zone:
 
 We encourage neighbors to share their Internet access. Ask your neighbor for permission to connect via their rooftop router and reach out to us on [slack](https://slack.nycmesh.net/). We can probably install a switch at the rooftop router and run an ethernet cable to your apartment. We have a standard $160 install fee, and we ask for a $20 monthly donation if you can afford it.
 
-## <a name="waittime"></a>What is the wait time for an volunteer-led installation? How do you decide who to connect first?
+### <a name="waittime"></a>What is the wait time for an volunteer-led installation? How do you decide who to connect first?
 
 Once you submit your node request form, we will request a panoramic photo from your rooftop or window to assess line of sight to nearby nodes and we will then invite you to schedule an appointment on our install calendar. Wait times will vary based on the availability of volunteer installers. If you can convince your neighbors to also join, we will put you at the top of the install list.
 
-## <a name="typicalinstall"></a>What is involved in a typical volunteer-led installation?
+### <a name="typicalinstall"></a>What is involved in a typical volunteer-led installation?
 
 For a volunteer-led install, NYC Mesh will send a team of volunteers to your building to conduct a site survey. If we can connect to an existing node from your rooftop or window, we will install all the necessary hardware to get you connected to the mesh.
 
@@ -236,6 +237,15 @@ Most installations proceed in the following order:
 *   Clean up
 
 In case of bad weather conditions, we will notify you that the install has been canceled and will invite you to make a new appointment.
+
+<font size="3"> <a href="#top">&#8598; Back to top</a> </font>
+
+### <a name="hardwaresetup"></a>What will the hardware setup look like?
+
+Here's a diagram showing typical hardware and how it connects together.
+
+![Installing_a_rooftop_router](/img/diagram_textbottom.jpg "Typical installation diagram")
+
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -273,7 +283,7 @@ If you’re in an area that’s currently underserved by NYC Mesh but can get a 
 
 If you can’t connect to any existing node yet but would still like to access community tools or content that are only available on the mesh, you have the option of [“tunneling”](https://en.wikipedia.org/wiki/Tunneling_protocol) over the Internet by VPN.
 
-## <a name="bymylonesome"></a>Can I install the hardware and connect to NYC Mesh on my own (DIY)?
+### <a name="bymylonesome"></a>Can I install the hardware and connect to NYC Mesh on my own (DIY)?
 
 Yes you can. Make sure to sign up for a node by filling out our [join form](/join) even if you are installing by yourself.
 
