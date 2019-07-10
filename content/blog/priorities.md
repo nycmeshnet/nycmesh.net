@@ -35,7 +35,7 @@ We have filed the papers to set up the org. We need to get a bank account and mo
 
 **5. SN4 improvements**
 
-We should improve the gateway stop, and move the antennae to the highest point.
+We should improve the gateway, and move the antennae to the highest point.
 
 **6.Tall structure installs**
 
