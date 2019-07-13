@@ -3,6 +3,8 @@ title: "Network status"
 ---
 2019-7-13
 
+3:45pm Fixed the problem (actually a bad port). Connection in Brooklyn should be faster now than it has been the past week.
+
 2:40pm Replacing a bad cable. Brooklyn nodes may be down for 20 minutes or so.
 
 2019-6-20
