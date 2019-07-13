@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2019-7-13
+
+2:40pm Replacing a bad cable. Brooklyn nodes may be down for 20 minutes or so.
+
 2019-6-20
 
 3:52pm Connection is back up. All nodes online
