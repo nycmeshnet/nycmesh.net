@@ -37,13 +37,13 @@ Community organizations with shared resources often fail. This is called the tra
 
 NYC Mesh is a hybrid network of point-to-point, point-to-multipoint (sector antennas), ethernet and mesh. It is important to pick the right solution for each networking problem. 
 
-Mesh usually uses different firmware from the factory firmware, and is good for the last mile as it re-configures automatically. If there is a mesh network on your block, often you can use just one device to extend the network.
+Point-to-point is used to go long distances often with expensive equipment such as an AirFiber pair.
 
 Point-to-multipoint sector antennas are good for getting high-bandwidth into neighborhoods. Put one or more of these on a tall building. You don't need to flash these with mesh software, just use the factory software such as AirMax, usually set in "bridge" mode.
 
-Point-to-point is used to go long distances often with expensive equipment such as an AirFiber pair.
+Mesh usually uses different firmware from the factory firmware or different configurations. It is good for the last mile as it re-configures automatically. If there is a mesh network on your block, often you can use just one device to extend the network.
 
-For mesh protocols we are currently using OSPF in a MikroTik Omnitik. We have our own config generator for this to make it simple. We have used BATMAN protocols such as bmx6 or batman-adv (bmx7 is still experimental). There are prebuilt packages- Libremesh, qMp and Gluon. We use [qMp](http://qmp.cat). Don't try creating your own, just modify an existing package to your configuration. [Libremesh](https://libremesh.org/) has been very active lately and has support for a large range of routers. We are currently trying this as well.
+For mesh protocols we are currently using OSPF in a MikroTik Omnitik. We have our own [config generator](https://configgen.nycmesh.net) for this to make it simple. We have used BATMAN protocols such as bmx6 or batman-adv (bmx7 is still experimental). There are prebuilt packages- Libremesh, qMp and Gluon. We use [qMp](http://qmp.cat). Don't try creating your own, just modify an existing package to your configuration. [Libremesh](https://libremesh.org/) has been very active lately and has support for a large range of routers. We are currently trying this as well.
 
 **Install your first node**
 
@@ -96,21 +96,23 @@ Try to get whole buildings to install a rooftop antenna and then run ethernet to
 
 Plan your internet gateways. Initially you will probably use your home ISP connection (totally legal in this country). Eventually you may want a "supernode" with bigger bandwidth. An IXP or ISP may donate a connection, as DE-CIX and Packet.net did for us.
 
-Another kind of gateway is a public wifi access point. By using directional routers you can extend the range of public access points very easily. Here are some instructions- [how to connect to a kiosk.](/blog/public-access-points). This uses a NanoStation.
+Another kind of gateway is a public wifi access point. By using directional routers you can extend the range of public access points very easily. Here are some instructions- [how to connect to a kiosk.](/blog/public-access-points). This uses a NanoStation NSM5 or Omnitik SXTsq.
 
 **Tall structures**
 
-Tall structures are the fastest way to expand the wireless mesh. There are a few different types in a city and you need to try them all- housing association buildings, skyscrapers, [churches](/leaflet/church.pdf), schools, libraries, existing antenna masts and building coops. Make specific [presentations and handouts](/leaflet/) for different types of structures.
+Tall structures are the fastest way to expand your network. There are a few different types in a city and you need to try them all- housing association buildings, skyscrapers, [churches](/leaflet/church.pdf), schools, libraries, existing antenna masts and building coops. Make specific [presentations and handouts](/leaflet/) for different types of structures.
 
 **Supernodes**
 
-Plan your first major gigabit install at an IXP or tower. This will have sector antennas (P2MP) and point to point. You may need a network engineer to help in their spare time. An IXP connection requires a network engineer familiar with BGP.
+Plan your first major gigabit install at an data center or tower. This will have sector antennas (P2MP) and point to point. You may need a network engineer to help in their spare time. An IXP connection at a data center requires a network engineer familiar with BGP.
 
 A sector antenna is basically a Wireless ISP (WISP) tower so WISP expertise is needed. The best online forum is the [Ubiquiti community](https://community.ubnt.com/), and the best organization in America is [WISPA](http://www.wispa.org/). The sector antennas can be a gateway and also bridge your mesh network and reduce the amount of hops. Try to not to be more than three hops from a gateway. Every hop halves the bandwidth and adds ~15ms of latency.
 
 To get a long distance from a gateway use P2P setups- either cheap: 150Mbps such as a pair of LiteBeams, or expensive: gigabit such as a pair of AirFiber.
 
 The most popular cheap outdoor routers are [Ubiquiti](https://ubnt.com). Other good companies are [LigoWave](https://www.ligowave.com/), [MikroTik](https://mikrotik.com/).
+
+For short distance gigabit connection (less than 1Km) you can use 60GHz antennas like this [Wireless Wire dish](https://mikrotik.com/product/wireless_wire_dish)
 
 **Local mesh networks**
 
