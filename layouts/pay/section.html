@@ -35,7 +35,7 @@ input[type=number]::-webkit-outer-spin-button {
     <div class="flex items-center justify-between bt bb">
       <p>Parts and Equipment</p>
       <div class="flex items-center">
-        <span class="mr0 db">$<span contenteditable="" id="customAmount" class="equipment"></span></span>
+        <span class="mr0 db">$<span contenteditable="" onkeyup="validateCustomAmount()" id="customAmount" class="equipment"></span></span>
       </div>
     </div>
     
@@ -108,6 +108,12 @@ input[type=number]::-webkit-outer-spin-button {
         donationAmount: amount * 100,
         subscriptionPlan: document.querySelector('input[name="monthlyDonation"]:checked').value
       }));
+    }
+
+    function validateCustomAmount() {
+      const customAmountElement = document.querySelector('#customAmount');
+      const customAmount = customAmountElement.textContent;
+      customAmountElement.textContent = customAmount.replace(/\D/g,'');
     }
 
     var stripeConfig = {
