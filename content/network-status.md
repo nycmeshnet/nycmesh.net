@@ -1,6 +1,18 @@
 ---
 title: "Network status"
 ---
+2019-7-23
+
+Heavy rain has been interrupting our Henry and Rivington connections downtown. This affects most nodes that are **not** directly connected to Supernode 1. We are planning a fix for this but it will take a few weeks to implement.
+
+Saratoga Hub is still having bandwidth issues. We are about halfway through fixing this. There is now a fast connection from Soft Surplus to Saratoga. Next we have to upgrade the main router and also add a second West-facing sector antenna. This should all be completed over the next 4 weeks.
+
+2019-7-13
+
+3:45pm Fixed the problem (actually a bad port). Connection in Brooklyn should be faster now than it has been the past week.
+
+2:40pm Replacing a bad cable. Brooklyn nodes may be down for 20 minutes or so.
+
 2019-6-20
 
 3:52pm Connection is back up. All nodes online

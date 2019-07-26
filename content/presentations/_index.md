@@ -1,4 +1,4 @@
 ---
 title: "Presentations"
-aliases: ["/blog/presentations"]
+aliases: ["/blog/presentations", "/presentation"]
 ---

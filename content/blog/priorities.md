@@ -35,11 +35,11 @@ We have filed the papers to set up the org. We need to get a bank account and mo
 
 **5. SN4 improvements**
 
-We should improve the gateway stop, and move the antennae to the highest point.
+We should improve the gateway, and move the antennae to the highest point.
 
 **6.Tall structure installs**
 
-Tall structures are the only way we can expand the wireless mesh. This is by far our biggest priority. There are a few different types in the city and we need to try them all- NYCHA buildings, skyscrapers, churches, schools, libraries, existing antenna masts and building coops. We need specific presentations and handouts for each of these types of structures. We are currently approaching libraries and [churches](/leaflet/church.pdf). We need to build presentations for coop boards and others.
+Tall structures are the only way we can expand the wireless mesh. This is by far our biggest priority. There are a few different types in the city and we need to try them all- NYCHA buildings, skyscrapers, churches, schools, libraries, existing antenna masts and building coops. We need specific presentations and handouts for each of these types of structures. We are currently approaching libraries and [churches](https://docs.nycmesh.net/organization/outreach/church.pdf). We need to build presentations for coop boards and others.
 
 Once we have a tall structure in a neighborhood we can link to apartment building rooftops.
 

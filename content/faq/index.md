@@ -77,7 +77,7 @@ Here’s a list of our reasons for building a community-owned mesh network:
 
 ### <a name="how"></a>How does it work?
 
-Most NYC Mesh members (“nodes”) use wireless routers mounted on a rooftop or window to connect to other nodes, forming a network. Our network in turn peers (connects) with many other networks at an [Internet exchange point (IXP)](https://en.wikipedia.org/wiki/Internet_exchange_point), providing direct access to the Internet without the intermediary of a commercial Internet Service Provider. NYC Mesh maintains a number of primary Internet exchange points that we call “Supernodes.”
+Most NYC Mesh members (“nodes”) use wireless routers mounted on a rooftop or balcony to connect to other nodes, forming a network. Our network in turn peers (connects) with many other networks at an [Internet exchange point (IXP)](https://en.wikipedia.org/wiki/Internet_exchange_point), providing direct access to the Internet without the intermediary of a commercial Internet Service Provider. NYC Mesh maintains a number of primary Internet exchange points that we call “Supernodes.”
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -202,7 +202,7 @@ Connecting to the Internet with NYC Mesh requires a direct line-of-sight to an e
 *   within range of a supernode or hub node
 *   close to a LinkNYC kiosk
 
-If any of the above are true, there is a good chance you will be able to connect to NYC Mesh. Fill out the [join form](/join) and we will assess your location. We will also ask you to take a picture or panorama from your window or rooftop.
+If any of the above are true, there is a good chance you will be able to connect to NYC Mesh. Fill out the [join form](/join) and we will assess your location. We will also ask you to take a picture or panorama from your balcony or rooftop.
 
 Some additional things you can do to determine if you are in a coverage zone:
 
@@ -217,11 +217,11 @@ We encourage neighbors to share their Internet access. Ask your neighbor for per
 
 ### <a name="waittime"></a>What is the wait time for an volunteer-led installation? How do you decide who to connect first?
 
-Once you submit your node request form, we will request a panoramic photo from your rooftop or window to assess line of sight to nearby nodes and we will then invite you to schedule an appointment on our install calendar. Wait times will vary based on the availability of volunteer installers. If you can convince your neighbors to also join, we will put you at the top of the install list.
+Once you submit your node request form, we will request a panoramic photo from your rooftop or balcony to assess line of sight to nearby nodes and we will then invite you to schedule an appointment on our install calendar. Wait times will vary based on the availability of volunteer installers. If you can convince your neighbors to also join, we will put you at the top of the install list.
 
 ### <a name="typicalinstall"></a>What is involved in a typical volunteer-led installation?
 
-For a volunteer-led install, NYC Mesh will send a team of volunteers to your building to conduct a site survey. If we can connect to an existing node from your rooftop or window, we will install all the necessary hardware to get you connected to the mesh.
+For a volunteer-led install, NYC Mesh will send a team of volunteers to your building to conduct a site survey. If we can connect to an existing node from your rooftop or balcony, we will install all the necessary hardware to get you connected to the mesh.
 
 Typically, installs take between one and three hours to complete, but in certain cases they can take longer. We require you to be present for the duration of the install, so we recommend that you plan to remain at your apartment for at least four hours from the start of the install. We will update you on the progress of the install in case of major delays.
 
@@ -269,15 +269,15 @@ If we think a connection may be possible by installing a mast, mounting equipmen
 
 ### <a name="noroof"></a>What if I can't get roof access?
 
-You may be able to connect from your window if you have a good view, or you are very near another access point.
+You may be able to connect from your balcony or window if you have a good view, or you are very near another access point. We don't usually do window installs as they are very difficult and the results aren't predictable.
 
-Once you fill out the [join form](/join), we can help you determine the viability of a window install. If you would like to install an NSM5 router on your own, see this [blog post](/blog/nsm5-install/). If you would like to connect to LinkNYC kiosk [see here](https://docs.nycmesh.net/installs/linknyc/)
+Once you fill out the [join form](/join), we can help you determine the viability of a balcony install. If you would like to install an NSM5 router on your own, see this [blog post](/blog/nsm5-install/). If you would like to connect to LinkNYC kiosk [see here](https://docs.nycmesh.net/installs/linknyc/)
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
 ### <a name="noview"></a>Can I install a router if I have no view or no rooftop access?
 
-In some cases you might be close enough to another node to get signal without line of sight to it.
+In some rare cases you might be close enough to another node to get signal without line of sight to it.
 
 If you’re in an area that’s currently underserved by NYC Mesh but can get a dozen or more of your neighbors together, you can also create your own hub or supernode which would expand the mesh further. Contact us on [slack][] or email us at install@nycmesh.net to discuss this option further.
 
