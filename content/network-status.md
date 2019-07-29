@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2019-7-29
+
+12:59am Bandwidth has returned to good speeds in much of Brooklyn due to improved configuration of the SN3 VPN server. This also fixes much of the Saratoga problem.
+
 2019-7-23
 
 Heavy rain has been interrupting our Henry and Rivington connections downtown. This affects most nodes that are **not** directly connected to Supernode 1. We are planning a fix for this but it will take a few weeks to implement.
