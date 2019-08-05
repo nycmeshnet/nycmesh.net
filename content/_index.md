@@ -13,6 +13,8 @@ alertURL: "/network-status"
 
 ### <a href="/help" class="blue">Volunteer</a> to help build our network.
 
+### <a href="/donate" class="blue">Donate</a> to help us expand.
+
 ### Read our <a href="/faq" class="blue">FAQ</a> to learn how NYC Mesh works.
 
 The Internet is central to our lives. But in New York City, our access is controlled by a cartel of cable companies who overcharge and underdeliver.
