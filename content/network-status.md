@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2019-8-7
+
+Unusually heavy rain is interrupting connections downtown and in Greenpoint this afternoon. We have a large upgrade planned during August and September that will fix these rain problems 
+
 2019-7-29
 
 12:59am Bandwidth has returned to good speeds in much of Brooklyn due to improved configuration of the SN3 VPN server. This also fixes much of the Saratoga problem.
