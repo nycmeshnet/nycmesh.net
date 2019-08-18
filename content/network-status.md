@@ -3,7 +3,9 @@ title: "Network status"
 ---
 2019-8-17
 
-We are performing an upgrade at Saratoga as part of an on-going effort to increase speeds. This will only affect people connected to that Brooklyn hub. The hub will be down for 30 minutes around noon and occasional ups and downs in the early afternoon.
+3:30pm Upgrade completed successfully at Saratoga, and point-to-point connection established to SN4
+
+11:30am We are performing an upgrade at Saratoga as part of an on-going effort to increase speeds. This will only affect people connected to that Brooklyn hub. The hub will be down for 30 minutes around noon and occasional ups and downs in the early afternoon.
 
 2019-8-7
 
