@@ -16,9 +16,9 @@ Charges for additional data usage:	**No Charge**
 
 ## STANDARD ONE-TIME-CHARGES
  
-Labor Charge $50.00  
-Self-Installation (DIY)	$0.00  
-WiFi Router + Rooftop Antenna	$110.00  
+Self-Installation (DIY)	$0 
+
+Volunteer led install $290 (standard) or $160 (subsidized)
 * Rates my vary for non standard events or service requests.
  
 ## PERFORMANCE: INDIVIDUAL EXPERIENCE MAY VARY
@@ -26,13 +26,13 @@ WiFi Router + Rooftop Antenna	$110.00
 Speeds vary due to distance from our main antennas, type of connection (point to point, multipoint, fiber). Wireless connection speeds vary considerably. NYC Mesh uses best-effort for speed and support.
 
 ## Network Management:  
-NYC Mesh is a neutral network and does not have any network management practices that are specific to any application or subscriber.
+NYC Mesh is a neutral network and it does not have any network management practices that are specific to any application or subscriber.
 
 
 Additional information on network management can be found in NYC Mesh's Network Commons License- [nycmesh.net/ncl.pdf](../ncl.pdf) 
 
 ## Privacy Policy:  
-We are a neutral network and do not monitor, collect, store or block any user data or content. More information about our commitment to privacy is available in our privacy policy- [nycmesh.net/privacy-policy](../privacy-policy)
+We are a neutral network and we do not monitor, collect, store or block any user data or content. More information about our commitment to privacy is available in our privacy policy- [nycmesh.net/privacy-policy](../privacy-policy)
  
 ## Support:
 
