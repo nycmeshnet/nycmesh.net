@@ -1,6 +1,6 @@
 ---
 title: "Donate"
-description: "Help us fund Supernodes 3 and 4!"
+description: "Help us by funding the next hub!"
 aliases: ["/donation"]
 goal: 2650
 progress: 420
