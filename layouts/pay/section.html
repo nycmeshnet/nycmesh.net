@@ -46,15 +46,15 @@ Thank you for choosing to cover the full cost of equipment. Please remember to p
             </div>
 
             <div class="mb1">
-              <input class="w1" type="radio" id="fifty-monthly"
-               name="contact" value="phone" onclick="setSubscription('fifty-monthly')">
-              <label class="fw4" for="fifty-monthly">$50</label>
+              <input class="w1" type="radio" id="thirty-monthly"
+               name="contact" value="phone" onclick="setSubscription('thirty-monthly')">
+              <label class="fw4" for="thirty-monthly">$30</label>
             </div>
 
             <div class="mb1">
-              <input class="w1" type="radio" id="hundred-monthly"
-               name="contact" value="mail" onclick="setSubscription('hundred-monthly')">
-              <label class="fw4" for="hundred-monthly">$100 (business)</label>
+              <input class="w1" type="radio" id="fifty-monthly"
+               name="contact" value="mail" onclick="setSubscription('fifty-monthly')">
+              <label class="fw4" for="fifty-monthly">$50</label>
             </div>
 
             <div>
@@ -118,13 +118,13 @@ Thank you for choosing to cover the full cost of equipment. Please remember to p
       document.getElementById(planId).checked = "checked"
       setSubscription(planId)
     }
-    if (plan == 50) {
-      let planId = 'fifty-monthly'
+    if (plan == 30) {
+      let planId = 'thirty-monthly'
       document.getElementById(planId).checked = "checked"
       setSubscription(planId)
     }
-    if (plan == 100) {
-      let planId = 'hundred-monthly'
+    if (plan == 50) {
+      let planId = 'fifty-monthly'
       document.getElementById(planId).checked = "checked"
       setSubscription(planId)
     }
