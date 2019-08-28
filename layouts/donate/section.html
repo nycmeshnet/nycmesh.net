@@ -9,7 +9,7 @@
 
     <!-- Progress Bar -->
     <div  class="mh3 center pt4 sans-serif">
-      <h2 class="f4 fw6 tl">Help us by funding the next hub!</h2>
+      <h2 class="f4 fw6 tl">Help us to fund the next hub!</h2>
       <!--
       <p>{{ lang.NumFmt 0 $remainingDonations }} monthly donations remaining!</p>
       <div class="h1 bg-light-gray w-100 br3">
@@ -33,12 +33,12 @@
           </div>
           <div class="w1">
           </div>
-          <div id="fifty-monthly" onclick="setAmount('fifty-monthly')" class="button  pa0 br0 ba b--moon-gray ph3 pv3 pointer hover-b--blue">
+          <div id="thirty-monthly" onclick="setAmount('thirty-monthly')" class="button  pa0 br0 ba b--light-silver ph3 pv3 pointer hover-b--blue">
             <span class="ma0 fw4 sans-serif">$50</span>
           </div>
           <div class="w1">
           </div>
-          <div id="hundred-monthly" onclick="setAmount('hundred-monthly')" class="button  pa0 br0 ba b--moon-gray ph3 pv3 pointer hover-b--blue">
+          <div id="fifty-monthly" onclick="setAmount('fifty-monthly')" class="button  pa0 br0 ba b--moon-gray ph3 pv3 pointer hover-b--blue">
             <span class="ma0 fw4 sans-serif">$100</span>
           </div>
         </div>
@@ -200,18 +200,18 @@
           amount: 2000
         });
 
+      else if (donationAmount == 'thirty-monthly')
+        handler.open({
+          name: 'NYC Mesh',
+          description: 'Monthly Donation',
+          amount: 3000
+        });
+
       else if (donationAmount == 'fifty-monthly')
         handler.open({
           name: 'NYC Mesh',
           description: 'Monthly Donation',
           amount: 5000
-        });
-
-      else if (donationAmount == 'hundred-monthly')
-        handler.open({
-          name: 'NYC Mesh',
-          description: 'Monthly Donation',
-          amount: 10000
         });
 
       else {
