@@ -9,9 +9,13 @@ Here are some notes and ideas on how to start a community network.
 
 ---
 
+**It takes time**
+
+We get a lot of inquiries about how to start similar projects in other areas. We've been going for about seven years now and during the first few years it was very slow and difficult. We actually stopped about five times and restarted again months later. It wasn't until a year after our first supernode was running that it felt sustainable. There's some shortcuts you can take in starting a community-owned network, but you should be prepared for the long haul.
+
 **Research**
 
-It is important to do some research first. There are a few really big community networks (mostly non-English speaking). The biggest is [Guifi](https://guifi.net/en/node/38392) in Spain. Others include [Freifunk](https://freifunk.net/en/) in Germany, and [Wlan Slovenija](https://wlan-si.net/en/). Follow those links and see what they are doing.
+It is important to do some research first. There are a few really big community networks (mostly non-English speaking). The biggest is [Guifi](https://guifi.net/en/node/38392) in Spain. Others include [Freifunk](https://freifunk.net/en/) in Germany, [Wlan Slovenija](https://wlan-si.net/en/) and [B4RN](https://b4rn.org.uk/) in rural England. Follow those links and see what they are doing.
 
 Guifi began on farms and gradually expanded across the country. They use hundreds of kilometers of fiber, and wireless in all modes- point-to-point (P2P), point-to-multipoint (P2MP) and mesh (MP2MP). Here is a good long [interview with Ramon Roca,](http://www.cookreport.com/pdfs/march-april13diowireless.pdf) who started Guifi.
 
@@ -33,17 +37,42 @@ Community organizations with shared resources often fail. This is called the tra
 *  Conflict-resolution mechanisms
 *  Minimal recognition of rights to organize
 
+[Start your own ISP](https://startyourownisp.com/) is a great summary of the hardware problems and solutions.
+
 **Choose appropriate antennas, routers and firmware**
 
 NYC Mesh is a hybrid network of point-to-point, point-to-multipoint (sector antennas), ethernet and mesh. It is important to pick the right solution for each networking problem. 
 
-Point-to-point is used to go long distances often with expensive equipment such as an AirFiber pair.
+For antennas you need higher gain (db) to go long distances. A 19db NanoBeam will go 1km, a 23db LiteBeam will go 3km, and a 33db/38db AirFiber will go 10Km. 
 
-Point-to-multipoint sector antennas are good for getting high-bandwidth into neighborhoods. Put one or more of these on a tall building. You don't need to flash these with mesh software, just use the factory software such as AirMax, usually set in "bridge" mode.
+Generally for radios, the higher the frequency the faster the connection and the more it is susceptible to weather and objects. Double the frequency and you double the potential data rate. 5GHz wifi is roughly twice as fast as 2.4GHz wifi, but 2.4GHz has better coverage for home wifi as it will go through the internal walls.
 
-Mesh usually uses different firmware from the factory firmware or different configurations. It is good for the last mile as it re-configures automatically. If there is a mesh network on your block, often you can use just one device to extend the network.
+-900MHz (Lorawan) will go through a building, very slow speeds  
+-2.4GHz (WiFi) will pass through a wall  
+-5GHz works fine in the rain, but speeds are generally less than 500Mbps.   
+-24 GHz (AF24) is gigabit (1000Mbps) but will fail in heavy rain for distances over 4km.  
+-60GHz is inexpensive gigabit but will not go more than 500m in the rain.  
 
-For mesh protocols we are currently using OSPF in a MikroTik Omnitik. We have our own [config generator](https://configgen.nycmesh.net) for this to make it simple. We have used BATMAN protocols such as bmx6 or batman-adv (bmx7 is still experimental). There are prebuilt packages- Libremesh, qMp and Gluon. We use [qMp](http://qmp.cat). Don't try creating your own, just modify an existing package to your configuration. [Libremesh](https://libremesh.org/) has been very active lately and has support for a large range of routers. We are currently trying this as well.
+**Point-to-point** 
+
+* long distance (3 to 10 Km) We use AirFiber AF24 or AF5XHD
+
+* medium distance (up to 3 Km) LiteBeamAC is a very inexpensive way to get over 150 Mbps
+
+* short distance (< 1Km) [Wireless Wire dish](https://mikrotik.com/product/wireless_wire_dish) -cheap gigabit connection. These fail in heavy rain when the distance is over 0.5 Km
+
+**Point-to-multipoint**  
+
+Sector antennas are good for getting high-bandwidth into neighborhoods. Put one or more of these on a tall building. You don't need to flash these with mesh software, just use the factory software such as AirMax, usually set in "bridge" mode.
+
+* LiteAP -very good value!
+* PrismStation -very good for noisy environments
+
+**Multipoint-to-multipoint (mesh)**
+
+Mesh may use different firmware from the factory firmware or different configurations. It is good for the last mile as it re-configures automatically. If there is a mesh network on your block, often you can use just one device to extend the network.
+
+For mesh protocols we are currently using OSPF in a MikroTik Omnitik. We have our own [config generator](https://configgen.nycmesh.net) for this to make it simple. We have used BATMAN protocols such as bmx6 or batman-adv (bmx7 is still experimental). There are prebuilt packages- Libremesh, qMp and Gluon. We have used [qMp](http://qmp.cat). Don't try creating your own, just modify an existing package to your configuration. [Libremesh](https://libremesh.org/) has been very active lately and has support for a large range of routers. We are currently trying this as well.
 
 **Install your first node**
 
@@ -51,11 +80,11 @@ Some groups never get around to installing anything. Just go and install your fi
 
 **Online collaboration**
 
-* Chat software (Slack)
+* Chat software (Slack) This is our main organizing tool. We have over 200 active members.
 
-* Meeting (Meetup)
+* Meeting (Meetup) Have regular monthly meetups!
 
-* Planning (Trello)
+* Planning (Trello) This is good when you are juggling many ideas
 
 * Build your website with a map, join form, blog and your [commons license](/ncl.pdf)
 
@@ -86,7 +115,7 @@ Get a regular space for meetups. There are offices that will donate their space 
 
 Get a team of people together to do installs. These installs will mostly be weekends as that is when people are free during the day. The team has to know how to crimp and run cable, configure and align antennas, drill and install antenna mounts and drill through window frames.
 
-Roof installs can sometimes be done using abandoned TV antenna masts. Otherwise you will need to install your own J-pipe mast or bracket using a drill, or use a [non-penetrating mast](http://wadeantenna.com/product-category/mounts-masts/)
+Roof installs can sometimes be done using abandoned TV antenna masts. Otherwise you will need to install your own J-pipe mast or bracket using a drill, or use a [non-penetrating mast](http://wadeantenna.com/product-category/mounts-masts/).
 
 **Whole buildings**
 
@@ -100,11 +129,11 @@ Another kind of gateway is a public wifi access point. By using directional rout
 
 **Tall structures**
 
-Tall structures are the fastest way to expand your network. There are a few different types in a city and you need to try them all- housing association buildings, skyscrapers, [churches](/leaflet/church.pdf), schools, libraries, existing antenna masts and building coops. Make specific [presentations and handouts](/leaflet/) for different types of structures.
+Tall structures are the fastest way to expand your network. There are a few different types in a city and you need to try them all- housing association buildings, skyscrapers, [churches](https://docs.nycmesh.net/organization/outreach/church.pdf), schools, libraries, existing antenna masts and building coops. Make specific [presentations and handouts](/leaflet/) for different types of structures.
 
 **Supernodes**
 
-Plan your first major gigabit install at an data center or tower. This will have sector antennas (P2MP) and point to point. You may need a network engineer to help in their spare time. An IXP connection at a data center requires a network engineer familiar with BGP.
+Plan your first major gigabit install at a data center or tower. This will have sector antennas (P2MP) and point to point. You may need a network engineer to help in their spare time. An IXP connection at a data center requires a network engineer familiar with BGP.
 
 A sector antenna is basically a Wireless ISP (WISP) tower so WISP expertise is needed. The best online forum is the [Ubiquiti community](https://community.ubnt.com/), and the best organization in America is [WISPA](http://www.wispa.org/). The sector antennas can be a gateway and also bridge your mesh network and reduce the amount of hops. Try to not to be more than three hops from a gateway. Every hop halves the bandwidth and adds ~15ms of latency.
 
