@@ -7,15 +7,23 @@ aliases: [/how/]
 
 Here are some notes and ideas on how to start a community network.
 
+*Installing antennas is the main activity of a community network. Everything else you do should be about enabling more installs.*
+
 ---
 
 **It takes time**
 
 We get a lot of inquiries about how to start similar projects in other areas. We've been going for about seven years now and during the first few years it was very slow and difficult. We actually stopped about five times and restarted again months later. It wasn't until a year after our first supernode was running that it felt sustainable. There's some shortcuts you can take in starting a community-owned network, but you should be prepared for the long haul.
 
+**Install your first node**
+
+Some groups never get around to installing anything. Just go and install your first node to prove you can. Set up a public access point in a cafe or other meeting place, or just turn on your guest network on your home router. [Leave the router open](https://www.schneier.com/blog/archives/2008/01/my_open_wireles.html), and set the SSID to "-Our Name-" (the first dash means it will be at the top of the list of SSIDs). With each successful install you get experience, publicity and more members joining.
+
+Ok, now you have a community-owned network and you can move onto the next steps-
+
 **Research**
 
-It is important to do some research first. There are a few really big community networks (mostly non-English speaking). The biggest is [Guifi](https://guifi.net/en/node/38392) in Spain. Others include [Freifunk](https://freifunk.net/en/) in Germany, [Wlan Slovenija](https://wlan-si.net/en/) and [B4RN](https://b4rn.org.uk/) in rural England. Follow those links and see what they are doing.
+It is important to do some research and copy other success stories. There are a few really big community networks (mostly non-English speaking). The biggest is [Guifi](https://guifi.net/en/node/38392) in Spain. Others include [Freifunk](https://freifunk.net/en/) in Germany, [Wlan Slovenija](https://wlan-si.net/en/) and [B4RN](https://b4rn.org.uk/) in rural England. Follow those links and see what they are doing.
 
 Guifi began on farms and gradually expanded across the country. They use hundreds of kilometers of fiber, and wireless in all modes- point-to-point (P2P), point-to-multipoint (P2MP) and mesh (MP2MP). Here is a good long [interview with Ramon Roca,](http://www.cookreport.com/pdfs/march-april13diowireless.pdf) who started Guifi.
 
@@ -41,7 +49,7 @@ Community organizations with shared resources often fail. This is called the tra
 
 **Choose appropriate antennas, routers and firmware**
 
-NYC Mesh is a hybrid network of point-to-point, point-to-multipoint (sector antennas), ethernet and mesh. It is important to pick the right solution for each networking problem. 
+NYC Mesh is a hybrid network of point-to-point, point-to-multipoint (sector antennas), ethernet and mesh. It is important to pick the right solution for each networking problem. Don't pick one method or protocol and try to make that work for everything (avoid tech-solutionism). Use off-the-shelf hardware as much as possible.
 
 For antennas you need higher gain (db) to go long distances. A 19db NanoBeam will go 1km, a 23db LiteBeam will go 3km, and a 33db/38db AirFiber will go 10Km. 
 
@@ -74,19 +82,29 @@ Mesh may use different firmware from the factory firmware or different configura
 
 For mesh protocols we are currently using OSPF in a MikroTik Omnitik. We have our own [config generator](https://configgen.nycmesh.net) for this to make it simple. We have used BATMAN protocols such as bmx6 or batman-adv (bmx7 is still experimental). There are prebuilt packages- Libremesh, qMp and Gluon. We have used [qMp](http://qmp.cat). Don't try creating your own, just modify an existing package to your configuration. [Libremesh](https://libremesh.org/) has been very active lately and has support for a large range of routers. We are currently trying this as well.
 
-**Install your first node**
+**Online tools**
 
-Some groups never get around to installing anything. Just go and install your first node to prove you can. Set up a public access point in a cafe or other meeting place. [Leave the router open](https://www.schneier.com/blog/archives/2008/01/my_open_wireles.html), and set the SSID to "-Our Name-" (the first dash means it will be at the top of the list of SSIDs). With each successful install you get experience, publicity and more members joining.
+A big part of our expansion is automating things before they become overwhelming. We can easily handle 100 people filling in our join form in one day (which happens sometimes!) as it is all automated including a helpful canned email response. Joining Slack is automated. Install times are chosen by the new member, we just have to show up. Our support ticketing has helpful canned responses.
 
-**Online collaboration**
+You don't need many tools to start with- we started with a mail-list (replaced by Meetup and MailChimp), IRC (replaced by Slack) and a website with a map.
 
 * Chat software (Slack) This is our main organizing tool. We have over 200 active members.
 
-* Meeting (Meetup) Have regular monthly meetups!
+* Meeting (Meetup) Have regular monthly meetups! We have monthly presentation meetings and happy-hour bar meetings.
+
+* Build your website with docs, a map, join form, donate, blog and your [commons license](/ncl.pdf)
+
+* Join form and spreadsheet- this runs everything. Our map automatically updates from this spreadsheet (one day this spreadsheet will be replaced with a database says everyone)
+
+* Support ticketing (OSTicket) We've integrated this with our join and support forms, so canned responses are sent immediately
+
+* Google Earth- we have a kml file that reads from our spreadsheet and draws a line-of-sight between rooftops
+
+* Install calendar (Acuity Scheduling) A scheduling calendar like Acuity simplifies organizing installs incredibly.
 
 * Planning (Trello) This is good when you are juggling many ideas
 
-* Build your website with a map, join form, blog and your [commons license](/ncl.pdf)
+* Email (Mailgun server, MailChimp for newsletters) Get a domain and use free-ish mail server and newsletter services.
 
 * Tweet and get local news involved. Local news gets stories from the hashtags for their area.
 
@@ -106,6 +124,32 @@ others to do the same.
 * By joining the free network, you agree to extend the network to others under the same conditions.
 
 As the network grows, people may want to build businesses around the network. This is generally a good thing as the businesses will need the network to be stable and will help in doing this. The license will prevent any business from closing up the network and unduly profiting from it.
+
+**Sustainable funding model**
+
+Our sustainable model is very simple- new members pay a set amount that covers average hardware costs on an install, and we ask for $20/month donation. Nearly everyone pays this as it is very small compared to the ISP fees which start around $70/month. 
+
+So that's it- we have an install fee to cover hardware and $20/month covers our data center rentals. We are lucky in that all of our bandwidth is donated. We don't rent an office or storage space, we don't have any employees. For storage, install leaders store the gear in their apartments.
+
+We have received two grants so far, totaling $40,000. We've used this to help set up supernodes and hubs. So basically grants help us expand faster.
+
+If you try to do everything by grants, the project will fail when the grants runs out. It is two years since we've received any grant money and we are still expanding, entirely due to the install fee and $20/month donations. 
+
+Keep your monthly expenses as low as possible. Don't rent rooftop space unless it is in a data center. Don't rent an office space. Try to get donated everything.
+
+**Volunteers**
+
+Our network has more volunteers than the average community-owned network. This is partly because it is a big city, but also we've worked hard to encourage people to join and get involved.
+
+Every non-profit will tell you that managing volunteers is difficult. If you are not paying people it is hard to keep them around. Volunteers are often between jobs so they will disappear when they get the new job. The only secret here is to get as many volunteers as you can and encourage them to participate in all aspects of the network. We have about 30 hard-core volunteers and many more part-time volunteers and nearly all of them do rooftop installs and online help. We don't have specific titles, and this encourages everyone to do a bit of everything.
+
+Organizing takes a lot of time, and we mostly make decisions through small meetings with whoever is most involved with an issue. You don't want everyone at every meeting. 
+
+One title we do have is "install leader". This is someone who can complete a rooftop install by themselves if necessary. Usually a rooftop install has one install leader and two trainees. After about 6 installs, a trainee can lead the next install. Installing antennas is the main activity of a community network. Everything else you do should be about enabling more installs.
+
+A long-term plan is to maybe have our first employee when we get over 1000 nodes. At this size on our funding model it becomes possible to pay one salary.
+
+Volunteers are naturally more concerned about their specific neighborhood. This needs to be encouraged as they can help decentralize the organization and independently organize installs for their neighborhood. Centrally organizing everything just slows things down.
 
 **Meetup spaces**
 
@@ -163,7 +207,7 @@ Apply for grants! ISOC has a "Beyond the Net" grant which is specifically for co
 
 **Donations**
 
-Set up an easy to use donation page on your website. You will need to figure out a structure that can accept tax-deductible donations, like a 501(c)3 fiscal sponsor, or form a non-profit organization. You can use a service like Stripe to do credit-card processing.
+Set up an easy to use donation page on your website. You will need to figure out a structure that can accept tax-deductible donations, like a 501c3 fiscal sponsor, or form a non-profit organization. You can use a service like Stripe to do credit-card processing.
 
 **Collaborations**
 
