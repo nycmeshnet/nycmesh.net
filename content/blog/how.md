@@ -1,7 +1,7 @@
 ---
 title: "How to start a community network"
 author: Brian
-date: "2019-09-1"
+date: "2019-09-01"
 aliases: [/how/]
 ---
 
