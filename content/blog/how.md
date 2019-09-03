@@ -4,8 +4,9 @@ author: Brian
 date: "2019-09-01"
 aliases: [/how/]
 ---
+<sup>Updated September 2019 (originally posted 2017-05-11)</sup>
 
-Here are some notes and ideas on how to start a community network. Updated September 2019 (originally posted 2017-05-11)
+Here are some notes and ideas on how to start a community network. 
 
 *Installing antennas is the main activity of a community network. Everything else you do should be about enabling more installs.*
 
