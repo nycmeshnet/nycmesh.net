@@ -3,6 +3,8 @@ title: "Network status"
 ---
 2019-9-17
 
+4:30pm We have bypassed the problem and most nodes (96%) are now back online. We are still working on it.
+
 1:40pm Our Saratoga hub is down causing outages in Brooklyn. We are looking into it at the moment.
 
 2019-8-17
