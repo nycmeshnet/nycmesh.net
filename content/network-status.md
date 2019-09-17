@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2019-9-17
+
+1:40pm Our Saratoga hub is down causing outages in Brooklyn. We are looking into it at the moment.
+
 2019-8-17
 
 3:30pm Upgrade completed successfully at Saratoga, and point-to-point connection established to SN4
