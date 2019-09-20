@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2019-9-19
+
+2:00pm We have fixed most of the bandwidth problems. There are still some isolated slowdowns. If you are having problems please fill in a [support ticket](../support)
+
 2019-9-17
 
 5:00pm Bandwidth is low in Brooklyn until we fix our Soft Surplus gateway, hopefully later tonight or tomorrow.
