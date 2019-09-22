@@ -1,9 +1,13 @@
 ---
 title: "Network status"
 ---
+2019-9-21
+
+There were further adjustments to the Brooklyn network today as we standardise various hub nodes. Hopefully when we add back the Soft Suplus gateway we will be back to normal bandwidth tomorrow or the next day.
+
 2019-9-19
 
-2:00pm We have fixed most of the bandwidth problems. There are still some isolated slowdowns. If you are having problems please fill in a [support ticket](../support)
+2:00pm We have fixed some of the bandwidth problems. There are still some isolated slowdowns. If you are having problems please fill in a [support ticket](../support)
 
 2019-9-17
 
