@@ -1,6 +1,11 @@
 ---
 title: "Network status"
 ---
+
+2019-9-21
+
+The new multipath configuration is now complete in Brooklyn and many are reporting fast speeds tonight.
+
 2019-9-21
 
 There were further adjustments to the Brooklyn network today as we standardise various hub nodes. Hopefully when we add back the Soft Suplus gateway we will be back to normal bandwidth tomorrow or the next day.
