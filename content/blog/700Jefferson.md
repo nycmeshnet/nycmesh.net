@@ -1,7 +1,7 @@
 ---
 title: "We’re connecting a whole block in Bed Stuy"
-author: Scott
-date: "2019-02-06"
+author: Willem
+date: "2019-09-24"
 draft: false
 ---
 
