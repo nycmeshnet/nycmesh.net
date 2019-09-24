@@ -149,15 +149,22 @@ If you would like to volunteer with NYC Mesh, reach out on [slack][] or join us 
 
 ### <a name="cost"></a>How much does it cost to join?
 
-To cover our operating costs (mostly paying for infrastructure for fast access to the Internet “backbone”), we request that every Node owner pay a $20 recurring monthly donation. For a volunteer-led install, we charge $110 to cover parts and equipment and an additional $50 to cover labor-related expenses. (If we are not able to connect you, you do not need to pay the parts and equipment fee and you can decide whether or not you want to pay the labor fee.) For a do-it-yourself install, you can purchase compatible equipment on your own. 
+There is no fee to join NYC Mesh but you will need to pay for the required networking equipment to get connected. If you do a DIY install, you can purchase this equipment on your own. If you choose a volunteer-led install, we charge the following rates per apartment:
 
-Here is our ["rate card"](../rate-card) for more details
+*   The average actual equipment cost of $290 ($240 plus $50 cash to cover the install leader's expenses)
+*   A subsidized cost of $160 ($110 plus $50 cash cash to cover the install leader's expenses)
+
+If we are not able to connect you, you do not need to pay the parts and equipment fee and you can decide whether or not you want to pay the labor fee.
+
+If you can afford it, we also recommend that you pay a recurring monthly donation of $20, $30 or $50. We rely on these donations to maintain and expand our network.
+
+Here is our ["rate card"](../rate-card) for more details.
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
 ### <a name="free"></a>I heard that NYC Mesh is free Internet. Is that true?
 
-NYC Mesh costs money and time to operate and maintain. We may not demand a set monthly fee like a commercial Internet Service Provider, but we rely on recurring donations from our members as well as installation fees to sustain and grow our network.
+NYC Mesh costs money and time to operate and maintain. We don't demand a monthly fee like a commercial Internet Service Provider, but we rely on recurring monthly donations from our members maintain and expand our network.
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
