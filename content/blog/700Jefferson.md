@@ -1,5 +1,6 @@
 ---
 title: "We’re connecting a whole block in Bed Stuy"
+images: ["/img/blog/700Jefferson_Photo_03_sm.jpg"]
 author: Willem
 date: "2019-09-24"
 draft: false
