@@ -62,4 +62,4 @@ We need space to store equipment (cables and antennas), prepare installs, and ho
 
 ***
 
-[Slack]: https://join.slack.com/t/nycmesh/shared_invite/enQtNDk0NDA4OTAyNDY0LTU5NWMyODY5ZTYyMDY2NzgzOTJmZjFmZTg3YWRjYjE0M2EyMzlhNDE3YmIxZmZhYTZmNjIwNTVkMDIwMjI2ZDg
+[Slack](https://slack.nycmesh.net)
