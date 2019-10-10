@@ -7,7 +7,7 @@ Maintaining and growing NYC Mesh wouldn't be possible without a dedicated commun
 
 Come talk to us about volunteering opporunities at one of our monthly [Meetups](https://www.meetup.com/nycmesh/). We're super friendly!
 
-You can also reach out to us on [Slack][], our community message board.
+You can also reach out to us on [Slack](https://slack.nycmesh.net), our community message board.
 
 Or email us at help@nycmesh.net.
 
@@ -61,5 +61,3 @@ We need space to store equipment (cables and antennas), prepare installs, and ho
 [Donations](/donate/) are tax deductible and go towards expanding our network!
 
 ***
-
-[Slack](https://slack.nycmesh.net)
