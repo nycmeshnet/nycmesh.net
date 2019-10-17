@@ -3,6 +3,8 @@ title: "Network status"
 ---
 2019-10-16
 
+9:00pm It is back online now and working normally
+
 6:30pm We are having problems with the Henry and Rivington hubs. This is affecting downtown Manhattan connections
 
 2019-9-21
