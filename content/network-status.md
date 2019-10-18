@@ -3,7 +3,7 @@ title: "Network status"
 ---
 2019-10-18
 
-9:00am We have finally fixed the problems with alignment of our Greenpoint Guernsey hub, caused by Wednesday night winds.
+9:00am We have finally fixed the problems with alignment of our Greenpoint Guernsey hub, caused by Wednesday night winds. We are still working on a configuration problem there.
 
 2019-10-18
 
