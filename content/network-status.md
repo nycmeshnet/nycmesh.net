@@ -1,6 +1,14 @@
 ---
 title: "Network status"
 ---
+2019-10-18
+
+9:00am We are still having problems with alignment of our Greenpoint Guernsey hub, causing problems in that area since Wednesday night winds.
+
+2019-10-18
+
+Our 303 Dekalb hub is back online after wind problems from yesterday
+
 2019-10-16
 
 9:00pm It is back online now and working normally
