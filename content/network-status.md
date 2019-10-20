@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2019-10-19
+
+9:00pm Fixed a problem with the sector antennas not powering up at the Guernsey hub
+
 2019-10-18
 
 7:00pm We have finally fixed the problems with our Greenpoint Guernsey hub, caused by Wednesday night winds
