@@ -3,7 +3,7 @@ title: "Network status"
 ---
 2019-10-19
 
-9:00pm Fixed a problem with the sector antennas not powering up at the Guernsey hub
+9:00pm There is still a problem with the sector antennas at the Guernsey hub
 
 2019-10-18
 
