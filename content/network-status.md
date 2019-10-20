@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2019-10-20
+
+12:30pm The sector antennas at the Guernsey hub are finally working. Greenpoint connections should be ok now. Let us know via the [support form](../support) if you are still having problems!
+
 2019-10-19
 
 9:00pm There is still a problem with the sector antennas at the Guernsey hub
