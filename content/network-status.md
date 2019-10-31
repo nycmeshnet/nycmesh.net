@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2019-10-31
+
+11:30am We are experiencing problems in Brooklyn at the moment. Sorry about this!
+
 2019-10-22
 
 We are having ongoing problems with our Rivington hub and rain. We are planning to fix this within the next two weeks.
