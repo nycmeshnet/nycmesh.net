@@ -3,6 +3,8 @@ title: "Network status"
 ---
 2019-10-31
 
+We've had a few nodes go offline because of interference. Working through some of those now. Some nodes might get stuck offline for a more extended time as we must not interfere. We'll have to fix those after we fix all interference issues.
+
 11:30am We are experiencing problems in Brooklyn at the moment. Sorry about this!
 
 2019-10-22
