@@ -36,7 +36,7 @@
     </div>
 
     <div>
-      <label for="email" class="mt3 f4 fw6 db mb2">
+      <label for="email" class="mt3 f5 fw6 db mb2">
         Email
       </label>
       <input
@@ -49,7 +49,7 @@
     </div>
 
     <div>
-      <label for="address" class="mt3 f4 fw6 db mb2">
+      <label for="address" class="mt3 f5 fw6 db mb2">
         Street Address and Zip (NY and NJ addresses only!)
       </label>
       <input
@@ -134,24 +134,21 @@ Already know something about networking? If you’d like to try connecting to th
 </div>
 <script>
   var map, autocomplete, marker;
+  var addressInput = document.getElementById("address");
   function initMap() {
-    var search = document.getElementById('address')
-    autocomplete = new google.maps.places.Autocomplete(
-      search,
-      {types: ['geocode']});
-    // autocomplete.addListener('place_changed', fillInAddress);
+    autocomplete = new google.maps.places.Autocomplete(addressInput, {
+      types: ["geocode"]
+    });
+    autocomplete.addListener("place_changed", handlePlaceChanged);
   }
-  function fillInAddress() {
+  function handlePlaceChanged(event) {
     var place = autocomplete.getPlace();
-    console.log(place)
     if (place.formatted_address) {
-      var val = place.formatted_address;
-      var search = document.getElementById('address')
-      search.value = val;
-      console.log(place)
-      map.setCenter(place.geometry.location)
-      map.setZoom(17)
-      marker.setPosition(place.geometry.location)
+      addressInput.setCustomValidity("");
+    } else {
+      var message = "Please select an address from the dropdown."
+      addressInput.setCustomValidity(message);
+      autocomplete.trigger("focus")
     }
   }
 </script>
