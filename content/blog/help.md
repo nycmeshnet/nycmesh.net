@@ -4,7 +4,7 @@ author: Brian
 date: "2017-01-15"
 ---
 
-[We now have a dedicated page for volunteer help](/help)
+[We now have a dedicated page for volunteer help](/volunteer)
 
 Here is the older blog post-
 

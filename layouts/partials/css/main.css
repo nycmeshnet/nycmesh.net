@@ -151,6 +151,11 @@ svg {
   width: 1.25rem;
 }
 
+.mhn4 {
+  margin-left: -2rem;
+  margin-right: -2rem;
+}
+
 .man3 {
   margin: -1rem;
 }
@@ -206,8 +211,8 @@ svg {
 }
 
 .splash4 {
-  background-image: url("/img/splash9.jpg");
-  background-position: center 51%;
+  background-image: url("/img/splash1.jpg");
+  background-position: center 50%;
   height: 20vh;
   background-color: #f5f5f5;
   background-size: cover;

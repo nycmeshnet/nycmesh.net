@@ -2,20 +2,15 @@
 title: "NYC Mesh"
 description: "Join our community-owned network for fast, affordable and fair access to the Internet."
 images: ["/img/splash9.jpg"]
-alertTitle: "Network status updates"
-alertURL: "/network-status"
-
 ---
 
 ## Join our community-owned network for fast, affordable and fair access to the Internet.
 
 ### <a href="/join" class="blue">Get connected</a> and stop overpaying for Internet.
 
-### <a href="/help" class="blue">Volunteer</a> to help build our network.
+### <a href="/volunteer" class="blue">Volunteer</a> to help build our network.
 
 ### <a href="/donate" class="blue">Donate</a> to help us expand.
-
-### Read our <a href="/faq" class="blue">FAQ</a> to learn how NYC Mesh works.
 
 The Internet is central to our lives. But in New York City, our access is controlled by a cartel of cable companies who overcharge and underdeliver.
 

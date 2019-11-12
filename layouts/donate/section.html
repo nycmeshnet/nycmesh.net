@@ -7,39 +7,29 @@
 <div class="ph4-ns ph3">
   <div id="donation-amounts" class="measure-wide f5  dt w-100 f3 center bg-white black">
 
-    <!-- Progress Bar -->
-    <div  class="mh3 center pt4 sans-serif">
-      <h2 class="f4 fw6 tl">Help us to fund the next hub!</h2>
-      <!--
-      <p>{{ lang.NumFmt 0 $remainingDonations }} monthly donations remaining!</p>
-      <div class="h1 bg-light-gray w-100 br3">
-        <div style="width: {{ $percentComplete }}%; min-width: 1rem;" class="h1 bg-gold br3"></div>
-      </div>
-      <div class="flex flex flex-column items-start mv3">
-        <span class="gold fw4">${{ lang.NumFmt 0 .Params.progress }}</span>
-        <span class="f6 gray mv1">pledged of ${{ lang.NumFmt 0 .Params.goal }} monthly maintenance costs</span>
-      </div>
-      -->
+    <div  class="mh3 center pt4">
+      <h2 class="f3 fw6 tl">Help us fund the next hub!</h2>
+      <p class="dark-gray lh-copy">We rely on donations to maintain the network.</p>
     </div>
     
-    <div class="mt2 mb3 tc f3 sans-serif fw5 center flex flex-row-l flex-column justify-between-l items-center-l">
+    <div class="mt2 mb3 tc f3 fw5 center flex flex-row-l flex-column justify-between-l items-center-l">
       <div class="flex flex-column mv3">
         <span class="f5 tl fw6">
           Choose a monthly amount:
         </span>
         <div class="flex items-center justify-center-l mt3">
           <div id="twenty-monthly" onclick="setAmount('twenty-monthly')" class="button  pa0 br0 ba b--moon-gray ph3 pv3 pointer hover-b--blue">
-            <span class="ma0 fw4 sans-serif">$20</span>
+            <span class="ma0 fw4">$20</span>
           </div>
           <div class="w1">
           </div>
           <div id="plan_FN3hkJAGUgYKpX" onclick="setAmount('plan_FN3hkJAGUgYKpX')" class="button  pa0 br0 ba b--blue bg-blue-50 ph3 pv3 pointer">
-            <span class="ma0 fw4 sans-serif">$30</span>
+            <span class="ma0 fw4">$30</span>
           </div>
           <div class="w1">
           </div>
           <div id="fifty-monthly" onclick="setAmount('fifty-monthly')" class="button  pa0 br0 ba b--moon-gray ph3 pv3 pointer hover-b--blue">
-            <span class="ma0 fw4 sans-serif">$50</span>
+            <span class="ma0 fw4">$50</span>
           </div>
         </div>
       </div>
@@ -54,15 +44,15 @@
       </div>
     </div>
 
-    <div class="flex flex-column items-center-l items-start">
+    <div class="flex flex-column items-start">
 
-      <div  class="pt1 mt3-l mb3 mw5 f4 sans-serif">
-        <input id="payButton" type="submit" value="Donate with card" class="input-reset bw0 w-100 fw5 br3 pa3 white bg-blue ph4 mr5 pointer">
+      <div  class="pt1 mb3 f5 w-auto-ns w-100">
+        <input id="payButton" type="submit" value="Donate with card" class="input-reset bw0 fw6 br2 pa3 white bg-blue ph4 w-auto-ns w-100 pointer">
         </input>
       </div>
 
       <details>
-        <summary class="gray donate-check f6 noselect pointer">Donate with check</summary>
+        <summary class="gray f6 noselect pointer">Donate with check</summary>
           <p>Checks should be made out to</p>
           <p class="b">
             Internet Society New York
@@ -80,7 +70,7 @@
           </p>
       </details>
 
-      <div class="gray mb4 mw6 measure f6 lh-copy tc-l tl">
+      <div class="mt2 gray mw6 measure f6 lh-copy tl">
         <p>
           PayPal donations can be sent to treasurer@isoc-ny.org
         </p>
@@ -97,8 +87,8 @@
 
 
 
-<div class="w-100 bg-near-white ph4-ns ph3">
-  <div class="measure-wide center pv4">
+<div class="w-100 ph4-ns ph3">
+  <div class="measure-wide center pb4">
     {{ .Content }}
   </div>
 </div>

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Volunteer!"
+aliases: ["/help"]
 ---
 
 Maintaining and growing NYC Mesh wouldn't be possible without a dedicated community of volunteers! We welcome people with diverse skill sets and from all backgrounds to help out, contribute and lead. We are open to new ideas and initiatives, especially if you are ready, willing and able to make them happen. We like people who are self-motivated and autonomous but who also like to collaborate and work with others.

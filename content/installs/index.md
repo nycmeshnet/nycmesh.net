@@ -21,4 +21,4 @@ To work with us to organize a large scale install, <a href="mailto:install@nycme
 
 ### 3. DIY Install
 
-Already know something about networking? If you’d like to try connecting to the network on your own, fill out the form above to be assigned a potential node number, then follow the instructions on our <a href=https://docs.nycmesh.net/>docs</a> and ask for help on our <a href=https://slack.nycmesh.net/T02MB96L1/CL7BDUTA7>#diy-install-support</a> Slack channel. Once you are connected, we ask that you give a minimum monthly donation of $20 to help us maintain the network.
+Already know something about networking? If you’d like to try connecting to the network on your own, fill out the [join form](/join) to receive a potential node number. Then follow the instructions on our <a href=https://docs.nycmesh.net/>docs</a> and ask for help on our <a href=https://slack.nycmesh.net/T02MB96L1/CL7BDUTA7>#diy-install-support</a> Slack channel. Once you are connected, we ask that you give a minimum monthly donation of $20 to help us maintain the network.
