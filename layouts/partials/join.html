@@ -62,16 +62,18 @@
   </div>
 
 <div>
-    <label for="address" class="mt3 f5 fw6 db mb2">
+    <label for="address" class="mt3 f5 fw6 db">
       Street Address
     </label>
+    <span id="address-error" class="dn red f5">Please choose an address from the dropdown.</span>
     <input
       required
       type="text"
       id="address"
       name="entry.214227195"
       placeholder=""
-      class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2" />
+      class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2 mt2"
+    />
   </div>
  
 
@@ -111,26 +113,37 @@
 </form>
 <script>
   var map, autocomplete, marker;
+  var hasInput = false;
   var addressInput = document.getElementById("address");
   function initMap() {
     autocomplete = new google.maps.places.Autocomplete(addressInput, {
-      types: ["geocode"]
+      types: ["geocode"],
+      componentRestrictions: {country: 'us'}
     })
     autocomplete.addListener("place_changed", handlePlaceChanged);
-    addressInput.addEventListener("input", resetValidity);
+    addressInput.addEventListener("input", handleInput);
+    addressInput.addEventListener("blur", handleAddressBlur);
   }
+
+  function handleInput() {
+    hasInput = true;
+  }
+
+  function handleAddressBlur() {
+    var place = autocomplete.getPlace();
+    if (!hasInput) return
+    if (place && place.formatted_address) {
+      document.getElementById("address-error").classList.add("dn")
+    } else {
+      document.getElementById("address-error").classList.remove("dn")
+    }
+  }
+
   function handlePlaceChanged(event) {
     var place = autocomplete.getPlace();
     if (place.formatted_address) {
-      addressInput.setCustomValidity("");
-    } else {
-      resetValidity();
-      autocomplete.trigger("focus");
+      document.getElementById("address-error").classList.add("dn")
     }
-  }
-  function resetValidity() {
-    var message = "Please select an address.";
-    addressInput.setCustomValidity(message);
   }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNClp7oJsw-eleEoR3-PQKV23tpeW-FpE&libraries=places&callback=initMap"
