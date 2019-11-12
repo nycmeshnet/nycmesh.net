@@ -1,42 +1,53 @@
-<div class="bg-white br2 f4">
-  <h2 class="f3 fw6">Get Connected</h2>
-  </div> 
+<h2 class="f3 fw7">Get Connected</h2>
 
-<b>Please ask your neighbors if they would like to join too!</b> We prioritize multiple installs in the same building and rooftop access. For progress on your connection request <a href="mailto:support@nycmesh.net?Subject=node request">email support@nycmesh.net</a>. 
-<br>
-<br>
 
-<hr>
-  
- <form action="https://docs.google.com/forms/d/1w1d2qiCerKxjR5uu7gnqRqF9XpYeRvTDPqHbCE4Cftc/formResponse" method="POST" class="w-100 f4-ns f5">
-    <div class="flex">
-      <div class="w-50 pr2">
-        <label for="name" class="f5 fw6 db mb2">
-          Name
-        </label>
-        <input
-          placeholder="Your Name"
-          type="text"
-          id="name"
-          name="entry.508902369"
-          class="border-box f5 input-reset black w-100 bg-white ba b--moon-gray pa2" />
-      </div>
+<div class="mb4 dark-gray">
+  <p class="mv0 lh-copy">Please ask your neighbors if they would like to join too! For progress on existing requests email <a href="mailto:support@nycmesh.net">support@nycmesh.net</a>.</p>
+</div>
 
-      <div class="w-50 pl2">
-        <label for="phone" class="f5 fw6 db mb2">
-          Phone
-        </label>
-        <input
-          placeholder="212-123-4567"
-          type="tel"
-          id="phone"
-          name="entry.1046234029"
-          class="border-box f5 input-reset  w-100 black bg-white ba b--moon-gray pa2" />
-      </div>
+
+<form action="https://docs.google.com/forms/d/1w1d2qiCerKxjR5uu7gnqRqF9XpYeRvTDPqHbCE4Cftc/formResponse" method="POST" class="w-100 f4-ns f5">
+   <div>
+    <label for="address" class="mt3 f6 fw6 db mb2">
+      Street Address
+    </label>
+    <input
+      required
+      type="text"
+      id="address"
+      name="entry.214227195"
+      placeholder=""
+      class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2" />
+  </div>
+
+  <div class="flex-ns mt3">
+    <div class="w-50-ns w-100 pr2-ns">
+      <label for="name" class="f6 fw6 db mb2">
+        Name
+      </label>
+      <input
+        type="text"
+        id="name"
+        name="entry.508902369"
+        class="border-box f5 input-reset black w-100 bg-white ba b--moon-gray pa2" />
     </div>
 
-    <div>
-      <label for="email" class="mt3 f5 fw6 db mb2">
+    <div class="w-50-ns w-100 pl2-ns mt0-ns mt3">
+      <label for="email" class="f6 fw6 db mb2">
+        Apt, Suite, Building
+      </label>
+      <input
+        required
+        type="text"
+        id="apartment"
+        name="entry.290479075"
+        class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2" />
+    </div>
+  </div>
+
+  <div class="flex-ns">
+    <div class="w-50-ns w-100 pr2-ns">
+      <label for="email" class="mt3 f6 fw6 db mb2">
         Email
       </label>
       <input
@@ -44,94 +55,57 @@
         type="email"
         id="email"
         name="entry.119277156"
-        placeholder="you@example.com"
         class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2" />
     </div>
 
-    <div>
-      <label for="address" class="mt3 f5 fw6 db mb2">
-        Street Address and Zip (NY and NJ addresses only!)
+    <div class="w-50-ns w-100 pl2-ns mt3">
+      <label for="phone" class="f6 fw6 db mb2">
+        Phone
       </label>
       <input
-        required
-        type="text"
-        id="address"
-        name="entry.214227195"
-        placeholder="123 My Street, New York, NY 10000, USA"
-        class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2" />
+        type="tel"
+        id="phone"
+        name="entry.1046234029"
+        class="border-box f5 input-reset  w-100 black bg-white ba b--moon-gray pa2" />
     </div>
+  </div>
 
-    <div class="f5 pt3 flex flex-row-ns flex-column items-center-ns items-start justify-between">
-      <div>
-        <div class="flex items-center mv2">
-          <input
-            required
-            type="checkbox"
-            id="ncl"
-            name="entry.1263551439" />
-          <label for="ncl" class="mv0 ml2 mid-gray">
-            I agree to the 
-            <a class="blue no-underline" href="/ncl.pdf" target="_">
-              Network Commons License
-            </a>
-          </label>
-        </div>
+ 
 
-        <div class="flex items-center mv2">
-          <input
-            type="checkbox"
-            id="roofAccess"
-            name="entry.108879804"
-            value="I have Rooftop access" />
-          <label for="roofAccess" class="mv0 ml2 mid-gray">
-            I might have roof access
-          </label>
-        </div>
+  <div class="f5 pt3 flex flex-row-ns flex-column items-center-ns items-start justify-between">
+    <div>
+      <div class="flex items-center mv2">
+        <input
+          required
+          type="checkbox"
+          id="ncl"
+          name="entry.1263551439" />
+        <label for="ncl" class="mv0 ml2 mid-gray">
+          I agree to the 
+          <a class="blue no-underline" href="/ncl.pdf" target="_">
+            Network Commons License
+          </a>
+        </label>
+      </div>
+
+      <div class="flex items-center mv2">
+        <input
+          type="checkbox"
+          id="roofAccess"
+          name="entry.108879804"
+          value="I have Rooftop access" />
+        <label for="roofAccess" class="mv0 ml2 mid-gray">
+          I might have roof access
+        </label>
       </div>
     </div>
-   
-    <div class="mw5 mt3">
-      <input type="submit" value="Submit request (once per address)" class="input-reset bw0 f4 fw5 br3 pa3 white bg-blue ph4 pointer">
-      </input>
-    </div>
-
-  </form>
-
-<br>
-
-<hr>
-
-To get connected to NYC Mesh, you’ll need a line of sight from your rooftop or balcony to one of our supernodes or hubs. Check our <a href=https://www.nycmesh.net/map>map</a> to see if you're in the network coverage zone. And if you’re not yet in range, keep checking back as our network is always expanding, or <a href=https://www.nycmesh.net/help>volunteer</a> to help us grow towards your neighborhood. <br>
-<br>
-We do not charge a fee to join our network. Once you're connected, we ask that you give a minimum monthly donation of $20.  <br>
-  <br>
-
-To begin the process of getting connected, consider which of the three installation methods you would like and fill in the form above, <b>once</b> per apartment or address. 
-<br><br>
-
-There are three ways you can get connected:
-
-  <h3 class="f4 fw6">Method 1: Schedule a Volunteer-Led Install</h3>
-  Our volunteer team can install hardware on your rooftop or outside your window to get you connected. This costs between $160 and $290 depending on equipment or ability to pay. Read the <a href=https://www.nycmesh.net/faq>FAQ</a> to learn about volunteer-led installs and then fill out the form above. And ask your neighbors if they would like to get connected too - we can connect multiple apartments in one install visit!<br>
-  <br>
-Once you submit, we'll get back to you requesting a <a href=https://docs.nycmesh.net/installs/panoramas/>panorama photo</a> from your rooftop or window to assess your line of sight. If you don’t receive a response within five minutes, check your email’s spam folder. 
-<br>
-<br>
-  For questions on an existing request please <a href="mailto:install@nycmesh.net">email us</a> and include your node number.<br>
-<br>
-
-<hr>
-
-   <h3 class="f4 fw6">Method 2: Organize a Building or Multiple-Unit Install</h3>
-
-We’ve worked with co-ops, management companies, block associations and hotels to connect entire buildings and city blocks. To work with us to organize a large scale install, fill out the form above or contact us on <a href="mailto:install@nycmesh.net">email</a> or <a href=https://nycmesh.slack.com/messages/C8W8TFTFC>Slack</a>. 
-
-<hr>
-
-   <h3 class="f4 fw6">Method 3: Do It Yourself Install</h3>
-
-Already know something about networking? If you’d like to try connecting to the network on your own, fill out the form above to be assigned a potential node, then follow the instructions on our <a href=https://docs.nycmesh.net/>docs</a> and ask for help on our <a href=https://slack.nycmesh.net/T02MB96L1/CL7BDUTA7>Slack in #diy-install-support</a>.
-</div>
+  </div>
+ 
+  <div class="mt3 mb3 flex justify-end">
+    <input type="submit" value="Submit request" class="input-reset bw0 f5 fw6 br2 pa3 white bg-blue pointer">
+    </input>
+  </div>
+</form>
 <script>
   var map, autocomplete, marker;
   var addressInput = document.getElementById("address");
@@ -140,16 +114,20 @@ Already know something about networking? If you’d like to try connecting to th
       types: ["geocode"]
     });
     autocomplete.addListener("place_changed", handlePlaceChanged);
+    addressInput.addEventListener("input", resetValidity);
   }
   function handlePlaceChanged(event) {
     var place = autocomplete.getPlace();
     if (place.formatted_address) {
       addressInput.setCustomValidity("");
     } else {
-      var message = "Please select an address from the dropdown."
-      addressInput.setCustomValidity(message);
-      autocomplete.trigger("focus")
+      resetValidity();
+      autocomplete.trigger("focus");
     }
+  }
+  function resetValidity() {
+    var message = "Please select an address.";
+    addressInput.setCustomValidity(message);
   }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNClp7oJsw-eleEoR3-PQKV23tpeW-FpE&libraries=places&callback=initMap"

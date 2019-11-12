@@ -331,3 +331,25 @@ ul li .check::before {
   width: calc(((100% - 98rem) / 2) + 22rem);
   padding-left: calc((100% - 98rem) / 2);
 }
+
+/* Address Autocomplete */
+.pac-item {
+  height: 2rem;
+  padding-left: 0.5rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.pac-icon {
+  display: none;
+}
+
+.pac-item-query {
+  margin-right: 0.25rem;
+}
+
+.pac-matched {
+  /*background-color: /*papayawhip*/
+}
+
