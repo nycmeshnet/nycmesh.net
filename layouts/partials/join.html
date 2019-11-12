@@ -112,8 +112,7 @@
   </div>
 </form>
 <script>
-  var map, autocomplete, marker;
-  var hasInput = false;
+  var autocomplete, place;
   var addressInput = document.getElementById("address");
   function initMap() {
     autocomplete = new google.maps.places.Autocomplete(addressInput, {
@@ -121,26 +120,26 @@
       componentRestrictions: {country: 'us'}
     })
     autocomplete.addListener("place_changed", handlePlaceChanged);
-    addressInput.addEventListener("input", handleInput);
     addressInput.addEventListener("blur", handleAddressBlur);
+    addressInput.addEventListener("input", handleInput);
   }
 
   function handleInput() {
-    hasInput = true;
+    place = null;
   }
 
   function handleAddressBlur() {
-    var place = autocomplete.getPlace();
-    if (!hasInput) return
-    if (place && place.formatted_address) {
-      document.getElementById("address-error").classList.add("dn")
-    } else {
-      document.getElementById("address-error").classList.remove("dn")
-    }
+    setTimeout(function () {
+      if (place && place.formatted_address) {
+        document.getElementById("address-error").classList.add("dn")
+      } else {
+        document.getElementById("address-error").classList.remove("dn")
+      }
+    }, 300)
   }
 
   function handlePlaceChanged(event) {
-    var place = autocomplete.getPlace();
+    place = autocomplete.getPlace();
     if (place.formatted_address) {
       document.getElementById("address-error").classList.add("dn")
     }
