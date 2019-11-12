@@ -2,27 +2,18 @@
 
 
 <div class="mb4 dark-gray">
-  <p class="mv0 lh-copy">Please ask your neighbors if they would like to join too! For progress on existing requests email <a href="mailto:support@nycmesh.net">support@nycmesh.net</a>.</p>
+  <p class="mv0 lh-copy">To get connected, you’ll need line of sight from your roof or balcony to one of our supernodes or hubs. You can read about our installs <a href="/install">here</a>.
+  </p>
+
+  <p class="mb0 lh-copy">Please ask your neighbors if they would like to join too! For progress on an existing request email <a href="mailto:support@nycmesh.net">support@nycmesh.net</a>.</p>
 </div>
 
 
 <form action="https://docs.google.com/forms/d/1w1d2qiCerKxjR5uu7gnqRqF9XpYeRvTDPqHbCE4Cftc/formResponse" method="POST" class="w-100 f4-ns f5">
-   <div>
-    <label for="address" class="mt3 f6 fw6 db mb2">
-      Street Address
-    </label>
-    <input
-      required
-      type="text"
-      id="address"
-      name="entry.214227195"
-      placeholder=""
-      class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2" />
-  </div>
 
-  <div class="flex-ns mt3">
+  <div class="flex-ns">
     <div class="w-50-ns w-100 pr2-ns">
-      <label for="name" class="f6 fw6 db mb2">
+      <label for="name" class="f5 fw6 db mb2">
         Name
       </label>
       <input
@@ -33,7 +24,7 @@
     </div>
 
     <div class="w-50-ns w-100 pl2-ns mt0-ns mt3">
-      <label for="email" class="f6 fw6 db mb2">
+      <label for="email" class="f5 fw6 db mb2">
         Apt, Suite, Building
       </label>
       <input
@@ -47,7 +38,7 @@
 
   <div class="flex-ns">
     <div class="w-50-ns w-100 pr2-ns">
-      <label for="email" class="mt3 f6 fw6 db mb2">
+      <label for="email" class="mt3 f5 fw6 db mb2">
         Email
       </label>
       <input
@@ -59,7 +50,7 @@
     </div>
 
     <div class="w-50-ns w-100 pl2-ns mt3">
-      <label for="phone" class="f6 fw6 db mb2">
+      <label for="phone" class="f5 fw6 db mb2">
         Phone
       </label>
       <input
@@ -70,6 +61,18 @@
     </div>
   </div>
 
+<div>
+    <label for="address" class="mt3 f5 fw6 db mb2">
+      Street Address
+    </label>
+    <input
+      required
+      type="text"
+      id="address"
+      name="entry.214227195"
+      placeholder=""
+      class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2" />
+  </div>
  
 
   <div class="f5 pt3 flex flex-row-ns flex-column items-center-ns items-start justify-between">
@@ -112,7 +115,7 @@
   function initMap() {
     autocomplete = new google.maps.places.Autocomplete(addressInput, {
       types: ["geocode"]
-    });
+    })
     autocomplete.addListener("place_changed", handlePlaceChanged);
     addressInput.addEventListener("input", resetValidity);
   }
