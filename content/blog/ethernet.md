@@ -3,6 +3,9 @@ title: "Ethernet"
 author: Brian
 date: "2017-02-03"
 ---
+
+[This has been moved to our docs](https://docs.nycmesh.net/hardware/ethernet/)
+
 Ethernet
 
 There are two standards for ethernet cables. We use T-568B. (oO-gB-bG-brBR)
@@ -16,7 +19,7 @@ In 100base-T (100Mbps most ethernet), orange is data transmit (pins 1 & 2) and g
 
 In 1000Base-T (gigabit ethernet) all pins are used for data. If pins 4,5,7 & 8 are not connected the speed falls back to 100Mbps.
 
-4,5,7,8 are used for power over ethernet (POE). Pins 4 & 5 are negative and 7 & 8 are positive.
+4,5,7,8 are used for power over ethernet (POE). Pins 4 & 5 are positive and 7 & 8 are negative.
 
 If you plug POE into the "secondary" WAN port of a NanoStation, the main port will have live POE! This POE passthrough is great if you want to power a second NanoStation, but if you plug a live POE cable into an adapter or some device that does not expect POE it can break. We also turn on POE passthrough for both ports in some [installs](https://docs.nycmesh.net/installs/nsm5/).
 
