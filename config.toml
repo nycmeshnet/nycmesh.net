@@ -8,7 +8,7 @@ summaryLength = 10
 [params]
   title = "NYC Mesh"
   description = "Join our community-owned network to replace your current internet connection."
-  images = ["/img/splash9.jpg"]
+  images = ["/img/3d.png"]
 
 [blackfriday]
 hrefTargetBlank = true
