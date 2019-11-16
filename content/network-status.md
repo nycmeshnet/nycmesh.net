@@ -1,6 +1,12 @@
 ---
 title: "Network status"
 ---
+2019-11-4
+
+3:00pm We had a dns problem that was resolved at 5:00pm
+
+If you are still having connections problems due to recent changes in the network please fill in the [support form](../support) and mark urgent.
+
 2019-10-31
 
 We've had a few nodes go offline because of interference. Working through some of those now. Some nodes might get stuck offline for a more extended time as we must not interfere. We'll have to fix those after we fix all interference issues.
