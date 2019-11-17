@@ -2,7 +2,9 @@
 title: "Install Info"
 aliases: ["/cpe", "/cpe2", "/docs"]
 ---
-([Please click here to see our detailed docs](https://docs.nycmesh.net/)! DIY installs are possible with our [install instructions](https://docs.nycmesh.net/installs). The docs explains how to [configure Ubiquiti and MiroTik routers](https://docs.nycmesh.net/hardware/config/).)
+[Please click here to see our detailed docs](https://docs.nycmesh.net/)!  
+DIY installs are possible with our [install instructions](https://docs.nycmesh.net/installs).   
+The docs explains how to configure [LiteBeam](https://docs.nycmesh.net/hardware/config/#lbe-client) and [OmniTik](https://docs.nycmesh.net/hardware/config/#omni) routers.
 
 We have a few different types of installs. At the moment, we are mostly installing supernode and hub clients in downtown Manhattan and Brooklyn.
 
