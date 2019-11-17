@@ -1,11 +1,7 @@
 ---
 title: "Installs"
-aliases: ["/install", "/cpe", "/cpe2", "/docs"]
+aliases: ["/install"]
 ---
-
-Please click [here](https://docs.nycmesh.net/) to see our detailed docs!  
-DIY installs are possible with our [install instructions](https://docs.nycmesh.net/installs).  
-The docs explain how to configure [LiteBeam](https://docs.nycmesh.net/hardware/config/#lbe-client) and [OmniTik](https://docs.nycmesh.net/hardware/config/#omni) routers.
 
 There are three ways you can get connected:
 
