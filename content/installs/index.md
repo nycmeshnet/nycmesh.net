@@ -1,7 +1,11 @@
 ---
 title: "Installs"
-aliases: ["/install"]
+aliases: ["/install", "/cpe", "/cpe2", "/docs"]
 ---
+
+Please click [here](https://docs.nycmesh.net/) to see our detailed docs!  
+DIY installs are possible with our [install instructions](https://docs.nycmesh.net/installs).  
+The docs explain how to configure [LiteBeam](https://docs.nycmesh.net/hardware/config/#lbe-client) and [OmniTik](https://docs.nycmesh.net/hardware/config/#omni) routers.
 
 There are three ways you can get connected:
 
@@ -17,8 +21,8 @@ We supply the rooftop antenna, mount (if needed), ethernet cable, and indoor wif
 
 We can install fiber or a dedicated point to point connection and wire an entire building with ethernet to provide all residents with a connection. We’ve worked with co-ops, management companies, block associations and hotels to connect entire buildings and city blocks. 
 
-To work with us to organize a large scale install, <a href="mailto:install@nycmesh.net">email us</a> or join our <a href=https://slack.nycmesh.net>Slack</a>.
+To work with us to organize a large scale install, [email us](mailto:install@nycmesh.net) or join our [Slack](https://slack.nycmesh.net).
 
 ### 3. DIY Install
 
-Already know something about networking? If you’d like to try connecting to the network on your own, fill out the [join form](/join) to receive a potential node number. Then follow the instructions on our <a href=https://docs.nycmesh.net/>docs</a> and ask for help on our <a href=https://slack.nycmesh.net/T02MB96L1/CL7BDUTA7>#diy-install-support</a> Slack channel. Once you are connected, we ask that you give a minimum monthly donation of $20 to help us maintain the network.
+Already know something about networking? If you’d like to try connecting to the network on your own, fill out the [join form](/join) to receive a potential node number. Then follow the instructions on our [docs](https://docs.nycmesh.net/installs/) and ask for help on our [#diy-install-support](https://slack.nycmesh.net/T02MB96L1/CL7BDUTA7) Slack channel. Once you are connected, we ask that you give a minimum monthly donation of $20 to help us maintain the network.
