@@ -1,27 +1,26 @@
 {{ define "main" }}
-<div class="splash-small cover"></div>
 <div class="ph4-ns ph3 pb5">
   <div class="measure-wide f5 dt w-100 f3 center bg-white black">
-
-    <div  class="pt4">
-      <h2 class="f4 fw6 tl">
+    <div class="pt3">
+      <h2 class="f3 fw6 tl">
         Request Support
       </h2>
     </div>
-    
- Is something not working right? Here’s how you can fix it:<br/>
-    <ol>
-  <li>Check the <a href=/network-status>network status</a> to see whether other people are affected. If you see the issue here it means our volunteers are working on solving it, and we’ll be posting more updates!</li><br/>
-  <li>Ask a question on our <a href=https://slack.nycmesh.net/C679UKBUK>Slack</a> #support channel, or try using our <a href=https://docs.nycmesh.net/>docs</a> to solve the issue yourself.</li><br/>
-  <li>Fill out the support request form:</li>
-</ol>
 
-<br/>
+    <div class="dark-gray">
+      {{ .Content }}
+    </div>
 
-    <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfoLYGhTJEEevdr1ViJo0YZeyoDs0vkFumB6yO1lxdqEy6h1w/formResponse" method="POST" class="w-100 f4-ns f5">
+    <br />
+
+    <form
+      action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfoLYGhTJEEevdr1ViJo0YZeyoDs0vkFumB6yO1lxdqEy6h1w/formResponse"
+      method="POST"
+      class="w-100 f5"
+    >
       <div class="flex">
         <div class="w-50 pr2">
-          <label for="name" class="f5 fw6 db mb2">Name</label>
+          <label for="name" class="f6 fw6 db mb2">Name</label>
           <input
             id="name"
             placeholder="Your Name"
@@ -32,9 +31,10 @@
         </div>
 
         <div class="w-50 pl2">
-          <label for="email" class="f5 fw6 db mb2">Email</label>
+          <label for="email" class="f6 fw6 db mb2">Email</label>
           <input
-            required id="email"
+            required
+            id="email"
             placeholder="you@example.com"
             type="email"
             name="entry.418562862"
@@ -44,7 +44,7 @@
       </div>
 
       <div>
-        <label for="nodeNumber" class="mt3 f5 fw6 db mb2">
+        <label for="nodeNumber" class="mt3 f6 fw6 db mb2">
           Node Number (if you have one)
         </label>
         <input
@@ -56,8 +56,8 @@
         />
       </div>
 
-      <div>
-        <label for="priority" class="mt3 f5 fw6 db mb2">
+      <div class="f5">
+        <label for="priority" class="mt3 f6 fw6 db mb2">
           Priority
         </label>
         <select id="priority" name="entry.363817612">
@@ -69,7 +69,7 @@
       </div>
 
       <div>
-        <label for="subject" class="mt3 f5 fw6 db mb2">
+        <label for="subject" class="mt3 f6 fw6 db mb2">
           Subject
         </label>
         <input
@@ -83,37 +83,37 @@
       </div>
 
       <div>
-        <label for="description" class="mt3 f5 fw6 db mb2">
+        <label for="description" class="mt3 f6 fw6 db mb2">
           Description
         </label>
         <textarea
           required
           id="description"
           name="entry.1133068143"
-          class="border-box f5 input-reset  w-100 black bg-white ba b--moon-gray pa2"></textarea>
+          class="border-box f5 input-reset  w-100 black bg-white ba b--moon-gray pa2"
+        ></textarea>
       </div>
 
-		<div class="flex items-center mv2">
-        <input
-          required
-          type="checkbox"
-          id="ncl"
-          name="human" />
+      <div class="flex items-center mv2">
+        <input required type="checkbox" id="ncl" name="human" />
         <label for="ncl" class="mv0 ml2 mid-gray">
           I am human
         </label>
+      </div>
+
+      <div class="dn">
+        <label for="human2">Human</label>
+        <input type="text" name="human2" />
       </div>
 
       <div class="mw5 mt4">
         <input
           type="submit"
           value="Submit request"
-          class="input-reset bw0 f4 fw5 br3 pa3 white bg-blue ph4 pointer"
+          class="input-reset bw0 f5 fw6 br2 pa3 white bg-blue pointer"
         />
       </div>
-
-  </form>
-    	
+    </form>
   </div>
 </div>
 {{ end }}

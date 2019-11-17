@@ -2,16 +2,16 @@
 <main class=" bg-white">
 	<div class="splash-blog cover"></div>
 	<div class="ph4-ns ph3 pv4-l pv3">
-		<div class="pv0 center measure-wide f5 sans-serif">
+		<div class="pv0 center measure-wide f4">
 			<h1 class="f2">{{ .Title }}</h1>
 			<ul class="ma0 list pa0 pb4 f4">
 				{{ range .Data.Pages }}
 					<li class="bb b--light-gray">
-						<a href="{{ .RelPermalink }}" class="pv3 flex justify-between items-center">
+						<a href="{{ .RelPermalink }}" class="pv3 flex flex-row-ns flex-column justify-between-ns items-center-ns">
 							<span class="fw5">
 								{{ .Title }}
 							</span>
-							<span class="nowrap gray ml3">
+							<span class="nowrap gray ml3-ns mt0-ns mt2 f5">
 								{{ .Date.Format "Jan 2, 2006" }}
 							</span>
 						</a>

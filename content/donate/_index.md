@@ -1,6 +1,6 @@
 ---
 title: "Donate"
-description: "Help us by funding the next hub!"
+description: "Help fund our next hub!"
 aliases: ["/donation"]
 goal: 2650
 progress: 420
@@ -15,7 +15,7 @@ progress: 420
 MicroOffice Office space for entrepreneurs  
 [Webair](https://www.webair.com/) Managed Hosting solutions  
 [Ubiquiti](https://www.ui.com/) Democratizing Professional Network Technology  
-[Pilot](https://www.pilotfiber.com/) Business Internet  
+[Pilot](https://www.pilotfiber.com/) Business Internet
 
 ### Individual Donors
 

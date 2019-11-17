@@ -18,11 +18,17 @@
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
 </head>
-<body class="sans-serif">
-    {{ partial "alert" . }}
-    {{ partial "header" . }}
-    {{ block "main" . }}
-    {{ end }}
+<body class="helvetica flex flex-column justify-between" style="minHeight: 100vh">
+    <div>
+        {{ if ne .Dir "join/" }}
+        {{ partial "alert" . }}
+        {{ end }}
+        {{ partial "header" . }}
+        {{ block "main" . }}
+        {{ end }}
+    </div>
+    {{ if ne .Dir "join/" }}
     {{ partial "footer" . }}
+    {{ end }}
 </body>
 </html>
