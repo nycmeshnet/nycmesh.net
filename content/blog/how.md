@@ -52,7 +52,7 @@ Community organizations with shared resources often fail. This is called the tra
 
 NYC Mesh is a hybrid network of point-to-point, point-to-multipoint (sector antennas), ethernet and mesh. It is important to pick the right solution for each networking problem. Don't pick one method or protocol and try to make that work for everything (avoid tech-solutionism). Use off-the-shelf hardware as much as possible.
 
-For antennas you need higher gain (db) to go long distances. A 19db NanoBeam will go 1km, a 23db LiteBeam will go 3km, and a 33db/38db AirFiber will go 10Km. 
+For antennas you need higher gain (db) to go long distances. A 19db NanoBeam will go 1km, a 23db LiteBeam will go 3km, and a 33db/38db AirFiber will go 10km. 
 
 Generally for radios, the higher the frequency the faster the connection and the more it is susceptible to weather and objects. Double the frequency and you double the potential data rate. 5GHz wifi is roughly twice as fast as 2.4GHz wifi, but 2.4GHz has better coverage for home wifi as it will go through the internal walls.
 
@@ -64,11 +64,11 @@ Generally for radios, the higher the frequency the faster the connection and the
 
 **Point-to-point** 
 
-* long distance (3 to 10 Km) We use AirFiber AF24 or AF5XHD
+* long distance (3 to 10km) We use AirFiber AF24 or AF5XHD
 
-* medium distance (up to 3 Km) LiteBeamAC is a very inexpensive way to get over 150 Mbps
+* medium distance (up to 3km) LiteBeamAC is a very inexpensive way to get over 150 Mbps
 
-* short distance (< 1Km) [Wireless Wire dish](https://mikrotik.com/product/wireless_wire_dish) -cheap gigabit connection. These fail in heavy rain when the distance is over 0.5 Km
+* short distance (< 1km) [Wireless Wire dish](https://mikrotik.com/product/wireless_wire_dish) -cheap gigabit connection. These fail in heavy rain when the distance is over 0.5 km
 
 **Point-to-multipoint**  
 
