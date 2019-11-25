@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2019-11-24
+
+9:00pm Our 7th St hub has been experiencing low bandwidth the past 24 hours. We are working on that now. This affects nodes in Alphabet City.
+
 2019-11-4
 
 3:00pm We had a dns problem that was resolved at 5:00pm
