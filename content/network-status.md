@@ -3,6 +3,8 @@ title: "Network status"
 ---
 2019-12-17
 
+3:00pm Original problem fixed. We also added a backup connection to Henry so this particular problem won't happen again.
+
 9:30am Our Henry St hub is having problems. This is affecting downtown Manhattan. We are working on this now.
 
 2019-11-24
