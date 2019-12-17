@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2019-12-17
+
+9:30am Our Henry St hub is having problems. This is affecting downtown Manhattan. We are working on this now.
+
 2019-11-24
 
 9:00pm Our 7th St hub has been experiencing low bandwidth the past 24 hours. We are working on that now. This affects nodes in Alphabet City.
