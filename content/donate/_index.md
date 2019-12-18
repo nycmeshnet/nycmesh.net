@@ -8,7 +8,7 @@ progress: 420
 
 ### Corporate Donors
 
-[ISOC](https://www.internetsociety.org/) Beyond the Net 2016  
+[ISOC](https://www.internetsociety.org/) Beyond the Net 2016, 2019 Chapterthon   
 [Mozilla](https://foundation.mozilla.org/) Mozilla/NSF-WINS Challenge 2018  
 [DE-CIX](https://de-cix.net/) Premium network interconnection services  
 [Packet Host Inc.](https://www.packet.net/) Cloud delivered on bare metal  
