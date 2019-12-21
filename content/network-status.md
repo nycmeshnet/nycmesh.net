@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2019-12-20
+
+7:00pm Issue with Supernode 1 at the moment, affecting Manhattan and Greenpoint. We are looking into it
+
 2019-12-17
 
 3:00pm Original problem fixed. We also added a backup connection to Henry so this particular problem won't happen again.
