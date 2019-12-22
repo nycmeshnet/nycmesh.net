@@ -1,6 +1,14 @@
 ---
 title: "Network status"
 ---
+2019-12-22
+
+2:30am Completed switching members switched over from s2 sector
+
+2019-12-21
+
+3:00pm Supernode 1 is back online. One of the five sector antennas (s2) failed to boot up. We will switch members over to other sectors later tonight.
+
 2019-12-20
 
 7:00pm Issue with Supernode 1 at the moment, affecting Manhattan and Greenpoint. We are looking into it
