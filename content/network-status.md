@@ -3,7 +3,9 @@ title: "Network status"
 ---
 2019-12-22
 
-2:30am Completed switching members switched over from s2 sector
+3:30pm Fixed a power outage at 7th St which was affecting Alphabet City
+
+2:30am Completed switching members over from s2 sector. The network is running normally now.
 
 2019-12-21
 
