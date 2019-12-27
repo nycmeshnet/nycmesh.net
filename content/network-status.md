@@ -4,7 +4,7 @@ title: "Network status"
 
 2019-12-27
 
-5:00pm One of the main Saratoga connections (AF24) to Soft Surplus is down, causing slower speeds for connected nodes. We are looking into this.
+4:00pm One of the main Saratoga connections (AF24) to Soft Surplus is down, causing slower speeds for connected nodes. We are looking into this.
 
 2019-12-22
 
