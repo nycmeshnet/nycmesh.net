@@ -1,6 +1,9 @@
 ---
 title: "Network status"
 ---
+2019-12-28
+
+We are not able to get access to Saratoga until Monday. Saratoga is still online but on a backup connection.
 
 2019-12-27
 
