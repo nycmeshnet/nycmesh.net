@@ -1,10 +1,10 @@
 ---
 title: "NYC Mesh"
-description: "Join our community-owned network for fast, affordable and fair access to the Internet."
+description: "Join our community-owned network"
 images: ["/img/3d.png"]
 ---
 
-## Join our community-owned network for fast, affordable and fair access to the Internet.
+## Join our community-owned network!
 
 ### <a href="/join" class="blue">Get connected</a> and stop overpaying for Internet.
 
