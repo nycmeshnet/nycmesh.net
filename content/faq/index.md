@@ -149,10 +149,19 @@ If you would like to volunteer with NYC Mesh, reach out on [slack][] or join us 
 
 ### <a name="cost"></a>How much does it cost to join?
 
-There is no fee to join NYC Mesh but you will need to pay for the required networking equipment to get connected. If you do a DIY install, you can purchase this equipment on your own. If you choose a volunteer-led install, we charge the following rates per apartment:
+There is no fee to join NYC Mesh but you will need to pay for the required networking equipment to get connected. 
 
-*   The average actual equipment cost of $290 ($240 plus $50 cash to cover the install leader's expenses)
-*   A subsidized cost of $160 ($110 plus $50 cash cash to cover the install leader's expenses)
+If you do a DIY install, you can purchase this equipment on your own. (We can still help you determine what equipment will be best for your specific location.)
+
+If you choose a volunteer-led install, we charge the following rate per apartment:
+| Average Equipment Cost | Install Leader Expenses | Total |
+| :--: | :--: | :--: |
+| $240 | $50 | **$290** |
+
+If you cannot afford the full price, we offer a lower price (subsidized by other members):
+| ~45% Avg. Equipment Cost | Install Leader Expenses | Total |
+| :--: | :--: | :--: |
+| $110 | $50 | **$160** |
 
 If we are not able to connect you, you do not need to pay the parts and equipment fee and you can decide whether or not you want to pay the labor fee.
 
