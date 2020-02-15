@@ -4,53 +4,53 @@ title: "Frequently asked questions"
 
 **About NYC Mesh**
 
-*   [Why is NYC Mesh building a community-owned network?](#why)
-*   [How does it work?](#how)
-*   [Is this a replacement for my current Internet connection?](#replace)
-*   [Is the mesh secure?](#security)
-*   [What is your user data policy?](#data)
-*   [Who owns NYC Mesh?](#ownership)
-*   [What is your business plan?](#businessplan)
-*   [What can I do on the mesh that I can’t do on the internet?](#meshonly)
+-   [Why is NYC Mesh building a community-owned network?](#why)
+-   [How does it work?](#how)
+-   [Is this a replacement for my current Internet connection?](#replace)
+-   [Is the mesh secure?](#security)
+-   [What is your user data policy?](#data)
+-   [Who owns NYC Mesh?](#ownership)
+-   [What is your business plan?](#businessplan)
+-   [What can I do on the mesh that I can’t do on the internet?](#meshonly)
 
 **Joining the Community**
 
-*   [How do I sign up?](#signup)
-*   [How much does it cost to join?](#cost)
-*   [I heard that NYC Mesh is free Internet. Is that true?](#free)
-*   [What are my obligations as an NYC Mesh community member?](#obligations)
-*   [How can I volunteer? What if I don’t know anything about networking?](#volunteer)
-*   [I have neighbors who would also like to join NYC Mesh. Can we get connected together?](#neighbors)
-*   [Do I need to provide identification to join NYC Mesh?](#id)
-*   [What is Slack and how do I use it?](#slack)
+-   [How do I sign up?](#signup)
+-   [How much does it cost to join?](#cost)
+-   [I heard that NYC Mesh is free Internet. Is that true?](#free)
+-   [What are my obligations as an NYC Mesh community member?](#obligations)
+-   [How can I volunteer? What if I don’t know anything about networking?](#volunteer)
+-   [I have neighbors who would also like to join NYC Mesh. Can we get connected together?](#neighbors)
+-   [Do I need to provide identification to join NYC Mesh?](#id)
+-   [What is Slack and how do I use it?](#slack)
 
 **Getting connected to the mesh**
 
-*   [How can I tell if I’m in the coverage zone for NYC Mesh?](#covered)
-*   [My neighbor has a rooftop router and is connected to NYC Mesh. Can I also use it to connect?](#alsouse)
-*   [What is the wait time for an installation? How do you decide who to connect first?](#waittime)
-*   [What is involved in a typical installation?](#typicalinstall)
-*   [What will the hardware setup look like?](#hardwaresetup)
-*   [How should I prepare before the install team arrives?](#prepare)
-*   [What happens if the install team can’t connect me to the mesh?](#nogo)
-*   [What if I can’t get roof access?](#noroof)
-*   [Can I install a router if I have no view or no rooftop access?](#noview)
-*   [Can I install the hardware and connect to NYC Mesh on my own?](#bymylonesome)
-*   [Can I use any router to connect?](#anyrouter)
+-   [How can I tell if I’m in the coverage zone for NYC Mesh?](#covered)
+-   [My neighbor has a rooftop router and is connected to NYC Mesh. Can I also use it to connect?](#alsouse)
+-   [What is the wait time for an installation? How do you decide who to connect first?](#waittime)
+-   [What is involved in a typical installation?](#typicalinstall)
+-   [What will the hardware setup look like?](#hardwaresetup)
+-   [How should I prepare before the install team arrives?](#prepare)
+-   [What happens if the install team can’t connect me to the mesh?](#nogo)
+-   [What if I can’t get roof access?](#noroof)
+-   [Can I install a router if I have no view or no rooftop access?](#noview)
+-   [Can I install the hardware and connect to NYC Mesh on my own?](#bymylonesome)
+-   [Can I use any router to connect?](#anyrouter)
 
 **Hardware, software and networking**
 
-*   [What is a router? What is an antenna? What is a radio? Are they different things?](#defrouter)
-*   [What is a Node? What is a Supernode? What is a Hub Node?](#defnode)
-*   [What software/firmware do you use?](#software)
+-   [What is a router? What is an antenna? What is a radio? Are they different things?](#defrouter)
+-   [What is a Node? What is a Supernode? What is a Hub Node?](#defnode)
+-   [What software/firmware do you use?](#software)
 
 **Everything Else**
 
-*   [What exactly is the Internet anyway?](#definternet)
-*   [Why don’t we mesh mobile phones instead of routers?](#phones)
-*   [How far can the mesh extend? Could it cover the whole country?](#far)
-*   [Blockchain?](#blockchain)
-*   [Why aren't you doing this obvious thing I just thought of?](#obvious)
+-   [What exactly is the Internet anyway?](#definternet)
+-   [Why don’t we mesh mobile phones instead of routers?](#phones)
+-   [How far can the mesh extend? Could it cover the whole country?](#far)
+-   [Blockchain?](#blockchain)
+-   [Why aren't you doing this obvious thing I just thought of?](#obvious)
 
 ---
 
@@ -60,18 +60,18 @@ title: "Frequently asked questions"
 
 Here’s a list of our reasons for building a community-owned mesh network:
 
-*   An infrastructure commons in which the community owns the network
-*   A [neutral network](https://en.wikipedia.org/wiki/Net_neutrality_in_the_United_States) that does not block or discriminate content or throttle data
-*   No [personal data collection](https://techcrunch.com/2017/03/23/senate-votes-to-allow-isps-to-collect-personal-data-without-permission/)
-*   Bridging the [Digital Divide](https://en.wikipedia.org/wiki/Digital_divide) by connecting underserved communities to the Internet
-*   Freedom from the telecom [oligopoly](https://www.newyorker.com/news/daily-comment/we-need-real-competition-not-a-cable-internet-monopoly) of Verizon, Optimum and Spectrum
-*   Emergency community networking (for the next [hurricane](http://nymag.com/selectall/2017/10/what-happens-to-the-internet-after-a-disaster.html))
-*   Decentralized, with no single point of failure
-*   Self-configuring (simple!)
-*   Community-building with highly localized websites
-*   Eventual self-sufficient network as alternative to the corporate-owned Internet
-*   Providing public wifi access points
-*   Allows fast uploads as well as downloads, so members can serve content and services rather than only consume them from centralized hosts.
+-   An infrastructure commons in which the community owns the network
+-   A [neutral network](https://en.wikipedia.org/wiki/Net_neutrality_in_the_United_States) that does not block or discriminate content or throttle data
+-   No [personal data collection](https://techcrunch.com/2017/03/23/senate-votes-to-allow-isps-to-collect-personal-data-without-permission/)
+-   Bridging the [Digital Divide](https://en.wikipedia.org/wiki/Digital_divide) by connecting underserved communities to the Internet
+-   Freedom from the telecom [oligopoly](https://www.newyorker.com/news/daily-comment/we-need-real-competition-not-a-cable-internet-monopoly) of Verizon, Optimum and Spectrum
+-   Emergency community networking (for the next [hurricane](http://nymag.com/selectall/2017/10/what-happens-to-the-internet-after-a-disaster.html))
+-   Decentralized, with no single point of failure
+-   Self-configuring (simple!)
+-   Community-building with highly localized websites
+-   Eventual self-sufficient network as alternative to the corporate-owned Internet
+-   Providing public wifi access points
+-   Allows fast uploads as well as downloads, so members can serve content and services rather than only consume them from centralized hosts.
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -96,9 +96,11 @@ By default, our mesh router is firewalled from your local network. It is not pos
 Network traffic within the mesh is not encrypted by default. When connecting through the mesh you should use the same standard precautions as you would when connecting to WiFi at a coffee shop or airport: use [https](https://en.wikipedia.org/wiki/HTTPS) (lock icon) web sites for secure connections (most browsers do this by default nowadays), or use a VPN service.
 
 If you connect to the mesh network indirectly over the internet (for example over a cable ISP connection) this is by [tinc VPN](https://www.tinc-vpn.org/) and is secure.
+
 <!---
  "data" links from a few different places
 -->
+
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
 ### <a name="data"></a>What is your user data policy?
@@ -149,23 +151,25 @@ If you would like to volunteer with NYC Mesh, reach out on [slack][] or join us 
 
 ### <a name="cost"></a>How much does it cost to join?
 
-There is no fee to join NYC Mesh but you will need to pay for the required networking equipment to get connected. 
+There is no fee to join NYC Mesh but you will need to pay for the required networking equipment to get connected.
 
 If you do a DIY install, you can purchase and install this equipment on your own. (We can still help you determine what equipment will be best for your specific location.)
 
 If you choose a volunteer-led install, we charge the following rate per apartment:
-| Average Equipment Cost | Install Leader Expenses | Total |
-| :--: | :--: | :--: |
-| $240 | $50 | **$290** |
+
+**Average Equipment Cost:** \$240  
+**Install Leader Expenses:** \$50  
+**Total:** \$290
 
 If you cannot afford the full price, we offer a lower price (subsidized by other members):
-| ~45% Avg. Equipment Cost | Install Leader Expenses | Total |
-| :--: | :--: | :--: |
-| $110 | $50 | **$160** |
+
+**Subsidized Equipment Cost:** \$110  
+**Install Leader Expenses:** \$50  
+**Total:** \$160
 
 If we are not able to connect you, you do not need to pay the parts and equipment fee and you can decide whether or not you want to pay the labor fee.
 
-If you can afford it, we also recommend that you pay a recurring monthly donation of $20, $30 or $50. We rely on these donations to maintain and expand our network.
+If you can afford it, we also recommend that you pay a recurring monthly donation of $20, $30 or \$50. We rely on these donations to maintain and expand our network.
 
 Here is our ["rate card"](../rate-card) for more details.
 
@@ -215,15 +219,15 @@ Slack is the main communication and collaboration platform we use at NYC Mesh. I
 
 Connecting to the Internet with NYC Mesh requires a direct line-of-sight to an existing supernode or hub node. Look at our [map](/map) to see if you’re either:
 
-*   within range of a supernode or hub node
-*   close to a LinkNYC kiosk
+-   within range of a supernode or hub node
+-   close to a LinkNYC kiosk
 
 If any of the above are true, there is a good chance you will be able to connect to NYC Mesh. Fill out the [join form](/join) and we will assess your location. We will also ask you to take a picture or panorama from your balcony or rooftop.
 
 Some additional things you can do to determine if you are in a coverage zone:
 
-*   Click on active nodes around you on the [map](/map) to see if a panorama photo is available. If you can see your building in the photo, you are in the node’s coverage zone.
-*   Use 3D mode in Google Maps or Google Earth to see if there is a likely line of sight from your building to an active node.
+-   Click on active nodes around you on the [map](/map) to see if a panorama photo is available. If you can see your building in the photo, you are in the node’s coverage zone.
+-   Use 3D mode in Google Maps or Google Earth to see if there is a likely line of sight from your building to an active node.
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -243,14 +247,14 @@ Typically, installs take between one and three hours to complete, but in certain
 
 Most installations proceed in the following order:
 
-*   Survey the apartment and rooftop
-*   Decide where ethernet cable should enter the apartment
-*   Test signal strength to confirm connection is possible
-*   Install mounting hardware and align router
-*   Run cable into apartment
-*   Set up indoor WiFi router
-*   Speed test
-*   Clean up
+-   Survey the apartment and rooftop
+-   Decide where ethernet cable should enter the apartment
+-   Test signal strength to confirm connection is possible
+-   Install mounting hardware and align router
+-   Run cable into apartment
+-   Set up indoor WiFi router
+-   Speed test
+-   Clean up
 
 In case of bad weather conditions, we will notify you that the install has been canceled and will invite you to make a new appointment.
 
@@ -261,7 +265,6 @@ In case of bad weather conditions, we will notify you that the install has been 
 Here's a diagram showing typical hardware and how it connects together.
 
 ![Installing_a_rooftop_router](/img/diagram_textbottom.jpg "Typical installation diagram")
-
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -338,6 +341,7 @@ A hub node is an important neighborhood node that extends the mesh around it, wi
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
 ### <a name="software"></a>What software/firmware do you use?
+
 We use a variety of open source and proprietary firmware. Lately we have been using a lot of BGP and WDS to mesh things together.
 
 We also use an OpenWrt package made by qMp. This uses the BMX6 mesh protocol. We have added tinc tunneling so a router can mesh over the internet when out of range using a secure virtual private network (VPN).
