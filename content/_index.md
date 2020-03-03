@@ -6,7 +6,7 @@ images: ["/img/3d.png"]
 
 ## Join our community-owned network!
 
-### <a href="/join" class="blue">Get connected</a> and stop overpaying for Internet.
+### <a href="/join" class="blue">Get connected to our community</a>
 
 ### <a href="/volunteer" class="blue">Volunteer</a> to help build our network.
 
