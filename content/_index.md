@@ -4,9 +4,9 @@ description: "Join our community-owned network"
 images: ["/img/3d.png"]
 ---
 
-## Join our community-owned network!
+## Join our community network!
 
-### <a href="/join" class="blue">Get connected to our community</a>
+### <a href="/join" class="blue">Get connected</a>
 
 ### <a href="/volunteer" class="blue">Volunteer</a> to help build our network.
 
