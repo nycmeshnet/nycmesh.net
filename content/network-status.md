@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2020-3-14
+
+9:16am Power problem resolved at Soft Surplus. Bandwidth should be back to normal.
+
 2020-3-13
 
 11:50pm There is a power-outage at our Soft Surplus hub which is causing problems in Brooklyn. We hope to have this resolved tomorrow morning.
