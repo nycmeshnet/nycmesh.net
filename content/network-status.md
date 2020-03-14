@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2020-3-13
+
+11:50pm There is a power-outage at our Soft Surplus hub which is causing problems in Brooklyn. We hope to have this resolved tomorrow morning.
+
 2019-12-28
 
 We are not able to get access to Saratoga until Monday. Saratoga is still online but on a backup connection.
