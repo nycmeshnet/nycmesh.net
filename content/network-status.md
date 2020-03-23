@@ -1,6 +1,15 @@
 ---
 title: "Network status"
 ---
+
+2020-3-16
+
+**Due to nearly everyone working from home, our bandwidth usage has doubled and most connections are much slower than usual.**
+
+This is especially affecting connections to the PH and Saratoga hubs in Brooklyn. We are working on a software fix and eventual hardware upgrades for this but it will take time. 
+
+**We ask that you limit high-bandwidth downloads (such as games or movie files) to between midnight and 10am.**
+
 2020-3-14
 
 9:16am Power problem resolved at Soft Surplus. Bandwidth should be back to normal.
