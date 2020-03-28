@@ -2,13 +2,19 @@
 title: "Network status"
 ---
 
-2020-3-16
-
 **Due to nearly everyone working from home, our bandwidth usage has doubled and most connections are much slower than usual.**
 
-This is especially affecting connections to the PH and Saratoga hubs in Brooklyn. We are working on a software fix and eventual hardware upgrades for this but it will take time. 
+This is especially affecting connections to the PH and Saratoga hubs in Brooklyn. We have been improving this and we will be doing further upgrades
 
 **We ask that you limit high-bandwidth downloads (such as games or movie files) to between midnight and 10am.**
+
+2020-3-27
+
+4:00pm Speeds from our PH sector in Brooklyn have been improved. We realigned one sector antenna today to share coverage of the northern Prospect Heights area.
+
+2020-3-16
+
+Our bandwidth usage has doubled in the last week, and most connections are much slower than usual
 
 2020-3-14
 
