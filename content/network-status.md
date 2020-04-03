@@ -2,15 +2,13 @@
 title: "Network status"
 ---
 
-**Due to nearly everyone working from home, our bandwidth usage has doubled and most connections are much slower than usual.**
-
-This is especially affecting connections to the PH and Saratoga hubs in Brooklyn. We have been improving this and we will be doing further upgrades
-
-**We ask that you limit high-bandwidth downloads (such as games or movie files) to between midnight and 10am.**
-
 2020-4-2
 
 **Our PH hub connection to SN3 is shaky tonight affecting connections in Brooklyn, this is possibly wind related.**
+
+Due to nearly everyone working from home most connections are much slower than usual. This is especially affecting connections to the PH and Saratoga hubs in Brooklyn. We have been improving this and we will be doing further upgrades
+
+**We ask that you limit high-bandwidth downloads (such as games or movie files) to between midnight and 10am.**
 
 2020-3-27
 
