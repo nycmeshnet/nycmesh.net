@@ -8,6 +8,10 @@ This is especially affecting connections to the PH and Saratoga hubs in Brooklyn
 
 **We ask that you limit high-bandwidth downloads (such as games or movie files) to between midnight and 10am.**
 
+2020-4-2
+
+**Our PH hub connection to SN3 is shaky tonight affecting connections in Brooklyn, this is possibly wind related.**
+
 2020-3-27
 
 4:00pm Speeds from our PH sector in Brooklyn have been improved. We realigned one sector antenna today to share coverage of the northern Prospect Heights area.
