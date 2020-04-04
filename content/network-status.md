@@ -2,13 +2,19 @@
 title: "Network status"
 ---
 
-2020-4-2
+2020-4-4
 
-**Our PH hub connection to SN3 is shaky tonight affecting connections in Brooklyn, this is possibly wind related.**
+**11:45am We have fixed the connection between our PH hub and SN3. We aligned the antenna and added a radome to reduce interference. Connections to our PH hub should now be good.**
+
 
 Due to nearly everyone working from home most connections are much slower than usual. This is especially affecting connections to the PH and Saratoga hubs in Brooklyn. We have been improving this and we will be doing further upgrades
 
 **We ask that you limit high-bandwidth downloads (such as games or movie files) to between midnight and 10am.**
+
+2020-4-2
+
+Our PH hub connection to SN3 is shaky tonight affecting connections in Brooklyn, this is possibly wind related.
+
 
 2020-3-27
 
