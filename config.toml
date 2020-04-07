@@ -10,5 +10,10 @@ summaryLength = 10
   description = "Join our community-owned network to replace your current internet connection."
   images = ["/img/3d.png"]
 
-[blackfriday]
-hrefTargetBlank = true
+[markup]
+	[markup.blackFriday]
+		hrefTargetBlank = true
+	[markup.tableOfContents]
+		endLevel = 3
+		ordered = false
+		startLevel = 2
