@@ -1,10 +1,13 @@
 ---
 title: "Network status"
 ---
+2020-4-13
+
+**1:30pm The storm has affected the link to our PH hub severely limiting bandwidth in the Prospect Heights and surrounding areas. We will try to fix this as soon as the rain eases.**
 
 2020-4-4
 
-**11:45am We have fixed the connection between our PH hub and SN3. We aligned the antenna and added a radome to reduce interference. Connections to our PH hub should now be good.**
+11:45am We have fixed the connection between our PH hub and SN3. We aligned the antenna and added a radome to reduce interference. Connections to our PH hub should now be good.
 
 
 Due to nearly everyone working from home most connections are much slower than usual. This is especially affecting connections to the PH and Saratoga hubs in Brooklyn. We have been improving this and we will be doing further upgrades
