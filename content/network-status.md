@@ -1,9 +1,13 @@
 ---
 title: "Network status"
 ---
+2020-4-14
+
+**10:30am The alignment problem at PH hub has been fixed and speeds should be back to normal in Brooklyn**
+
 2020-4-13
 
-**1:30pm The storm has affected the link to our PH hub severely limiting bandwidth in the Prospect Heights and surrounding areas. We will try to fix this as soon as the rain eases.**
+1:30pm The storm has affected the link to our PH hub severely limiting bandwidth in the Prospect Heights and surrounding areas. We will try to fix this as soon as the rain eases.
 
 Due to nearly everyone working from home most connections are much slower than usual. This is especially affecting connections to the PH and Saratoga hubs in Brooklyn. We have been improving this and we will be doing further upgrades
 
