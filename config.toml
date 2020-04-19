@@ -11,9 +11,12 @@ summaryLength = 10
   images = ["/img/3d.png"]
 
 [markup]
-	[markup.blackFriday]
-		hrefTargetBlank = true
-	[markup.tableOfContents]
-		endLevel = 3
-		ordered = false
-		startLevel = 2
+  [markup.blackFriday]
+    hrefTargetBlank = true
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
