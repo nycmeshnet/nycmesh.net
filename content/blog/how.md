@@ -32,6 +32,8 @@ NYC Mesh has done many presentations that explain what we are doing. You can [wa
 
 **Essential Reading**
 
+[Telecommnications Reclaimed](https://www.netcommons.eu/sites/default/files/telecom-reclaimed-web-single-page.pdf) is a guide to building a community network. It was written collectively by a group of community network pioneers in Europe in 2018.
+
 [Wireless Networking in the Developing World (WNDW)](http://wndw.net/book.html) is a great free book about designing, implementing, and maintaining low-cost wireless networks. http://wndw.net/book.html. 
 
 You need to know the basics of wifi and networking. The OSI layers, IPv4, IPv6, 2.4GHz vs 5GHz, wifi modes- infrastructure vs. ad-hoc (which is used by mesh routers) etc. This book covers all of that.
