@@ -15,7 +15,8 @@ progress: 420
 MicroOffice Office space for entrepreneurs  
 [Webair](https://www.webair.com/) Managed Hosting solutions  
 [Ubiquiti](https://www.ui.com/) Democratizing Professional Network Technology  
-[Pilot](https://www.pilotfiber.com/) Business Internet
+[Pilot](https://www.pilotfiber.com/) Business Internet  
+[Init7](https://www.init7.net/en/) A global backbone belonging to us
 
 ### Individual Donors
 

@@ -29,6 +29,10 @@ Corporate Donors
 
 [<img src="/sponsors/pilot.png" alt="Pilot" style="width:95px;"/>](https://www.pilotfiber.com/) <code>&nbsp;&nbsp;&nbsp;&nbsp;</code> Business Internet
 
+<br>
+
+[<img src="/sponsors/Init7_logo.svg" alt="Init7" style="width:95px;"/>](https://www.init7.net/en/)<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>A global backbone belonging to us
+
 
 
 ---
