@@ -93,7 +93,9 @@ Service disruptions are possible for both commercial ISPs and NYC Mesh. Extreme 
 
 By default, our mesh router is firewalled from your local network. It is not possible to reach beyond the mesh router to your local access network (LAN).
 
-Network traffic within the mesh is not encrypted by default. When connecting through the mesh you should use the same standard precautions as you would when connecting to WiFi at a coffee shop or airport: use [https](https://en.wikipedia.org/wiki/HTTPS) (lock icon) web sites for secure connections (most browsers do this by default nowadays), or use a VPN service.
+The mesh internet connection to your apartment is secure using standard WPA2 encryption. Traffic between nodes on the mesh is also encrypted using WPA2. We also support VPN connections for an additional layer of security.
+
+When connecting through the mesh from the street you should use the same standard precautions as you would when connecting to WiFi at a coffee shop or airport: use [https](https://en.wikipedia.org/wiki/HTTPS) (lock icon) web sites for secure connections (most browsers do this by default nowadays), or use a VPN service.
 
 If you connect to the mesh network indirectly over the internet (for example over a cable ISP connection) this is by [tinc VPN](https://www.tinc-vpn.org/) and is secure.
 
