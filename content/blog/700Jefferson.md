@@ -1,7 +1,7 @@
 ---
 title: "We’re connecting a whole block in Bed Stuy"
-images: ["/img/blog/700Jefferson_Photo_03_sm.jpg"]
 author: Willem
+images: ["/img/blog/700Jefferson_Photo_03_sm.jpg"]
 date: "2019-09-24"
 draft: false
 ---
@@ -81,7 +81,6 @@ As an install leader and organizer at NYC Mesh, I’m so grateful that I’ve ha
 The 700 Jefferson Avenue block association is just one of hundreds in New York. If you are a member of a block association and you would like to get together with your neighbors to join NYC Mesh, you can get in touch with me by email at willem@nycmesh.net, come to one of our monthly [meetups](https://www.meetup.com/nycmesh/) or chat with other community members on our online forum [Slack](https://join.slack.com/t/nycmesh/shared_invite/enQtNDk0NDA4OTAyNDY0LTU5NWMyODY5ZTYyMDY2NzgzOTJmZjFmZTg3YWRjYjE0M2EyMzlhNDE3YmIxZmZhYTZmNjIwNTVkMDIwMjI2ZDg). We’d love to hear from you!
 
 *A big thank you to everyone on the 700 Jefferson Avenue block who has joined our community as well as all the installers to date: Shea, Aaron, Olivier, Chett, Duncan, Rory, Glenn, Javier, George, Carlos, Rob, Marie and Brian.*
-
 
 
 
