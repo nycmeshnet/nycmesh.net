@@ -4,19 +4,16 @@ title: "Frequently asked questions"
 
 **About NYC Mesh**
 
--   [Why is NYC Mesh building a community-owned network?](#why)
+-   [Why is NYC Mesh building a community network?](#why)
 -   [How does it work?](#how)
--   [Is this a replacement for my current Internet connection?](#replace)
--   [Is the mesh secure?](#security)
+-   [Can I use my NYC Mesh connections to get online?](#replace)
+-   [Is the Mesh secure?](#security)
 -   [What is your user data policy?](#data)
--   [Who owns NYC Mesh?](#ownership)
--   [What is your business plan?](#businessplan)
--   [What can I do on the mesh that I can’t do on the internet?](#meshonly)
 
 **Joining the Community**
 
 -   [How do I sign up?](#signup)
--   [How much does it cost to join?](#cost)
+-   [Is there a cost to join?](#cost)
 -   [I heard that NYC Mesh is free Internet. Is that true?](#free)
 -   [What are my obligations as an NYC Mesh community member?](#obligations)
 -   [How can I volunteer? What if I don’t know anything about networking?](#volunteer)
@@ -114,26 +111,6 @@ The NYC Mesh network is unencrypted, easy to join, and depends on donated intern
 NYC Mesh will comply with all laws in the jurisdictions where it operates; however, as per our community policy, no data is collected or stored, and therefore no data exists to provide to agents who request it.
 
 Here is our [privacy-policy](../privacy-policy)
-
-<font size="3"> <a href="#top">&#8598; Back to top</a> </font>
-
-### <a name="ownership"></a>Who owns NYC Mesh?
-
-We are a non-profit project of the New York chapter of the [Internet Society](https://www.internetsociety.org/) (ISOC-NY). Most of the equipment that makes up the Mesh is owned by the individual members. Some common infrastructure is owned or rented by the project under ISOC-NY, or by individual members who are donating it. Intellectual property is limited and is under open licenses such as GNU and Creative Commons.
-
-<font size="3"> <a href="#top">&#8598; Back to top</a> </font>
-
-### <a name="businessplan"></a>What is your business plan?
-
-We are not a business and we are not a commercial Internet Service Provider! We aim to grow our community in a sustainable and inclusive way for the benefit of all of our members. Our members are contributors to our community, not customers, consumers or users. Being a member of our network has many benefits, including replacing your current ISP with fast, neutral, affordable, and unmonitored Internet access. Businesses are free to join or connect to the mesh as long as they obey the [network commons license](/ncl.pdf).
-
-<font size="3"> <a href="#top">&#8598; Back to top</a> </font>
-
-### <a name="meshonly"></a>What can I do on the mesh that I can’t do on the internet?
-
-Other than the benefit of not paying the cable cartel for overpriced Internet access, it is also possible to connect directly to other people on the mesh without using the Internet. If for some reason the Internet is shut down (hurricane, government crackdown, cyberattack, zombie apocalypse), the mesh will likely still work for a while longer.
-
-The mesh also has its own web servers that show local information and allow you to chat and post messages. We are in need of [volunteers](/help) to help add content and maintain our servers.
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
