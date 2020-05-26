@@ -72,19 +72,19 @@ Below are just a few of the reasons to join and support NYC Mesh:
 
 ### <a name="how"></a>How does it work?
 
-Most NYC Mesh members (“nodes”) use wireless routers mounted on a rooftop or balcony to connect to other nodes, forming a network. Our network in turn peers (connects) with many other networks at an [Internet exchange point (IXP)](https://en.wikipedia.org/wiki/Internet_exchange_point), providing direct access to the Internet without the intermediary of a commercial Internet Service Provider. NYC Mesh maintains a number of primary Internet exchange points that we call “Supernodes.”
+Most NYC Mesh community members (“nodes”) have wireless routers mounted on a rooftop or balcony to connect to other nodes, forming a network. Our network in turn peers (connects) with many other networks at an [Internet exchange point (IXP)](https://en.wikipedia.org/wiki/Internet_exchange_point), providing direct access to the Internet without the intermediary of a commercial Internet Service Provider. NYC Mesh maintains a number of primary Internet exchange points that we call “Supernodes.”
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
-### <a name="replace"></a>Is this a replacement for my current Internet connection?
+### <a name="replace"></a>Can I use my NYC Mesh connection to get online?
 
-NYC Mesh provides an independent, fast, and reliable connection to the Internet. Many of our members have ended their contracts with commercial Internet Service Providers (ISPs) and now exclusively rely on their NYC Mesh connection.
+NYC Mesh provides an independent, fast, and reliable connection to the Internet that is accessible to all New Yorkers. 
 
-Service disruptions are possible for both commercial ISPs and NYC Mesh. Extreme weather such as heavy rain, blizzards and hail, for example, can decrease connection speeds as they affect the router’s wireless signal. Our community actively monitors the health of the network, and, unlike commercial ISPs, responds quickly to service requests.
+Service disruptions are possible. Extreme weather such as heavy rain, blizzards and hail, for example, can decrease connection speeds as they affect the router’s wireless signal. Our community actively monitors the health of the network, and responds quickly to service requests.
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
-### <a name="security"></a>Is the mesh secure?
+### <a name="security"></a>Is the Mesh secure?
 
 By default, our mesh router is firewalled from your local network. It is not possible to reach beyond the mesh router to your local access network (LAN).
 
@@ -124,29 +124,27 @@ If you would like to volunteer with NYC Mesh, reach out on [slack][] or join us 
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
-### <a name="cost"></a>How much does it cost to join?
+### <a name="cost"></a>Is there a cost to join?
+There is no cost to join or use NYC Mesh -- we believe EVERYONE should be able to connect online. That said, the equipment we use to connect you and your neighbors does cost money and we ask that everyone who has the financial means to contribute do so, which allows us to invest in expanding the network and connecting more New Yorkers.  
 
-There is no fee to join NYC Mesh but you will need to pay for the required networking equipment to get connected.
+If you do a DIY install, you can purchase and install the equipment on your own. (We can still help you determine what equipment will be best for your specific location and lend assistance in the #diy-install-support channel of our [Slack](https:/slack.nycmesh.net).
 
-If you do a DIY install, you can purchase and install this equipment on your own. (We can still help you determine what equipment will be best for your specific location.)
+If you you’re able to contribute, we suggest the following to help cover our costs: 
+**Average Equipment Cost**: \$240 (the actual cost of the equipment!)
+**Install Leader Expenses**: \$50
+**Total**: \$290
 
-If you choose a volunteer-led install, we charge the following rate per apartment:
+If you’re unable to cover the full cost of equipment, we encourage you to contribute the below, which is subsidized through the contributions of your fellow NYC Mesh members:
 
-**Average Equipment Cost:** \$240  
-**Install Leader Expenses:** \$50  
-**Total:** \$290
+**Subsidized Equipment Cost**: \$110
+**Install Leader Expenses**: \$50
+**Total**: \$160
 
-If you cannot afford the full price, we offer a lower price (subsidized by other members):
+NYC Mesh believes that the Internet is for everyone. If the above suggested donations are too much for you to afford, please let us know at help@nycmesh.net and we’ll get you connected nonetheless. 
 
-**Subsidized Equipment Cost:** \$110  
-**Install Leader Expenses:** \$50  
-**Total:** \$160
+If we are not able to connect you for any reason, there is no suggested donation though it’s not bad policy to thank (or tip) the volunteer who schlepped a bunch of equipment across town.  
 
-If we are not able to connect you, you do not need to pay the parts and equipment fee and you can decide whether or not you want to pay the labor fee.
-
-If you can afford it, we also recommend that you pay a recurring monthly donation of $20, $30 or \$50. We rely on these donations to maintain and expand our network.
-
-Here is our ["rate card"](../rate-card) for more details.
+If you can afford it, we also recommend that you set up  a recurring monthly donation of $20, $30, $50, $60. We rely on these donations to maintain and expand our network. We are all volunteers to 100% of these contributions go to building and maintaining the network.  
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
