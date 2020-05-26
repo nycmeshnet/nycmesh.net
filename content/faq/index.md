@@ -53,22 +53,20 @@ title: "Frequently asked questions"
 
 # About NYC Mesh
 
-### <a name="why"></a>Why is NYC Mesh building a community-owned network?
+### <a name="why"></a>Why is NYC Mesh building a community network?
 
-Here’s a list of our reasons for building a community-owned mesh network:
+Below are just a few of the reasons to join and support NYC Mesh:
 
--   An infrastructure commons in which the community owns the network
--   A [neutral network](https://en.wikipedia.org/wiki/Net_neutrality_in_the_United_States) that does not block or discriminate content or throttle data
--   No [personal data collection](https://techcrunch.com/2017/03/23/senate-votes-to-allow-isps-to-collect-personal-data-without-permission/)
--   Bridging the [Digital Divide](https://en.wikipedia.org/wiki/Digital_divide) by connecting underserved communities to the Internet
--   Freedom from the telecom [oligopoly](https://www.newyorker.com/news/daily-comment/we-need-real-competition-not-a-cable-internet-monopoly) of Verizon, Optimum and Spectrum
--   Emergency community networking (for the next [hurricane](http://nymag.com/selectall/2017/10/what-happens-to-the-internet-after-a-disaster.html))
--   Decentralized, with no single point of failure
--   Self-configuring (simple!)
--   Community-building with highly localized websites
--   Eventual self-sufficient network as alternative to the corporate-owned Internet
--   Providing public wifi access points
--   Allows fast uploads as well as downloads, so members can serve content and services rather than only consume them from centralized hosts.
+-   We are building an infrastructure commons that is accessible to all New Yorkers  
+-   We are a neutral network that does not block or discriminate content or throttle data  
+-   We do not collect personal data  
+-   We’re committed to bridging the Digital Divide by connecting underserved communities in New York online  
+-   We stand in opposition to the telecom oligopoly in New York of Verizon, Optimum and Spectrum  
+-   We are building a resilient emergency community network (for the next hurricane)  
+-   We are decentralized, with no single point of failure as an organization or network  
+-   We believe in building community  and supporting  highly localized websites and services  
+-   We offer public wi-fi hotspots across the network 
+-   We allow for fast uploads as well as downloads, so members of our community can serve content and services rather than only consume them from centralized hosts  
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -190,7 +188,7 @@ Slack is the main communication and collaboration platform we use at NYC Mesh. I
 
 ---
 
-# Getting connected to the mesh
+# Getting connected to the Mesh
 
 ### <a name="covered"></a>How can I tell if I’m in the coverage zone for NYC Mesh?
 
