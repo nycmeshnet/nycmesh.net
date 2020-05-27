@@ -120,7 +120,7 @@ Here is our [privacy-policy](../privacy-policy)
 
 After reading through the FAQs, fill out the [join form](/join) to be assigned a Potential Node, and look for an email with next steps (check your email spam folder or contact us directly at install@nycmesh.net if you don’t receive any reply).
 
-If you would like to volunteer with NYC Mesh, reach out on [slack][] or join us at our monthly [meetup](https://www.meetup.com/nycmesh/).
+If you would like to volunteer with NYC Mesh, reach out on [Slack][] or join us at our monthly [meetup](https://www.meetup.com/nycmesh/).
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -162,7 +162,7 @@ By joining the Mesh you are obliged to share and extend the Mesh in the same way
 
 ### <a name="volunteer"></a>How can I volunteer? What if I don’t know anything about networking?
 
-NYC Mesh welcomes people with diverse skill sets and from all backgrounds. Many of our volunteers started without any technical background. Join us at our monthly [meetup](https://www.meetup.com/nycmesh/) or reach out to us on [slack](https://slack.nycmesh.net/) to start a conversation about how you can contribute to our community. You can also read about some ways to help [here](/help).
+NYC Mesh welcomes people with diverse skill sets and from all backgrounds. Many of our volunteers started without any technical background. Join us at our monthly [meetup](https://www.meetup.com/nycmesh/) or reach out to us on [Slack](https://slack.nycmesh.net/) to start a conversation about how you can contribute to our community. You can also read about some ways to help [here](/help).
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -203,17 +203,17 @@ Some additional things you can do to determine if you are in a coverage zone:
 
 ### <a name="alsouse"></a>My neighbor has a rooftop router and is connected to NYC Mesh. Can I also use it to connect?
 
-We encourage neighbors to share their Internet access. Ask your neighbor for permission to connect via their rooftop router and reach out to us on [slack](https://slack.nycmesh.net/). We can probably install a switch at the rooftop router and run an ethernet cable to your apartment. We have a standard $160 install fee, and we ask for a $20 monthly donation if you can afford it.
+We encourage neighbors to share their Internet access. Ask your neighbor for permission to connect via their rooftop router and reach out to us on [Slack](https://slack.nycmesh.net/). We can probably install a switch at the rooftop router and run an ethernet cable to your apartment. If you’re connecting to a neighbor we still suggest that you contribute at the levels described above (see Is there a cost to join?[link]). We also suggest a recurring $20, $30, $50 or $60 monthly donation if you can afford it.
 
-### <a name="waittime"></a>What is the wait time for an volunteer-led installation? How do you decide who to connect first?
+### <a name="waittime"></a>What is the wait time for a volunteer-led installation? How do you decide who to connect first?
 
 Once you submit your node request form, we will request a panoramic photo from your rooftop or balcony to assess line of sight to nearby nodes and we will then invite you to schedule an appointment on our install calendar. Wait times will vary based on the availability of volunteer installers. If you can convince your neighbors to also join, we will put you at the top of the install list.
 
 ### <a name="typicalinstall"></a>What is involved in a typical volunteer-led installation?
 
-For a volunteer-led install, NYC Mesh will send a team of volunteers to your building to conduct a site survey. If we can connect to an existing node from your rooftop or balcony, we will install all the necessary hardware to get you connected to the mesh.
+For a volunteer-led install, NYC Mesh will send a team of volunteers to your building to conduct a site survey. If we can connect to an existing node from your rooftop or balcony, we will install all the necessary hardware to get you connected to the Mesh.
 
-Typically, installs take between one and three hours to complete, but in certain cases they can take longer. We require you to be present for the duration of the install, so we recommend that you plan to remain at your apartment for at least four hours from the start of the install. We will update you on the progress of the install in case of major delays.
+Typically, installs take between two and four hours to complete, but in certain cases they can take longer. We require you to be present for the duration of the install, so we recommend that you plan to remain at your apartment for at least four hours from the start of the install. We also invite you to participate in the install so that you can learn about how your new Internet connection works.
 
 Most installations proceed in the following order:
 
@@ -248,9 +248,9 @@ If you would like to participate in the install, please let us know and read our
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
-### <a name="nogo"></a>What happens if the install team can’t connect me to the mesh?
+### <a name="nogo"></a>What happens if the install team can’t connect me to the Mesh?
 
-If we are not able to connect you, we will not charge you the $110 parts and equipment fee, and you can decide whether or not you want to pay the $50 labor fee.
+If we are not able to connect you, there’s no suggested contribution though it’s not bad policy to thank (or tip) the volunteer who schlepped a bunch of equipment across town.
 
 If we think a connection may be possible by installing a mast, mounting equipment to a neighbor’s roof or another method, we will discuss those options with you on site.
 
@@ -268,9 +268,9 @@ Once you fill out the [join form](/join), we can help you determine the viabilit
 
 In some rare cases you might be close enough to another node to get signal without line of sight to it.
 
-If you’re in an area that’s currently underserved by NYC Mesh but can get a dozen or more of your neighbors together, you can also create your own hub or supernode which would expand the mesh further. Contact us on [slack][] or email us at install@nycmesh.net to discuss this option further.
+If you’re in an area that’s currently underserved by NYC Mesh but can get a dozen or more of your neighbors together, you can also create your own hub or supernode which would expand the mesh further. Contact us on [Slack][] or email us at install@nycmesh.net to discuss this option further.
 
-If you can’t connect to any existing node yet but would still like to access community tools or content that are only available on the mesh, you have the option of [“tunneling”](https://en.wikipedia.org/wiki/Tunneling_protocol) over the Internet by VPN.
+If you can’t connect to any existing node yet but would still like to access community tools or content that are only available on the Mesh, you have the option of [“tunneling”](https://en.wikipedia.org/wiki/Tunneling_protocol) over the Internet by VPN.
 
 ### <a name="bymylonesome"></a>Can I install the hardware and connect to NYC Mesh on my own (DIY)?
 
@@ -278,7 +278,7 @@ Yes you can. Make sure to sign up for a node by filling out our [join form](/joi
 
 We provide a list of hardware you can purchase along with firmware and configuration instructions [here](/download). For guidance on hardware installation, check out our [docs pages](https://docs.nycmesh.net/).
 
-If you need assistance with your self-installs, reach out to us on the #support channel on [slack][].
+If you need assistance with your self-installs, reach out to us on the #diy-install-support channel on [Slack][].
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -352,8 +352,8 @@ Yes, it could. In Spain there is a mesh network called [Guifi](https://guifi.net
 
 We have a lot on our to-do list and everyone is a volunteer. We welcome new ideas big and small, but the best way to move ideas forward is for you to take initiative to help implement them.
 
-Our community on [slack][] is a great forum for new ideas, and you can also start a conversation with long-term and new members at one of our [meetups](https://www.meetup.com/nycmesh/).
+Our community on [Slack][] is a great forum for new ideas, and you can also start a conversation with long-term and new members at one of our [meetups](https://www.meetup.com/nycmesh/).
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
-[slack]: https://slack.nycmesh.net
+[Slack]: https://slack.nycmesh.net
