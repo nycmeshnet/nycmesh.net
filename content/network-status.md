@@ -4,6 +4,8 @@ title: "Network status"
 
 2020-5-27
 
+3:50pm We're back to normal now after a router reboot
+
 11:50am We're working on a problem affecting Brooklyn connections at the moment
 
 2020-4-14
