@@ -1,6 +1,11 @@
 ---
 title: "Network status"
 ---
+
+2020-5-27
+
+11:50am We're working on a problem affecting Brooklyn connections at the moment
+
 2020-4-14
 
 10:30am The alignment problem at PH hub has been fixed and speeds should be back to normal in Brooklyn
