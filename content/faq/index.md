@@ -150,25 +150,25 @@ If you can afford it, we also recommend that you set up  a recurring monthly don
 
 ### <a name="free"></a>I heard that NYC Mesh is free Internet. Is that true?
 
-NYC Mesh costs money and time to operate and maintain. We don't demand a monthly fee like a commercial Internet Service Provider, but we rely on recurring monthly donations from our members maintain and expand our network.
+NYC Mesh costs money and time to operate and maintain. We don’t require anyone to contribute, but we rely on recurring monthly donations from our community to maintain and expand our network.
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
-### <a name="obligations"></a>What are my obligations as an NYC Mesh community member?
+### <a name="obligations"></a>What are my obligations as a member of the NYC Mesh community?
 
-By joining the mesh you are obliged to share and extend the mesh in the same way that it was shared with you. At a minimum, this requires providing power to your rooftop router so that other members can connect to it. (It uses less power in a whole day than it takes to lightly toast a slice of bread). We may also request access to your rooftop after the initial installation in order to upgrade the rooftop router infrastructure. You are not obligated to pay a monthly fee although we request a recurring donation if you can afford it, to help keep the network running and growing.
+By joining the Mesh you are obliged to share and extend the Mesh in the same way that it was shared with you. At a minimum, this requires providing power to your rooftop router so that other members can connect to it. (It uses less power in a whole day than it takes to lightly toast a slice of bread). We may also request access to your rooftop after the initial installation in order to upgrade the rooftop router infrastructure. You are not obligated to pay a monthly fee although we suggest a recurring donation if you can afford it to help keep the network running and growing.
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
 ### <a name="volunteer"></a>How can I volunteer? What if I don’t know anything about networking?
 
-NYC Mesh welcomes people with diverse skill sets and from all backgrounds. Many of our volunteers started without any technical background. Join as at our monthly [meetup](https://www.meetup.com/nycmesh/) or reach out to us on [slack](https://slack.nycmesh.net/) to start a conversation about how you can contribute to our community. You can also read about some ways to help [here](/help).
+NYC Mesh welcomes people with diverse skill sets and from all backgrounds. Many of our volunteers started without any technical background. Join us at our monthly [meetup](https://www.meetup.com/nycmesh/) or reach out to us on [slack](https://slack.nycmesh.net/) to start a conversation about how you can contribute to our community. You can also read about some ways to help [here](/help).
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
 ### <a name="neighbors"></a>I have neighbors who would also like to join NYC Mesh. Can we get connected together?
 
-Yes! We prioritize installs for entire buildings and set up high-bandwidth point-to-point connections with dedicated hardware. If your building would like this dedicated service please email us, reach out to us on [slack][], send us an email at install@nycmesh.net or call us directly at (646) 727-0866. Using this service can replace your current ISP for very large buildings.
+Yes! We prioritize installs for entire buildings and set up high-bandwidth point-to-point connections with dedicated hardware. If your building would like this dedicated service please email us, reach out to us on [Slack][], send us an email at install@nycmesh.net or call us directly at (646) 727-0866.
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -190,12 +190,9 @@ Slack is the main communication and collaboration platform we use at NYC Mesh. I
 
 ### <a name="covered"></a>How can I tell if I’m in the coverage zone for NYC Mesh?
 
-Connecting to the Internet with NYC Mesh requires a direct line-of-sight to an existing supernode or hub node. Look at our [map](/map) to see if you’re either:
+Connecting to the Internet with NYC Mesh requires a direct line-of-sight to an existing supernode or hub node. Look at our [map](/map) to see if you’re either within range of a supernode or hub node, or put your address in our [line-of-sight tool](https://los.nycmesh.net)
 
--   within range of a supernode or hub node
--   close to a LinkNYC kiosk
-
-If any of the above are true, there is a good chance you will be able to connect to NYC Mesh. Fill out the [join form](/join) and we will assess your location. We will also ask you to take a picture or panorama from your balcony or rooftop.
+If you are within range, there is a good chance you will be able to connect to NYC Mesh. Fill out the [join form](/join) and we will assess your location. We will also ask you to take a picture or panorama from your balcony or rooftop.
 
 Some additional things you can do to determine if you are in a coverage zone:
 
