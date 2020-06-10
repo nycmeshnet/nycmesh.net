@@ -9,9 +9,9 @@ The COVID-19 pandemic has upended the way we live, work and learn, and access to
 
 I talked to two of our most active volunteers, Zach and Rohan, about how they’ve been contributing to NYC Mesh during the crisis.
 
-![Zach and Akash](/img/blog/blog_covid_zach-akash.jpg)
+![Zach and Aakash](/img/blog/blog_covid_zach-akash.jpg)
 
-*Zach (L) leads a socially-distanced upgrade to Supernode 3 with new member Akash (R) during the lockdown*
+*Zach (L) leads a socially-distanced upgrade to Supernode 3 with Aakash (R) during the lockdown*
 
 **Zach Giles has been involved in Mesh for five years. He is our most experienced network engineer and also serves as a board member and spokesperson for the organization.**
 
