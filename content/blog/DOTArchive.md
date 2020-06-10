@@ -23,12 +23,12 @@ While the NYC Department of Transportation (DOT) provides public access to live 
 
 Currently, to witness and document an incident using the DOT footage, you have to be watching the right camera at the right time and be ready to take a screenshot at a moment’s notice. The archive makes it possible to review footage after an event has taken place. By making this resource available to the public, we hope to provide another source of visual evidence. 
 
-## How It Works (at the moment - see below to join the effort!)
+**How It Works (at the moment - see below to join the effort!)**
 The tool saves an image from each camera every time the feed updates (usually once every 1-30 seconds) and publishes them in easy-to-access bundles. We’re only able to access feeds from Manhattan and Brooklyn, but we’ve reached out to the DOT to request formal access for the rest of New York City. 
 
 The NYC Mesh colocation facility allows us to plug a server directly into the internet backbone with low latency and high bandwidth. This allows the tool to quickly pull over 200GB per day in footage, and make all that data available to whomever wants to access it. Hosting the server at a commercial colocation facility would be prohibitively expensive, but at Mesh, we’re able to do it because the rack space is made available for community projects at a low cost. 
 
-## How You Can Help
+**How You Can Help**
 We need help to make the archive a more useful public resource. Please reach out at apatel@nycmesh.net if you have experience and would like to help with:
 - **Spreading the word:** We want to let activists, journalists and other concerned citizens know about the tool.
 - **Expanding to all cameras in all 5 boroughs:** Do you have an “in” at the NYC DOT? Could you connect us to the right person to help us request access to formal data feeds for The Bronx, Queens and Staten Island and any cameras not listed on the website? This would help us increase how often we’re able to capture footage in Manhattan and Brooklyn as well. 
