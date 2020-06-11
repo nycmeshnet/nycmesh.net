@@ -7,7 +7,7 @@ draft: false
 
 *written in collaboration with Willem*
 
-Holding the police accountable requires witnessing, recording and sharing footage of their actions. Inspired by the Darnella Frazier, whose recording of George Floyd’s murder sparked a global movement, I am archiving NYC traffic camera footage with help from the NYC Mesh community to make it easier for the public to identify police misconduct. 
+Holding the police accountable requires witnessing, recording and sharing footage of their actions. Inspired by Darnella Frazier, whose recording of George Floyd’s murder sparked a global movement, I am archiving NYC traffic camera footage with help from the NYC Mesh community to make it easier for the public to identify police misconduct. 
 
 **If you experience or hear about a policing incident, you can use [the archive](https://aaka.sh/projects/nyc_dot_camera_archive/) to check the camera footage at the corresponding intersection and time.**
 
@@ -35,6 +35,7 @@ We need help to make the archive a more useful public resource. Please reach out
 - **Server upkeep:** Do you have experience with shell scripting? Could you help maintain the servers?
 - **Expanding to other cities:** Does your city livestream public surveillance footage that we could scrape and add to the archive?
 - **UI/UX design:** How can we make the archive easier to navigate?
+- **Machine learning / AI:** Can we autodetect police insignia to flag relevant footage?
 
 *Special thanks to Zach Giles for his ongoing technical guidance, and to the rest of the NYC Mesh community.*
 
