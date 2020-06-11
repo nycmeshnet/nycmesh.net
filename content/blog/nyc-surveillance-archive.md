@@ -1,5 +1,6 @@
 ---
 title: "We’ve Created a Public Archive of NYC’s Surveillance Footage"
+images: ["/img/blog/DOT_42st.jpg"]
 author: Aakash
 date: "2020-06-10"
 draft: false
