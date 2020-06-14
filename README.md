@@ -24,8 +24,11 @@ Welcome! Before you jump in and start developing, we recommend you do the follow
 
 ## Team leadership
 @ the relevant team leader in the #nyc-camera-archive channel if you're interested in contributing to any of the following project areas:
+
 **Aakash Patel** (@Aakash Patel on slack) - Project founder, lead developer, server maintenance, partnerships with other organizations and agencies
+
 **Willem Boning** (@Willem Boning on slack) - Project coordinator, research, documentation and writing, media and activist outreach
+
 **Shea Molloy** (@shea on slack) - UX/UI design, social media, media and activist outreach
 
 ## Call-in coordination meetings
