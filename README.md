@@ -35,12 +35,14 @@ Welcome! Before you jump in and start developing, we recommend you do the follow
 Please feel welcome to join our twice-weekly call-in coordination meetings at:
 - Tuesdays 7:00-8:00 PM Eastern Standard Time 
 - Sundays 12:00-1:00 PM Eastern Standard Time
+
 A draft agenda and call-in link will be posted on the #nyc-camera-archive channel in advance.
 Please add any items you'd like to discuss to the agenda - this will ensure that everyone has an equal opportunity to raise issues and contribute.
 
 ## Community guidelines
 We want to provide a welcoming, inclusive environment to work in. 
 We will follow the NYC Mesh draft code of conduct https://docs.google.com/document/d/1Q1tce6Dhe9PSJvcy0lgyUhOHxFv-ApaboaPSLhw1Eko/edit#heading=h.2u9faj56c3q8
+
 In addition:
 - Show your support for the Black Lives Matter movement and be actively anti-racist
 - Show support and encouragement to all collaborators
