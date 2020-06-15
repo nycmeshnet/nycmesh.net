@@ -1,5 +1,18 @@
-@media screen and (max-width: 600px) {
-	.about {
+@media screen and (max-width: 900px) {
+.about {
 	padding: 1% 5%;
 	width: 90%;
+}
+}
+
+@media screen and (max-width: 700px) {
+.join {
+	padding: 10px;
+	width: 300px;
+}
+
+.join a {
+	display: block;
+}
+
 }
