@@ -27,7 +27,7 @@ Welcome! Before you jump in and start developing, we recommend you do the follow
 
 **Aakash Patel** (@Aakash Patel on slack) - Project founder, lead developer, server maintenance, partnerships with other organizations and agencies
 
-**Willem Boning** (@Willem Boning on slack) - Project coordinator, research, documentation and writing, media and activist outreach
+**Willem Boning** (@Willem Boning on slack) - Project coordination, research, documentation and writing, media and activist outreach
 
 **Shea Molloy** (@shea on slack) - UX/UI design, social media, media and activist outreach
 
