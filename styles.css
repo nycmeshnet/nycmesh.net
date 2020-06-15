@@ -10,7 +10,7 @@ section {
 h1 { 
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
-	font-style: italic;
+	font-style: none;
 	font-size: 48;
 }
 
