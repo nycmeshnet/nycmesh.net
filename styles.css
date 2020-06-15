@@ -47,9 +47,12 @@ img {
 a:link, a:visited {
 	font-family: 'Roboto', sans-serif;
 	text-decoration: underline;
-	background-color: yellow;
 	color: black;
 	font-weight: 700;		
+}
+
+a#archive {
+	background-color: yellow;
 }
 
 .join {
