@@ -31,6 +31,8 @@ Welcome! Before you jump in and start developing, we recommend you do the follow
 
 **Shea Molloy** (@shea on slack) - UX/UI design, social media, media and activist outreach
 
+**Alexander Bell-Towne** (@alexbbt on slack) - Software architecture / deployment
+
 ## Call-in coordination meetings
 Please feel welcome to join our twice-weekly call-in coordination meetings at:
 - Tuesdays 7:00-8:00 PM Eastern Standard Time 
