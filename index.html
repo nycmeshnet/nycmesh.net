@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>NYC DoT Traffic Camera Archive</title>
-		
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-27830540-1"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -13,38 +14,55 @@
 		</script>
 	</head>
 	<body>
-		<div style="padding: 0px 5px 0px 5px">
+		<div class="about">
 			<h1>NYC DoT Traffic Camera Archive</h1>
 			<h3>by <a href="https://aaka.sh">Aakash Patel</a> (with special thanks to <a href="https://www.nycmesh.net/blog/nyc-surveillance-archive/" target="_blank">NYC Mesh</a>)</h3>
 			<hr>
-			<p>This project was created to preserve <a href="https://webcams.nyctmc.org/" target="_blank">NYC's live traffic camera feed</a> as a news and information resource for the public.</p>
-			<p>The archive is available at the following link: <b><tt><a href="https://drive.google.com/drive/folders/1aId0i98gnrSeG5UeTJ0klcIQgUsSj2gs?usp=sharing" target="_blank">LINK TO ARCHIVE</a></tt></b></p>
-			<ul>
-				<li>Files are organized in hourly folders: <b><tt>/&lt;YEAR&gt;/&lt;MONTH&gt;/&lt;DAY&gt;/&lt;HOUR&gt;/&hellip;</tt></b> Each folder contains:</li>
-				<ol>
-					<li>A comma-seperated file named <b><tt>key.txt</tt></b>, with the following information in each row:</li>
-					<ul>
-						<li><b><tt>CAMERA ID</tt></b>: Numerical ID correponding with a given camera.</li>
-						<li><b><tt>BOROUGH</tt></b>: The borough in which a given camera is located.</li>
-						<li><b><tt>LOCATION</tt></b>: The specific location of a given camera within the borough.</li>
-					</ul>
-					<li>Image frames bundled by camera in <tt>tar</tt> files: <b><tt>&lt;CAMERA ID&gt;-&lt;YEAR&gt;-&lt;MONTH&gt;-&lt;DAY&gt;-&lt;HOUR&gt;.tar</tt></b></li>
-					<ul>
-						<li>Within bundles, the suffix of each image filename corresponds with the time it was captured: <b><tt>&lt;CAMERA ID&gt;-&lt;YEAR&gt;-&lt;MONTH&gt;-&lt;DAY&gt;-&lt;HOUR&gt;:&lt;MINUTE&gt;:&lt;SECOND&gt;.jpg</tt></b></li>
-					</ul>
-				</ol>
-			</ul>
-			<p>Notes:</p>
-			<ul>
-				<li>Currently limited to the boroughs of Manhattan and Brooklyn.</li>
-				<li>Images are captured every 1 to 30 seconds per camera.</li>
-				<li>Archive is updated hourly, within the hour after original capture.</li>
-				<li>NYC DoT is not affiliated with this project (though they are welcome! They offer an offical feed that would enable archiving of footage for the rest of NYC on a more frequent basis).</li>
-				<li>Everything is provided on an as-is basis, without any guarantees or limitations.</li>
-			</ul>
-			<p>Please get in touch if you'd like to see this project expanded or would like to contribute: <tt>apatel@nycmesh.net</tt></p>
-			<hr>
-			<p>&copy; 2020</p>
+			
+			<section>
+				<p>This project was created to preserve and make publicly accessible the <a href="https://webcams.nyctmc.org/" target="_blank">NYC’s live traffic camera feed.</a> The archive is available at the following <tt><a href="https://drive.google.com/drive/folders/1aId0i98gnrSeG5UeTJ0klcIQgUsSj2gs?usp=sharing" target="_blank">link</a></tt>.</p>
+
+				<p>The NYC DoT is not affiliated with this project - though they are welcome! We’d love to work with the official feed that would enable archiving of footage for the rest of NYC on a more frequent basis. Please note that everything is provided on an as-is basis, without any guarantees or limitations. Get in touch if you’d like to see this project expanded or would like to contribute!</p>
+			</section>
+			
+			<section>
+				<h4> Archive organization</h4>
+				<ul>
+					<li>Files are organized in hourly folders: <b><tt>/&lt;YEAR&gt;/&lt;MONTH&gt;/&lt;DAY&gt;/&lt;HOUR&gt;/&hellip;</tt></b> Each folder contains:</li>
+					<ol>
+						<li>A comma-seperated file named <b><tt>key.txt</tt></b>, with the following information in each row:</li>
+						<ul>
+							<li><b><tt>CAMERA ID</tt></b>: Numerical ID correponding with a given camera.</li>
+							<li><b><tt>BOROUGH</tt></b>: The borough in which a given camera is located.</li>
+							<li><b><tt>LOCATION</tt></b>: The specific location of a given camera within the borough.</li>
+						</ul>
+						<li>Image frames bundled by camera in <tt>tar</tt> files: <b><tt>&lt;CAMERA ID&gt;-&lt;YEAR&gt;-&lt;MONTH&gt;-&lt;DAY&gt;-&lt;HOUR&gt;.tar</tt></b></li>
+						<ul>
+							<li>Within bundles, the suffix of each image filename corresponds with the time it was captured: <b><tt>&lt;CAMERA ID&gt;-&lt;YEAR&gt;-&lt;MONTH&gt;-&lt;DAY&gt;-&lt;HOUR&gt;:&lt;MINUTE&gt;:&lt;SECOND&gt;.jpg</tt></b></li>
+						</ul>
+					</ol>
+				</ul>
+			</section>
+
+			<section>
+				<h4>Documentation</h4>
+				<ul>
+					<li>Currently limited to the boroughs of Manhattan and Brooklyn.</li>
+					<li>Images are captured every 1 to 30 seconds per camera.</li>
+					<li>Archive is updated hourly, within the hour after original capture.</li>
+				</ul>
+			</section>
+			
+			<section class="join">
+				<div id="footer">
+					<hr>
+					<p>
+					<a href="https://github.com/nycmeshnet" target="_blank" class="join-links"><img src="images/githubLogo.svg" alt="Github Logo">Request to join the github</a>
+					<a href="https://slack.nycmesh.net/" target="_blank" class="join-links"><img src="images/slackLogo.svg" alt="Slack Logo">Join the conversation on Slack</a>
+					<span id="copyright">&copy; 2020</span>
+					</p>
+				</div>
+			</section>		
 		</div>
 	</body>
 </html>
