@@ -30,7 +30,7 @@ The NYC Mesh colocation facility allows us to plug a server directly into the in
 
 **How You Can Help**
 
-We need help to make the archive a more useful public resource. Please reach out at apatel@nycmesh.net if you have experience and would like to help with:
+We need help to make the archive a more useful public resource. Please reach out at archive@nycmesh.net if you have experience and would like to help with:
 - **Spreading the word:** We want to let activists, journalists and other concerned citizens know about the tool.
 - **Expanding to all cameras in all 5 boroughs:** Do you have an “in” at the NYC DOT? Could you connect us to the right person to help us request access to formal data feeds for The Bronx, Queens and Staten Island and any cameras not listed on the website? This would help us increase how often we’re able to capture footage in Manhattan and Brooklyn as well. 
 - **Server upkeep:** Do you have experience with shell scripting? Could you help maintain the servers?
