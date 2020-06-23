@@ -3,6 +3,8 @@ title: "Network status"
 ---
 2020-6-23
 
+12:20pm Connection restored. Back to normal
+
 12:05pm Supernode 3 has a connection problem. This is affecting all nodes in Brooklyn. We are looking into this at the moment.
 
 2020-5-27
