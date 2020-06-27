@@ -10,7 +10,7 @@ draft: false
 
 Holding the police accountable requires witnessing, recording and sharing footage of their actions. Inspired by Darnella Frazier, whose recording of George Floyd’s murder sparked a global movement, I am archiving NYC traffic camera footage with help from the NYC Mesh community to make it easier for the public to identify police misconduct. 
 
-**If you experience or hear about a policing incident, you can use [the archive](https://aaka.sh/projects/nyc_dot_camera_archive/) to check the camera footage at the corresponding intersection and time.**
+**If you experience or hear about a policing incident, you can use [the archive](https://streetwatch.live/) to check the camera footage at the corresponding intersection and time.**
 
 ![NYC Alert](/img/blog/DOT_combined.jpg)
 
