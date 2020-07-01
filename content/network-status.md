@@ -3,6 +3,8 @@ title: "Network status"
 ---
 2020-7-1
 
+3:22pm Fixed Rivington with a reboot
+
 2:00pm Rivington hub is down causing connection problems in LES, East Village and Alphabet City. We are working on this now.
 
 2020-6-23
