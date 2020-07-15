@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2020-7-14
+
+9:00pm The uplink fiber for hub node 1417 was cut this afternoon, likely by a truck, causing slowness in northern Brooklyn. A technician will come Thursday (July 16) afternoon to relink.
+
 2020-7-1
 
 3:22pm Fixed Rivington with a reboot
