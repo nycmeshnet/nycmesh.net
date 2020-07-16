@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2020-7-16
+
+4:00pm The fiber has been repaired and Brooklyn speeds are back to normal
+
 2020-7-14
 
 9:00pm The uplink fiber for hub node 1417 was cut this afternoon, likely by a truck, causing slowness in northern Brooklyn. A technician will come Thursday (July 16) afternoon to relink.
