@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2020-8-16
+
+1pm: Our major hub in Prospect Heights heights is having a power problem. A member is on the way to fix it now.
+
 2020-7-16
 
 4:00pm The fiber has been repaired and Brooklyn speeds are back to normal
