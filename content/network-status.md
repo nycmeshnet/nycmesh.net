@@ -3,6 +3,8 @@ title: "Network status"
 ---
 2020-8-16
 
+2:46pm: Power restored at the hub. All good.
+
 1pm: Our major hub in Prospect Heights heights is having a power problem. A member is on the way to fix it now.
 
 2020-7-16
