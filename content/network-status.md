@@ -3,6 +3,8 @@ title: "Network status"
 ---
 2020-8-26
 
+1:20pm Fixed. It was a routing config problem through 1971 hub
+
 10:50am We have a problem with the Henry hub affecting downtown connections. We are working on this now.
 
 2020-8-16
