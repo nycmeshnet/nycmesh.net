@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2020-9-3
+
+9:00am The south sector antenna at SN3 is not working. This is affecting Sunset Park area. We are on the way to fix this now.
+
 2020-8-26
 
 1:20pm Fixed. It was a routing config problem through 1971 hub
