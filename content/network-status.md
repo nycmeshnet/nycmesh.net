@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2020-9-5
+
+11:00am Problem again with Sunset Park sector antenna. We are working on it.
+
 2020-9-3
 
 11:15am Fixed the Sunset Park problem. (IP address allocation issue)
