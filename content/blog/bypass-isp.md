@@ -3,7 +3,7 @@ title: "Bypass your ISP"
 images: [""]
 author: Brian
 date: "2020-05-07"
-draft: true
+draft: false
 ---
 
 The internet is not a product you buy, it is a network you join. It was started by networks joining together. There was no charge for this as both side benefited. When networks join it is called "[peering](../../peering)" and this continues today in data centers. Nobody needs to pay for peering.

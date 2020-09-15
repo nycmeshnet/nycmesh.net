@@ -16,9 +16,12 @@ MicroOffice Office space for entrepreneurs
 [Webair](https://www.webair.com/) Managed Hosting solutions  
 [Ubiquiti](https://www.ui.com/) Democratizing Professional Network Technology  
 [Pilot](https://www.pilotfiber.com/) Business Internet  
-[Init7](https://www.init7.net/en/) A global backbone belonging to us
+[Init7](https://www.init7.net/en/) A global backbone belonging to us  
+[ANDBOX](https://andbox.com) New York’s first and leading esports organization  
 
 ### Individual Donors
 
 Oliver Baer  
 Anonymous
+
+[Our sponsors page](/sponsors)
