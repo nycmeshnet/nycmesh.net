@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2020-9-22 
+
+5:55pm Rivington North-East sector will be down for maintenance from 5:55pm to 6:10pm
+
 2020-9-5
 
 12:15pm Fixed. This was an interference problem. We switched frequencies and it is fine now.
