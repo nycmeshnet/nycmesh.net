@@ -1,7 +1,7 @@
 ---
 title: "DOT Camera Archive Update: Working on Streetwatch.live"
 images: ["/img/blog/DOT2_Image4.gif"]
-author: Shea Molloy
+author: Shea
 date: "2020-09-21"
 draft: false
 ---
@@ -25,14 +25,16 @@ Some of the research we’ve done has been field work: we’ve spoken with commu
 *From: Aakash Patel, Shea Molloy,  Scott Rasmussen, Willem Boning*
 
 
+
 **Surveilling Surveillance for Safe Spaces**
 
 One of the main concerns we’ve been exploring is the storage of visual data and the implications that non-consensual footage have on personal privacy. Upon realizing the risk of bad actors abusing this archive, we made the previously publicly-accessible archive private and incorporated an account management workflow into our redesign efforts in order to promote accountability. Community accountability is an important part of [transformative justice](https://transformharm.org/transformative-justice-a-brief-description/), and we believe it should be applied to technological security practices as well. Anonymity online and offline has an important role in activism, but taking a community-oriented approach to information distribution can provide powerful insight into how a platform will be used.
 
-![Streetwatch Live redesigns](/img/blog/DOT2_Image5_sm.jpg)
-![Streetwatch Live redesigns](/img/blog/DOT2_Image4_sm.gif)
 
-*Design Team credit: Winnie Yoe, Craig Winkleman, Shea Molloy*
+| Identity  |  Experience |
+| ------------- | ------------- |
+| ![Streetwatch Live redesigns](/img/blog/DOT2_Image5_sm.jpg)  | ![Streetwatch Live redesigns](/img/blog/DOT2_Image4_sm.gif)  |
+| *Design Team credit:*  | Winnie Yoe, Craig Winkleman, Shea Molloy*  |
 
 
 Another pivot we’ve made to accommodate findings from our research has been developing computer vision (CV) applications to anonymize public data. In finding [other projects that use CV to identify important objects in high-risk situations](https://forensic-architecture.org/investigation/detecting-tear-gas) and contribute to the data needed to understand the gravity of those situations, we’ve started exploring what visual cues we can use from footage while still minimizing risk. We are currently exploring how it would be possible to anonymize protestors effectively, identify police presence, and estimate crowd sizes with enough camera footage. These approaches need to be developed to minimize risk at scale while providing tangible enough value to activists to justify its existence.
@@ -46,7 +48,9 @@ We learned from a conversation with Rachel Mattson that law enforcement can and 
 *Video credit: Tom Lum. Source: youtube.com/watch?v=VdPGO54hFfM*
 
 
+
 **Taking Back Tools**
+
 In all of our research and collective work on this project, we’ve met incredible people and found ourselves in inspiring conversations with other tech activists aiming to reduce the harm of the growing presence of technology. From [NYC bicyclists using camera data to inform policy](https://www.nytimes.com/2012/07/21/technology/bicyclists-using-cameras-to-capture-accidents.html) to [educational organizations teaching individuals on the front line how to use imagery as evidence for justice](https://vae.witness.org/video-as-evidence-field-guide/), the possibilities are as seemingly endless as the data collections themselves. Technologists need to understand that security and user concerns require the utmost attention and consideration, keep questioning the mentality of “move fast and break things”, and continue to ask each other who is benefiting from what we build. 
 
 Some excellent resources we’ve found so far and will be using in our platform include:
@@ -57,7 +61,7 @@ Some excellent resources we’ve found so far and will be using in our platform 
 To keep the conversation going, we’re hoping to speak with even more archivists, activists, policy makers, security experts and legal professionals. If you’re interested in discussing ideas or concerns with us, please [email us](Send to: archive@nycmesh.net) or [join the NYC Mesh slack](https://nycmesh.slack.com/join/shared_invite/zt-a60pusap-syb6K0iFD7MQZBflLKNuJA#/) #nyc-camera-archive channel. You can also sign up for news and updates [here](http://eepurl.com/brFf5D). The work we do will only be as important as the people it helps and we have lots of questions to tackle together.
 
 
-![Compositions with Streetwatch Live archival footage by Tom Lum](/img/blog/DOT2_Image7.gif)
+![Some of our amazing volunteers, on weekly remote calls](/img/blog/DOT2_Image7.png)
 *Thanks so much to everyone who has given us their time.*
 
 
