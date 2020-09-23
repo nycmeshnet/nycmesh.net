@@ -14,7 +14,7 @@ This project has since taken off, gaining the interest of [Vice Motherboard](htt
 
 
 ![Diagram of organizing processes in the Streetwatch.live project](/img/blog/DOT2_Image1.png)
-*Processes in Streetwatch.live by Shea Molloy*
+*Processes in Streetwatch.live by Shea*
 
 We have seen a lot of positive feedback but have also encountered some challenging questions from many different perspectives. It is important that we recognize that as technologists in activist spaces, there are many moving parts to the problems we are trying to solve and we need to ask more questions in order to do more good than harm. One of the most important realizations we have had in our team of volunteers is that we must always ask ourselves, “Should we even build this?” when contemplating the construction of technology that has potential for harm or misuse. We have sought out experts in these spaces and have made space for any concerns raised.
 
@@ -22,7 +22,7 @@ Some of the research we’ve done has been field work: we’ve spoken with commu
 
 ![Social Media posts for the DOT camera archive project](/img/blog/DOT2_Image2.png)
 
-*From: Aakash Patel, Shea Molloy,  Scott Rasmussen, Willem Boning*
+*From: Aakash, Shea, Scott, Willem*
 
 
 **Surveilling Surveillance for Safe Spaces**
@@ -32,7 +32,7 @@ One of the main concerns we’ve been exploring is the storage of visual data an
 ![Streetwatch Live redesigns](/img/blog/DOT2_Image5_sm.jpg)
 ![Streetwatch Live redesigns](/img/blog/DOT2_Image4_sm.gif)
 
-*Design Team credit: Winnie Yoe, Craig Winkleman, Shea Molloy*
+*Design Team credit: Winnie, Craig, Shea*
 
 
 Another pivot we’ve made to accommodate findings from our research has been developing computer vision (CV) applications to anonymize public data. In finding [other projects that use CV to identify important objects in high-risk situations](https://forensic-architecture.org/investigation/detecting-tear-gas) and contribute to the data needed to understand the gravity of those situations, we’ve started exploring what visual cues we can use from footage while still minimizing risk. We are currently exploring how it would be possible to anonymize protestors effectively, identify police presence, and estimate crowd sizes with enough camera footage. These approaches need to be developed to minimize risk at scale while providing tangible enough value to activists to justify its existence.
@@ -43,7 +43,7 @@ We learned from a conversation with Rachel Mattson that law enforcement can and 
 
 ![Compositions with Streetwatch Live archival footage by Tom Lum](/img/blog/DOT2_Image6.gif)
 
-*Video credit: Tom Lum. Source: youtube.com/watch?v=VdPGO54hFfM*
+*Video credit: Tom. Source: youtube.com/watch?v=VdPGO54hFfM*
 
 
 **Taking Back Tools**
@@ -61,4 +61,4 @@ To keep the conversation going, we’re hoping to speak with even more archivist
 *Thanks so much to everyone who has given us their time.*
 
 
-Special thanks to Akash, Willem, Alex, Pete, Craig, Winnie, Aubergine, Rodrigo, Brian, Dustin, Larry, Logan, Dennis, Rachel, Yvonne, Dia, Albert, Aidan, Scott, Tom, Oliver, Mark, Olivier, Katie, and all the groups who’ve given us feedback so far!
+Special thanks to Aakash, Willem, Alex, Pete, Craig, Winnie, Aubergine, Rodrigo, Brian, Dustin, Larry, Logan, Dennis, Rachel, Yvonne, Dia, Albert, Aidan, Scott, Tom, Oliver, Mark, Olivier, Katie, and all the groups who’ve given us feedback so far!
