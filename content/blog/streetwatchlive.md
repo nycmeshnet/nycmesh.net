@@ -1,7 +1,7 @@
 ---
 title: "DOT Camera Archive Update: Working on Streetwatch.live"
 images: ["/img/blog/DOT2_Image4.gif"]
-author: Shea Molloy
+author: Shea
 date: "2020-09-21"
 draft: false
 ---
