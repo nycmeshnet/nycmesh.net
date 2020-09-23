@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2020-9-23
+
+Saratoga North and West sectors are at a slower speed than usual. We are looking into this
+
 2020-9-22 
 
 5:55pm Rivington North-East sector will be down for maintenance from 5:55pm to 6:10pm
