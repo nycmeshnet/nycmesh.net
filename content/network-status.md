@@ -3,7 +3,7 @@ title: "Network status"
 ---
 2020-9-23
 
-Saratoga North and West sectors are at a slower speed than usual. We are looking into this
+Saratoga North and West sectors are at a slower speed than usual. This is a problem with a server that will be fixed on Sunday 27
 
 2020-9-22 
 
