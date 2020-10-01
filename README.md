@@ -2,7 +2,7 @@
 
 ## Install
 
-Install [Hugo](https://gohugo.io):
+Install from here [Hugo](https://gohugo.io):
 
 ```bash
 brew install hugo
