@@ -1,6 +1,13 @@
 ---
 title: "Network status"
 ---
+
+The network is running well. If you have any problems please [fill in the support form](https://nycmesh.net/support)
+
+2020-9-27
+
+The server at SN3 was reconfigured and speeds are now much improved
+
 2020-9-23
 
 Saratoga North and West sectors are at a slower speed than usual. This is a problem with a server that will be fixed on Sunday 27
