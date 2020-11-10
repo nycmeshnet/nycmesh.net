@@ -2,7 +2,9 @@
 title: "Network status"
 ---
 
-The network is running well. If you have any problems please [fill in the support form](https://nycmesh.net/support)
+2020-11-9
+
+8:15pm There is a problem with our PH hub in Brooklyn. We are looking into it now.
 
 2020-9-27
 
