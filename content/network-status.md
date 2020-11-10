@@ -4,7 +4,7 @@ title: "Network status"
 
 2020-11-9
 
-9:00 PH is back online. The network is running well. If you have any problems please [fill in the support form](https://nycmesh.net/support)
+9:00pm PH is back online. The network is running well. If you have any problems please [fill in the support form](https://nycmesh.net/support)
 
 8:15pm There is a problem with our PH hub in Brooklyn. We are looking into it now.
 
