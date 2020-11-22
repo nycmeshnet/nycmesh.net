@@ -21,10 +21,10 @@ MicroOffice Office space for entrepreneurs
 
 ### Individual Donors
 
-Meagan Patrick
-Aakash Patel
-Zach Giles
+Meagan Patrick  
+Aakash Patel  
+Zach Giles  
 Oliver Baer  
-Anonymous
+Anonymous  
 
 [Our sponsors page](/sponsors)
