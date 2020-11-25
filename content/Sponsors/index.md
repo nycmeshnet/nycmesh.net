@@ -42,8 +42,14 @@ Corporate Donors
 ---
 Individual Donors
 ---
-Oliver Baer<br>
-Anonymous<br>
+Rohan Singh  
+Willem Boning  
+Scott Rasmussen  
+Meagan Patrick  
+Aakash Patel  
+Zach Giles  
+Oliver Baer  
+Anonymous  
 <br>
 
 ---
