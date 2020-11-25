@@ -21,6 +21,9 @@ MicroOffice Office space for entrepreneurs
 
 ### Individual Donors
 
+Rohan Singh
+Willem Boning
+Scott Rasmussen
 Meagan Patrick  
 Aakash Patel  
 Zach Giles  
