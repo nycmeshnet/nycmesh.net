@@ -2,6 +2,10 @@
 title: "Network status"
 ---
 
+2020-12-2
+
+20:30  There is a problam with our PH hub in Broouklyn. We hope to have it fixed by the morning.
+
 2020-11-9
 
 9:00pm PH is back online. The network is running well. If you have any problems please [fill in the support form](https://nycmesh.net/support)
