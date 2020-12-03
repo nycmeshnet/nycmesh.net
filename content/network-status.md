@@ -2,15 +2,19 @@
 title: "Network status"
 ---
 
+2020-12-3
+
+8:45  PH is back online. The network is running well. If you have any problems please [fill in the support form](https://nycmesh.net/support)
+
 2020-12-2
 
 20:30  There is a problem with our PH hub in Brooklyn. We hope to have it fixed by the morning.
 
 2020-11-9
 
-9:00pm PH is back online. The network is running well. If you have any problems please [fill in the support form](https://nycmesh.net/support)
+21:00 PH is back online. The network is running well. If you have any problems please [fill in the support form](https://nycmesh.net/support)
 
-8:15pm There is a problem with our PH hub in Brooklyn. We are looking into it now.
+20:15 There is a problem with our PH hub in Brooklyn. We are looking into it now.
 
 2020-9-27
 
@@ -22,9 +26,9 @@ Saratoga North and West sectors are at a slower speed than usual. This is a prob
 
 2020-9-22 
 
-5:55pm Rivington North-East sector will be down for maintenance from 5:55pm to 6:10pm
+17:55 Rivington North-East sector will be down for maintenance from 5:55pm to 6:10pm
 
-6:20pm Rivington NE sector should be much faster now than it has been
+18:20 Rivington NE sector should be much faster now than it has been
 
 2020-9-5
 
