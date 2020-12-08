@@ -1,11 +1,14 @@
 ---
 title: "Network status"
 ---
+2020-12-7
+
+6:30pm Our Saratoga hub experienced a slowdown that was fixed by 7:20pm. IIf you are still having any problems please [fill in the support form](https://nycmesh.net/support)
+
 
 2020-12-3
 
-8:45  PH is back online. The network is running well. If you have any problems please [fill in the support form](https://nycmesh.net/support)
-
+8:45  PH is back online. The network is running well. 
 2020-12-2
 
 20:30  There is a problem with our PH hub in Brooklyn. We hope to have it fixed by the morning.
