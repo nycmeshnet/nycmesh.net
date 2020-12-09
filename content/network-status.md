@@ -7,7 +7,7 @@ title: "Network status"
 
 2020-12-3
 
-8:45  PH is back online. The network is running well. 
+8:45am  PH is back online. The network is running well. 
 
 2020-12-2
 
