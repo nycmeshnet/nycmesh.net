@@ -80,7 +80,7 @@ Most NYC Mesh community members (“nodes”) have wireless routers mounted on a
 
 NYC Mesh provides an independent, fast, and reliable connection to the Internet that is accessible to all New Yorkers. 
 
-Service disruptions are possible. Extreme weather such as heavy rain, blizzards and hail, for example, can decrease connection speeds as they affect the router’s wireless signal. Our community actively monitors the health of the network, and responds quickly to service requests.
+Our community actively monitors the health of the network, and responds quickly to service requests.
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
