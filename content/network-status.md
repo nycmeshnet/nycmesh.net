@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2020-12-29
+
+22:35  There is a problem with our PH hub in Brooklyn. We are looking into it now.
+
 2020-12-7
 
 6:30pm Our Saratoga hub experienced a slowdown for an hour. If you are still having any problems please [fill in the support form](https://nycmesh.net/support)
