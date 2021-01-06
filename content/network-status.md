@@ -1,7 +1,7 @@
 ---
 title: "Network status"
 ---
-2021-1-6
+2021-1-5
 
 We had slow speeds this morning in parts of Brooklyn caused by a routing problem at Saratoga. This was fixed around 11:30am
 
