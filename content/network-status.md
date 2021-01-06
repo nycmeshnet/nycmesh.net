@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2021-1-6
+
+We had slow speeds this morning in parts of Brooklyn caused by a routing problem at Saratoga. This was fixed around 11:30am
+
 2020-12-29
 
 22:45  PH is back online.
