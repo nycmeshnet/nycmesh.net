@@ -3,6 +3,8 @@ title: "Network status"
 ---
 2021-1-20
 
+2:47pm fixed
+
 1:30pm We are currently trying to fix a small outage in Brooklyn affecting nodes 3213, 6385, 1796, 5947, 6012, 6066, 5366, 3360 and 3625.
 
 2021-1-5
