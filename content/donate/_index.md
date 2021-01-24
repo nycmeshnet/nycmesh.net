@@ -24,7 +24,6 @@ MicroOffice Office space for entrepreneurs
 Rohan Singh  
 Willem Boning  
 Scott Rasmussen  
-Meagan Patrick  
 Aakash Patel  
 Zach Giles  
 Oliver Baer  
