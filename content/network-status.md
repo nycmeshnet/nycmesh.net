@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2021-1-31
+
+4:00am SN1 has configuration problems that is causing dropped connections in downtown Manhattan. We are working on it now.
+
 2021-1-20
 
 10:30pm fixed the problem by remounting the antennas at 3213
