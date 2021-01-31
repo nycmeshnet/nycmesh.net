@@ -3,6 +3,8 @@ title: "Network status"
 ---
 2021-1-31
 
+3:10pm We've finished recovering configurations at SN1. If you have any further problems please [fill in a support ticket](https://www.nycmesh.net/support)
+
 12:20pm The "ev" sector is now working as before. This has fixed most of the problems.
 
 4:00am SN1 has configuration problems that is causing dropped connections in downtown Manhattan. We are working on it now.
