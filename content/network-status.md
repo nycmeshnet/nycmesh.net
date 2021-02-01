@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2021-2-1
+
+4:00pm Downtown Manhattan is currently having problems possibly related to the weather. We are looking into it now.
+
 2021-1-31
 
 3:10pm We've finished recovering configurations at SN1. If you have any further problems please [fill in a support ticket](https://www.nycmesh.net/support)
