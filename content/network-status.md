@@ -3,6 +3,10 @@ title: "Network status"
 ---
 2021-2-1
 
+20:54 Downtown Manhattan should back :-) Snow seems to have been the culprit.
+
+2021-2-1
+
 4:00pm Downtown Manhattan is currently having problems possibly related to the weather. We are looking into it now.
 
 2021-1-31
