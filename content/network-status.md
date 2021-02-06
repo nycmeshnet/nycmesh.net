@@ -1,6 +1,11 @@
 ---
 title: "Network status"
 ---
+
+2021-2-5
+
+20:54  **Tomorrow Feb. 6th starting at 12:30pm**, we will be performing network upgrades at our Saratoga hub in Brooklyn. Downtime should be minimal – 1 to 2 minutes – but could last up to a half an hour.
+
 2021-2-1
 
 20:54 Downtown Manhattan should be back :-) Snow seems to have been the culprit. If you have any further problems please [fill in a support ticket](https://www.nycmesh.net/support)
