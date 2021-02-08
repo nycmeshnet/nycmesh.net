@@ -1,6 +1,9 @@
 ---
 title: "Network status"
 ---
+2021-2-8
+
+12:00pm Our 1971 "Two-Bridges" hub in Chinatown is having problems. This is affecting some people in the area. We are working on this at the moment.
 
 2021-2-5
 
