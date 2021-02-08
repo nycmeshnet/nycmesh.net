@@ -5,9 +5,13 @@ title: "Network status"
 
 12:00pm Our 1971 "Two-Bridges" hub in Chinatown is having problems. This is affecting some people in the area. We are working on this at the moment.
 
+2021-2-6
+
+Major upgrade to Saratoga completed. This should improve speeds for much of Brooklyn. Also Grand St was upgraded to a gigabit connection.
+
 2021-2-5
 
-20:54  **Tomorrow Feb. 6th starting at 12:30pm**, we will be performing network upgrades at our Saratoga hub in Brooklyn. Downtime should be minimal – 1 to 2 minutes – but could last up to a half an hour.
+20:54  Tomorrow Feb. 6th starting at 12:30pm, we will be performing network upgrades at our Saratoga hub in Brooklyn. Downtime should be minimal – 1 to 2 minutes – but could last up to a half an hour.
 
 2021-2-1
 
