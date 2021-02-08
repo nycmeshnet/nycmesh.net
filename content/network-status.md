@@ -3,6 +3,8 @@ title: "Network status"
 ---
 2021-2-8
 
+3:20pm The Two Bridges hub is working normally now
+
 12:00pm Our 1971 "Two-Bridges" hub in Chinatown is having problems. This is affecting some people in the area. We are working on this at the moment.
 
 2021-2-6
