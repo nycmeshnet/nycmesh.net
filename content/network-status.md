@@ -3,6 +3,8 @@ title: "Network status"
 ---
 2021-2-13
 
+5:00pm The switch connection was repaired and functioning normally. If you are having any problems please [fill in a support ticket](https://www.nycmesh.net/support)
+
 2:30pm We have a problem with a switch at Saratoga. This is affecting some people connected to that hub. We are working on fixing it now.
 
 2021-2-8
