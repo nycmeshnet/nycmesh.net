@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2021-2-13
+
+2:30pm We have a problem with a switch at Saratoga. This is affecting some people connected to that hub. We are working on fixing it now.
+
 2021-2-8
 
 3:20pm The Two Bridges hub is working normally now
