@@ -129,7 +129,7 @@ There is no cost to join or use NYC Mesh -- we believe EVERYONE should be able t
 
 If you do a DIY install, you can purchase and install the equipment on your own. (We can still help you determine what equipment will be best for your specific location and lend assistance in the #diy-install-support channel of our [Slack](https:/slack.nycmesh.net).
 
-If you you’re able to contribute, we suggest the following to help cover our costs: 
+We suggest the following to help cover our costs: 
 **Average Equipment Cost**: \$240 (the actual cost of the equipment!)
 **Install Leader Expenses**: \$50
 **Total**: \$290
@@ -139,6 +139,11 @@ If you’re unable to cover the full cost of equipment, we encourage you to cont
 **Subsidized Equipment Cost**: \$110
 **Install Leader Expenses**: \$50
 **Total**: \$160
+
+**OR**
+
+**Installment**: \$40 per month for 6 months
+**Install Leader Expenses**: \$50
 
 NYC Mesh believes that the Internet is for everyone. If the above suggested donations are too much for you to afford, please let us know at help@nycmesh.net and we’ll get you connected nonetheless. 
 
