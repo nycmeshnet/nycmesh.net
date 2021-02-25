@@ -161,7 +161,9 @@ NYC Mesh costs money and time to operate and maintain. We don’t require anyone
 
 ### <a name="obligations"></a>What are my obligations as a member of the NYC Mesh community?
 
-By joining the Mesh you are obliged to share and extend the Mesh in the same way that it was shared with you. At a minimum, this requires providing power to your rooftop router so that other members can connect to it. (It uses less power in a whole day than it takes to lightly toast a slice of bread). We may also request access to your rooftop after the initial installation in order to upgrade the rooftop router infrastructure. You are not obligated to pay a monthly fee although we suggest a recurring donation if you can afford it to help keep the network running and growing.
+By joining the Mesh you are obliged to share and extend the Mesh in the same way that it was shared with you. This is covered in tne [Network Commons License](https://www.nycmesh.net/ncl.pdf) that you agreed to when joining the Mesh. 
+
+At a minimum, this requires providing power to your rooftop router so that other members can connect to it. (It uses less power in a whole day than it takes to lightly toast a slice of bread). We may also request access to your rooftop after the initial installation in order to upgrade the rooftop router infrastructure. You are not obligated to pay a monthly fee although we suggest a recurring donation if you can afford it to help keep the network running and growing.
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
