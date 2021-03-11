@@ -1,9 +1,14 @@
 ---
 title: "Network status"
 ---
+2021-3-11
+
+6:00pm The bandwidth dropped for Saratoga and SN1 earlier this afternoon. We have fixed most of the problems as of 6pm and you should have your usual speeds now. The cause was some interference today in the city (a "DFS event") that caused some sectors to switch channels. If you are having any further problems please [fill in a support ticket](https://www.nycmesh.net/support)
+
+
 2021-2-13
 
-5:00pm The switch connection was repaired and functioning normally. If you are having any problems please [fill in a support ticket](https://www.nycmesh.net/support)
+5:00pm The switch connection was repaired and functioning normally. 
 
 2:30pm We have a problem with a switch at Saratoga. This is affecting some people connected to that hub. We are working on fixing it now.
 
