@@ -10,7 +10,7 @@
 </div>
 
 
-<form action="https://docs.google.com/forms/d/1w1d2qiCerKxjR5uu7gnqRqF9XpYeRvTDPqHbCE4Cftc/formResponse" method="POST" class="w-100 center pb4-ns f4-ns f5">
+<form action="https://docs.google.com/forms/d/1w1d2qiCerKxjR5uu7gnqRqF9XpYeRvTDPqHbCE4Cftc/formResponse" method="POST" name="join" class="w-100 center pb4-ns f4-ns f5">
   <div class="flex-ns">
     <div class="w-100">
       <label for="name" class="f6 fw6 db mb2">
@@ -68,7 +68,6 @@
     </div>
   </div>
 
-
     <div class="w-100">
       <label for="email" class="f6 fw6 db mb2 mt3">
         Apt, Suite, Building
@@ -78,6 +77,7 @@
         type="text"
         id="apartment"
         name="entry.290479075"
+        maxlength="16"
         class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2" />
     </div>
 
@@ -126,13 +126,14 @@
   </div>
  
   <div class="mt3 mb3 flex justify-end">
-    <input type="submit" value="Submit request" class="input-reset bw0 f5 fw6 br2 pa3 white bg-blue pointer">
+    <input type="button" value="Submit request" onclick="submitForm()" class="input-reset bw0 f5 fw6 br2 pa3 white bg-blue pointer">
     </input>
   </div>
 </form>
 <script>
   var autocomplete, place;
   var addressInput = document.getElementById("address");
+
   function initMap() {
     autocomplete = new google.maps.places.Autocomplete(addressInput, {
       types: ["geocode"],
@@ -163,6 +164,16 @@
       document.getElementById("address-error").classList.add("dn")
     }
   }
+
+  function submitForm() {
+   // Get the first form with the name
+   var frm = document.getElementsByName('join')[0];
+   If (frm.submit()){
+      frm.reset();  // Reset
+   }
+   return false; // Prevent page refresh
+  }
+
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNClp7oJsw-eleEoR3-PQKV23tpeW-FpE&libraries=places&callback=initMap"
 async defer></script>
