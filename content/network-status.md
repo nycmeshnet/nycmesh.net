@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2021-3-14
+
+4:00pm Our Rivington hub was having problems with a new antenna for an hour or two. We've switched back to a working antenna and it should be ok now. This was affecting Lower East Side connections.
+
 2021-3-11
 
 6:00pm The bandwidth dropped for Saratoga and SN1 earlier this afternoon. We have fixed most of the problems as of 6pm and you should have your usual speeds now. The cause was some interference today in the city (a "DFS event") that caused some sectors to switch channels. If you are having any further problems please [fill in a support ticket](https://www.nycmesh.net/support)
