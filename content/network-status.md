@@ -1,6 +1,12 @@
 ---
 title: "Network status"
 ---
+
+2021-4-29
+
+12:40  Last night at aound 22:00 664-Cypress hub went down. We are working to restore it as soon as possible. You can follow progress on slack in the #support channel, or check here regularly.
+
+
 2021-3-14
 
 4:00pm Our Rivington hub was having problems with a new antenna for an hour or two. We've switched back to a working antenna and it should be ok now. This was affecting Lower East Side connections.
