@@ -1,8 +1,11 @@
 ---
 title: "Network status"
 ---
+2021-3-30
 
-2021-4-29
+22:00 664-Cypress hub is back up and working normally now.
+
+2021-3-29
 
 12:40  Last night at aound 22:00 664-Cypress hub went down. We are working to restore it as soon as possible. You can follow progress on slack in the #support channel, or check here regularly.
 
