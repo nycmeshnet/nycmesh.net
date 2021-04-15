@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2021-4-15
+
+9:40  1340-Saratoga hub is experiencing an issue, probably a power outage. We are looking into it. It is affecting Brooklyn, Bushwick, Bed-Stuy, and Ridgewood
+
 2021-3-30
 
 22:00 664-Cypress hub is back up and working normally now.
