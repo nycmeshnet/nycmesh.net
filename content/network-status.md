@@ -4,6 +4,8 @@ title: "Network status"
 
 2021-4-18
 
+9pm Most websites are available again. We are working on a complete fix.
+
 7:00pm Some websites are currently blocked in Brooklyn by a content delivery network. We have contacted them and are also working on a fix for this.
 
 2021-4-15
