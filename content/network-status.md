@@ -3,6 +3,8 @@ title: "Network status"
 ---
 2021-5-26
 
+10:20pm connection restored. 
+
 10:08pm We are still dealing with the 15 minute outage from earlier. Our network is currently down for a short while while we reconfigure. Sorry about that!
 
 6:47 We have re-routed traffic and connection has been restored. Speeds might be lower than normal while we are working on this
