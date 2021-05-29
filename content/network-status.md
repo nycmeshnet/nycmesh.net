@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2021-5-28
+
+7:00pm The network is very slow at the moment. We are working on it
+
 2021-5-26
 
 10:20pm connection restored. 
