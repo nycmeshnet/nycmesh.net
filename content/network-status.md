@@ -3,7 +3,7 @@ title: "Network status"
 ---
 2021-5-28
 
-Midnight Speeds have been restored.
+Midnight: Speeds have been restored.
 
 7:00pm The network is very slow at the moment. We are working on it
 
