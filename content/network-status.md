@@ -1,6 +1,11 @@
 ---
 title: "Network status"
 ---
+
+2021-06-10
+
+Experiencing power outage at Saratoga on one of the two power feed, some devices are offline. 
+
 2021-5-28
 
 Midnight: Speeds have been restored.
