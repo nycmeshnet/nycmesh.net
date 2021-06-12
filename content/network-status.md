@@ -5,7 +5,8 @@ title: "Network status"
 
 2021-06-10
 
-14:40 power situation has been restored. All devices are back online. 
+14:40 power situation has been restored. All devices are back online.
+
 10:40 Experiencing power outage at Saratoga on one of the two power feed, some devices are offline. 
 
 2021-5-28
