@@ -1,7 +1,9 @@
 ---
 title: "Network status"
 ---
+2021-7-5
 
+Avenue A hub has lost power, affecting people in the East Village. We are working on this
 
 2021-06-10
 
