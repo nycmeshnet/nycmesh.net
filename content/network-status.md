@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2021-8-5
+
+Vernon hub was down for approximately one hour due to losing power.  Service was restored at 10:05AM.
+
 2021-7-5
 
 11:21am Ave A is back online. Reset the breaker
@@ -413,7 +417,7 @@ A few people are having problems with LinkNYC kiosk using our new SXTsq VPN conf
 
 2019-2-16
 
-There will be a couple of short interuptions between 2pm and 3pm today as a cable is changed at Supernode 1
+There will be a couple of short interruptions between 2pm and 3pm today as a cable is changed at Supernode 1
 
 2019-2-14
 
