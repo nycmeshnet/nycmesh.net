@@ -1,7 +1,12 @@
 ---
 title: "Network status"
 ---
+
+The network is currently running normally. If you are experiencing a problem please fill in our [support ticket](../support). Thanks!
+
 2021-8-23
+
+2:10pm Power restored at Rivington
 
 10:00am Our Rivington hub has lost power. This affects LES and Alphabet City. We are working on restoring power.
 
