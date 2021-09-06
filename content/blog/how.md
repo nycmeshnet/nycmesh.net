@@ -34,11 +34,11 @@ NYC Mesh has done many presentations that explain what we are doing. You can [wa
 
 [Telecommnications Reclaimed](https://www.netcommons.eu/sites/default/files/telecom-reclaimed-web-single-page.pdf) is a guide to building a community network. It was written collectively by a group of community network pioneers in Europe in 2018.
 
-[Wireless Networking in the Developing World (WNDW)](http://wndw.net/book.html) is a great free book about designing, implementing, and maintaining low-cost wireless networks. http://wndw.net/book.html. 
+[Wireless Networking in the Developing World (WNDW)](http://wndw.net/book.html) is a great free book about designing, implementing, and maintaining low-cost wireless networks. http://wndw.net/book.html. You need to know the basics of wifi and networking. The OSI layers, IPv4, IPv6, 2.4GHz vs 5GHz, wifi modes- infrastructure vs. ad-hoc (which is used by mesh routers) etc. This book covers all of that.
 
-You need to know the basics of wifi and networking. The OSI layers, IPv4, IPv6, 2.4GHz vs 5GHz, wifi modes- infrastructure vs. ad-hoc (which is used by mesh routers) etc. This book covers all of that.
+[Start your own ISP](https://startyourownisp.com/) is a great summary of the hardware problems and solutions.
 
-Community organizations with shared resources often fail. This is called the tragedy of the commons. Others succeed and have been successful for centuries. [Governing the Commons, Ostrum](https://www.amazon.com/Governing-Commons-Evolution-Institutions-Collective/dp/B00DELQ2T0/ref=sr_1_3?) lists the principles that the successful collectives share. Design principles illustrated by long-enduring "common pool resources" (CPR) institutions-
+[Governing the Commons, Ostrum](https://www.amazon.com/Governing-Commons-Evolution-Institutions-Collective/dp/B00DELQ2T0/ref=sr_1_3?). Community organizations with shared resources often fail. This is called the tragedy of the commons. Others succeed and have been successful for centuries. Governing the Commons lists the principles that the successful collectives share. Design principles illustrated by long-enduring "common pool resources" (CPR) institutions-
 
 *  Clearly defined boundaries
 *  Congruence between appropriation and provision rules and local conditions
@@ -47,8 +47,6 @@ Community organizations with shared resources often fail. This is called the tra
 *  Graduated sanctions
 *  Conflict-resolution mechanisms
 *  Minimal recognition of rights to organize
-
-[Start your own ISP](https://startyourownisp.com/) is a great summary of the hardware problems and solutions.
 
 **Choose appropriate antennas, routers and firmware**
 
@@ -70,7 +68,7 @@ Generally for radios, the higher the frequency the faster the connection and the
 
 * medium distance (up to 3km) LiteBeamAC is a very inexpensive way to get over 150 Mbps
 
-* short distance (< 1km) [Wireless Wire dish](https://mikrotik.com/product/wireless_wire_dish) -cheap gigabit connection. These fail in heavy rain when the distance is over 0.5 km
+* short distance (< 1km) [60 GHz devices](https://docs.nycmesh.net/hardware/60ghz/) such as a GigabeamPlus give you cheap gigabit connection. These can fail in heavy rain when the distance is over 0.5 km
 
 **Point-to-multipoint**  
 
@@ -83,7 +81,7 @@ Sector antennas are good for getting high-bandwidth into neighborhoods. Put one 
 
 Mesh may use different firmware from the factory firmware or different configurations. It is good for the last mile as it re-configures automatically. If there is a mesh network on your block, often you can use just one device to extend the network.
 
-For mesh protocols we are currently using OSPF in a MikroTik Omnitik. We have our own [config generator](https://configgen.nycmesh.net) for this to make it simple. We have used BATMAN protocols such as bmx6 or batman-adv (bmx7 is still experimental). There are prebuilt packages- Libremesh, qMp and Gluon. We have used [qMp](http://qmp.cat). Don't try creating your own, just modify an existing package to your configuration. [Libremesh](https://libremesh.org/) has been very active lately and has support for a large range of routers. We are currently trying this as well.
+For mesh protocols we are currently using OSPF in a MikroTik Omnitik. We have our own [config generator](https://configgen.nycmesh.net) for this to make it simple. We have used BATMAN protocols such as bmx6 or batman-adv (bmx7 is still experimental). There are prebuilt packages- Libremesh, qMp and Gluon. We have used [qMp](http://qmp.cat). Don't try creating your own, just modify an existing package to your configuration. [Libremesh](https://libremesh.org/) has been very active lately and has support for a large range of routers.
 
 **Online tools**
 
