@@ -2,6 +2,10 @@
 title: "Network status"
 ---
 
+2021-9-10
+
+Simona's hub is currently down, affecting the 7 members connected. This is due to a fiber problem out of our control. This will possibly be fixed around midnight tonight.
+
 2021-9-5
 
 2:40pm We are doing planned maintenance in Brooklyn affecting the Vernon and Saratoga hubs. Hopefully this will be finished by 4pm
