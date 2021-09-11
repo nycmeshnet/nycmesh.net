@@ -2,6 +2,8 @@
 title: "Network status"
 ---
 
+The network is currently running normally. If you are experiencing a problem please fill in our [support ticket](../support). Thanks!
+
 2021-9-10
 
 11:23pm Simona's hub is back online
@@ -11,10 +13,6 @@ title: "Network status"
 2021-9-5
 
 2:40pm We are doing planned maintenance in Brooklyn affecting the Vernon and Saratoga hubs. Hopefully this will be finished by 4pm
-
-2021-8-24
-
-The network is currently running normally. If you are experiencing a problem please fill in our [support ticket](../support). Thanks!
 
 2021-8-23
 
