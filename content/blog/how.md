@@ -30,6 +30,8 @@ Guifi began on farms and gradually expanded across the country. They use hundred
 
 NYC Mesh has done many presentations that explain what we are doing. You can [watch videos and see the slides here.](/blog/presentations)
 
+NYC Mesh docs site is comprehensive- [NYC Mesh docs](https://docs.nycmesh.net/)
+
 **Essential Reading**
 
 [Telecommnications Reclaimed](https://www.netcommons.eu/sites/default/files/telecom-reclaimed-web-single-page.pdf) is a guide to building a community network. It was written collectively by a group of community network pioneers in Europe in 2018.
