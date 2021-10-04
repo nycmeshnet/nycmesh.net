@@ -2,7 +2,12 @@
 title: "Network status"
 ---
 
-The network is currently running normally. If you are experiencing a problem please fill in our [support ticket](../support). Thanks!
+If you are experiencing a problem please fill in our [support ticket](../support). Thanks!
+
+2021-10-04
+
+2:20am There is an issue at the Parallel hub (Greenpoint) which is affecting connections in the area going through that hub. We are working on it.
+https://www.nycmesh.net/map/nodes/1167-1084-115
 
 2021-9-10
 
