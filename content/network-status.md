@@ -2,6 +2,10 @@
 title: "Network status"
 ---
 
+2021-10-14
+
+4:30pm Supernode 1 is experiencing problems affecting large parts of the Mesh. We are looking into this now.
+
 If you are experiencing a problem please fill in our [support ticket](../support). Thanks!
 
 2021-10-04
