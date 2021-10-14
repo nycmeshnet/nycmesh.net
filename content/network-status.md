@@ -4,6 +4,8 @@ title: "Network status"
 
 2021-10-14
 
+5:05pm Supernode 1 is back to normal operation
+
 4:30pm Supernode 1 is experiencing problems affecting large parts of the Mesh. We are looking into this now.
 
 2021-10-04
