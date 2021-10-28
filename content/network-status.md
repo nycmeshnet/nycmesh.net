@@ -5,6 +5,7 @@ title: "Network status"
 2021-10-28 
 
 17:20  Power is restored. The hub is back up and issue solved.
+
 15:30  Vernon hub (Brooklyn) is experincing a power outage. We are working on it. 
 
 2021-10-14
