@@ -2,6 +2,10 @@
 title: "Network status"
 ---
 
+2021-10-28 
+
+15:30  Vernon hub (Brooklyn) is experincing a power outage. We are working on it. 
+
 2021-10-14
 
 5:05pm Supernode 1 is back to normal operation
