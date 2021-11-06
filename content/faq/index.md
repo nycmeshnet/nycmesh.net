@@ -210,7 +210,7 @@ Some additional things you can do to determine if you are in a coverage zone:
 
 ### <a name="alsouse"></a>My neighbor has a rooftop router and is connected to NYC Mesh. Can I also use it to connect?
 
-We encourage neighbors to share their Internet access. Ask your neighbor for permission to connect via their rooftop router and reach out to us on [Slack](https://slack.nycmesh.net/). We can probably install a switch at the rooftop router and run an ethernet cable to your apartment. If you’re connecting to a neighbor we still suggest that you contribute at the levels described above (see Is there a cost to join?[link]). We also suggest a recurring $20, $30, $50 or $60 monthly donation if you can afford it.
+We encourage neighbors to share their Internet access. Ask your neighbor for permission to connect via their rooftop router and reach out to us on [Slack](https://slack.nycmesh.net/). We can probably install a switch at the rooftop router and run an ethernet cable to your apartment. If you’re connecting to a neighbor we still suggest that you contribute at the levels described above (see [Is there a cost to join?](#cost)). We also suggest a recurring $20, $30, $50 or $60 monthly donation if you can afford it.
 
 ### <a name="waittime"></a>What is the wait time for a volunteer-led installation? How do you decide who to connect first?
 
