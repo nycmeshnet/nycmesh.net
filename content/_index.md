@@ -10,9 +10,9 @@ alertURL: "/network-status"
 
 ### <a href="/join" class="blue">Get connected</a> for reliable community-owned internet
 
-### <a href="/volunteer" class="blue">Volunteer</a> to help build our network.
+### <a href="/volunteer" class="blue">Volunteer</a> to help build our network
 
-### <a href="/donate" class="blue">Donate</a> to help us expand.
+### <a href="/donate" class="blue">Donate</a> to help us expand
 
 The Internet is central to our lives, but in New York City far too many people don’t have access.
 
@@ -20,6 +20,6 @@ We are a diverse group of volunteers dedicated to ending the digital divide and 
 
 NYC Mesh is a neutral network and we do not monitor, collect, store or block any user data or content. By joining our network you agree to extend it to others!
 
-We can connect your apartment to the internet by putting an antenna on the roof of your building and running a cable to your apartment
+We can connect your apartment to the internet by putting an antenna on the roof of your building and running a cable to your apartment.
 
 We can also connect your whole building using fiber.
