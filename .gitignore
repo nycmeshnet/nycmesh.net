@@ -1,3 +1,5 @@
 .DS_Store
 public
 resources/node-map
+/node_modules/
+.hugo_build.lock
