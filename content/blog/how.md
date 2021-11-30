@@ -4,7 +4,7 @@ author: Brian
 date: "2019-09-01"
 aliases: [/how/]
 ---
-<sup>Updated September 2019 (originally posted 2017-05-11)</sup>
+<sup>Updated Nov 2021 (originally posted 2017-05-11)</sup>
 
 Here are some notes and ideas on how to start a community network. 
 
@@ -28,7 +28,7 @@ It is important to do some research and copy other success stories. There are a 
 
 Guifi began on farms and gradually expanded across the country. They use hundreds of kilometers of fiber, and wireless in all modes- point-to-point (P2P), point-to-multipoint (P2MP) and mesh (MP2MP). Here is a good long [interview with Ramon Roca,](http://www.cookreport.com/pdfs/march-april13diowireless.pdf) who started Guifi.
 
-NYC Mesh has done many presentations that explain what we are doing. You can [watch videos and see the slides here.](/blog/presentations)
+NYC Mesh has done many presentations that explain what we are doing. You can [watch videos and see the slides here.](/presentations)
 
 NYC Mesh docs site is comprehensive- [NYC Mesh docs](https://docs.nycmesh.net/)
 
@@ -63,6 +63,7 @@ Generally for radios, the higher the frequency the faster the connection and the
 -5GHz works fine in the rain, but speeds are generally less than 500Mbps.   
 -24 GHz (AF24) is gigabit (1000Mbps) but will fail in heavy rain for distances over 4km.  
 -60GHz is inexpensive gigabit but will not go more than 500m in the rain.  
+-70/80GHz expensive 10Gbps licensed spectrum devices such as the [Siklu EtherHaul](https://www.siklu.com/product/etherhaul-kilo-series/)  
 
 **Point-to-point** 
 
@@ -83,7 +84,9 @@ Sector antennas are good for getting high-bandwidth into neighborhoods. Put one 
 
 Mesh may use different firmware from the factory firmware or different configurations. It is good for the last mile as it re-configures automatically. If there is a mesh network on your block, often you can use just one device to extend the network.
 
-For mesh protocols we are currently using OSPF in a MikroTik Omnitik. We have our own [config generator](https://configgen.nycmesh.net) for this to make it simple. We have used BATMAN protocols such as bmx6 or batman-adv (bmx7 is still experimental). There are prebuilt packages- Libremesh, qMp and Gluon. We have used [qMp](http://qmp.cat). Don't try creating your own, just modify an existing package to your configuration. [Libremesh](https://libremesh.org/) has been very active lately and has support for a large range of routers.
+For mesh protocols we are currently using OSPF in a MikroTik Omnitik. We have our own [config generator](https://configgen.nycmesh.net) for this to make it simple.
+
+We have used BATMAN protocols such as bmx6 or batman-adv. We stopped using them due to compatibility problems with newer routers. There are prebuilt packages- Libremesh, qMp and Gluon. We have used [qMp](http://qmp.cat). Don't try creating your own, just modify an existing package to your configuration. [OpenWRT](https://openwrt.org/) has support for a large range of routers. 
 
 **Online tools**
 
@@ -105,7 +108,7 @@ You don't need many tools to start with- we started with a mail-list (replaced b
 
 * Install calendar (Acuity Scheduling) A scheduling calendar like Acuity simplifies organizing installs incredibly.
 
-* Planning (Trello) This is good when you are juggling many ideas
+* Planning (Trello) This is good when you are juggling many ideas. We are also trying AirTable
 
 * Email (Mailgun server, MailChimp for newsletters) Get a domain and use free-ish mail server and newsletter services.
 
@@ -130,7 +133,7 @@ As the network grows, people may want to build businesses around the network. Th
 
 **Sustainable funding model**
 
-Our sustainable model is very simple- new members pay a set amount that covers average hardware costs on an install, and we ask for $20/month donation. Nearly everyone pays this as it is very small compared to the ISP fees which start around $70/month. 
+Our sustainable model is very simple- new members pay a set amount that covers average hardware costs on an install, and we ask for $20 or $30/month donation. Nearly everyone pays this as it is very small compared to the ISP fees which start around $70/month. 
 
 So that's it- we have an install fee to cover hardware and $20/month covers our data center rentals. We are lucky in that all of our bandwidth is donated. We don't rent an office or storage space, we don't have any employees. For storage, install leaders store the gear in their apartments.
 
@@ -150,29 +153,29 @@ Organizing takes a lot of time, and we mostly make decisions through small meeti
 
 One title we do have is "install leader". This is someone who can complete a rooftop install by themselves if necessary. Usually a rooftop install has one install leader and two trainees. After about 6 installs, a trainee can lead the next install. Installing antennas is the main activity of a community network. Everything else you do should be about enabling more installs.
 
-A long-term plan is to maybe have our first employee when we get over 1000 nodes. At this size on our funding model it becomes possible to pay one salary.
+A long-term plan was to have our first employee when we get over 1000 nodes. At this size on our funding model it becomes possible to pay one salary. We've reached this goal and will be employing someone soon.
 
 Volunteers are naturally more concerned about their specific neighborhood. This needs to be encouraged as they can help decentralize the organization and independently organize installs for their neighborhood. Centrally organizing everything just slows things down.
 
 **Meetup spaces**
 
-Get a regular space for meetups. There are offices that will donate their space for free after work hours. These are good for general meetups. You should also have technical meetups in makerspaces where you can configure routers and practice crimping ethernet cable etc.
+Get a regular space for meetups. There are offices that will donate their space for free after work hours. These are good for general meetups. You should also have technical meetups in makerspaces where you can configure routers and practice crimping ethernet cable etc. Covid has stopped most of these but we hope to resume one day. Until then we use Zoom a lot.
 
 **Install team**
 
-Get a team of people together to do installs. These installs will mostly be weekends as that is when people are free during the day. The team has to know how to crimp and run cable, configure and align antennas, drill and install antenna mounts and drill through window frames.
+Get a team of people together to do installs. These installs may be on weekends as that is when people are free during the day. The team has to know how to crimp and run cable, configure and align antennas, drill and install antenna mounts and drill under window frames.
 
-Roof installs can sometimes be done using abandoned TV antenna masts. Otherwise you will need to install your own J-pipe mast or bracket using a drill, or use a [non-penetrating mast](http://wadeantenna.com/product-category/mounts-masts/).
+Roof installs can sometimes be done using abandoned TV antenna masts or other roof pipes. Otherwise you will need to install your own mast or bracket using a drill, or use a [non-penetrating mast](http://wadeantenna.com/product-category/mounts-masts/).
 
 **Whole buildings**
 
-Try to get whole buildings to install a rooftop antenna and then run ethernet to the apartments. You want long term installs! Don't connect rooftops unless a) multiple tenants OR b) person owns apartment OR c) person intends to stay very long time i.e. avoid students etc. who will move out! 
+Try to get whole buildings to install a rooftop antenna and then run ethernet to the apartments. You want long term installs! Don't connect rooftops unless it's multiple tenants OR the person intends to stay very long time i.e. avoid students etc. who will move out! 
 
 **Gateways**
 
 Plan your internet gateways. Initially you will probably use your home ISP connection (totally legal in this country). Eventually you may want a "supernode" with bigger bandwidth. An IXP or ISP may donate a connection, as DE-CIX, Packet, Webair and Pilot Fiber did for us.
 
-Another kind of gateway is a public wifi access point. By using directional routers you can extend the range of public access points very easily. Here are some instructions- [how to connect to a kiosk.](/blog/public-access-points). This uses a NanoStation NSM5 or Omnitik SXTsq.
+Another kind of gateway is a public wifi access point. By using directional routers you can extend the range of public access points very easily. Here are our instructions for an OmniTik SXTsq- [https://docs.nycmesh.net/hardware/sxtsqg5acd/).
 
 **Tall structures**
 
@@ -180,19 +183,19 @@ Tall structures are the fastest way to expand your network. There are a few diff
 
 **Supernodes**
 
-Plan your first major gigabit install at a data center or tower. This will have sector antennas (P2MP) and point to point. You may need a network engineer to help in their spare time. An IXP connection at a data center requires a network engineer familiar with BGP.
+Plan your first major gigabit install at a data center or tower. This will have sector antennas (P2MP) and point to point. You may need a network engineer to help in their spare time. An IXP connection at a data center requires a network engineer familiar with BGP. If there's no data center nearby you may be able to get a business internet connection from a local ISP.
 
-A sector antenna is basically a Wireless ISP (WISP) tower so WISP expertise is needed. The best online forum is the [Ubiquiti community](https://community.ubnt.com/), and the best organization in America is [WISPA](http://www.wispa.org/). The sector antennas can be a gateway and also bridge your mesh network and reduce the amount of hops. Try to not to be more than three hops from a gateway. Every hop halves the bandwidth and adds ~15ms of latency.
+A sector antenna is basically a Wireless ISP (WISP) tower so WISP expertise is needed. The best online forum is the [Ubiquiti community](https://community.ubnt.com/), and the best organization in America is [WISPA](http://www.wispa.org/). The sector antennas can be a gateway and also bridge your mesh network and reduce the amount of hops. Try to not to be more than three hops from a gateway. Every hop increases the risk of downtime, reduces the bandwidth and adds latency.
 
-To get a long distance from a gateway use P2P setups- either cheap: 150Mbps such as a pair of LiteBeams, or expensive: gigabit such as a pair of AirFiber.
+To get a long distance from a gateway use P2P setups- either cheap: 150Mbps such as a pair of LiteBeams, or expensive: such as a pair of AirFiber.
 
 The most popular cheap outdoor routers are [Ubiquiti](https://ubnt.com). Other good companies are [LigoWave](https://www.ligowave.com/), [MikroTik](https://mikrotik.com/).
 
-For short distance gigabit connection (less than 1Km) you can use 60GHz antennas like this [Wireless Wire dish](https://mikrotik.com/product/wireless_wire_dish)
+For short distance gigabit connection (less than 1Km) you can use [60 GHz devices](https://docs.nycmesh.net/hardware/60ghz/)
 
 **Local mesh networks**
 
-Besides connecting to a major tower like a supernode, you can build up a neighborhood network. This is usually based around a person who has strong connections to that area, and can be as simple as sharing your connection within a building using ethernet and mesh routers. Also putting a mesh router in your window to give access to a cafe or park across the street or a neighboring building.
+Besides connecting to a major tower like a supernode, you can build up a neighborhood network. This is usually based around a person who has strong connections to that area, and can be as simple as sharing your connection within a building using ethernet and mesh routers. Also putting an access point in your window to give access to a cafe or park across the street or a neighboring building.
 
 **Computer networking groups**
 
