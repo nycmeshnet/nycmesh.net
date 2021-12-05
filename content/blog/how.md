@@ -32,6 +32,8 @@ NYC Mesh has done many presentations that explain what we are doing. You can [wa
 
 NYC Mesh docs site is comprehensive- [NYC Mesh docs](https://docs.nycmesh.net/)
 
+We try to keep a [list](https://www.meshcenter.org/networks/) of Mesh network when we accross one. If you find an active Community Wifi Network not on the list, drop us a line and we'll add it. 
+
 **Essential Reading**
 
 [Telecommnications Reclaimed](https://www.netcommons.eu/sites/default/files/telecom-reclaimed-web-single-page.pdf) is a guide to building a community network. It was written collectively by a group of community network pioneers in Europe in 2018.
