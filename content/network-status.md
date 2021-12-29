@@ -2,6 +2,10 @@
 title: "Network status"
 ---
 
+2021-12-9
+
+Our Vernon hub had power issues from 9am until around noon. This is fixed now.
+
 2021-10-28 
 
 17:20  Power is restored. The hub is back up and issue solved.
