@@ -2,6 +2,11 @@
 title: "Network status"
 ---
 
+2022-01-24
+
+13:02 There is an outage affecting nodes connecting through our Rivington hub - we are working on it.
+
+
 2021-12-9
 
 Our Vernon hub had power issues from 9am until around noon. This is fixed now.
