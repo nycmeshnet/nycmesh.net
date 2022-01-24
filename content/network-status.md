@@ -4,7 +4,9 @@ title: "Network status"
 
 2022-1-24
 
-1pm Our Rivington hub is down. This affects LES and Alphabet City and parts of the East Village
+14:30   Rivington issue fixed (power outage).
+
+13:00 Our Rivington hub is down. This affects LES and Alphabet City and parts of the East Village
 We are working on a fix.
 
 2021-12-9
