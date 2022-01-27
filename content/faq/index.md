@@ -218,7 +218,7 @@ If you can't get roof access you may be able to connect from your balcony if it 
 
 ### <a name="alsouse"></a>My neighbor has a rooftop router and is connected to NYC Mesh. Can I also use it to connect?
 
-Yes, we usually connect multiple apartments to the same antenna on the roof. Fill in the join form and reply letting us know that the building is already connected to the Mesh. 
+Yes, we usually connect multiple apartments to the same antenna on the roof. Fill in the [join form](/join) and reply letting us know that the building is already connected to the Mesh. 
 
 ### <a name="waittime"></a>What is the wait time for a volunteer-led installation? How do you decide who to connect first?
 
