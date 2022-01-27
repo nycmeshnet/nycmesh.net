@@ -17,7 +17,7 @@ title: "Frequently asked questions"
 -   [I heard that NYC Mesh is free Internet. Is that true?](#free)
 -   [What are my obligations as an NYC Mesh community member?](#obligations)
 -   [How can I volunteer? What if I don’t know anything about networking?](#volunteer)
--   [I have neighbors who would also like to join NYC Mesh. Can we get connected together?](#neighbors)
+-   [Can my neighbors join at the same time?](#neighbors)
 -   [Do I need to provide identification to join NYC Mesh?](#id)
 -   [What is Slack and how do I use it?](#slack)
 
@@ -25,8 +25,8 @@ title: "Frequently asked questions"
 
 -   [How can I tell if I’m in the coverage zone for NYC Mesh?](#covered)
 -   [How do I get roof access?](#roof)
--   [My neighbor has a rooftop router and is connected to NYC Mesh. Can I also use it to connect?](#alsouse)
--   [What is the wait time for an installation? How do you decide who to connect first?](#waittime)
+-   [My neighbor is connected to NYC Mesh. Can I also connect?](#alsouse)
+-   [What is the wait time for an installation?](#waittime)
 -   [What is involved in a typical installation?](#typicalinstall)
 -   [What will the hardware setup look like?](#hardwaresetup)
 -   [How should I prepare before the install team arrives?](#prepare)
@@ -37,7 +37,7 @@ title: "Frequently asked questions"
 
 **Hardware, software and networking**
 
--   [What is a router? What is an antenna? What is a radio? Are they different things?](#defrouter)
+-   [What is a router? What is an antenna? What is a radio?](#defrouter)
 -   [What is a Node? What is a Supernode? What is a Hub Node?](#defnode)
 -   [What software/firmware do you use?](#software)
 
@@ -216,11 +216,11 @@ If you can't get roof access you may be able to connect from your balcony if it 
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
-### <a name="alsouse"></a>My neighbor has a rooftop router and is connected to NYC Mesh. Can I also use it to connect?
+### <a name="alsouse"></a>My neighbor is connected to NYC Mesh. Can I also connect?
 
 Yes, we usually connect multiple apartments to the same antenna on the roof. Fill in the [join form](/join) and reply letting us know that the building is already connected to the Mesh. 
 
-### <a name="waittime"></a>What is the wait time for a volunteer-led installation? How do you decide who to connect first?
+### <a name="waittime"></a>What is the wait time for a volunteer-led installation?
 
 Once you submit your node request form, we will request a panoramic photo from your rooftop or balcony to assess line of sight to nearby nodes and we will then invite you to schedule an appointment on our install calendar. Wait times will vary based on the availability of volunteer installers, but are usually around two weeks. If you can convince your neighbors to also join, we will put you at the top of the install list.
 
@@ -299,7 +299,7 @@ To connect to NYC Mesh you must use outdoor routers supported by NYC Mesh, which
 
 # Hardware, software and networking
 
-### <a name="defrouter"></a>What is a router? What is an antenna? What is a radio? Are they different things?
+### <a name="defrouter"></a>What is a router? What is an antenna? What is a radio?
 
 Most of the devices we use, such as a LiteBeam or NanoStation, are self-contained so they have an antenna, radio and ethernet router all in one. Ubiquiti call their self-contained AirFiber device a “radio”, other manufacturers call similar devices a router or an antenna, and “wireless router with antenna” is a real mouthful to say, so to avoid confusion, we usually call the self-contained device a router and the home WiFi router you connect your laptop and phone to the “home router” or “indoor router.”
 
@@ -319,11 +319,9 @@ A hub node is an important neighborhood node that extends the mesh around it, wi
 
 ### <a name="software"></a>What software/firmware do you use?
 
-We use a variety of open source and proprietary firmware. Lately we have been using a lot of BGP and WDS to mesh things together.
+We use a variety of open source and proprietary firmware. Lately we have been using a lot of OSPF and WDS to mesh things together.
 
-We also use an OpenWrt package made by qMp. This uses the BMX6 mesh protocol. We have added tinc tunneling so a router can mesh over the internet when out of range using a secure virtual private network (VPN).
-
-Our point-to-point connections use factory firmware such as AirOS. The supernodes are running Linux with Bird and BGP. For network monitoring we use Grafana and other packages.
+Our point-to-point connections use factory firmware such as AirOS. The supernodes are running Linux with Bird and BGP. For network monitoring we use Grafana, UISP, UNIFI and other packages.
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
