@@ -24,13 +24,13 @@ title: "Frequently asked questions"
 **Getting connected to the mesh**
 
 -   [How can I tell if I’m in the coverage zone for NYC Mesh?](#covered)
+-   [How do I get roof access?](#roof)
 -   [My neighbor has a rooftop router and is connected to NYC Mesh. Can I also use it to connect?](#alsouse)
 -   [What is the wait time for an installation? How do you decide who to connect first?](#waittime)
 -   [What is involved in a typical installation?](#typicalinstall)
 -   [What will the hardware setup look like?](#hardwaresetup)
 -   [How should I prepare before the install team arrives?](#prepare)
 -   [What happens if the install team can’t connect me to the mesh?](#nogo)
--   [What if I can’t get roof access?](#noroof)
 -   [Can I install a router if I have no view or no rooftop access?](#noview)
 -   [Can I install the hardware and connect to NYC Mesh on my own?](#bymylonesome)
 -   [Can I use any router to connect?](#anyrouter)
@@ -208,13 +208,21 @@ Some additional things you can do to determine if you are in a coverage zone:
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
+### <a name="roof"></a>How do I get roof access?
+
+Usually we require roof access for an install. If your roof is locked, it is best to speak to your Super about getting roof access. 
+
+If you can't get roof access you may be able to connect from your balcony if it has a good view. We don't do window installs as they are very difficult and the results aren't predictable.
+
+<font size="3"> <a href="#top">&#8598; Back to top</a> </font>
+
 ### <a name="alsouse"></a>My neighbor has a rooftop router and is connected to NYC Mesh. Can I also use it to connect?
 
-We encourage neighbors to share their Internet access. Ask your neighbor for permission to connect via their rooftop router and reach out to us on [Slack](https://slack.nycmesh.net/). We can probably install a switch at the rooftop router and run an ethernet cable to your apartment. If you’re connecting to a neighbor we still suggest that you contribute at the levels described above (see Is there a cost to join?[link]). We also suggest a recurring $20, $30, $50 or $60 monthly donation if you can afford it.
+Yes, we usually connect multiple apartments to the same antenna on the roof. Fill in the join form and reply letting us know that the building is already connected to the Mesh. 
 
 ### <a name="waittime"></a>What is the wait time for a volunteer-led installation? How do you decide who to connect first?
 
-Once you submit your node request form, we will request a panoramic photo from your rooftop or balcony to assess line of sight to nearby nodes and we will then invite you to schedule an appointment on our install calendar. Wait times will vary based on the availability of volunteer installers. If you can convince your neighbors to also join, we will put you at the top of the install list.
+Once you submit your node request form, we will request a panoramic photo from your rooftop or balcony to assess line of sight to nearby nodes and we will then invite you to schedule an appointment on our install calendar. Wait times will vary based on the availability of volunteer installers, but are usually around two weeks. If you can convince your neighbors to also join, we will put you at the top of the install list.
 
 ### <a name="typicalinstall"></a>What is involved in a typical volunteer-led installation?
 
@@ -260,14 +268,6 @@ If you would like to participate in the install, please let us know and read our
 If we are not able to connect you, there’s no suggested contribution though it’s not bad policy to thank (or tip) the volunteer who schlepped a bunch of equipment across town.
 
 If we think a connection may be possible by installing a mast, mounting equipment to a neighbor’s roof or another method, we will discuss those options with you on site.
-
-<font size="3"> <a href="#top">&#8598; Back to top</a> </font>
-
-### <a name="noroof"></a>What if I can't get roof access?
-
-You may be able to connect from your balcony or window if you have a good view, or you are very near another access point. We don't usually do window installs as they are very difficult and the results aren't predictable.
-
-Once you fill out the [join form](/join), we can help you determine the viability of a balcony install. If you would like to install an NSM5 router on your own, see this [blog post](/blog/nsm5-install/). If you would like to connect to LinkNYC kiosk [see here](https://docs.nycmesh.net/installs/linknyc/)
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
