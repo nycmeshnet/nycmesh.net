@@ -72,7 +72,9 @@ Below are just a few of the reasons to join and support NYC Mesh:
 
 ### <a name="how"></a>How does it work?
 
-Most NYC Mesh community members (“nodes”) have wireless routers mounted on a rooftop or balcony to connect to other nodes, forming a network. Our network in turn peers (connects) with many other networks at an [Internet exchange point (IXP)](https://en.wikipedia.org/wiki/Internet_exchange_point), providing direct access to the Internet without the intermediary of a commercial Internet Service Provider. NYC Mesh maintains a number of primary Internet exchange points that we call “Supernodes.”
+Most NYC Mesh community members (“nodes”) have wireless routers mounted on a rooftop or balcony to connect to other nodes, forming a network. Our Grand Street Guild install is different in that it uses fiber in the ground to connect to our network.
+
+Our network peers (connects) with many other networks at an [Internet exchange point (IXP)](https://en.wikipedia.org/wiki/Internet_exchange_point), providing direct access to the Internet without the intermediary of a commercial Internet Service Provider. NYC Mesh maintains a number of primary Internet exchange points that we call “Supernodes.”
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -125,7 +127,9 @@ If you would like to volunteer with NYC Mesh, reach out on [Slack][] or join us 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
 ### <a name="cost"></a>Is there a cost to join?
-There is no cost to join or use NYC Mesh -- we believe EVERYONE should be able to connect online. That said, the equipment we use to connect you and your neighbors does cost money and we ask that everyone who has the financial means to contribute do so, which allows us to invest in expanding the network and connecting more New Yorkers.  
+For our Grand Street Guild connection there is a $10/month charge for a fast gigabit fiber connection. **There is no install fee for Grand Street Guild**.
+
+We believe EVERYONE should be able to connect online. That said, the wireless equipment we use to connect you and your neighbors does cost money and we ask that everyone who has the financial means to contribute do so, which allows us to invest in expanding the network and connecting more New Yorkers.  
 
 If you do a DIY install, you can purchase and install the equipment on your own. (We can still help you determine what equipment will be best for your specific location and lend assistance in the #diy-install-support channel of our [Slack](https:/slack.nycmesh.net).
 
