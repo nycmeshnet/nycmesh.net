@@ -1,6 +1,9 @@
 ---
 title: "Network status"
 ---
+2022-1-29
+
+We are currently running on a backup link to Grand Street which may cause slower speeds on the Lower East Side
 
 2022-1-24
 
