@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2022-1-30
+
+The main link to Grand is operating again, which should improve speeds in the Lower East Side
+
 2022-1-29
 
 We are currently running on a backup link to Grand Street which may cause slower speeds on the Lower East Side
