@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2022-2-7
+
+11:30am We are currently having a widespread outage. We are looking into the problem now.
+
 2022-1-30
 
 The main link to Grand is operating again, which should improve speeds in the Lower East Side
