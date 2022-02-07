@@ -3,7 +3,7 @@ title: "Network status"
 ---
 2022-2-7
 
-11:30am We are currently having a widespread outage. We are looking into the problem now.
+11:30am to 11:50 We had a brief outage that is now fixed. Sorry about that!
 
 2022-1-30
 
