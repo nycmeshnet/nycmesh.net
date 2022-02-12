@@ -1,0 +1,142 @@
+<h2 class="f3 fw7">连接到互联网</h2>
+
+<div class="mb4 dark-gray">
+
+  <p class="mb0 lh-copy">请询问您的邻居是否也想加入！ 有关现有请求的进展，请发送电子邮件至 <a href="mailto:support@nycmesh.net">support@nycmesh.net</a>.</p>
+</div>
+
+
+<form action="https://docs.google.com/forms/d/1w1d2qiCerKxjR5uu7gnqRqF9XpYeRvTDPqHbCE4Cftc/formResponse" method="POST" class="w-100 center pb4-ns f4-ns f5">
+  <div class="flex-ns">
+    <div class="w-100">
+      <label for="name" class="f6 fw6 db mb2">
+        名字
+      </label>
+      <input
+        required
+        type="text"
+        id="name"
+        name="entry.508902369"
+        class="border-box f5 input-reset black w-100 bg-white ba b--moon-gray pa2" />
+
+      
+    </div>
+  </div>
+
+  <div class="flex-ns">
+    <div class="w-50-ns pr2-ns w-100 mt3">
+    <label for="email" class="f6 fw6 db mb2">
+        电子邮件
+      </label>
+      <input
+        required
+        type="email"
+        id="email"
+        name="entry.119277156"
+        class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2" />
+      </div>
+    <div class="w-50-ns w-100 mt3 pl2-ns">
+      <label for="phone" class="f6 fw6 db mb2">
+        电话号码
+      </label>
+      <input
+        type="tel"
+        id="phone"
+        name="entry.1046234029"
+        class="border-box f5 input-reset  w-100 black bg-white ba b--moon-gray pa2" />
+    </div>
+  </div>
+
+ <div class="flex">
+    <div class="w-100">
+      <label for="address" class="mt3 f6 fw6 db">
+        地址
+      </label>
+      <span id="address-error" class="dn red f5">请从下拉菜单中选择一个地址</span>
+      <input
+        required
+        type="text"
+        id="address"
+        name="entry.214227195"
+        placeholder=""
+        minlength="14"
+        class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2 mt2"
+      />
+    </div>
+  </div>
+
+
+    <div class="w-100">
+      <label for="email" class="f6 fw6 db mb2 mt3">
+        房子号码
+      </label>
+      <input
+        required
+        type="text"
+        id="apartment"
+        name="entry.290479075"
+        class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2" />
+    </div>
+
+  <div class="f5 pt3 flex flex-row-ns flex-column items-center-ns items-start justify-between">
+    <div>
+
+	<div class="flex items-center mv2">
+      <input
+        required
+        type="checkbox"
+        id="ncl"
+        name="entry.1263551439"
+        value="I agree to the Network Commons License" />
+      <label for="ncl" class="mv0 ml2 mid-gray">
+        <a class="blue no-underline" href="ncl-cn.pdf" target="_"> 我同意网络公共许可
+        </a>
+      </label>
+    </div>
+	
+      <!-- Form password to prevent spam -->
+      <input type="hidden" id="password" name="entry.508430148" value="hunter2" />
+    </div>
+  </div>
+ 
+  <div class="mt3 mb3 flex justify-end">
+    <input type="submit" value="Submit request" class="input-reset bw0 f5 fw6 br2 pa3 white bg-blue pointer">
+    </input>
+  </div>
+</form>
+<script>
+  var autocomplete, place;
+  var addressInput = document.getElementById("address");
+  function initMap() {
+    autocomplete = new google.maps.places.Autocomplete(addressInput, {
+      types: ["geocode"],
+      componentRestrictions: {country: 'us'}
+    })
+    autocomplete.addListener("place_changed", handlePlaceChanged);
+    addressInput.addEventListener("blur", handleAddressBlur);
+    addressInput.addEventListener("input", handleInput);
+  }
+
+  function handleInput() {
+    place = null;
+  }
+
+  function handleAddressBlur() {
+    setTimeout(function () {
+      if (place && place.formatted_address) {
+        document.getElementById("address-error").classList.add("dn")
+      } else {
+        document.getElementById("address-error").classList.remove("dn")
+      }
+    }, 500)
+  }
+
+  function handlePlaceChanged(event) {
+    place = autocomplete.getPlace();
+    if (place.formatted_address) {
+      document.getElementById("address-error").classList.add("dn")
+    }
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNClp7oJsw-eleEoR3-PQKV23tpeW-FpE&libraries=places&callback=initMap"
+async defer></script>
