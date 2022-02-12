@@ -8,6 +8,6 @@ description: "Get Connected"
 
 <br>
 
-# [Española](/es)
+# [Español](/es)
 
 # [中国人](/cn)
