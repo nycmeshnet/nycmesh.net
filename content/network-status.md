@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2022-2-14
+
+1:45pm Sorry for the 20 minutes outage caused by Josh! All back to normal now. 
+
 2022-2-7
 
 11:30am to 11:50 We had a brief outage that is now fixed. Sorry about that!
