@@ -3,7 +3,7 @@ title: "Network status"
 ---
 2022-2-16
 
-11:30am We're having DNS problems loading websites. We are working on this
+11:30am-12:00 We had a 30 minute routing problem that has been resolved. Sorry about this!
 
 8:00am-8:40am 7th Street has been rebooted to fix a stability problem. The connection should be ok now. This affected Alphabet City connections
 
