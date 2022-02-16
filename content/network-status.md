@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2022-2-16
+
+8:30am 7th Street hub is having problems. We are trying to fix this now. This affects Alphabet City connections
+
 2022-2-14
 
 1:45pm Sorry for the 20 minutes outage! All back to normal now. 
