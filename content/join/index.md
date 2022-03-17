@@ -10,4 +10,4 @@ description: "Get Connected"
 
 # [Español](/es)
 
-# [中国人](/cn)
+# [中文](/cn)
