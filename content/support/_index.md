@@ -1,6 +1,4 @@
----
-title: "Support"
----
+[Solicitar soporte técnico en español](/es/support)
 
 Is something not working right? Here’s how you can fix it:
 

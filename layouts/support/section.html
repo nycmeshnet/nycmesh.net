@@ -3,7 +3,7 @@
   <div class="measure-wide f5 dt w-100 f3 center bg-white black">
     <div class="pt3">
       <h2 class="f3 fw6 tl">
-        Request Support
+        {{ i18n "request-support" }}
       </h2>
     </div>
 
@@ -20,10 +20,10 @@
     >
       <div class="flex">
         <div class="w-50 pr2">
-          <label for="name" class="f6 fw6 db mb2">Name</label>
+          <label for="name" class="f6 fw6 db mb2">{{ i18n "name" | title }}</label>
           <input
             id="name"
-            placeholder="Your Name"
+            placeholder='{{ i18n "your-name" | title }}'
             type="text"
             name="entry.233009226"
             class="border-box f5 input-reset black w-100 bg-white ba b--moon-gray pa2"
@@ -35,7 +35,7 @@
           <input
             required
             id="email"
-            placeholder="you@example.com"
+            placeholder='{{ i18n "you-at-email-dot-com" }}'
             type="email"
             name="entry.418562862"
             class="border-box f5 input-reset  w-100 black bg-white ba b--moon-gray pa2"
@@ -45,7 +45,7 @@
 
       <div>
         <label for="nodeNumber" class="mt3 f6 fw6 db mb2">
-          Node Number (if you have one)
+          Node Number ({{ i18n "if-you-have-one" }})
         </label>
         <input
           id="nodeNumber"
@@ -58,19 +58,19 @@
 
       <div class="f5">
         <label for="priority" class="mt3 f6 fw6 db mb2">
-          Priority
+          {{ i18n "priority" | title }}
         </label>
         <select id="priority" name="entry.363817612">
-          <option value="Low">Low</option>
-          <option value="Normal">Normal</option>
-          <option value="High">High</option>
-          <option value="Emergency">Emergency</option>
+          <option value="Low">{{ i18n "priority-low" | title }}</option>
+          <option value="Normal">{{ i18n "priority-medium" | title }}</option>
+          <option value="High">{{ i18n "priority-high" | title }}</option>
+          <option value="Emergency">{{ i18n "priority-emergency" | title }}</option>
         </select>
       </div>
 
       <div>
         <label for="subject" class="mt3 f6 fw6 db mb2">
-          Subject
+          {{ i18n "subject" | title }}
         </label>
         <input
           required
@@ -84,7 +84,7 @@
 
       <div>
         <label for="description" class="mt3 f6 fw6 db mb2">
-          Description
+          {{ i18n "description" | title }}
         </label>
         <textarea
           required
@@ -98,7 +98,7 @@
       <div class="flex items-center mv2">
         <input required type="checkbox" id="ncl" name="human" />
         <label for="ncl" class="mv0 ml2 mid-gray">
-          I am human
+          {{ i18n "i-am-human" | humanize }}
         </label>
       </div>
 
@@ -110,7 +110,7 @@
       <div class="mw5 mt4">
         <input
           type="submit"
-          value="Submit request"
+          value='{{ i18n "submit-request" | humanize }}'
           class="input-reset bw0 f5 fw6 br2 pa3 white bg-blue pointer"
         />
       </div>

@@ -1,0 +1,35 @@
+[request-support]
+  other = 'Solicitud de Soporte Técnico'
+
+[name]
+  other = 'nombre'
+[your-name]
+  other = 'su nombre'
+
+[email]
+  other = 'email'
+[you-at-email-dot-com]
+  other = 'usted@email.com'
+
+[if-you-have-one]
+  other = 'si tiene uno'
+
+[priority]
+  other = 'prioridad'
+[priority-low]
+  other = 'bajo'
+[priority-medium]
+  other = 'medio'
+[priority-high]
+  other = 'alto'
+[priority-emergency]
+  other = 'emergencia'
+
+[subject]
+  other = 'tema'
+[description]
+  other = 'descripción'
+[i-am-human]
+  other = 'soy humano'
+[submit-request]
+  other = 'enviar solicitud'
