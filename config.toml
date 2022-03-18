@@ -1,6 +1,6 @@
 title = "NYC Mesh"
 baseURL = "https://www.nycmesh.net/"
-languageCode = "en-us"
+defaultContentLanguage = "en"
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
 summaryLength = 10
@@ -9,6 +9,11 @@ summaryLength = 10
   title = "NYC Mesh"
   description = "Join our community-owned network to replace your current internet connection."
   images = ["/img/3d.png"]
+
+[languages]
+  [languages.en]
+  [languages.es]
+  [languages.zh]
 
 [markup]
   [markup.blackFriday]

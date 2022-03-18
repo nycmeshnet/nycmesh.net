@@ -20,14 +20,14 @@
 </head>
 <body class="helvetica flex flex-column justify-between" style="minHeight: 100vh">
     <div>
-        {{ if ne .Dir "join/" }}
+        {{ if ne .Page.File.TranslationBaseName "join" }}
         {{ partial "alert" . }}
         {{ end }}
         {{ partial "header" . }}
         {{ block "main" . }}
         {{ end }}
     </div>
-    {{ if ne .Dir "join/" }}
+    {{ if ne .Page.File.TranslationBaseName "join" }}
     {{ partial "footer" . }}
     {{ end }}
 </body>
