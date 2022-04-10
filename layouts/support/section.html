@@ -43,15 +43,43 @@
         </div>
       </div>
 
-      <div>
+      <div class="flex">
+        <div class="w-50 pr2">
+        <label for="phone" class="mt3 f6 fw6 db mb2">
+          Phone Number
+        </label>
+        <input
+          id="phone"
+          placeholder="123 456 7890"
+          type="text"
+          name="entry.396858737"
+          class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2"
+        />
+      </div>
+
+        <div class="w-50 pr2">
         <label for="nodeNumber" class="mt3 f6 fw6 db mb2">
-          Node Number ({{ i18n "if-you-have-one" }})
+          Install Number (if known)
         </label>
         <input
           id="nodeNumber"
-          placeholder="1234"
-          type="number"
+          placeholder="12345"
+          type="text"
           name="entry.649831606"
+          class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2"
+        />
+      </div>
+      </div>
+
+	<div>
+        <label for="address" class="mt3 f6 fw6 db mb2">
+          Address (include apartment and zip)
+        </label>
+        <input
+          id="address"
+          placeholder="123 Elm Street, New York, apt 1, 10000"
+          type="text"
+          name="entry.806573156"
           class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2"
         />
       </div>
