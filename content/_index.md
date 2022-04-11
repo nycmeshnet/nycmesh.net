@@ -8,11 +8,13 @@ alertURL: "/network-status"
 
 ## Join our community network!
 
-### <a href="/join" class="blue">Get connected</a> for reliable community-owned internet
+### <a href="/join" class="blue">Get Connected</a> for reliable community-owned internet
+
+### <a href="/support" class="green">Get Support</a> to quickly fix problems!
 
 ### <a href="/volunteer" class="blue">Volunteer</a> to help build our network
 
-### <a href="/donate" class="blue">Donate</a> to help us expand
+### <a href="/donate" class="green">Donate</a> to help us expand
 
 The Internet is central to our lives, but in New York City far too many people don’t have access.
 
