@@ -1,5 +1,6 @@
 ---
 title: "Network status"
+aliases: [/status/]
 ---
 2022-5-7
 
