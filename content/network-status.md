@@ -4,7 +4,7 @@ aliases: [/status/]
 ---
 2022-5-7
 
-12:00 noon We are looking into a serious routing problem affecting Brooklyn. Sorry about this!
+12:00pm-12:30pm We had a problem with an antenna that affected Brooklyn for 30 minutes. This has been resolved.
 
 2022-2-16
 
