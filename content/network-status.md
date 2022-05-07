@@ -1,6 +1,10 @@
 ---
 title: "Network status"
 ---
+2022-5-7
+
+12:00 noon We are looking into a serious routing problem affecting Brooklyn. Sorry about this!
+
 2022-2-16
 
 11:30am-12:00 We had a 30 minute routing problem that has been resolved. Sorry about this!
