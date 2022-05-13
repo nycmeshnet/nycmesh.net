@@ -4,7 +4,7 @@ aliases: [/status/]
 ---
 2022-5-13
 
-11:45am We have a power outage at 410 Grand Street affecting Lower East Side connections. We are trying to get this fixed at the moment.
+11:45am-12:30pm We had a power outage at 410 Grand Street affecting Lower East Side connections. This has been fixed.
 
 2022-5-7
 
