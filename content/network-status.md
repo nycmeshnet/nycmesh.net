@@ -2,6 +2,10 @@
 title: "Network status"
 aliases: [/status/]
 ---
+2022-5-13
+
+11:45am We have a power outage at 410 Grand Street affecting Lower East Side connections. We are trying to get this fixed at the moment.
+
 2022-5-7
 
 12:00pm-12:30pm We had a problem with an antenna that affected Brooklyn for 30 minutes. This has been resolved.
