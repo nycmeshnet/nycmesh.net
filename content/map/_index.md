@@ -12,7 +12,7 @@ Our typical non-hub installs have a LiteBeam and OmniTik AP on the roof and cabl
 
 Hubs generally have a fast wireless connection and can connect other rooftops in the area usually with a "sector" antenna. 
 
-Supernodes (SN) have fiber connections. Our two current supernodes are located at data centers with backbone internet connections. We are planning many more supernodes that will use fiber back to the data centers.
+Supernodes (SN) have fiber connections. Two of our supernodes are located at data centers with backbone internet connections. Our third supernode "131 Broome" is connected via leased fiber to the 111 8th Ave data center.
 
 If there is a supernode or hub node (blue dot) within range of your building, you may be able to join our network. The potential nodes are from our [join form](/join). We are working to turn these into active nodes by expanding our coverage and increasing our rate of installs.
 
