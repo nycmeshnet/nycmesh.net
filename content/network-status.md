@@ -2,6 +2,10 @@
 title: "Network status"
 aliases: [/status/]
 ---
+2022-5-29
+
+We have a planned upgrade to some hubs in Brooklyn today near Bergen, Revere and St Marks. There may be a short downtime around 12:30pm
+
 2022-5-13
 
 11:45am-12:30pm We had a power outage at 410 Grand Street affecting Lower East Side connections. This has been fixed.
