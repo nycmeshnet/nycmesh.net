@@ -92,7 +92,7 @@ For mesh protocols we are currently using OSPF in a MikroTik Omnitik. We have ou
 
 **Fiber**
 
-In NYC you can lease unused "dark" fiber from a few companies such as Crown Castle or Pilot Fiber. We have done this from a data center to our Grand St supernode. If you lease dark fiber it is up to you to connect it in the data center. The cost of this will vary a lot depending on how long the fiber run is, and if they need to dig up the streets. This is an expensive option but you can get reliable 40 gigabits of bandwidth to a building.
+In NYC you can lease unused "dark" fiber from a few companies such as Crown Castle or Pilot Fiber. We have done this from a data center to our Grand St supernode. If you lease dark fiber it is up to you to connect it in the data center. The cost of this will vary a lot depending on how long the fiber run is, and if they need to dig up the streets. We are lucky to have friends in the data center donating connections there. (Thanks Pilot!). Leasing fiber is an expensive option but you can get reliable 40 gigabits of bandwidth to a building.
 
 **Online tools**
 
