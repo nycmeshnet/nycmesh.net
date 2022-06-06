@@ -8,7 +8,7 @@ aliases: [/how/]
 
 Here are some notes and ideas on how to start a community network. 
 
-*Installing antennas is the main activity of a community network. Everything else you do should be about enabling more installs.*
+*Installing is the main activity of a community network. Everything else you do should be about enabling more installs.*
 
 ---
 
@@ -54,7 +54,7 @@ We try to keep a [list](https://www.meshcenter.org/networks/) of Mesh network wh
 
 **Choose appropriate antennas, routers and firmware**
 
-NYC Mesh is a hybrid network of point-to-point, point-to-multipoint (sector antennas), ethernet and mesh. It is important to pick the right solution for each networking problem. Don't pick one method or protocol and try to make that work for everything (avoid tech-solutionism). Use off-the-shelf hardware as much as possible.
+NYC Mesh is a hybrid network of point-to-point, point-to-multipoint (sector antennas), copper ethernet, fiber and mesh. It is important to pick the right solution for each networking problem. Don't pick one method or protocol and try to make that work for everything (avoid tech-solutionism). Use off-the-shelf hardware as much as possible.
 
 For antennas you need higher gain (db) to go long distances. A 19db NanoBeam will go 1km, a 23db LiteBeam will go 3km, and a 33db/38db AirFiber will go 10km. 
 
@@ -65,10 +65,13 @@ Generally for radios, the higher the frequency the faster the connection and the
 -5GHz works fine in the rain, but speeds are generally less than 500Mbps.   
 -24 GHz (AF24) is gigabit (1000Mbps) but will fail in heavy rain for distances over 4km.  
 -60GHz is inexpensive gigabit but will not go more than 500m in the rain.  
+-70/80GHz (E-Band) licensed spectrum. You can get reliable 10 gigabit over a couple of miles
 
 **Point-to-point** 
 
-* long distance (3 to 10km) We use AirFiber AF24 or AF5XHD
+* long distance unlicensed (3 to 10km) We use AirFiber AF24 or AF60-LR for gigabit links
+
+* long distance licensed (3 to 10km) We use 70/80GHz Cambium or Siklu for 10 gigabit links. Licensing isn't that difficult or expensive, though the hardware is.
 
 * medium distance (up to 3km) LiteBeamAC is a very inexpensive way to get over 150 Mbps
 
@@ -86,6 +89,10 @@ Sector antennas are good for getting high-bandwidth into neighborhoods. Put one 
 Mesh may use different firmware from the factory firmware or different configurations. It is good for the last mile as it re-configures automatically. If there is a mesh network on your block, often you can use just one device to extend the network.
 
 For mesh protocols we are currently using OSPF in a MikroTik Omnitik. We have our own [config generator](https://configgen.nycmesh.net) for this to make it simple. We have used BATMAN protocols such as bmx6 or batman-adv (bmx7 is still experimental). There are prebuilt packages- Libremesh, qMp and Gluon. We have used [qMp](http://qmp.cat). Don't try creating your own, just modify an existing package to your configuration. [Libremesh](https://libremesh.org/) has been very active lately and has support for a large range of routers.
+
+**Fiber**
+
+In NYC you can lease unused "dark" fiber from a few companies such as Crown Castle or Pilot Fiber. We have done this from a data center to our Grand St supernode. If you lease dark fiber it is up to you to connect it in the data center. The cost of this will vary a lot depending on how long the fiber run is, and if they need to dig up the streets. This is an expensive option but you can get reliable 40 gigabits of bandwidth to a building.
 
 **Online tools**
 
