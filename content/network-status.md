@@ -2,6 +2,10 @@
 title: "Network status"
 aliases: [/status/]
 ---
+2022-6-7
+
+9am Our Brownsville hub has lost power affecting people in the area. We are working on restoring power.
+
 2022-5-29
 
 We have a planned upgrade to some hubs in Brooklyn today near Bergen, Revere and St Marks. There may be a short downtime around 12:30pm
