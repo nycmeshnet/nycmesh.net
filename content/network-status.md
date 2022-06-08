@@ -2,9 +2,9 @@
 title: "Network status"
 aliases: [/status/]
 ---
-2022-6-7
+2022-6-8
 
-9am Our Brownsville hub has lost power affecting people in the area. We are working on restoring power.
+1:30pm Our Brownsville hub is back online after what turned out to be an antenna alignment problem. Sorry about that!
 
 2022-5-29
 
