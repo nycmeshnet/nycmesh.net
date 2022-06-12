@@ -17,9 +17,9 @@ title: "Grand Street Guild"
 131-24G  
 410-14A  
 
-**Floors with fiber and micro duct (out of 75)**
+**Floors with raceway fiber**
 
-42
+42/75
 
 **Outstanding support requests**
 
