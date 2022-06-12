@@ -4,7 +4,7 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-5:00pm June 12, 2022
+5:30pm June 12, 2022
 
 **Number of active apartment installs**
 
@@ -25,17 +25,20 @@ title: "Grand Street Guild"
 
 None
 
-**Apartment speed**
+**Recent apartment speed tests**
 
 *Ethernet-*
 
-Speeds now typically around 800 Mbps down, 500 Mbps up
-https://www.speedtest.net/result/13266074878
+Speeds are now typically around 800 Mbps down, 500 Mbps up  
+Recent test-  
+Ethernet: https://www.speedtest.net/result/13266074878
 
 *Wifi-*
 
-TP-Link maximum speed is around 300 Mbps up and down   
-Wifi Speed test 258 down 259 up (2022:Jun:12)
+TP-Link wifi speed varies, and is around 300 to 400 Mbps up and down   
+The ethernet ports must be used to get over 400 Mbps  
+Recent test-  
+Wifi: https://www.speedtest.net/result/i/5152365423
 
 **Active Backhaul**
 
