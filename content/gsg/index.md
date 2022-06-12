@@ -4,7 +4,7 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-3:00pm June 12, 2022
+5:00pm June 12, 2022
 
 **Number of active apartment installs**
 
@@ -24,4 +24,29 @@ title: "Grand Street Guild"
 **Outstanding support requests**
 
 None
+
+**Apartment speed**
+
+*Ethernet-*
+
+Speeds now typically around 800 Mbps down, 500 Mbps up
+https://www.speedtest.net/result/13266074878
+
+*Wifi-*
+
+TP-Link maximum speed is around 300 Mbps up and down   
+Wifi Speed test 258 down 259 up (2022:Jun:12)
+
+**Active Backhaul**
+
+Fiber from 131 Broome to 111 8th POP, exit via VPN to DataVerge Brooklyn (SN3)
+
+**Backup connections**
+
+Gigabit wireless to 375 Pearl (SN1)
+Gigabit wireless to 303 Vernon
+
+
+
+
 
