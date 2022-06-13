@@ -4,7 +4,7 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-5:55pm June 13th, 2022
+7:27pm June 13th, 2022
 
 **Apartment installs**
 
@@ -28,7 +28,7 @@ title: "Grand Street Guild"
 
 **Outstanding support requests**
 
-None
+460-25H
 
 **Recent apartment speed tests**
 
