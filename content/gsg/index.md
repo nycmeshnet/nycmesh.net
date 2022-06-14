@@ -4,13 +4,13 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-7:27pm June 13th, 2022
+11:40am June 14th, 2022
 
 **Apartment installs**
 
-78 installs (74 active)
+78 installs (75 active)
 
-**Installs scheduled for tomorrow, June 14**
+**Installs scheduled for June 14**
 
 - 131-22H
 - 460-4C
@@ -27,6 +27,10 @@ title: "Grand Street Guild"
 42/75
 
 **Outstanding support requests**
+
+None
+
+**Completed support requests**
 
 460-25H
 
