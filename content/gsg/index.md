@@ -8,13 +8,13 @@ title: "Grand Street Guild"
 
 **Apartment installs**
 
-78 installs (75 active)
+81 installs (77 active)
 
-**Installs scheduled for June 14**
+**Installs done June 14**
 
-- 131-22H
-- 460-4C
-- 410-17C
+- 131-22H √
+- 460-4C √
+- 410-17C √
 
 **Installs waiting (backlog)**
 
