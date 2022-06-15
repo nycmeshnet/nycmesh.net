@@ -4,17 +4,16 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-11:40am June 14th, 2022
+10:00am June 15th, 2022
 
 **Apartment installs**
 
 81 installs (77 active)
 
-**Installs done June 14**
+**Installs planned June 15**
 
-- 131-22H √
-- 460-4C √
-- 410-17C √
+- 410-25G
+- 131-15G
 
 **Installs waiting (backlog)**
 
@@ -24,6 +23,7 @@ title: "Grand Street Guild"
 - 410-15D
 - 410-18C
 - 460-2A
+- 131-25G
 
 **Floors with raceway fiber**
 
