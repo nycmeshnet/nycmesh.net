@@ -4,16 +4,20 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-10:00am June 15th, 2022
+07:00pm June 15th, 2022
 
 **Apartment installs**
 
-81 installs (77 active)
+82 installs (79 active)
 
-**Installs planned June 15**
+**Installs planned June 16**
 
-- 410-25G
-- 131-15G
+- 131-5D
+
+**Installs completed June 15**
+
+- 410-25G √
+- 131-15G √
 
 **Installs waiting (backlog)**
 
@@ -48,10 +52,10 @@ Ethernet: https://www.speedtest.net/result/13266074878
 
 *Wifi-*
 
-TP-Link wifi speed varies, and is around 300 to 400 Mbps up and down in the same room. The ethernet ports must be used to get over 400 Mbps  
+TP-Link wifi speed is around 300 to 500 Mbps up and down in the same room. The ethernet ports must be used to get over 500 Mbps  
 
 Recent test-  
-Wifi: https://www.speedtest.net/result/i/5152365423
+Wifi: https://www.speedtest.net/result/i/5156452693
 
 **Active Backhaul**
 
