@@ -4,12 +4,11 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-9:12am June 21, 2022
+7:46pm June 21, 2022
 
 **Apartment installs**
 
-89 installs (86 active)
-
+89 installs (87 active)
 
 **Installs completed June 20**
 
@@ -18,10 +17,17 @@ title: "Grand Street Guild"
 
 **Installs waiting (backlog)**
 
+
+- 131-21B
+- 131-05D
+- 131-20D
+- 131-24G
 - 410-14A  
 - 410-15D
 - 410-18C
+- 410-26G
 - 460-2A
+- 460-10F
 
 **Floors with raceway fiber**
 
@@ -31,9 +37,10 @@ title: "Grand Street Guild"
 
 None
 
-**Completed support requests**
+**Completed support requests today**
 
-460-25H
+460 26G
+460-11H
 
 **Recent apartment speed tests**
 
@@ -66,7 +73,10 @@ July: 10 Gigabit connection to 303 Vernon (no downtime)
 
 August(?): Additional hardware at 111 8th POP and backhaul exiting in the same building. This will result in a slight speed increase at GSG. (minimal or no downtime in August)
 
+Ufiber 53/56(-1) 35(-1)/36(-2)
 
+53+34, 55+34
 
+87, 89
 
 
