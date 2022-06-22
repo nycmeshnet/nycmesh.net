@@ -4,7 +4,7 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-7:46pm June 21, 2022
+5:16pm June 22, 2022
 
 **Apartment installs**
 
