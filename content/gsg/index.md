@@ -12,7 +12,7 @@ title: "Grand Street Guild"
 
 **Microduct completed June 22**
 
-- 410 floors 24, 23, 19, 18
+- 131 floors 24, 23, 19, 18
 
 **Installs waiting (backlog)**
 
