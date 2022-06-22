@@ -10,13 +10,11 @@ title: "Grand Street Guild"
 
 89 installs (87 active)
 
-**Installs completed June 20**
+**Microduct completed June 22**
 
-- 460 10B
-- 460 11H
+- 410 floors 24, 23, 19, 18
 
 **Installs waiting (backlog)**
-
 
 - 131-21B
 - 131-05D
@@ -31,7 +29,11 @@ title: "Grand Street Guild"
 
 **Floors with raceway fiber**
 
-44/75
+48/75
+
+- 131 20
+- 410 13
+- 460 15
 
 **Outstanding support requests**
 
@@ -73,7 +75,10 @@ July: 10 Gigabit connection to 303 Vernon (no downtime)
 
 August(?): Additional hardware at 111 8th POP and backhaul exiting in the same building. This will result in a slight speed increase at GSG. (minimal or no downtime in August)
 
-Ufiber 53/56(-1) 35(-1)/36(-2)
+Ufiber 
+
+- 53/56(-1) 35(-1)/36(-2)
+
 
 53+34, 55+34
 
