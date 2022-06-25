@@ -2,6 +2,10 @@
 title: "Network status"
 aliases: [/status/]
 ---
+2022-6-25
+
+1pm: All 460 Grand Street should be back online after an issue affecting the top 12 floors
+
 2022-6-8
 
 1:30pm Our Brownsville hub is back online after what turned out to be an antenna alignment problem. Sorry about that!
