@@ -2,6 +2,10 @@
 title: "Network status"
 aliases: [/status/]
 ---
+2022-6-26
+
+303 Vernon light pole access points are back online
+
 2022-6-25
 
 1pm: All 460 Grand Street should be back online after an issue affecting the top 12 floors
