@@ -4,42 +4,55 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-4:20pm June 23, 2022
+9:30am July 5, 2022
 
 **Apartment installs**
 
-89 installs (87 active)
+89 installs (86 active)
 
-**Microduct completed June 22**
+**Offline installs**
 
-- 131 floors 24, 23, 19, 18
+- 410-13B
+- 131-13D
+- 460-22E
+
+**Discontinued**
+
+- 131-04F
+- 131-06C
+
+**Microduct completed last week**
+
+- 410 floors 9, 14, 15
 
 **Installs waiting (backlog)**
 
-- 460-8A  Microduct
+- 460-24F
+- 460-26A
+- 460-4D
+- 460-4B
+- 460-2G
+- 460-8A 
 - 460-2A  M
+- 410-9C
+- 410-24A
 - 410-14A M
 - 131-24G postponed for cleanup
 - 410-15D Doornock?
-- 410-18C done, but check fiber
 - 460-10F to be installed 30th June
 
 **Floors with raceway fiber**
 
-48/75
+52/75
 
 - 131 20
-- 410 13
-- 460 15
+- 410 16
+- 460 16
 
 **Outstanding support requests**
 
 None
 
-**Offline**
-
-- 410-13B
-- 131-6C
 
 **Completed support requests today**
 
@@ -76,12 +89,12 @@ August(?): Additional hardware at 111 8th POP and backhaul exiting in the same b
 
 **Ufiber**
 
-- 53/56(-1) 35(-1)/36(-2)
+- 52/58(-2) 35(-1)/37(-2)
 
 
-53+34, 55+34
+52+34, 55+35
 
-87, 89
+86, 89
 
 **Microduct team**
 
