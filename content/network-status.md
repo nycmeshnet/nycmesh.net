@@ -4,7 +4,7 @@ aliases: [/status/]
 ---
 2022-7-10
 
-6:00pm Downtown Manhattan is currently experiencing slow speeds. We are working on it
+6:00pm The network is currently experiencing slow speeds. We are working on it
 
 2022-6-26
 
