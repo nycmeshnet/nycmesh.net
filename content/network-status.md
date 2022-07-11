@@ -2,6 +2,12 @@
 title: "Network status"
 aliases: [/status/]
 ---
+2022-7-10
+
+9:35pm The problem is fixed. Speeds should be returning to normal now
+
+6:00pm The network is currently experiencing slow speeds. We are working on it
+
 2022-6-26
 
 303 Vernon light pole access points are back online
