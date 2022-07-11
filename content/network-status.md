@@ -4,7 +4,7 @@ aliases: [/status/]
 ---
 2022-7-10
 
-9:20pm The problem is fixed. Speeds should be returning to normal now
+9:35pm The problem is fixed. Speeds should be returning to normal now
 
 6:00pm The network is currently experiencing slow speeds. We are working on it
 
