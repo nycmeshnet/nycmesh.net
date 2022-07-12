@@ -4,40 +4,33 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-4:00pm July 8, 2022
+1:30pm July 12, 2022
 
 **Apartment installs**
 
-88 active installs
+91 active installs
 
 **Offline installs**
 
 - 410-13B
 - 131-13D
-- 131-06G
-- 460-22E
+- 131-07H (ethernet not connected)
 
 **Discontinued**
 
 - 131-04F
 - 131-06C
 
-
 **Installs waiting (backlog)**
 
-- 460-24F
-- 460-26A
 - 460-4D
 - 460-4B
 - 460-2G
 - 460-8A 
 - 460-2A  M
-- 410-9C
 - 410-24A
 - 410-14A M
-- 131-24G postponed for cleanup
 - 410-15D Doornock?
-- 460-10F to be installed 30th June
 
 **Floors with raceway fiber**
 
@@ -49,7 +42,9 @@ title: "Grand Street Guild"
 
 **Outstanding support requests**
 
-None
+131 11B
+131-21B
+460-11F
 
 
 **Completed support requests today**
@@ -87,13 +82,13 @@ August(?): Additional hardware at 111 8th POP and backhaul exiting in the same b
 
 **Ufiber**
 
-- 52/59(-2) 37(-1)/38(-2)
+- 55/61(-3) 37(-1)/38(-2)
 
 
-52 + 36
+55 + 36
 
 
-86, 89
+88, 89
 
 **Microduct team**
 
@@ -108,7 +103,5 @@ Andy Bee
 Christian
 Armani
 Joe Moser
-
-
 
 
