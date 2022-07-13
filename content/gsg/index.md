@@ -4,11 +4,12 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-1:30pm July 12, 2022
+10:12pm July 12, 2022
 
 **Apartment installs**
 
 91 active installs
+
 
 **Offline installs**
 
@@ -21,33 +22,22 @@ title: "Grand Street Guild"
 - 131-04F
 - 131-06C
 
-**Installs waiting (backlog)**
-
-- 460-4D
-- 460-4B
-- 460-2G
-- 460-8A 
-- 460-2A  M
-- 410-24A
-- 410-14A M
-- 410-15D Doornock?
-
 **Floors with raceway fiber**
 
-53/75
+55/75
 
-- 131 20
-- 410 16
-- 460 17
+- 131 22
+- 410 15
+- 460 18
 
 **Outstanding support requests**
 
-131 11B
-131-21B
-460-11F
-
+131 11B (no answer on phone)
+131-21B (no answer on phone)
 
 **Completed support requests today**
+
+460-11F
 
 **Recent apartment speed tests**
 
