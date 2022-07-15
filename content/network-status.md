@@ -2,6 +2,10 @@
 title: "Network status"
 aliases: [/status/]
 ---
+2022-7-15
+
+10:00am We are upgrading our config at our 111 8th POP (data center). There will be some interuptions for the next hour or two. Speeds should be significantly faster after this upgrade
+
 2022-7-10
 
 9:35pm The problem is fixed. Speeds should be returning to normal now
