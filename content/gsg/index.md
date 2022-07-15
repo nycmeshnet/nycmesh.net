@@ -4,40 +4,28 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-10:12pm July 12, 2022
+10:05am July 15, 2022
 
 **Apartment installs**
 
-91 active installs
+93 active installs
 
+**Install backlog**
 
-**Offline installs**
-
-- 410-13B
-- 131-13D
-- 131-07H (ethernet not connected)
-
-**Discontinued**
-
-- 131-04F
-- 131-06C
+460-9A
+131-8D
 
 **Floors with raceway fiber**
 
-55/75
+54/75
 
 - 131 22
 - 410 15
-- 460 18
+- 460 17
 
-**Outstanding support requests**
+**Outstanding support**
 
-131 11B (no answer on phone)
-131-21B (no answer on phone)
-
-**Completed support requests today**
-
-460-11F
+460-11F (intermittent connection)
 
 **Recent apartment speed tests**
 
@@ -72,18 +60,12 @@ August(?): Additional hardware at 111 8th POP and backhaul exiting in the same b
 
 **Ufiber**
 
-- 55/61(-3) 37(-1)/38(-2)
-
-
-55 + 36
-
-
-88, 89
+56 + 37
 
 **Microduct team**
 
 Daniel  
-Funda  
+John
 Christian  
 Armani  
 Joe Moser  
