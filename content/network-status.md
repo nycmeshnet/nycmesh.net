@@ -2,6 +2,10 @@
 title: "Network status"
 aliases: [/status/]
 ---
+2022-7-19
+
+6:00am One antenna is down on our PH hub affecting people in the Prospect Heights area. We are working on replacing the antenna
+
 2022-7-15
 
 10:00am We are upgrading our config at our 111 8th POP (data center). Speeds should be significantly faster after this upgrade is completed hopefully later today.
