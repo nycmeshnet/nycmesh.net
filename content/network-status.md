@@ -4,6 +4,8 @@ aliases: [/status/]
 ---
 2022-7-19
 
+7:00pm Prospect Heights should be functioning as normal now
+
 6:00am One antenna is down on our PH hub affecting people in the Prospect Heights area. We are working on replacing the antenna
 
 2022-7-15
