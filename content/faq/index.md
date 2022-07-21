@@ -122,7 +122,7 @@ Here is our [privacy-policy](../privacy-policy)
 
 After reading through the FAQs, fill out the [join form](/join) to be assigned a Potential Node, and look for an email with next steps (check your email spam folder or contact us directly at install@nycmesh.net if you don’t receive any reply).
 
-If you would like to volunteer with NYC Mesh, reach out on [Slack][] or join us at our monthly [meetup](https://www.meetup.com/nycmesh/).
+If you would like to volunteer with NYC Mesh, reach out on [Slack](https://slack.nycmesh.net) or join us at our monthly [meetup](https://www.meetup.com/nycmesh/).
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -179,7 +179,7 @@ NYC Mesh welcomes people with diverse skill sets and from all backgrounds. Many 
 
 ### <a name="neighbors"></a>I have neighbors who would also like to join NYC Mesh. Can we get connected together?
 
-Yes! We prioritize installs for entire buildings and set up high-bandwidth point-to-point connections with dedicated hardware. If your building would like this dedicated service please email us, reach out to us on [Slack][], send us an email at install@nycmesh.net or call us directly at (646) 727-0866.
+Yes! We prioritize installs for entire buildings and set up high-bandwidth point-to-point connections with dedicated hardware. If your building would like this dedicated service please email us, reach out to us on [Slack](https://slack.nycmesh.net), send us an email at install@nycmesh.net or call us directly at (646) 727-0866.
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -191,7 +191,7 @@ NYC Mesh asks for only basic contact information to be able to carry out the ins
 
 ### <a name="slack"></a>What is Slack and how do I use it?
 
-Slack is the main communication and collaboration platform we use at NYC Mesh. It consists of public channels, which anyone can post messages to, and invitation-only channels, which serve specific community groups and volunteer teams. Go to the [NYC Mesh Slack page][slack] to sign up for an account and join the conversation!
+Slack is the main communication and collaboration platform we use at NYC Mesh. It consists of public channels, which anyone can post messages to, and invitation-only channels, which serve specific community groups and volunteer teams. Go to the [NYC Mesh Slack page](https://slack.nycmesh.net) to sign up for an account and join the conversation!
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -279,7 +279,7 @@ If we think a connection may be possible by installing a mast, mounting equipmen
 
 In some rare cases you might be close enough to another node to get signal without line of sight to it.
 
-If you’re in an area that’s currently underserved by NYC Mesh but can get a dozen or more of your neighbors together, you can also create your own hub or supernode which would expand the mesh further. Contact us on [Slack][] or email us at install@nycmesh.net to discuss this option further.
+If you’re in an area that’s currently underserved by NYC Mesh but can get a dozen or more of your neighbors together, you can also create your own hub or supernode which would expand the mesh further. Contact us on [Slack](https://slack.nycmesh.net) or email us at install@nycmesh.net to discuss this option further.
 
 If you can’t connect to any existing node yet but would still like to access community tools or content that are only available on the Mesh, you have the option of [“tunneling”](https://en.wikipedia.org/wiki/Tunneling_protocol) over the Internet by VPN.
 
@@ -289,7 +289,7 @@ Yes you can. Make sure to sign up for a node by filling out our [join form](/joi
 
 We provide a list of hardware you can purchase along with firmware and configuration instructions [here](/download). For guidance on hardware installation, check out our [docs pages](https://docs.nycmesh.net/).
 
-If you need assistance with your self-installs, reach out to us on the #diy-install-support channel on [Slack][].
+If you need assistance with your self-installs, reach out to us on the #diy-install-support channel on [Slack](https://slack.nycmesh.net).
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
@@ -361,8 +361,8 @@ Yes, it could. In Spain there is a mesh network called [Guifi](https://guifi.net
 
 We have a lot on our to-do list and everyone is a volunteer. We welcome new ideas big and small, but the best way to move ideas forward is for you to take initiative to help implement them.
 
-Our community on [Slack][] is a great forum for new ideas, and you can also start a conversation with long-term and new members at one of our [meetups](https://www.meetup.com/nycmesh/).
+Our community on [Slack](https://slack.nycmesh.net) is a great forum for new ideas, and you can also start a conversation with long-term and new members at one of our [meetups](https://www.meetup.com/nycmesh/).
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
 
-[Slack]: https://slack.nycmesh.net
+[Slack](https://slack.nycmesh.net): https://slack.nycmesh.net
