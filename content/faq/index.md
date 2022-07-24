@@ -131,7 +131,7 @@ For our Grand Street Guild connection there is a $10/month charge for a fast gig
 
 We believe EVERYONE should be able to connect online. That said, the wireless equipment we use to connect you and your neighbors does cost money and we ask that everyone who has the financial means to contribute do so, which allows us to invest in expanding the network and connecting more New Yorkers.  
 
-If you do a DIY install, you can purchase and install the equipment on your own. (We can still help you determine what equipment will be best for your specific location and lend assistance in the #diy-install-support channel of our [Slack](https:slack.nycmesh.net).
+If you do a DIY install, you can purchase and install the equipment on your own. (We can still help you determine what equipment will be best for your specific location and lend assistance in the #diy-install-support channel of our [Slack](https://slack.nycmesh.net).
 
 We suggest the following to help cover our costs: 
 **Average Equipment Cost**: \$240 (the actual cost of the equipment!)
