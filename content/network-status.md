@@ -2,6 +2,10 @@
 title: "Network status"
 aliases: [/status/]
 ---
+2022-7-26
+
+9:30am We have an outage at 410 Grand Street. We are working on a fix for this now.
+
 2022-7-19
 
 7:00pm Prospect Heights should be functioning as normal now
