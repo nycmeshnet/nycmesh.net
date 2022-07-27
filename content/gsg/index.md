@@ -10,8 +10,8 @@ title: "Grand Street Guild"
 
 96 active installs
 
-32 131
-24 410
+32 131,
+24 410,
 40 460
 
 **Install backlog**
@@ -24,7 +24,7 @@ title: "Grand Street Guild"
 - 410 15
 - 460 16
 
-*Fiber cut to 410*
+**Fiber cut to 410**
 
 410 was reconnected wirelessly to 460 after fiber was cut July 26
 
