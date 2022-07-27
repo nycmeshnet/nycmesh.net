@@ -2,6 +2,10 @@
 title: "Network status"
 aliases: [/status/]
 ---
+2022-7-27
+
+1:00am Connection was restored to 410 Grand Street. 
+
 2022-7-26
 
 9:30am We have an outage at 410 Grand Street due to construction cutting the fiber in ground. We are working on a fix for this now.
