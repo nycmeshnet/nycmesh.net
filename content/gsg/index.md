@@ -4,28 +4,33 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-10:05am July 15, 2022
+7:05pm July 27, 2022
 
 **Apartment installs**
 
-93 active installs
+96 active installs
+
+32 131
+24 410
+40 460
 
 **Install backlog**
 
-460-9A
-131-8D
-
 **Floors with raceway fiber**
 
-54/75
+55/75
 
-- 131 22
+- 131 24
 - 410 15
-- 460 17
+- 460 16
 
-**Outstanding support**
+*Fiber cut to 410*
 
-460-11F (intermittent connection)
+410 was reconnected wirelessly to 460 after fiber was cut July 26
+
+Speeds at 410 are good 760 down and 559 up in one test
+
+Hallway access points on the top of 410 are still out
 
 **Recent apartment speed tests**
 
@@ -60,7 +65,7 @@ August(?): Additional hardware at 111 8th POP and backhaul exiting in the same b
 
 **Ufiber**
 
-56 + 37
+54 + 38
 
 **Microduct team**
 
