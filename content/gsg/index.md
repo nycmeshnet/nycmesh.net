@@ -4,33 +4,29 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-7:05pm July 27, 2022
+4:20pm August 9, 2022
 
 **Apartment installs**
 
 96 active installs
 
-32 131,
-24 410,
-40 460
+34 131, 
+24 410, 
+38 460
 
 **Install backlog**
 
 **Floors with raceway fiber**
 
-55/75
+57/75
 
 - 131 24
-- 410 15
-- 460 16
+- 410 16
+- 460 17
 
 **Fiber cut to 410**
 
-410 was reconnected wirelessly to 460 after fiber was cut July 26
-
-Speeds at 410 are good 760 down and 559 up in one test
-
-Hallway access points on the top of 410 are still out
+Remaining cable was pulled to 410 Electrical room. At least some of the fiber has signal (there are 12 active strands) so we should be able reconnect fiber this week
 
 **Recent apartment speed tests**
 
@@ -63,9 +59,6 @@ July: 10 Gigabit connection to 303 Vernon (no downtime)
 
 August(?): Additional hardware at 111 8th POP and backhaul exiting in the same building. This will result in a slight speed increase at GSG. (minimal or no downtime in August)
 
-**Ufiber**
-
-54 + 38
 
 **Microduct team**
 
