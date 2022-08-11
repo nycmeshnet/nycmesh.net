@@ -72,7 +72,7 @@ Below are just a few of the reasons to join and support NYC Mesh:
 
 ### <a name="how"></a>How does it work?
 
-Many NYC Mesh community members have wireless routers mounted on a rooftop or balcony to connect to other buildings, forming a network. Other installs such as Grand Street Guild uses fiber in the ground to connect to our network.
+Many NYC Mesh community members have wireless routers mounted on a rooftop or balcony to connect to other buildings, forming a network. Other installs, such as Grand Street Guild, use fiber in the ground to connect.
 
 Our network peers (connects) with many other networks inside data centers, using an [internet exchange point (IXP)](https://en.wikipedia.org/wiki/Internet_exchange_point) connection. This gives us direct access to the Internet without paying a commercial Internet Service Provider. NYC Mesh maintains a number of fiber connected sites that we call “Supernodes”. 
 
