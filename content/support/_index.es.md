@@ -1,4 +1,8 @@
+**Si usted vive en el Grand Street Guild, por favor llama 646-397-2818**
+
+
 Algo no esta funcionando? Sigue estos pasos para arreglarlo:
+
 
 1. Revisa el [estado de la red ](/network-status) (inglés) para ver si otras personas están atravesando el mismo problema. Si ves tu problema aquí significa que les voluntarios de NYC Mesh están trabajando en resolverlo y pronto daremos noticias!
 
