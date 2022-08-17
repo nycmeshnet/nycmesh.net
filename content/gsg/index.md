@@ -4,29 +4,27 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-4:20pm August 9, 2022
+4:20pm August 17, 2022
 
 **Apartment installs**
 
-96 active installs
+101 active installs
 
-34 131, 
-24 410, 
-38 460
-
-**Install backlog**
+35 131, 
+26 410, 
+40 460
 
 **Floors with raceway fiber**
 
-57/75
+61/75
 
 - 131 24
-- 410 16
+- 410 20
 - 460 17
 
 **Fiber cut to 410**
 
-Remaining cable was pulled to 410 Electrical room. At least some of the fiber has signal (there are 12 active strands) so we should be able reconnect fiber this week
+Cable to 410 tested fine. We should be able reconnect fiber soon
 
 **Recent apartment speed tests**
 
