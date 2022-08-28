@@ -4,7 +4,7 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-4:20pm August 17, 2022
+3:38pm August 28, 2022
 
 **Apartment installs**
 
@@ -16,11 +16,10 @@ title: "Grand Street Guild"
 
 **Floors with raceway fiber**
 
-61/75
+74/75
 
-- 131 24
-- 410 20
-- 460 17
+131 and 410 are finished
+460-6 is the only remaining floor
 
 **Fiber cut to 410**
 
