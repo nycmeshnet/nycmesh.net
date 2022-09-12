@@ -22,7 +22,7 @@ title: "Grand Street Guild"
 
 **Fiber cut to 410**
 
-Cable to 410 tested fine. We should be able reconnect fiber soon
+Fiber was reconnected on Sept 7th
 
 **Recent apartment speed tests**
 
