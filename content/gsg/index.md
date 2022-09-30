@@ -4,14 +4,14 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-11:35am September 12, 2022
+7:20pm September 30, 2022
 
 **Apartment installs**
 
-106 active installs
+110 active installs
 
-36 131,  
-28 410,  
+37 131,  
+31 410,  
 42 460  
 
 **Floors with raceway fiber**
@@ -35,10 +35,12 @@ Ethernet: https://www.speedtest.net/result/13266074878
 
 *Wifi-*
 
-TP-Link wifi speed is around 300 to 500 Mbps up and down in the same room. The ethernet ports must be used to get over 500 Mbps  
+New installs using the new Ubiquiti WiFi6 ONT, combined fiber and wifi router, with speeds close to 700Mbps.  
+
+Five of these WiFi6 devices installed so far
 
 Recent test-  
-Wifi: https://www.speedtest.net/result/i/5156452693
+Wifi: https://www.speedtest.net/result/13730130631
 
 **Active Backhaul**
 
@@ -47,27 +49,14 @@ Fiber from 131 Broome to 111 8th POP, exit via VPN to DataVerge Brooklyn (SN3)
 **Backup connections**
 
 - Gigabit wireless to 375 Pearl (SN1)
-- Gigabit wireless to 303 Vernon
+- 10 Gigabit wireless (Siklu) to 303 Vernon
 
 **Planned upgrades**
 
-July: 10 Gigabit connection to 303 Vernon (no downtime)
-
-August(?): Additional hardware at 111 8th POP and backhaul exiting in the same building. This will result in a slight speed increase at GSG. (minimal or no downtime in August)
+October: Additional hardware at 111 8th POP and backhaul exiting in the same building. This will result in a slight speed increase at GSG. (minimal  downtime)
 
 
-**Microduct team**
-
-Daniel  
-John
-Christian  
-Armani  
-Joe Moser  
-Andy Bee  
-
-**Install Leaders**
-Christian
-Armani
-Joe Moser
+**Fiber Install Leaders**
+Brian
 
 
