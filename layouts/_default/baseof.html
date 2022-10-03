@@ -23,6 +23,7 @@
         {{ if ne .Page.File.TranslationBaseName "join" }}
         {{ partial "alert" . }}
         {{ end }}
+        {{ partial "google-translate" . }}
         {{ partial "header" . }}
         {{ block "main" . }}
         {{ end }}
