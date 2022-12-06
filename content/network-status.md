@@ -2,6 +2,10 @@
 title: "Network status"
 aliases: [/status/]
 ---
+2022-12-6
+
+10:00am Fixed an alignment problem with our 1971 hub "Two Bridges". This should improve bandwidth for the 7 buildings connected
+
 2022-7-27
 
 1:00am Connection was restored to 410 Grand Street. 
