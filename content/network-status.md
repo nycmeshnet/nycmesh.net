@@ -2,6 +2,10 @@
 title: "Network status"
 aliases: [/status/]
 ---
+2022-12-8
+
+12:00 noon Grand Street is switching back to the fiber link today after successfully running on the backup link for the last day. The fiber outage was due to a break in the fiber in the street in midtown, which our fiber provider fixed overnight. There may be a minute or two of downtime as we get the link back up again. This should only affect Lower East Side buildings.
+
 2022-12-6
 
 10:00am Fixed an alignment problem with our 1971 hub "Two Bridges". This should improve bandwidth for the 7 buildings connected
