@@ -4,14 +4,15 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-6:40pm Oct 24, 2022
+2:40pm Oct 31, 2022
 
 **Apartment installs**
 
-121 active installs
+125 active installs
 
-74 410,131 
-47 460  
+77: 410,131  
+
+48: 460  
 
 **Floors with raceway fiber**
 
@@ -27,16 +28,16 @@ Fiber was reconnected on Sept 7th
 
 *Ethernet-*
 
-Speeds are now typically around 800 Mbps down, 500 Mbps up  
+Speeds are now typically around 800 Mbps down, 750 Mbps up  
 
 Recent test-  
-Ethernet: https://www.speedtest.net/result/13266074878
+Ethernet: https://www.speedtest.net/result/13877309108
 
 *Wifi-*
 
 New installs using the new Ubiquiti WiFi6 ONT, combined fiber and wifi router, with speeds close to 700Mbps.  
 
-15 of these WiFi6 devices installed so far
+20 of these WiFi6 devices installed so far
 
 Recent WiFi test-  
 https://www.speedtest.net/result/13830952296
