@@ -2,6 +2,10 @@
 title: "Network status"
 aliases: [/status/]
 ---
+2022-12-28
+
+10am our Ave A hub is currently down and will be rebooted very soon
+
 2022-12-8
 
 12:00 noon Grand Street is switching back to the fiber link today after successfully running on the backup link for the last day. The fiber outage was due to a break in the fiber in the street in midtown, which our fiber provider fixed overnight. There may be a minute or two of downtime as we get the link back up again. This should only affect Lower East Side buildings.
