@@ -4,7 +4,7 @@ aliases: [/status/]
 ---
 2022-12-28
 
-10am our Ave A hub is currently down and will be rebooted very soon
+10am to 12:30 Our Ave A hub was down and is running again after a reboot
 
 2022-12-8
 
