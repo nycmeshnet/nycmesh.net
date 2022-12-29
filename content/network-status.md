@@ -4,6 +4,10 @@ aliases: [/status/]
 ---
 2022-12-28
 
+9:50pm There is a problem at Supernode3 in Brooklyn affecting bandwidth in that area. We are working on solving this.
+
+2022-12-28
+
 10am to 12:30 Our Ave A hub was down and is running again after a reboot
 
 2022-12-8
