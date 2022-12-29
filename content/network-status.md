@@ -4,7 +4,7 @@ aliases: [/status/]
 ---
 2022-12-28
 
-9:50pm There is a problem at Supernode3 in Brooklyn affecting bandwidth in that area. We are working on solving this.
+9:50pm to 1am There was a problem at Supernode3 in Brooklyn affecting bandwidth in that area. We have resolved this.
 
 2022-12-28
 
