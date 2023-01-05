@@ -4,7 +4,7 @@ aliases: [/status/]
 ---
 2023-1-5
 
-12:35am There is an outage at Supernode1. We are looking into it now.
+12:35am There was a 5 minutes outage at Supernode1. It is working fine now
 
 2022-12-28
 
