@@ -2,6 +2,10 @@
 title: "Network status"
 aliases: [/status/]
 ---
+2023-1-5
+
+12:35am There is an outage at Supernode1. We are looking into it now.
+
 2022-12-28
 
 9:50pm to 1am There was a problem at Supernode3 in Brooklyn affecting bandwidth in that area. We have resolved this.
