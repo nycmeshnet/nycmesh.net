@@ -4,15 +4,15 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-8:10pm Jan 13, 2023
+7:20pm Jan 22, 2023
 
 **Apartment installs**
 
-139 active installs
+141 active installs
 
 83: 410,131  
 
-56: 460  
+58: 460  
 
 **Floors with raceway fiber**
 
@@ -35,7 +35,7 @@ Ethernet: https://www.speedtest.net/result/13877309108
 
 New installs using the new Ubiquiti WiFi6 ONT, combined fiber and wifi router, with speeds close to 700Mbps.  
 
-32 WiFi6 devices installed so far
+39 WiFi6 devices installed so far
 
 Recent WiFi test-  
 https://www.speedtest.net/result/13830952296
