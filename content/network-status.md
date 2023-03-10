@@ -4,7 +4,7 @@ aliases: [/status/]
 ---
 2023-3-10
 
-Due to a hardware problem, bandwidth is very limited today. We are working on this!
+Due to a hardware problem with VPN, bandwidth is very limited for some locations today. We are working on this! 
 
 2023-1-5
 
