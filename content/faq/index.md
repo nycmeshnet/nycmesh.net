@@ -14,6 +14,7 @@ title: "Frequently asked questions"
 
 -   [How do I sign up?](#signup)
 -   [Is there a cost to join?](#cost)
+-   [Can we connect a whole building?](#building)
 -   [I heard that NYC Mesh is free Internet. Is that true?](#free)
 -   [What are my obligations as an NYC Mesh community member?](#obligations)
 -   [How can I volunteer? What if I don’t know anything about networking?](#volunteer)
@@ -179,9 +180,15 @@ NYC Mesh welcomes people with diverse skill sets and from all backgrounds. Many 
 
 ### <a name="neighbors"></a>I have neighbors who would also like to join NYC Mesh. Can we get connected together?
 
-Yes! We prioritize installs for entire buildings and set up high-bandwidth point-to-point connections with dedicated hardware. If your building would like this dedicated service please email us, reach out to us on [Slack](https://slack.nycmesh.net), send us an email at install@nycmesh.net or call us directly at (646) 727-0866.
+Yes! We prioritize installs for multiple apartments, and we can set up high-bandwidth point-to-point connections with dedicated hardware. If your building would like this dedicated service please email us, reach out to us on [Slack](https://slack.nycmesh.net), send us an email at install@nycmesh.net or call us directly at (646) 727-0866.
 
 <font size="3"> <a href="#top">&#8598; Back to top</a> </font>
+
+### <a name="building"></a>Can we connect an entire building?
+
+<font size="3"> <a href="#top">&#8598; Back to top</a> </font>
+
+Yes! We will work with your management company, construction company, coop board or tenant association to make connecting your entire building easier. See our [Building Install](../building) page.
 
 ### <a name="id"></a>Do I need to provide identification to join NYC Mesh?
 
