@@ -2,6 +2,10 @@
 title: "Network status"
 aliases: [/status/]
 ---
+2023-3-10
+
+Due to a hardware problem, bandwidth is very limited today. We are working on this!
+
 2023-1-5
 
 12:35am There was a 5 minutes outage at Supernode1. It is working fine now
