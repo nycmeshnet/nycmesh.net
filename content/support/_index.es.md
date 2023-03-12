@@ -11,3 +11,4 @@ Algo no esta funcionando? Sigue estos pasos para arreglarlo:
 3. Llena el formulario de pedido de soporte abajo!
 
 Para DIY (hazlo-usted-mismo) puede llenar el formulario y tambien preguntar en [Slack](https://slack.nycmesh.net/) en el canal de #diy-install-support, o revisar nuestra [documentación](https://docs.nycmesh.net/) (inglés) para resolver el problema usted misme.
+

@@ -2,6 +2,10 @@
 title: "Network status"
 aliases: [/status/]
 ---
+2023-3-12
+
+There are planned hardware upgrades and maintenance this week. We will try to do this early in the morning to minimize impact. There may also be periods of lower bandwidth. Today there was a short outage while we replaced some equipment at Supernode 3. Sorry about that!
+
 2023-3-10
 
 Due to a hardware problem with VPN, bandwidth is very limited for some locations today. We are working on this! 
