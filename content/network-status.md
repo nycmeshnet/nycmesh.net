@@ -2,6 +2,15 @@
 title: "Network status"
 aliases: [/status/]
 ---
+
+2023-3-13
+
+We are still upgrading the network. If you have any problem at all please fill in a support ticket immediately. This will help us a lot!
+
+https://www.nycmesh.net/support
+
+1:30pm fixed a problem at SN1 which was resulting in slow download speeds in Manhattan
+
 2023-3-12
 
 There are planned hardware upgrades and maintenance this week. We will try to do this early in the morning to minimize impact. There may also be periods of lower bandwidth. Today there was a short outage while we replaced some equipment at Supernode 3. Sorry about that!
