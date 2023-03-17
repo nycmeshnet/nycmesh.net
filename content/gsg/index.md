@@ -4,15 +4,15 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-7:20pm Jan 22, 2023
+2:00pm March 17, 2023
 
 **Apartment installs**
 
-141 active installs
+146 active installs
 
-83: 410,131  
+87: 410,131  
 
-58: 460  
+59: 460  
 
 **Floors with raceway fiber**
 
