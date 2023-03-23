@@ -3,6 +3,10 @@ title: "Network status"
 aliases: [/status/]
 ---
 
+2023-3-23
+
+2:00pm There was a one hour problem that affected downtown Manhattan bandwidth. Sorry about that. Ot is now fixed.
+
 2023-3-13
 
 We are still upgrading the network. If you have any problem at all please fill in a support ticket immediately. This will help us a lot!
