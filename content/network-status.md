@@ -2,6 +2,9 @@
 title: "Network status"
 aliases: [/status/]
 ---
+2023-3-25
+
+We are planning an upgrade at a data center this afternoon. This will result in higher bandwidth for a large part of the Mesh! Hopefully there will be minimal interupptions while we switch over!
 
 2023-3-23
 
