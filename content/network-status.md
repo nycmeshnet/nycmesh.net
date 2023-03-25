@@ -8,7 +8,7 @@ We are planning an upgrade at a data center this afternoon. This will result in 
 
 2023-3-23
 
-2:00pm There was a one hour problem that affected downtown Manhattan bandwidth. Sorry about that. Ot is now fixed.
+2:00pm There was a one hour problem that affected downtown Manhattan bandwidth. Sorry about that. It is now fixed.
 
 2023-3-13
 
