@@ -4,7 +4,7 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-11:06am March 24, 2023
+8:32pm March 25, 2023
 
 **Apartment installs**
 
@@ -26,10 +26,10 @@ Fiber was reconnected on Sept 7th
 
 *Ethernet-*
 
-Speeds are now typically around 800 Mbps down, 750 Mbps up  
+Speeds are now typically around 900 Mbps down, 750 Mbps up  
 
-Recent test-  
-Ethernet: https://www.speedtest.net/result/13877309108
+Recent ethernet test-  
+https://www.speedtest.net/result/14527726621
 
 *Wifi-*
 
@@ -50,9 +50,9 @@ Fiber from 131 Broome to 111 8th POP, exit via VPN to DataVerge Brooklyn (SN3)
 - Gigabit wireless to 375 Pearl (SN1)
 - 10 Gigabit wireless (Siklu) to 303 Vernon
 
-**Planned upgrades**
+**Recent upgrades**
 
-October: Additional hardware at 111 8th POP and backhaul exiting in the same building. This will result in a slight speed increase at GSG. (minimal  downtime)
+March 25: Additional hardware has been added at 111 8th POP and backhaul is now exiting in the same building. This has resulted in a speed increase at GSG, with no downtime.
 
 
 **Fiber Install Leaders**

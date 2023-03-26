@@ -4,7 +4,9 @@ aliases: [/status/]
 ---
 2023-3-25
 
-We are planning an upgrade at a data center this afternoon. This will result in higher bandwidth for a large part of the Mesh! Hopefully there will be minimal interupptions while we switch over!
+2:30pm We finished the major upgrade at 111 8th Ave, resulting in increased speed and reliability across our network!
+
+1:00pm We are planning an upgrade at a data center this afternoon. This will result in higher bandwidth for a large part of the Mesh.
 
 2023-3-23
 
