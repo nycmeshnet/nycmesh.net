@@ -20,7 +20,7 @@ title: "Grand Street Guild"
 
 **Fiber cut to 410**
 
-Fiber was reconnected on Sept 7th
+Fiber was reconnected on Sept 7th 2022, still awaiting insurance payment.
 
 **Recent apartment speed tests**
 
@@ -33,17 +33,16 @@ https://www.speedtest.net/result/14527726621
 
 *Wifi-*
 
-New installs using the new Ubiquiti WiFi6 ONT, combined fiber and wifi router, with speeds close to 700Mbps.  
+New installs using the new Ubiquiti WiFi6 ONT, combined fiber ONT and wifi router, with speeds close to 700Mbps.  
 
-39 WiFi6 devices installed so far
+56 WiFi6 devices installed so far
 
 Recent WiFi test-  
-https://www.speedtest.net/result/13830952296
 https://www.speedtest.net/result/13730130631
 
 **Active Backhaul**
 
-Fiber from 131 Broome to 111 8th POP, exit via VPN to DataVerge Brooklyn (SN3)
+Fiber from 131 Broome to 111 8th POP exiting in building. DE-CIX IXP and Pilot transit
 
 **Backup connections**
 
@@ -52,7 +51,7 @@ Fiber from 131 Broome to 111 8th POP, exit via VPN to DataVerge Brooklyn (SN3)
 
 **Recent upgrades**
 
-March 25: Additional hardware has been added at 111 8th POP and backhaul is now exiting in the same building. This has resulted in a speed increase at GSG, with no downtime.
+March 25, 2023: Additional hardware has been added at 111 8th POP and backhaul is now exiting in the same building. This has resulted in a speed increase at GSG, with no downtime.
 
 
 **Fiber Install Leaders**
