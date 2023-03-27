@@ -5,7 +5,9 @@ aliases: [/status/]
 
 2023-3-27
 
-16:30   PH hub is experiencing a power outage. We are working to fix it. Stay tunned. 
+10:10   PH hub is experiencing a power outage. We are working to fix it. Stay tunned. 
+
+12:25   PH is back online. You should have your connection restored.
 
 2023-3-25
 
