@@ -2,6 +2,11 @@
 title: "Network status"
 aliases: [/status/]
 ---
+
+2023-3-27
+
+16:30   PH up is experiencing a power outage. We are working to fix it. Stay tunned. 
+
 2023-3-25
 
 2:30pm We finished the major upgrade at 111 8th Ave, resulting in increased speed and reliability across our network!
