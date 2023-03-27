@@ -5,7 +5,7 @@ aliases: [/status/]
 
 2023-3-27
 
-16:30   PH up is experiencing a power outage. We are working to fix it. Stay tunned. 
+16:30   PH hub is experiencing a power outage. We are working to fix it. Stay tunned. 
 
 2023-3-25
 
