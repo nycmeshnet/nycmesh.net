@@ -4,15 +4,24 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-8:32pm March 25, 2023
+11:00pm April 4, 2023
 
 **Apartment installs**
 
-151 active installs
+153 active installs
 
-90: 410,131  
+91: 410,131  
 
-61: 460  
+62: 460  
+
+
+**APS in the laundries**
+
+As of April 1, 2023, 131 has operational AP in the laundry. 410 and 460 have APs installed, but are waiting for a fiber splice.
+
+**Computers in the Community Center**
+
+We are configuring two computers for the community center. These will have direct fiber connections and speeds of around 3 gigabits. They should be ready around April 18, 2023
 
 **Floors with raceway fiber**
 
@@ -35,7 +44,7 @@ https://www.speedtest.net/result/14527726621
 
 New installs using the new Ubiquiti WiFi6 ONT, combined fiber ONT and wifi router, with speeds close to 700Mbps.  
 
-56 WiFi6 devices installed so far
+58 WiFi6 devices installed so far
 
 Recent WiFi test-  
 https://www.speedtest.net/result/13730130631
@@ -46,16 +55,21 @@ Fiber from 131 Broome to 111 8th POP exiting in building. DE-CIX IXP and Pilot t
 
 **Backup connections**
 
-- Gigabit wireless to 375 Pearl (SN1)
-- 10 Gigabit wireless (Siklu) to 303 Vernon
+- Gigabit wireless to 375 Pearl (SN1)  
+- 10 Gigabit wireless (Siklu) to 303 Vernon. 
 
 **Recent upgrades**
 
 March 25, 2023: Additional hardware has been added at 111 8th POP and backhaul is now exiting in the same building. This has resulted in a speed increase at GSG, with no downtime.
 
 
-**Fiber Install Leaders**
+**Fiber Install Leaders**  
+
 Marco
+
+
+
+
 
 
 
