@@ -3,6 +3,10 @@ title: "Network status"
 aliases: [/status/]
 ---
 
+2023-4-6
+
+12:00pm We have repaired a fiber that goes to floors 2 through 7 of 410 Grand Street. Sorry about the short outage. Everything should be good now!
+
 2023-3-27
 
 10:10   PH hub is experiencing a power outage. We are working to fix it. Stay tunned. 
