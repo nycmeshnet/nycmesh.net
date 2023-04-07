@@ -4,28 +4,28 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-11:00pm April 4, 2023
+4:00pm April 7, 2023
 
-**Apartment installs**
+**Apartment installs (active)**
 
-153 active installs
+154
 
-91: 410,131  
+92: 410,131  
 
 62: 460  
 
 
-**APS in the laundries**
+**Laundry installs (active)**
 
-As of April 1, 2023, 131 has operational AP in the laundry. 410 and 460 have APs installed, but are waiting for a fiber splice.
+3
+
+As of April 6, 2023, 131, 410 and 460 laundries have APs installed and working.
 
 **Computers in the Community Center**
 
 We are configuring two computers for the community center. These will have direct fiber connections and speeds of around 3 gigabits. They should be ready around April 18, 2023
 
-**Floors with raceway fiber**
-
-75/75
+All floor raceways and fiber have been completed
 
 **Fiber cut to 410**
 
@@ -44,7 +44,7 @@ https://www.speedtest.net/result/14527726621
 
 New installs using the new Ubiquiti WiFi6 ONT, combined fiber ONT and wifi router, with speeds close to 700Mbps.  
 
-58 WiFi6 devices installed so far
+59 WiFi6 devices installed so far
 
 Recent WiFi test-  
 https://www.speedtest.net/result/13730130631
