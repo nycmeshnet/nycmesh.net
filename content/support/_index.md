@@ -1,6 +1,9 @@
 [Solicitar soporte técnico en español](/es/support)
 
+For subscription or donation problems go to [nycmesh.net/payquery](../payquery)
+
 **To reach a person or leave a voicemail, call 646-926-3747**
+
 
 Is something not working right? Here’s how you can fix it:
 

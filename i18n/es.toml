@@ -1,5 +1,7 @@
 [request-support]
   other = 'Solicitud de Soporte Técnico'
+[payrequest]
+  other = 'Soporte para donaciones y suscripciones'
 
 [name]
   other = 'nombre'

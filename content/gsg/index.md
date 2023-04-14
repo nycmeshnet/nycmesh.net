@@ -4,22 +4,22 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-4:00pm April 7, 2023
+4:00pm April 14, 2023
 
 **Apartment installs (active)**
 
-154
+157
 
-92: 410,131  
+93: 410,131  
 
-62: 460  
+64: 460  
 
 
 **Laundry installs (active)**
 
-3
+2
 
-As of April 6, 2023, 131, 410 and 460 laundries have APs installed and working.
+As of April 14, 2023, 131 and 460 laundries have APs installed and working. 410 Laundry is waiting on a new AP
 
 **Computers in the Community Center**
 

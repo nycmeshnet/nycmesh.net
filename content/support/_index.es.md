@@ -1,5 +1,6 @@
 **Para comunicarse con una persona o dejar un mensaje de voz, llame al 646-926-3747**
 
+Para problemas de suscripción o donación vaya a [nycmesh.net/payquery](../payquery)
 
 Algo no esta funcionando? Sigue estos pasos para arreglarlo:
 
