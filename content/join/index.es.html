@@ -53,7 +53,7 @@ description: "Conéctese a Internet"
  <div class="flex">
     <div class="w-100">
       <label for="address" class="mt3 f6 fw6 db">
-        Dirección completa
+        Dirección completa con código postal
       </label>
       <span id="address-error" class="dn red f5">Elija una dirección del menú desplegable.</span>
       <input
@@ -63,6 +63,7 @@ description: "Conéctese a Internet"
         name="entry.214227195"
         placeholder=""
         minlength="14"
+	pattern=".{10,}\d{5}"
         class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2 mt2"
       />
     </div>
@@ -120,6 +121,8 @@ description: "Conéctese a Internet"
   </div>
 </form>
 <script>
+  return // not working so disabling for now! Check field IDs
+
   var autocomplete, place;
   var addressInput = document.getElementById("address");
   function initMap() {
@@ -153,5 +156,5 @@ description: "Conéctese a Internet"
     }
   }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNClp7oJsw-eleEoR3-PQKV23tpeW-FpE&libraries=places&callback=initMap"
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkBIy80YVhu7nYjVweruALNkpgFKquIEw&libraries=places&callback=initMap"
 async defer></script>
