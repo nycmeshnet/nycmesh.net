@@ -3,6 +3,10 @@ title: "Network status"
 aliases: [/status/]
 ---
 
+The network is running very well at the moment! 
+
+If you are having any problems at all, please go to [nycmesh.net/support](../support) so we can quickly fix it!
+
 2023-4-6
 
 12:00pm We have repaired a fiber that goes to floors 2 through 7 of 410 Grand Street. Sorry about the short outage. Everything should be good now!
