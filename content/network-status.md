@@ -3,9 +3,13 @@ title: "Network status"
 aliases: [/status/]
 ---
 
-The network is running very well at the moment! 
 
 If you are having any problems at all, please go to [nycmesh.net/support](../support) so we can quickly fix it!
+
+2023-4-18
+
+3:15 am (started) the exit via sn1 is not working which seems to have an effect on the DNS server as well. If you are connected to SN1, henry or 1971 (twobridges), exiting via SN1, your service is out for the time being. 
+For the others it should be working with maybe some DNS issues. You can adjust your DNS address if needed or post on slack #support and we can check for you. 
 
 2023-4-6
 
