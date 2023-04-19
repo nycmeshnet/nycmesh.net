@@ -6,6 +6,10 @@ aliases: [/status/]
 
 If you are having any problems at all, please go to [nycmesh.net/support](../support) so we can quickly fix it!
 
+2023-4-19
+
+5:40pm We just fixed a problem with a slow connection affecting some people on the Lower East Side. You should be back to normal speeds now!
+
 2023-4-18
 
 3:15 am (started) the exit via sn1 is not working which seems to have an effect on the DNS server as well. If you are connected to SN1, henry or 1971 (twobridges), exiting via SN1, your service is out for the time being. 
