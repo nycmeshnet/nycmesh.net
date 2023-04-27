@@ -4,13 +4,13 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-7:30pm April 25, 2023
+4:00pm April 27, 2023
 
 **Apartment installs (active)**
 
 158
 
-94: 410,131  
+94: 410, 131  
 
 64: 460  
 
@@ -18,13 +18,11 @@ title: "Grand Street Guild"
 
 Two community room computers were added on April 25th
 
-These have very fast fiber connections currently 3 gigabits per second (3000 Mbps)
+These have very fast fiber connections, currently 3 gigabits per second (3000 Mbps)
 
 **Laundry installs (active)**
 
-131, 410
-
-(460 offline needs reboot)
+131, 410, 460
 
 **Computers in the Community Center**
 
