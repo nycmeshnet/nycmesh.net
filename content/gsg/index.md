@@ -4,22 +4,27 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-4:00pm April 14, 2023
+7:30pm April 25, 2023
 
 **Apartment installs (active)**
 
-157
+158
 
-93: 410,131  
+94: 410,131  
 
 64: 460  
 
+**Community room computers**
+
+Two community room computers were added on April 25th
+
+These have very fast fiber connections currently 3 gigabits per second (3000 Mbps)
 
 **Laundry installs (active)**
 
-2
+131, 410
 
-As of April 14, 2023, 131 and 460 laundries have APs installed and working. 410 Laundry is waiting on a new AP
+(460 offline needs reboot)
 
 **Computers in the Community Center**
 
