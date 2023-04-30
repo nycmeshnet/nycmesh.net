@@ -3,6 +3,7 @@ title: "Network status"
 aliases: [/status/]
 ---
 
+We are experiencing slow connections this weekend. We are working on this!
 
 If you are having any problems at all, please go to [nycmesh.net/support](../support) so we can quickly fix it!
 
