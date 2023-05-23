@@ -4,15 +4,15 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-4:00pm April 27, 2023
+2:00pm May 23, 2023
 
 **Apartment installs (active)**
 
-158
+162
 
-94: 410, 131  
+96: 410, 131  
 
-64: 460  
+66: 460  
 
 **Community room computers**
 
@@ -32,7 +32,7 @@ All floor raceways and fiber have been completed
 
 **Fiber cut to 410**
 
-Fiber was reconnected on Sept 7th 2022, still awaiting insurance payment.
+Fiber was reconnected on Sept 7th 2022, insurance payment has been received
 
 **Recent apartment speed tests**
 
