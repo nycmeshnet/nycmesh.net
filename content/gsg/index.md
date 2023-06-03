@@ -8,11 +8,11 @@ title: "Grand Street Guild"
 
 **Apartment installs (active)**
 
-162
+165
 
 98: 410, 131  
 
-67: 465  
+67: 460  
 
 **Community room computers**
 
