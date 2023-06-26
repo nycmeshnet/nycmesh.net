@@ -4,15 +4,15 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-1:00pm June 3, 2023
+11:00am June 26, 2023
 
 **Apartment installs (active)**
 
-165
+168
 
-98: 410, 131  
+100: 410, 131  
 
-67: 460  
+68: 460  
 
 **Community room computers**
 
