@@ -3,7 +3,9 @@ title: "Network status"
 aliases: [/status/]
 ---
 
-We are experiencing slow connections this weekend. We are working on this!
+2023-7-12
+
+5:00pm Our Ave A hub has power problem. We are looking at this now. This affects some people in the East Village above 7th Street
 
 If you are having any problems at all, please go to [nycmesh.net/support](../support) so we can quickly fix it!
 
