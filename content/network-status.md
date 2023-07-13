@@ -5,7 +5,7 @@ aliases: [/status/]
 
 2023-7-12
 
-5:00pm Our Ave A hub has power problem. We are looking at this now. This affects some people in the East Village above 7th Street
+5:00pm Our Ave A hub has power outage. We are waiting for the building to fix this, hopefully tonight. This affects some people in the East Village above 7th Street
 
 If you are having any problems at all, please go to [nycmesh.net/support](../support) so we can quickly fix it!
 
