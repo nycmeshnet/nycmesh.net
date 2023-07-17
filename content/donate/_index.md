@@ -21,6 +21,7 @@ MicroOffice Office space for entrepreneurs
 
 ### Individual Donors
 
+Laine Kendall  
 Rohan Singh  
 Willem Boning  
 Scott Rasmussen  
