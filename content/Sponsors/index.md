@@ -42,6 +42,7 @@ Corporate Donors
 ---
 Individual Donors
 ---
+Laine Kendall
 Rohan Singh  
 Willem Boning  
 Scott Rasmussen  
