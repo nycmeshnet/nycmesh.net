@@ -11,8 +11,9 @@ title: "Grand Street Guild"
 
 Total installed: 198
 
-Unenrolled: 26  
+
 Active: 172  
+Unenrolled: 26  
 
 
 102: 410, 131,  70: 460  
