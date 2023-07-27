@@ -4,22 +4,26 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-3:23pm July 12, 2023
+9:00 pm July 26, 2023
 
 
-**Apartment installs (active)**
+**Apartment installs**
 
-170
+Total installed: 198
 
-100: 410, 131,  70: 460  
+Unenrolled: 26
+Active: 172
+
+
+102: 410, 131,  70: 460  
 
 **Total active installs**
 
-181
+183
 
 2 community computers
 9 access points (outdoor, community, laundry)
-170 apartments
+172 apartments
 
 
 **Community room computers**
