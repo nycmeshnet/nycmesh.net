@@ -3,6 +3,10 @@ title: "Network status"
 aliases: [/status/]
 ---
 
+2023-8-4
+
+5:00pm Our SN3 Supernode in Brookly is currently having problems with our transit connection due to ConEd work. We have almost resolved this problem with backup connections. ConEd work is due to be completed by 8pm tomorrow (Saturday)
+
 2023-7-13
 
 9:00am Ave A now has backup power so it is functioning normally. 
