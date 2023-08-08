@@ -17,6 +17,6 @@ If you can get 50 or more apartments to sign we will do a fiber install and we c
 
 For new buildings we will work with construction companies and architects to plan and run cables during construction. We are working on a few new buildings at the moment.
 
-Here is a [presentation about building installs}(http://bit.ly/NYCMesh-presentation)
+Here is a [presentation about building installs](http://bit.ly/NYCMesh-presentation)
 
 [Email us with your questions!](mailto:building@nycmesh.net?subject=Building-Install)
