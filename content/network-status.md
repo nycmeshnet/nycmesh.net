@@ -3,6 +3,12 @@ title: "Network status"
 aliases: [/status/]
 ---
 
+2023-8-11
+
+At 12:40am on 8/11/2023 we experienced a power supply failure at our SN3 datacenter. Due to limited power availability, the antenna for Sunset Park Hub (Node 231) is currently offline. This outage affects all nodes connected via Sunset Park Hub.
+We are working to get a volunteer on site to restore power and expect to have to situation resolved before the end of the day.
+
+
 2023-8-4
 
 8:00pm backup connection is now functioning well. If you are having any problems at all, please go to [nycmesh.net/support](../support) so we can quickly fix it!
