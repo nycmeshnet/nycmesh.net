@@ -12,17 +12,17 @@ Total installed: 210
 Active installs: 180  
 Unenrolled: 30  
 
-410: 75
-460: 51
-131: 54
+410: 75   
+460: 51   
+131: 54   
 
 **Total active installs**
 
 191
 
-2 community computers
-9 access points (outdoor, community, laundry)
-180 apartments
+2 community computers   
+9 access points (outdoor, community, laundry)   
+180 apartments   
 
 
 **Community room computers**
@@ -41,9 +41,13 @@ We are configuring two computers for the community center. These will have direc
 
 All floor raceways and fiber have been completed
 
-**Fiber cut to 410**
+**Fiber bypass August 2023**
 
-Fiber was reconnected on Sept 7th 2022, insurance payment has been received
+We have bypassed the conduit that runs between the buildings so it can be rebuilt.
+
+460 is connected via fiber over light poles. 
+
+410 is connected wirelessly to 460 and has its own OLT server mounted on the roof panel on site.
 
 **Recent apartment speed tests**
 
