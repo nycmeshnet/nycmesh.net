@@ -4,17 +4,17 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-9:00 pm Sept 5, 2023
+3:00 pm Sept 28, 2023
 
 **Apartment installs**
 
 Total installed: 210   
-Active installs: 180  
+Active installs: 185  
 Unenrolled: 30  
 
-410: 75   
-460: 51   
-131: 54   
+460: 76   
+410: 54   
+131: 55   
 
 **Total active installs**
 
