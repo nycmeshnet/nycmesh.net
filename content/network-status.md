@@ -3,6 +3,10 @@ title: "Network status"
 aliases: [/status/]
 ---
 
+2023-10-4
+
+10:00am We are currently working on a problem at our Henry Street Hub. This is affecting some connections on the Lower East Side
+
 2023-9-29
 
 Heavy rain has been causing problems in Brooklyn. We are sorry about this! 
