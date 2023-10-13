@@ -3,6 +3,16 @@ title: "Network status"
 aliases: [/status/]
 ---
 
+2023-10-4
+
+10:00am We are currently working on a problem at our Henry Street Hub. This is affecting some connections on the Lower East Side
+
+2023-9-29
+
+Heavy rain has been causing problems in Brooklyn. We are sorry about this! 
+
+Longer term we are upgrading equipment and adding leased fiber to eliminate this problem.
+
 2023-8-11
 
 At 12:40am on 8/11/2023 we experienced a power supply failure at our SN3 datacenter. Due to limited power availability, the antenna for Sunset Park Hub (Node 231) is currently offline. This outage affects all nodes connected via Sunset Park Hub.
