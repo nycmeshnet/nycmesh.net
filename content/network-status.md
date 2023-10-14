@@ -3,6 +3,8 @@ title: "Network status"
 aliases: [/status/]
 ---
 
+# For more updates, go to https://status.mesh.nycmesh.net
+
 2023-10-4
 
 10:00am We are currently working on a problem at our Henry Street Hub. This is affecting some connections on the Lower East Side
