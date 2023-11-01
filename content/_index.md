@@ -3,7 +3,7 @@ title: "NYC Mesh"
 description: "Join our community-owned network"
 images: ["/img/3d.png"]
 alertTitle: "Network status updates"
-alertURL: "/network-status"
+alertURL: "https://status.mesh.nycmesh.net/"
 ---
 
 ## Join our community network!

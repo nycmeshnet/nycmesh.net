@@ -3,6 +3,10 @@ title: "Network status"
 aliases: [/status/]
 ---
 
+<meta http-equiv="Refresh" content="0; url='https://status.mesh.nycmesh.net/'" />
+
+Redirecting to the [new network status page](https://status.mesh.nycmesh.net/)
+
 2023-10-4
 
 10:00am We are currently working on a problem at our Henry Street Hub. This is affecting some connections on the Lower East Side
