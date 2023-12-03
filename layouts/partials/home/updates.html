@@ -1,74 +1,77 @@
-<section id="updates" class="bg-near-white pt4-ns pt3 pb5 ph4-ns ph3">
-    <div class="measure-wide-m mw8-l center">
-      <div class="flex flex-row-l flex-wrap mhn3">
-      <!-- Blog -->
-      <div class="w-25-l w-50-m ph3 overflow-auto mb0-l mb4">
-          <h2 class="fw5 f4">
-            <a href="/blog" class="blue">
-                <u>Blog</u>
-            </a>
+<section id="updates" class="bg-near-white pt4-ns pt3 ph4-ns ph3">
+  <div class="measure-wide-m mw8-l center bb b--moon-gray pb5">
+    <div class="flex flex-row-l flex-wrap mhn4">
+    <!-- Blog -->
+    <div class="w-30-l w-50-m ph4 overflow-auto mb0-l mb4">
+        <div class="flex items-center justify-between">
+            <h2 class="dark-gray fw6 f4">
+            Blog
           </h2>
-        <ul class="list pa0 ma0">
-          {{ range first 4 (where .Data.Pages "Section" "blog") }}
-            <li class=" mb4 mb-last-0">
-              <time class="silver lh-title db mb1">
-                {{ .Date.Format "January 2, 2006" }}
-              </time>
-              <a href="{{ .RelPermalink }}" class="fw5 no-underline lh-title">
-                  {{ .Title }}
-              </a>
-            </li>
-          {{ end }}
-        </ul>
-      </div>
-
-      <!-- Press -->
-       <div class="w-25-l w-50-m ph3 overflow-auto mb0-l mb4">
-        <h2 class="fw5 f4">
-          <a href="/press" class="blue">
-            <u>Press</u>
-          </a>
-        </h2>
-        <ul class="list pa0 ma0">
-          {{ range first 3 (where .Data.Pages "Section" "press") }}
-            <li class="mb4 mb-last-0">
-              <p class="silver lh-title mt0 mb1">
-                {{ .Params.Publication }}
-              </p>
-              <a href="{{ .Params.Link }}" class="fw5 no-underline lh-title">
+          <a href="/blog">See all</a>
+        </div>
+      <ul class="list pa0 ma0">
+        {{ range first 4 (where .Site.RegularPages "Section" "blog") }}
+          <li class=" mb3 mb-last-0">
+            <time class="gray lh-title db mb1 f6">
+              {{ .Date.Format "January 2, 2006" }}
+            </time>
+            <a href="{{ .RelPermalink }}" class="fw5 no-underline lh-title dark-gray">
                 {{ .Title }}
-              </a>
-            </li>
-          {{ end }}
-        </ul>
-      </div>
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
 
-      <!-- Presentations -->
-      <div class="w-50-l w-100 ph3">
-        <h2 class="fw5 f4">
-          <a href="/presentations" class="blue">
-            <u>Presentations</u>
-          </a>
+    <!-- Press -->
+     <div class="w-30-l w-50-m ph4 overflow-auto mb0-l mb4">
+      <div class="flex items-center justify-between">
+        <h2 class="dark-gray fw6 f4">
+          Press
         </h2>
-        <ul class="flex list pa0 mv0 man2">
-          {{ range first 2 (where .Data.Pages "Section" "presentations") }}
-            <li class="mt1 w-50-ns w-100 pa2 mb2">
-                  <a class="db " href="{{ .Params.Link }}">
-                    <div class="aspect-ratio aspect-ratio--16x9 mb2">
-                <div class="aspect-ratio--object cover bg-center cover" style="background:url({{ .Params.Image }}) center;">
-                </div>
-            </div>
-                  </a>
-                  <a href="{{ .Params.Link }}" class="db mb1 fw5 no-underline lh-title">
-                    {{ .Title }}
-                  </a>
-                  <time class="silver lh-title">
-                    {{ .Date.Format "January 2, 2006" }}
-                  </time>
-                </li>
-          {{ end }}
-        </ul>
+        <a href="/press">See all</a>
       </div>
+      <ul class="list pa0 ma0">
+        {{ range first 3 (where .Site.RegularPages "Section" "press") }}
+          <li class="mb3 mb-last-0">
+            <span class="gray lh-title db mb1 f6">
+              {{ .Params.Publication }}
+            </span>
+            <a href="{{ .Params.Link }}" class="fw5 no-underline lh-title dark-gray">
+              {{ .Title }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+
+    <!-- Presentations -->
+    <div class="w-40-l w-100 ph4">
+      <div class="flex items-center justify-between">
+          <h2 class="dark-gray fw6 f4">
+          Presentations
+        </h2>
+        <a href="/presentations">See all</a>
+      </div>
+      <ul class="flex list pa0 mv0 man2">
+        {{ range first 2 (where .Site.RegularPages "Section" "presentations") }}
+          <li class="mt1 w-50-ns w-100 pa2 mb2">
+                <a class="db " href="{{ .Params.Link }}">
+                  <div class="aspect-ratio aspect-ratio--16x9 mb2">
+              <div class="aspect-ratio--object cover bg-center cover" style="background:url({{ .Params.Image }}) center;">
+              </div>
+          </div>
+                </a>
+                <a href="{{ .Params.Link }}" class="db mb1 fw5 no-underline lh-title dark-gray">
+                  {{ .Title }}
+                </a>
+                <time class="gray lh-title db mb1 f6">
+                  {{ .Date.Format "January 2, 2006" }}
+                </time>
+              </li>
+        {{ end }}
+      </ul>
     </div>
   </div>
+</div>
 </section>

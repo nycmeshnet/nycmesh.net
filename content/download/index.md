@@ -2,6 +2,8 @@
 title: "Order, Download and Flash"
 ---
 
+**This page is outdated. We are not installing new NanoStations. Please see [our docs](https://docs.nycmesh.net) for our latest instructions.** 
+
 Please read our [FAQ](/faq) if you haven't already.
 
 **Join the mesh**  
@@ -9,23 +11,20 @@ First you need to enter a [new node request](/join). This will add your router t
 
 To connect to the supernode, please [contact us](mailto:install@nycmesh.net) and we will advise. This usually uses a LiteBeamAC or NanoBeamAC. Configuration info is [here](https://docs.nycmesh.net/installs/cpe).
 
-To setup a rooftop to rooftop connection you can use two NanoStation M5s. You can also just set up a public access point and aim it towards the street. It is best to figure out exactly what kind of connection you are making before proceeding. Chat with us first to make sure.
+To setup a rooftop to rooftop connection we now use [Mikrotik Omnitiks](https://docs.nycmesh.net/hardware/mikrotikomnitik5ac/)
 
-**Order a router**
+**Our network started with NanoStation M5s running OpenWrt firmware and we still have many of these running and maintained. It became difficult to keep up with hardware changes and people have reported it as impossible to install OpenWrt on the newest models. These instructions are left here for people who want to experiment or maintain older hardware. Please see [our docs](https://docs.nycmesh.net) for our latest instructions.** 
 
-*   Ubiquiti NSM5 directional 5GHz (~$90 including tax)
+To join two rooftops you can use two NanoStation M5s. You can also just set up a public access point and aim it towards the street. It is best to figure out exactly what kind of connection you are making before proceeding. Chat with us first to make sure.
+
 
 **For Supernode connections you need a different router (usually LiteBeamAC)**
 
-Buy on Amazon:  
-[Ubiquiti NanoStation NSM5](https://www.amazon.com/dp/B0049AVWAO/?tag=nsm5-nycmesh-20)
-
-Buy at B&H: (free delivery)  
-[Ubiquiti NanoStation NSM5](http://www.bhphotovideo.com/c/product/1049768-REG/)
+## Old instructions for NanoStation NSM5
 
 **Download the firmware and flash your router**
 
-**NanoStation NSM5 instructions**
+**Legacy NanoStation NSM5 instructions**
 
 If you want to connect to a public access point, such as a Link NYC kiosk, there is no need to flash the router. Just follow [these instructions](/blog/public-access-points/).
 
