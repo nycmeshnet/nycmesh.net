@@ -131,25 +131,22 @@ svg {
 @media screen and (max-width: 40em) {
   .dropdown-content {
     display: none;
-    align-items: start;
+    /* align-items: center; */
     position: fixed;
-    z-index: 9999 !important;
+    z-index: 9998;
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
     padding-top: 4rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
     /*background-color: white;*/
     flex-direction: column;
-    font-size: 1.25rem;
-    font-weight: 400;
+    font-size: 2rem;
   }
 
   .dropdown-content a {
-    margin-bottom: 1rem;
-    margin-left: 0;
+      margin-bottom: 1rem;
+      margin-left: 0;
   }
 }
 
