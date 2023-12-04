@@ -105,13 +105,13 @@
 
 					<div class="flex">
 						<div class="w-100 flex flex-column">
-							<div class="w-100 h3 relative">
+							<div class="w-100 h5 relative">
 								<div class="absolute absolute--fill flex justify-between bb b--light-gray">
 									{{ range $i, $sequence :=  (seq $intervalCount) }}
 									<div class="br b--light-gray h-100"></div>
 									{{ end }} 
 								</div>
-								<svg class="absolute absolute--fill h-100 w-100 overflow-visible" viewBox="0 0 100 104" preserveAspectRatio="none">
+								<svg class="absolute absolute--fill h-100 w-100 overflow-hidden" viewBox="0 0 100 104" preserveAspectRatio="none">
 								  <path d="{{ $path }}"
 								        fill="rgba(255,59,48,0.125)"
 								        stroke="rgb(255,59,48)"
@@ -128,7 +128,7 @@
 						</div>
 
 						<!-- TODO: Move these to svg -->
-						<div class="flex flex-column h3 justify-between f7 near-black">
+						<div class="flex flex-column h5 justify-between f7 near-black">
 							<span class="w-100 tl gray pl1">
 								{{ lang.NumFmt 0 $activeTotal }}
 							</span>
@@ -156,13 +156,13 @@
 
 					<div class="flex">
 						<div class="w-100 flex flex-column">
-							<div class="w-100 h3 relative">
+							<div class="w-100 h5 relative">
 								<div class="absolute absolute--fill flex justify-between bb b--light-gray">
 									{{ range $i, $sequence :=  (seq $intervalCount) }}
 									<div class="br b--light-gray h-100"></div>
 									{{ end }} 
 								</div>
-								<svg class="absolute absolute--fill h-100 w-100 overflow-visible" viewBox="0 0 100 104" preserveAspectRatio="none">
+								<svg class="absolute absolute--fill h-100 w-100 overflow-hidden" viewBox="0 0 100 104" preserveAspectRatio="none">
 								  <path d="{{ $path2 }}"
 								        fill="rgba(170,170,170,0.125)"
 								        stroke="rgb(170,170,170)"
@@ -179,7 +179,7 @@
 						</div>
 
 						<!-- TODO: Move these to svg -->
-						<div class="flex flex-column h3 justify-between f7 near-black">
+						<div class="flex flex-column h5 justify-between f7 near-black">
 							<span class="w-100 tl gray pl1">
 								{{ lang.NumFmt 0 $requestTotal }}
 							</span>
