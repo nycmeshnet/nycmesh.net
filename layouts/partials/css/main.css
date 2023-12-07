@@ -212,6 +212,11 @@ svg {
   width: 1.25rem;
 }
 
+.mhn4 {
+  margin-left: -2rem;
+  margin-right: -2rem;
+}
+
 .man3 {
   margin: -1rem;
 }
@@ -277,16 +282,17 @@ svg {
 }
 
 .splash4 {
-  background-image: url("/img/splash9.jpg");
-  background-position: center 51%;
-  height: 20vh;
+  background-image: url("/img/splash1.jpg");
+  background-position: center 50%;
+  height: 8rem;
   background-color: #f5f5f5;
   background-size: cover;
 }
 
-@media screen and (min-width: 40rem) {
+@media screen and (min-height: 40rem) and (min-width: 60rem) {
   .splash4 {
-    height: 30vh;
+    background-position: center 50%;
+    height: 16rem;
   }
 }
 
@@ -401,4 +407,25 @@ ul li .check::before {
   min-width: 22rem;
   width: calc(((100% - 98rem) / 2) + 22rem);
   padding-left: calc((100% - 98rem) / 2);
+}
+
+/* Address Autocomplete */
+.pac-item {
+  height: 2rem;
+  padding-left: 0.5rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.pac-icon {
+  display: none;
+}
+
+.pac-item-query {
+  margin-right: 0.25rem;
+}
+
+.pac-matched {
+  /*background-color: /*papayawhip*/
 }

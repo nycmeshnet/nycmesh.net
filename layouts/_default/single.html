@@ -6,6 +6,9 @@
 			<h1 class="mv0 f3 fw7">
 				{{ .Title }}
 			</h1>
+			{{ if (.Params.toc) }}
+				{{.TableOfContents}}
+			{{end}}
 			{{ .Content }}
 		</div>
 	</div>

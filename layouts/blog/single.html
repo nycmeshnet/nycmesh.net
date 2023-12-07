@@ -1,4 +1,5 @@
 {{ define "main" }}
+<<<<<<< HEAD
 <main class="sans-serif bg-near-white pb5 ph4-ns ph3-m">
 	<div class="mw7 pv4 center flex justify-between items-center">
 		<a href="/blog" class="f2 gray fw2 mv0 link hover-dark-gray">Blog</a>
@@ -18,6 +19,31 @@
 				<p class="ma0 fw4 gray">
 					{{ .Params.author }} on {{ .Date.Format "January 2, 2006" }}
 				</p>
+=======
+<main class="bg-white">
+	<div class="splash-small cover"></div>
+	<div class="ph4-ns ph3 pv4">
+		<div class="lh-copy near-black f4 measure-wide center">
+			
+			<div class="mv3 mt3 flex items-center">
+				<img src='/img/authors/{{ .Params.Author }}.jpg' class="bg-light-gray h3 w3 br-pill mr3"></img>
+				<div>
+					<p class="ma0 fw4">
+						{{ .Params.author }}
+					</p>
+		            <time class="db f5 silver lh-title">
+		                {{ .Date.Format "January 2, 2006" }}
+		            </time>
+				</div>
+			</div>
+
+			<h1 href="{{.Permalink}}" class="mt0 f3 fw7">
+				{{ .Title }}
+			</h1>
+
+			<div class="f5">
+				{{ .Content }}
+>>>>>>> master
 			</div>
 		</div>
 

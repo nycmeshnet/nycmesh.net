@@ -15,29 +15,27 @@ input[type=number]::-webkit-outer-spin-button {
 
     <div  class="pt4">
       <h2 class="f4 fw6 tl">Thank you for installing a mesh node!</h2>
+      <h4>This is our $40/month installment plan. <a href="../pay">Click here for other options</a></h4>
     </div>
 
     <p>
-      The NYC Mesh total install cost of $290 is due on completion. <b>$240</b> covers the average cost of the equipment and the lead installer receives <b>$50</b> for expenses.
+       The NYC Mesh installment plan is $40 per month for six months. After six months it will switch to an optional $20 per month donation. 
 <br>
 <br>
-We also have subsidized and installment payment options:
-<br> Subsidized: <a href="../pay110">$160</a>
-<br> Installment: <a href="../pay40">$40/month</a>
+Please remember to pay the installer <b>$50</b>.
 <br>
 <br>
-Thank you for choosing to cover the full cost of equipment. 
-<br> Please remember to pay the installer <b>$50</b>.
+
     </p>
 
     <div class="flex items-center justify-between bt bb">
-      <p>Parts and Equipment</p>
+      <p>$40 Installment plan</p>
       <div class="flex items-center">
         <span class="mr0 db">$</span>
-        <span contenteditable="" onfocus="setAmount('custom')" id="custom"><b>240</b></span>
+        <span contenteditable=""  id="custom">40</span>
       </div>
     </div>
-    
+ <!--     
     <div class="mt2 mb3">
         <span class="f5 tl fw6 mv3 db">
           Please also subscribe me to a monthly donation:
@@ -70,15 +68,11 @@ Thank you for choosing to cover the full cost of equipment.
           </div>
         </form>
     </div>
-
+-->
     <div class="flex flex-column items-center-l items-start">
 
       <div  class="pt1 mt3-l mb3 mw5 f4">
-<<<<<<< HEAD
-        <input id="payButton" type="submit" value="Pay with card" class="input-reset bw0 w-100 fw5 br3 pa3 white bg-blue ph4 mr5 pointer">
-=======
-        <input id="payButton" type="submit" value="Pay $240 with card" class="input-reset bw0 w-100 fw5 br3 pa3 white bg-blue ph4 mr5 pointer">
->>>>>>> master
+        <input id="payButton" type="submit" value="Pay $40 with card" class="input-reset bw0 w-100 fw5 br3 pa3 white bg-blue ph4 mr5 pointer">
         </input>
       </div>
 
@@ -118,11 +112,14 @@ Thank you for choosing to cover the full cost of equipment.
     var amount = url.searchParams.get("a");
 
 
-    var donationAmount = amount * 100 || 24000
+    var donationAmount = amount * 100 || 4000
     
-    var subscriptionPlan = 'twenty-monthly'
-    var plan = url.searchParams.get("sub") || url.searchParams.get("s");
-    if (plan == 20) {
+    var subscriptionPlan = 'price_1HsgiQDFRH9HDwKHl9xKVqU3'
+
+<!--    
+  var plan = url.searchParams.get("sub") || url.searchParams.get("s");
+  
+  if (plan == 20) {
       let planId = 'twenty-monthly'
       document.getElementById(planId).checked = "checked"
       setSubscription(planId)
@@ -142,6 +139,7 @@ Thank you for choosing to cover the full cost of equipment.
       document.getElementById(planId).checked = "checked"
       setSubscription(undefined)
     }
+-->
 
     var donationType, customAmount;
     var customDonation = document.getElementById('custom');
@@ -215,7 +213,7 @@ Thank you for choosing to cover the full cost of equipment.
         handler = StripeCheckout.configure(stripeConfig);
         handler.open({
           name: 'NYC Mesh',
-          description: 'Donation',
+          description: '$40 installment plan',
           amount: donationAmount
         });
       }

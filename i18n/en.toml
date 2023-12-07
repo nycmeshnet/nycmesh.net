@@ -1,0 +1,37 @@
+[request-support]
+  other = 'Request Support'
+[payrequest]
+  other = 'Donation and Subscription Support'
+
+[name]
+  other = 'name'
+[your-name]
+  other = 'your name'
+
+[email]
+  other = 'email'
+[you-at-email-dot-com]
+  other = 'you@email.com'
+
+[if-you-have-one]
+  other = 'if you have one'
+
+[priority]
+  other = 'priority'
+[priority-low]
+  other = 'low'
+[priority-medium]
+  other = 'medium'
+[priority-high]
+  other = 'high'
+[priority-emergency]
+  other = 'emergency'
+
+[subject]
+  other = 'subject'
+[description]
+  other = 'description'
+[i-am-human]
+  other = 'I am human'
+[submit-request]
+  other = 'submit request'

@@ -1,4 +1,9 @@
 .DS_Store
 public
 resources/node-map
+<<<<<<< HEAD
 .hugo_build.lock
+=======
+/node_modules/
+.hugo_build.lock
+>>>>>>> master

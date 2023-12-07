@@ -6,8 +6,14 @@
 <div class="splash-small cover"></div>
 <div class="ph4-ns ph3">
   <div id="donation-amounts" class="measure-wide f5  dt w-100 f3 center bg-white black">
+<<<<<<< HEAD
     <div class="mh3 center pt4">
       <h1 class="f3 fw6 tl">Help fund our next hub!</h1>
+=======
+
+    <div  class="mh3 center pt4">
+      <h1 class="f3 fw6 tl">{{ .Description }}</h1>
+>>>>>>> master
       <p class="dark-gray lh-copy">We rely on donations to maintain the network.</p>
     </div>
     
@@ -22,7 +28,11 @@
           </div>
           <div class="w1">
           </div>
+<<<<<<< HEAD
           <div id="plan_FN3hkJAGUgYKpX" onclick="setAmount('plan_FN3hkJAGUgYKpX')" class="button  pa0 br0 ba b--moon-gray ph3 pv3 pointer hover-b--blue">
+=======
+          <div id="plan_FN3hkJAGUgYKpX" onclick="setAmount('plan_FN3hkJAGUgYKpX')" class="button  pa0 br0 ba b--blue bg-blue-50 ph3 pv3 pointer">
+>>>>>>> master
             <span class="ma0 fw4">$30</span>
           </div>
           <div class="w1">
@@ -45,9 +55,15 @@
 
     <div class="flex flex-column items-start">
 
+<<<<<<< HEAD
       <div class="pt1 mb3 f5 w-auto-ns w-100">
         <input id="payButton" type="submit" value="Donate with card" class="input-reset bw0 fw6 br2 pa3 white bg-blue ph4 w-auto-ns w-100 pointer">
         
+=======
+      <div  class="pt1 mb3 f5 w-auto-ns w-100">
+        <input id="payButton" type="submit" value="Donate with card" class="input-reset bw0 fw6 br2 pa3 white bg-blue ph4 w-auto-ns w-100 pointer">
+        </input>
+>>>>>>> master
       </div>
 
       <details>
@@ -58,9 +74,15 @@
           </p>
           and mailed to:
           <p class="b">
+<<<<<<< HEAD
             NYC Mesh<br>
             91 East 3rd St<br>
             apt 35<br>
+=======
+            NYC Mesh<br />
+            91 East 3rd St<br />
+            apt 35<br />
+>>>>>>> master
             New York, NY 10003
           </p>
       </details>
@@ -82,15 +104,21 @@
 
 
 
+<<<<<<< HEAD
 <div class="w-100 bg-white ph4-ns ph3">
   <div class="measure-wide center pv4">
+=======
+<div class="w-100 ph4-ns ph3">
+  <div class="measure-wide center pb4">
+>>>>>>> master
     {{ .Content }}
   </div>
 </div>
 
 
 <script>
-    var donationAmount, donationType, customAmount;
+    var donationAmount = "plan_FN3hkJAGUgYKpX";
+    var customAmount;
     var customDonation = document.getElementById('custom');
     customDonation.onkeypress = function(e) {
       const notNumber = e.which < 48 || e.which > 57
@@ -160,7 +188,7 @@
       key: 'pk_live_srTdi5OfErTSw5BGXqEkY9C1',
       image: '/img/logo.svg',
       locale: 'auto',
-      zipCode: true,
+      billingAddress: true,
       token: token
     }
 
@@ -185,18 +213,18 @@
           amount: 2000
         });
 
+      else if (donationAmount == 'plan_FN3hkJAGUgYKpX')
+        handler.open({
+          name: 'NYC Mesh',
+          description: 'Monthly Donation',
+          amount: 3000
+        });
+
       else if (donationAmount == 'fifty-monthly')
         handler.open({
           name: 'NYC Mesh',
           description: 'Monthly Donation',
           amount: 5000
-        });
-
-      else if (donationAmount == 'hundred-monthly')
-        handler.open({
-          name: 'NYC Mesh',
-          description: 'Monthly Donation',
-          amount: 10000
         });
 
       else {

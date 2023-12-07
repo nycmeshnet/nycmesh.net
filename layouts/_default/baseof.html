@@ -18,6 +18,7 @@
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
 </head>
+<<<<<<< HEAD
 <body class="helvetica" style="min-height: 100vh;">
     <div class="flex flex-column justify-between h-100">
         <div>
@@ -28,5 +29,19 @@
         </div>
         {{ partial "footer" . }}
     </div>
+=======
+<body class="helvetica flex flex-column justify-between" style="minHeight: 100vh">
+    <div>
+        {{ if ne .Page.File.TranslationBaseName "join" }}
+        {{ partial "alert" . }}
+        {{ end }}
+        {{ partial "header" . }}
+        {{ block "main" . }}
+        {{ end }}
+    </div>
+    {{ if ne .Page.File.TranslationBaseName "join" }}
+    {{ partial "footer" . }}
+    {{ end }}
+>>>>>>> master
 </body>
 </html>

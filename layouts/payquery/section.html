@@ -3,7 +3,7 @@
   <div class="measure-wide f5 dt w-100 f3 center bg-white black">
     <div class="pt3">
       <h2 class="f3 fw6 tl">
-        {{ i18n "request-support" }}
+        {{ i18n "payrequest" }}
       </h2>
     </div>
 
@@ -46,7 +46,7 @@
       <div class="flex">
         <div class="w-50 pr2">
         <label for="phone" class="mt3 f6 fw6 db mb2">
-          Phone Number
+          Phone
         </label>
         <input
           id="phone"
@@ -90,21 +90,18 @@
         </label>
         <select id="priority" name="entry.363817612">
           <option value="High">{{ i18n "priority-high" | title }}</option>
-          <option value="Low">{{ i18n "priority-low" | title }}</option>
-          <option value="Normal">{{ i18n "priority-medium" | title }}</option>
           <option value="Emergency">{{ i18n "priority-emergency" | title }}</option>
         </select>
       </div>
 
       <div>
-        <label for="subject" class="mt3 f6 fw6 db mb2">
-          {{ i18n "subject" | title }}
-        </label>
+   
         <input
           required
           id="subject"
           placeholder=""
-          type="text"
+          type="hidden"
+	  value="Subscription"
           name="entry.986833004"
           class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2"
         />
