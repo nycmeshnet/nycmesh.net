@@ -8,6 +8,6 @@ description: "Get Connected"
 
 For support [click here](../support)
 
-Or call us at 646-926-3747
+Or call us at **646-926-3747**
 
 

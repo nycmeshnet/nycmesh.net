@@ -4,50 +4,54 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-12:32am Oct 16, 2023
+6:30pm Jan 2, 2024
 
 **Apartment installs**
  
-Active installs: 187  
-Total installed: 212  
-Unenrolled: 30  
+Active apartment installs: 192  
 
-460: 77   
-410: 55   
-131: 55   
+460: 78   
+410: 58   
+131: 56   
 
 **Total active installs**
 
-191
-
 2 community computers   
 9 access points (outdoor, community, laundry)   
-187 apartments   
+192 apartments  
+
+213 Total 
+
+**Recent Installs**
+
+2023:  
+ Dec 27 410-26F
+ Dec 28 410-20E
+ Dec 28 460-15H
+ Dec 29 410-26
+ Dec 29 131-08F
+2024:
+ Jan 01 460-07C
+ Jan 01 131-08F
 
 
-**Community room computers**
+**Community room computers removed**
 
 Two community room computers were added on April 25th
 
-These have very fast fiber connections, currently 3 gigabits per second (3000 Mbps)
+These have been moved to 151 Mesh Room as requested by Catholic Charities. 
+
 
 **Laundry installs (active)**
 
 131, 410, 460
 
-**Computers in the Community Center**
 
-We are configuring two computers for the community center. These will have direct fiber connections and speeds of around 3 gigabits. They should be ready around April 18, 2023
-
-All floor raceways and fiber have been completed
+**All floor raceways and fiber have been completed**
 
 **Fiber bypass August 2023**
 
-We have bypassed the conduit that runs between the buildings so it can be rebuilt.
-
-460 is connected via fiber over light poles. 
-
-410 is connected wirelessly to 460 and has its own OLT server mounted on the roof panel on site.
+Fiber is now running as before through underground conduits. The fiber bypass has been removed and the POE sealed.
 
 **Recent apartment speed tests**
 
@@ -73,7 +77,6 @@ Fiber from 131 Broome to 111 8th POP exiting in building. DE-CIX IXP and Pilot t
 
 **Backup connections**
 
-- Gigabit wireless to 375 Pearl (SN1)  
 - 10 Gigabit wireless (Siklu) to 303 Vernon. 
 
 **Recent upgrades**
