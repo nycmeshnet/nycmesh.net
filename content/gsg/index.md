@@ -22,17 +22,18 @@ Active apartment installs: 192
 
 213 Total 
 
-**Recent Installs**
+**Past Week Installs (7)**
 
 2023:  
- Dec 27 410-26F
- Dec 28 410-20E
- Dec 28 460-15H
- Dec 29 410-26
- Dec 29 131-08F
-2024:
- Jan 01 460-07C
- Jan 01 131-08F
+ Dec 27 410-26F  
+ Dec 28 410-20E  
+ Dec 28 460-15H  
+ Dec 29 410-26C  
+ Dec 29 131-08F  
+
+2024:   
+ Jan 01 460-07C  
+ Jan 01 131-08F  
 
 
 **Community room computers removed**
