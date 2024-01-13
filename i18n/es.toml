@@ -1,17 +1,24 @@
 [request-support]
   other = 'Solicitud de Soporte Técnico'
+[payrequest]
+  other = 'Soporte para donaciones y suscripciones'
 
 [name]
   other = 'nombre'
 [your-name]
   other = 'su nombre'
+[phone]
+  other = 'Número de teléfono'
 
 [email]
   other = 'email'
 [you-at-email-dot-com]
-  other = 'usted@email.com'
+  other = 'usted@example.com'
+
 
 [if-you-have-one]
+  other = 'si tiene uno'
+[if-known]
   other = 'si tiene uno'
 
 [priority]

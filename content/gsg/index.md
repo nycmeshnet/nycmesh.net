@@ -4,59 +4,94 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-7:20pm September 30, 2022
+6:30pm Jan 2, 2024
 
 **Apartment installs**
+ 
+Active apartment installs: 192  
 
-110 active installs
+460: 78   
+410: 58   
+131: 56   
 
-37 131,  
-31 410,  
-42 460  
+**Total active installs**
 
-**Floors with raceway fiber**
+2 community computers   
+9 access points (outdoor, community, laundry)   
+192 apartments  
 
-74/75
+213 Total 
 
-460-6 is the only remaining floor
+**Past Week Installs (7)**
 
-**Fiber cut to 410**
+2023:  
+ Dec 27 410-26F  
+ Dec 28 410-20E  
+ Dec 28 460-15H  
+ Dec 29 410-26C  
+ Dec 29 131-08F  
 
-Fiber was reconnected on Sept 7th
+2024:   
+ Jan 01 460-07C  
+ Jan 01 131-08F  
+
+
+**Community room computers removed**
+
+Two community room computers were added on April 25th
+
+These have been moved to 151 Mesh Room as requested by Catholic Charities. 
+
+
+**Laundry installs (active)**
+
+131, 410, 460
+
+
+**All floor raceways and fiber have been completed**
+
+**Fiber bypass August 2023**
+
+Fiber is now running as before through underground conduits. The fiber bypass has been removed and the POE sealed.
 
 **Recent apartment speed tests**
 
 *Ethernet-*
 
-Speeds are now typically around 800 Mbps down, 500 Mbps up  
+Speeds are now typically around 900 Mbps down, 750 Mbps up  
 
-Recent test-  
-Ethernet: https://www.speedtest.net/result/13266074878
+Recent ethernet test-  
+https://www.speedtest.net/result/14527726621
 
 *Wifi-*
 
-New installs using the new Ubiquiti WiFi6 ONT, combined fiber and wifi router, with speeds close to 700Mbps.  
+New installs using the new Ubiquiti WiFi6 ONT, combined fiber ONT and wifi router, with speeds close to 700Mbps.  
 
-Five of these WiFi6 devices installed so far
+59 WiFi6 devices installed so far
 
-Recent test-  
-Wifi: https://www.speedtest.net/result/13730130631
+Recent WiFi test-  
+https://www.speedtest.net/result/13730130631
 
 **Active Backhaul**
 
-Fiber from 131 Broome to 111 8th POP, exit via VPN to DataVerge Brooklyn (SN3)
+Fiber from 131 Broome to 111 8th POP exiting in building. DE-CIX IXP and Pilot transit
 
 **Backup connections**
 
-- Gigabit wireless to 375 Pearl (SN1)
-- 10 Gigabit wireless (Siklu) to 303 Vernon
+- 10 Gigabit wireless (Siklu) to 303 Vernon. 
 
-**Planned upgrades**
+**Recent upgrades**
 
-October: Additional hardware at 111 8th POP and backhaul exiting in the same building. This will result in a slight speed increase at GSG. (minimal  downtime)
+March 25, 2023: Additional hardware has been added at 111 8th POP and backhaul is now exiting in the same building. This has resulted in a speed increase at GSG, with no downtime.
 
 
-**Fiber Install Leaders**
-Brian
+**Fiber Install Leaders**  
+
+Marco
+
+
+
+
+
 
 

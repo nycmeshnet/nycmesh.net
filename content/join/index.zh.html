@@ -53,7 +53,7 @@ description: "连接到互联网"
  <div class="flex">
     <div class="w-100">
       <label for="address" class="mt3 f6 fw6 db">
-        地址
+        带邮政编码的地址
       </label>
       <span id="address-error" class="dn red f5">请从下拉菜单中选择一个地址</span>
       <input
@@ -63,6 +63,7 @@ description: "连接到互联网"
         name="entry.214227195"
         placeholder=""
         minlength="14"
+	pattern=".{10,}\d{5}"
         class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2 mt2"
       />
     </div>
@@ -70,7 +71,7 @@ description: "连接到互联网"
 
 
     <div class="w-100">
-      <label for="email" class="f6 fw6 db mb2 mt3">
+      <label for="apartment" class="f6 fw6 db mb2 mt3">
         房子号码
       </label>
       <input
@@ -78,6 +79,18 @@ description: "连接到互联网"
         type="text"
         id="apartment"
         name="entry.290479075"
+        class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2" />
+    </div>
+
+    <div class="w-100">
+      <label for="referral" class="f6 fw6 db mb2 mt3">
+        推荐人：您是从哪里听说我们的？
+      </label>
+      <input
+        required
+        type="text"
+        id="referral"
+        name="entry.1698570874"
         class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2" />
     </div>
 
@@ -108,6 +121,8 @@ description: "连接到互联网"
   </div>
 </form>
 <script>
+  return // not working so disabling for now! Check field IDs
+
   var autocomplete, place;
   var addressInput = document.getElementById("address");
   function initMap() {
@@ -141,5 +156,5 @@ description: "连接到互联网"
     }
   }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNClp7oJsw-eleEoR3-PQKV23tpeW-FpE&libraries=places&callback=initMap"
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkBIy80YVhu7nYjVweruALNkpgFKquIEw&libraries=places&callback=initMap"
 async defer></script>

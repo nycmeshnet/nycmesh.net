@@ -2,6 +2,105 @@
 title: "Network status"
 aliases: [/status/]
 ---
+
+2023-10-4
+
+10:00am We are currently working on a problem at our Henry Street Hub. This is affecting some connections on the Lower East Side
+
+2023-9-29
+
+Heavy rain has been causing problems in Brooklyn. We are sorry about this! 
+
+Longer term we are upgrading equipment and adding leased fiber to eliminate this problem.
+
+2023-8-11
+
+At 12:40am on 8/11/2023 we experienced a power supply failure at our SN3 datacenter. Due to limited power availability, the antenna for Sunset Park Hub (Node 231) is currently offline. This outage affects all nodes connected via Sunset Park Hub.
+We are working to get a volunteer on site to restore power and expect to have to situation resolved before the end of the day.
+
+
+2023-8-4
+
+8:00pm backup connection is now functioning well. If you are having any problems at all, please go to [nycmesh.net/support](../support) so we can quickly fix it!
+
+5:00pm Our SN3 Supernode in Brooklyn is currently having problems with our transit connection due to ConEd work. We have almost resolved this problem with backup connections. ConEd work is due to be completed by 8pm tomorrow (Saturday)
+
+2023-7-13
+
+9:00am Ave A now has backup power so it is functioning normally. 
+
+2023-7-12
+
+5:00pm Our Ave A hub has a power outage. We are waiting for the building to fix this, hopefully tonight. This affects some people in the East Village above 7th Street
+
+2023-4-19
+
+5:40pm We just fixed a problem with a slow connection affecting some people on the Lower East Side. You should be back to normal speeds now!
+
+2023-4-18
+
+3:15 am (started) the exit via sn1 is not working which seems to have an effect on the DNS server as well. If you are connected to SN1, henry or 1971 (twobridges), exiting via SN1, your service is out for the time being. 
+For the others it should be working with maybe some DNS issues. You can adjust your DNS address if needed or post on slack #support and we can check for you. 
+
+7:15 am  Traffic has been rerouted. Service should be back. 
+
+
+2023-4-6
+
+12:00pm We have repaired a fiber that goes to floors 2 through 7 of 410 Grand Street. Sorry about the short outage. Everything should be good now!
+
+2023-3-27
+
+10:10   PH hub is experiencing a power outage. We are working to fix it. Stay tunned. 
+
+12:25   PH is back online. You should have your connection restored.
+
+2023-3-25
+
+2:30pm We finished the major upgrade at 111 8th Ave, resulting in increased speed and reliability across our network!
+
+1:00pm We are planning an upgrade at a data center this afternoon. This will result in higher bandwidth for a large part of the Mesh.
+
+2023-3-23
+
+2:00pm There was a one hour problem that affected downtown Manhattan bandwidth. Sorry about that. It is now fixed.
+
+2023-3-13
+
+We are still upgrading the network. If you have any problem at all please fill in a support ticket immediately. This will help us a lot!
+
+https://www.nycmesh.net/support
+
+1:30pm fixed a problem at SN1 which was resulting in slow download speeds in Manhattan
+
+2023-3-12
+
+There are planned hardware upgrades and maintenance this week. We will try to do this early in the morning to minimize impact. There may also be periods of lower bandwidth. Today there was a short outage while we replaced some equipment at Supernode 3. Sorry about that!
+
+2023-3-10
+
+Due to a hardware problem with VPN, bandwidth is very limited for some locations today. We are working on this! 
+
+2023-1-5
+
+12:35am There was a 5 minutes outage at Supernode1. It is working fine now
+
+2022-12-28
+
+9:50pm to 1am There was a problem at Supernode3 in Brooklyn affecting bandwidth in that area. We have resolved this.
+
+2022-12-28
+
+10am to 12:30 Our Ave A hub was down and is running again after a reboot
+
+2022-12-8
+
+12:00 noon Grand Street is switching back to the fiber link today after successfully running on the backup link for the last day. The fiber outage was due to a break in the fiber in the street in midtown, which our fiber provider fixed overnight. There may be a minute or two of downtime as we get the link back up again. This should only affect Lower East Side buildings.
+
+2022-12-6
+
+10:00am Fixed an alignment problem with our 1971 hub "Two Bridges". This should improve bandwidth for the 7 buildings connected
+
 2022-7-27
 
 1:00am Connection was restored to 410 Grand Street. 

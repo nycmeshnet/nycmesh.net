@@ -1,5 +1,7 @@
 [request-support]
   other = 'Request Support'
+[payrequest]
+  other = 'Donation and Subscription Support'
 
 [name]
   other = 'name'

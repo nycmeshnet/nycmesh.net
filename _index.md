@@ -3,7 +3,7 @@ title: "NYC Mesh"
 description: "Join our community-owned network"
 images: ["/img/3d.png"]
 alertTitle: "Network status updates"
-alertURL: "https://status.mesh.nycmesh.net/"
+alertURL: "/network-status"
 ---
 
 ## Join our community network!
@@ -15,8 +15,6 @@ alertURL: "https://status.mesh.nycmesh.net/"
 ### <a href="/volunteer" class="blue">Volunteer</a> to help build our network
 
 ### <a href="/donate" class="green">Donate</a> to help us expand
-
-### <a href="/building" class="orange">Connect your whole building</a> with our dedicated team
 
 The Internet is central to our lives, but in New York City far too many people don’t have access.
 
