@@ -4,34 +4,31 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-6:30pm Jan 2, 2024
+4:30pm Feb 6, 2024
 
 **Apartment installs**
  
-Active apartment installs: 192  
+Active apartment installs: 201  
 
-460: 78   
-410: 58   
-131: 56   
+460: 82   
+410: 61   
+131: 58   
 
 **Total active installs**
 
 2 community computers   
 9 access points (outdoor, community, laundry)   
-192 apartments  
+201 apartments  
 
-213 Total 
+212 Total 
 
-**Past Week Installs (7)**
-
-2023:  
- Dec 27 410-26F  
- Dec 28 410-20E  
- Dec 28 460-15H  
- Dec 29 410-26C  
- Dec 29 131-08F  
+**Past Month Installs (7)**
 
 2024:   
+ Jan 30 131-09H
+ Jan 29 460-07E
+ Jan 26 410-17G
+ Jan 24 
  Jan 01 460-07C  
  Jan 01 131-08F  
 
@@ -52,7 +49,7 @@ These have been moved to 151 Mesh Room as requested by Catholic Charities.
 
 **Fiber bypass August 2023**
 
-Fiber is now running as before through underground conduits. The fiber bypass has been removed and the POE sealed.
+Fiber is now running as before through underground conduits. The fiber bypass has been removed and the POE sealed. Invoice is still outstanding
 
 **Recent apartment speed tests**
 
@@ -67,7 +64,7 @@ https://www.speedtest.net/result/14527726621
 
 New installs using the new Ubiquiti WiFi6 ONT, combined fiber ONT and wifi router, with speeds close to 700Mbps.  
 
-59 WiFi6 devices installed so far
+118 WiFi6 devices installed so far
 
 Recent WiFi test-  
 https://www.speedtest.net/result/13730130631
@@ -79,6 +76,7 @@ Fiber from 131 Broome to 111 8th POP exiting in building. DE-CIX IXP and Pilot t
 **Backup connections**
 
 - 10 Gigabit wireless (Siklu) to 303 Vernon. 
+- 1 Gigabit wireless (AF24) to SN1
 
 **Recent upgrades**
 
