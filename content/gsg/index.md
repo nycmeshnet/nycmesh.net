@@ -25,14 +25,14 @@ Active apartment installs: 201
 **Past Month Installs (8)**
 
 2024:   
- Jan 30 131-09H
- Jan 29 460-07E
- Jan 26 410-17G
- Jan 24 460-03E
- Jan 17 410-20D
- Jan 05 460-06D
- Jan 04 131-08F
- Jan 02 460-07C
+ Jan 30 131-09H  
+ Jan 29 460-07E  
+ Jan 26 410-17G  
+ Jan 24 460-03E  
+ Jan 17 410-20D  
+ Jan 05 460-06D  
+ Jan 04 131-08F  
+ Jan 02 460-07C  
 
 **Community room computers removed**
 
