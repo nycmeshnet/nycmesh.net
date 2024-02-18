@@ -15,7 +15,7 @@ NYC Mesh may process network packet headers for traffic passing through the NYC 
 
 Non-anonymized data is never stored or logged for any longer than necessary to process the data for a purpose listed above.
 
-The NYC Mesh network is unencrypted, easy to join, and depends on donated resources such as internet, telecom links, and other networking components from individuals and third-party entities which are beyond the control of NYC Mesh. Therefore, traffic which exits the NYC Mesh network may be subject to external monitoring or recording at or beyond those network access points. 
+The NYC Mesh network depends on resources such as internet, telecom links, and other networking components from individuals and third-party entities which are beyond the control of NYC Mesh. Therefore, traffic which exits the NYC Mesh network may be subject to external monitoring or recording at or beyond those network access points. 
 
 ## Voluntarily Submitted Data and Data Transmission
 
