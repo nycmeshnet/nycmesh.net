@@ -6,6 +6,10 @@ title: "Grand Street Guild"
 
 7:00pm Feb 20, 2024
 
+Total apt installed 226
+Unenrolled 	     34
+Total active        202
+
 **Apartment installs**
  
 Active apartment installs: 202  

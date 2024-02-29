@@ -7,7 +7,7 @@
   other = 'nombre'
 [your-name]
   other = 'su nombre'
-[phone]
+[phone-number]
   other = 'Número de teléfono'
 
 [email]
