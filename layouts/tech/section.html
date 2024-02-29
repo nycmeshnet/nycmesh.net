@@ -1,0 +1,137 @@
+{{ define "main" }}
+<div class="ph4-ns ph3 pb5">
+  <div class="measure-wide f5 dt w-100 f3 center bg-white black">
+    <div class="pt3">
+      <h2 class="f3 fw6 tl">
+        {{ i18n "request-support" }}
+      </h2>
+    </div>
+
+    <div class="dark-gray">
+      {{ .Content }}
+    </div>
+
+    <br />
+
+    <form
+      action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfoLYGhTJEEevdr1ViJo0YZeyoDs0vkFumB6yO1lxdqEy6h1w/formResponse"
+      method="POST"
+      class="w-100 f5"
+    >
+      <div class="flex">
+        <div class="w-50 pr2">
+          <label for="name" class="f6 fw6 db mb2">{{ i18n "name" | title }}</label>
+          <input
+            id="name"
+            placeholder='{{ i18n "your-name" | title }}'
+            type="text"
+            name="entry.233009226"
+            class="border-box f5 input-reset black w-100 bg-white ba b--moon-gray pa2"
+          />
+        </div>
+
+        <div class="w-50 pl2">
+          <label for="email" class="f6 fw6 db mb2">Email</label>
+          <input
+            required
+            id="email"
+            placeholder='{{ i18n "you-at-email-dot-com" }}'
+            type="email"
+            name="entry.418562862"
+            class="border-box f5 input-reset  w-100 black bg-white ba b--moon-gray pa2"
+          />
+        </div>
+      </div>
+
+      <div class="flex">
+        <div class="w-50 pr2">
+        <label for="phone" class="mt3 f6 fw6 db mb2">
+          Phone Number
+        </label>
+        <input
+          id="phone"
+          placeholder="123 456 7890"
+          type="text"
+          name="entry.396858737"
+          class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2"
+        />
+      </div>
+
+       
+      </div>
+
+	<div>
+        <label for="address" class="mt3 f6 fw6 db mb2">
+          Address (include apartment and zip)
+        </label>
+        <input
+          id="address"
+          placeholder="123 Elm Street, New York, apt 1, 10000"
+          type="text"
+          name="entry.806573156"
+          class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2"
+        />
+      </div>
+
+      <div class="f5">
+        <label for="priority" class="mt3 f6 fw6 db mb2">
+          {{ i18n "priority" | title }}
+        </label>
+        <select id="priority" name="entry.363817612">
+          <option value="High">{{ i18n "priority-high" | title }}</option>
+          <option value="Low">{{ i18n "priority-low" | title }}</option>
+          <option value="Normal">{{ i18n "priority-medium" | title }}</option>
+          <option value="Emergency">{{ i18n "priority-emergency" | title }}</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="subject" class="mt3 f6 fw6 db mb2">
+          {{ i18n "subject" | title }}
+        </label>
+        <input
+          required
+          id="subject"
+          placeholder=""
+          type="text"
+          name="entry.986833004"
+          class="border-box f5 input-reset w-100 black bg-white ba b--moon-gray pa2"
+        />
+      </div>
+
+      <div>
+        <label for="description" class="mt3 f6 fw6 db mb2">
+          {{ i18n "description" | title }}
+        </label>
+        <textarea
+          required
+          id="description"
+          name="entry.1133068143"
+          minlength="10"
+          class="border-box f5 input-reset  w-100 black bg-white ba b--moon-gray pa2"
+        ></textarea>
+      </div>
+
+      <div class="flex items-center mv2">
+        <input required type="checkbox" id="ncl" name="human" />
+        <label for="ncl" class="mv0 ml2 mid-gray">
+          {{ i18n "i-am-human" | humanize }}
+        </label>
+      </div>
+
+      <div class="dn">
+        <label for="human2">Human</label>
+        <input type="text" name="human2" />
+      </div>
+
+      <div class="mw5 mt4">
+        <input
+          type="submit"
+          value='{{ i18n "submit-request" | humanize }}'
+          class="input-reset bw0 f5 fw6 br2 pa3 white bg-blue pointer"
+        />
+      </div>
+    </form>
+  </div>
+</div>
+{{ end }}
