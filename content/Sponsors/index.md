@@ -19,7 +19,7 @@ Corporate Donors
 
 <br>
 
-<img src="/sponsors/logo_Webair_494×158.png" alt="Webair" style="width:115px;"/> <code>&nbsp;&nbsp;</code> Managed Hosting solutions
+[<img src="/sponsors/Opti9-Full-Color-1024x243.png" alt="Opti9" style="width:115px;"/>](https://opti9tech.com) <code>&nbsp;&nbsp;</code> Managed Hosting solutions
 
 <br>
 
