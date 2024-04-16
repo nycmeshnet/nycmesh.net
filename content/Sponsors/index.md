@@ -15,7 +15,7 @@ Corporate Donors
 
 <br>
 
-<img src="/sponsors/logo_Packet_2106×764.png" alt="Packet" style="width:95px;"/> <code>&nbsp;&nbsp;&nbsp;&nbsp;</code> Cloud delivered on bare metal
+[<img src="/sponsors/packet.jpg" alt="Packet" style="width:95px;"/>](https://www.equinix.com) <code>&nbsp;&nbsp;&nbsp;&nbsp;</code> Cloud delivered on bare metal
 
 <br>
 
