@@ -1,6 +1,6 @@
 ---
 title: "Donate"
-description: "Help fund our next hub!"
+description: "Your donations power NYC Mesh!"
 aliases: ["/donation"]
 goal: 2650
 progress: 420
