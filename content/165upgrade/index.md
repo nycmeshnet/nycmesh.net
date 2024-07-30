@@ -6,7 +6,7 @@ allias: "/165upgrade"
 ---
 **Upgrades to faster service are available for members at 165 Broome St!**
 
-For a one time fee of 200$, we can upgrade your connection to support speeds of up to 2.5 gigabits per second.
+For a one time fee of $200, we can upgrade your connection to support speeds of up to 2.5 gigabits per second.
 
 Members will need to purchase and provide their own 2.5 gigabit capable router to take advantage of this upgraded connection.
 Because WiFi networks may not be able to provide the full speed, we recommend using a hardwired
@@ -20,7 +20,7 @@ Please reach out to our team via the "[Get Support](https://nycmesh.net/support)
 
 **Las actualizaciones a un servicio más rápido están disponibles para los miembros en 165 Broome St!**
 
-Por una tarifa única de 200$, podemos actualizar su conexión para admitir velocidades de hasta 2,5 gigabits por segundo.
+Por una tarifa única de $200, podemos actualizar su conexión para admitir velocidades de hasta 2,5 gigabits por segundo.
 
 Los miembros deberán comprar y proporcionar su propio enrutador con capacidad de 2,5 gigabits para aprovechar esta conexión mejorada.
 Debido a que es posible que las redes WiFi no puedan proporcionar la velocidad máxima, recomendamos utilizar una cableada para
