@@ -11,3 +11,10 @@ HUGO_VERSION = "0.69.0"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.69.0"
+
+# Test redirect /networking/*  to https://wiki.mesh.nycmesh.net/books/5-networking
+[[redirects]]
+  from = "/networking/*"
+  to = "https://wiki.mesh.nycmesh.net/books/5-networking"
+  status = 301
+  force = true
