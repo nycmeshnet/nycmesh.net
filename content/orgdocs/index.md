@@ -1,5 +1,6 @@
 ---
 title: "Org Docs"
+aliases: ["/orgdocs"]
 ---
 
 **NYC Mesh Inc. EIN: 84-2616395**
