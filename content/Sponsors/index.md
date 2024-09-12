@@ -37,7 +37,12 @@ Corporate Donors
 
 [<img src="/sponsors/andbox.jpg" alt="ANDBOX" style="width:95px;"/>](https://andbox.com)<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>New York’s first and leading esports organization
 
+<br>
 
+<div style="display:flex; align-items:center;">
+<a href=https://datadoghq.com>
+<img src="/sponsors/dd_logo_v_rgb.png" alt="Datadog" style="width:95px;"/></a><code>&nbsp;&nbsp;&nbsp;&nbsp;</code>Modern monitoring & security
+</div>
 
 ---
 Individual Donors
