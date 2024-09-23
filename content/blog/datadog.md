@@ -1,5 +1,5 @@
 ---
-title: "Administrating the Mesh. How we used Django, Postgres, and Datadog to build a powerful member database."
+title: "Administrating the Mesh: How we used Django, Postgres, and Datadog to build a powerful member database."
 images: ["/img/blog/700Jefferson_Photo_03_sm.jpg"]
 author: Willard
 date: "2024-09-16"
