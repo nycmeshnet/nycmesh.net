@@ -30,7 +30,7 @@ To address the challenges posed by our spreadsheet-based system, mesh volunteers
 
 We chose django because we wanted to build a system with a technology that was well understood and easy to get up to speed on. According to the [Stack Overflow Developer Survey](https://survey.stackoverflow.co/2024/technology/), Python is the #1 language for learning programming, and the #3 language used by professional developers.
 
-Building the application was a challenge, but with it has also come the challenge of deploying and operating microservices in a containerized environment. NYC Mesh is a community network with a heavy emphasis on DIY, so we run all of our own infrastructure on baremetal compute nodes that live in rented rackspace throughought New York City, on top of which we run Proxmox and virtualized kubernetes clusters. We built this using [infrastructure-as-code](https://github.com/nycmesh/k8s-infra) with Terraform and Ansible, which, though it was quite a learning exercise, has been an excellent way to manage our new project.
+Building the application was a challenge, but with it has also come the challenge of deploying and operating microservices in a containerized environment. NYC Mesh is a community network with a heavy emphasis on DIY, so we run all of our own infrastructure on bare metal compute nodes that live in rented rackspace throughout New York City, on top of which we run Proxmox and virtualized kubernetes clusters. We built this using [infrastructure-as-code](https://github.com/nycmesh/k8s-infra) with Terraform and Ansible, which, though it was quite a learning exercise, has been an excellent way to manage our new project.
 
 ## Observability 
 
@@ -41,7 +41,7 @@ But how do you keep an eye on a system like this? How do you ensure that you can
 ![Datadog APM Product](/img/datadog/apm.png)
 
 
-Datadog has an awesome suite of tools for monitoring web services. When installing Datadog to our k8s clusters with a few [Ansible tasks](https://github.com/nycmeshnet/k8s-infra/blob/main/ansible/roles/k8s-cluster-helm/tasks/main.yaml#L16-L44), we got k8s monitoring and logs basically for free, giving us deep insight into our clusters' health, and providing a centralized place to see our logs. From there, an extra afternoon of work got us detailed traces from MeshDB and its frontend microservice, Meshforms. The [Synthetics Product](https://docs.datadoghq.com/synthetics/) allowed us to create End-to-End (E2E) tests (without a signle line of code, I might add) for common volunteer tasks such as querying all of the installations in a building, sanity checking the consistency of data on the frontend, and, critically, ensuring that we can successfully ingest join requests. We can also monitor celery tasks with ease by creating monitors on the traces emitted by the pod.
+Datadog has an awesome suite of tools for monitoring web services. When installing Datadog to our k8s clusters with a few [Ansible tasks](https://github.com/nycmeshnet/k8s-infra/blob/main/ansible/roles/k8s-cluster-helm/tasks/main.yaml#L16-L44), we got k8s monitoring and logs basically for free, giving us deep insight into our clusters' health, and providing a centralized place to see our logs. From there, an extra afternoon of work got us detailed traces from MeshDB and its frontend microservice, Meshforms. The [Synthetics Product](https://docs.datadoghq.com/synthetics/) allowed us to create End-to-End (E2E) tests (without a single line of code, I might add) for common volunteer tasks such as querying all of the installations in a building, sanity checking the consistency of data on the frontend, and, critically, ensuring that we can successfully ingest join requests. We can also monitor celery tasks with ease by creating monitors on the traces emitted by the pod.
 
 Having everything in one place, interconnected, has enabled us to debug issues more quickly and confidently. For example, if we get alerted about a rejected join request, we can know if we logged it for later ingestion right away, and, through APM know what specific error was returned to the user, and trace down through our join form, through MeshDB, and into Postgres. With this, we know exactly what went wrong, and where to focus our attention.
 
@@ -53,7 +53,7 @@ With Datadog, _you_ can also see the status and health of NYC Mesh. Datadog has 
 
 ## Conclusion
 
-Datadog has proven to be a powerful solution that has quickly met our observability needs, and is adaptable to emergent requirements as we gain experinece with operating our new infrastructure. I've been thoroughly satisfied with Datadog's flexibility and ease of use, and am now confident enough in the system we've built to release it into the world.
+Datadog has proven to be a powerful solution that has quickly met our observability needs, and is adaptable to emergent requirements as we gain experience with operating our new infrastructure. I've been thoroughly satisfied with Datadog's flexibility and ease of use, and am now confident enough in the system we've built to release it into the world.
 
 ## See Also
 
