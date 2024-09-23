@@ -14,9 +14,9 @@ NYC Mesh had its 10th birthday this year! In that time, we have learned a lot ab
 
 NYC Mesh organizes its network into a web of Nodes. At each Node, you'll find a router, some equipment, the address it is installed at, and a member to whom it belongs. Each router has what we call a "Network Number" (NN), and each member is represented by an Install, which has an Install Number (Install #). This information is critical for coordinating installs, performing maintenance, and strategizing about how to expand the Mesh.
 
-![Diagram of a typical install](https://wiki.mesh.nycmesh.net/img/typicalInstall/diagram_lbeonly_textbottom.jpg)
+![Diagram of a typical install](/img/datadog/diagram.jpg)
 
-_Source: https://wiki.mesh.nycmesh.net/books/2-install-maintenance-guides/page/typical-installs_
+_Source: [https://wiki.mesh.nycmesh.net/books/2-install-maintenance-guides/page/typical-installs](https://wiki.mesh.nycmesh.net/books/2-install-maintenance-guides/page/typical-installs)_
 
 Historically, this was done with a system of carefully manicured spreadsheets, fed from a web form that took down the contact info of folks looking to join the mesh. What this would end up looking like, for example, would be the Install Number, as well as the member's contact info, address, and Network Number were compressed into a single row on a spreadsheet, with a supplementary spreadsheet to represent links between nodes.
 
@@ -24,7 +24,7 @@ From that spreadsheet we've invented a number of systems for tracking equipment 
 
 ## Enter MeshDB
 
-![MeshDB Admin Panel](https://wiki.mesh.nycmesh.net/uploads/images/gallery/2024-09/scaled-1680-/image.png)
+![MeshDB Admin Panel](/img/datadog/admin.png)
 
 To address the challenges posed by our spreadsheet-based system, mesh volunteers have been working hard over the last year or so to build a replacement for our system to store and access information about our members and nodes. The project is called [MeshDB](https://github.com/nycmeshnet/meshdb), a [Django](https://djangoproject.com/) app backed by [Postgres](https://www.postgresql.org/) designed to ingest new requests to join the mesh, track and manage the status of equipment installations, visualize our networking infrastructure, expose data for use in other projects via an API, and more, all from a flexible and scalable Web UI.
 
@@ -38,7 +38,7 @@ But how do you keep an eye on a system like this? How do you ensure that you can
 
 **The answer for us is Datadog!**
 
-![Datadog APM Product](https://wiki.mesh.nycmesh.net/uploads/images/gallery/2024-09/scaled-1680-/datadog1.png)
+![Datadog APM Product](/img/datadog/apm.png)
 
 
 Datadog has an awesome suite of tools for monitoring web services. When installing Datadog to our k8s clusters with a few [Ansible tasks](https://github.com/nycmeshnet/k8s-infra/blob/main/ansible/roles/k8s-cluster-helm/tasks/main.yaml#L16-L44), we got k8s monitoring and logs basically for free, giving us deep insight into our clusters' health, and providing a centralized place to see our logs. From there, an extra afternoon of work got us detailed traces from MeshDB and its frontend microservice, Meshforms. The [Synthetics Product](https://docs.datadoghq.com/synthetics/) allowed us to create End-to-End (E2E) tests (without a signle line of code, I might add) for common volunteer tasks such as querying all of the installations in a building, sanity checking the consistency of data on the frontend, and, critically, ensuring that we can successfully ingest join requests. We can also monitor celery tasks with ease by creating monitors on the traces emitted by the pod.
@@ -47,7 +47,7 @@ Having everything in one place, interconnected, has enabled us to debug issues m
 
 With Datadog, _you_ can also see the status and health of NYC Mesh. Datadog has an excellent collection of tools for creating dashboards, which are great for getting at-a-glance information about things like pod count, request volume, and latency. To show off how we use Datadog, we have created a public dashboard.
 
-![Public MeshDB Dashboard](https://wiki.mesh.nycmesh.net/uploads/images/gallery/2024-09/scaled-1680-/datadog2.png)
+![Public MeshDB Dashboard](/img/datadog/dashboard.png)
 
 [Click here](https://p.us5.datadoghq.com/sb/4614e554-06a1-11ef-b43a-da7ad0900005-ba514715f9683f103794ee705df1db95) to see the public dashboard for MeshDB!
 
