@@ -1,3 +1,7 @@
+---
+title: "Support"
+aliases: [/support/GrandStGuild]
+---
 [Solicitar soporte técnico en español](/es/support)
 
 For subscription or donation problems go to [nycmesh.net/payquery](../payquery)
