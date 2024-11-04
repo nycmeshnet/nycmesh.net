@@ -11,3 +11,10 @@ HUGO_VERSION = "0.69.0"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.69.0"
+
+[[redirects]]
+from = "/nn"
+to = "https://forms.nycmesh.net/nn-assign"
+status = 302
+force = true
+#redirect requests for /nn to MeshDB NN assignment page
