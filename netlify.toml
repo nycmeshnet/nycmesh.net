@@ -17,4 +17,11 @@ from = "/nn"
 to = "https://forms.nycmesh.net/nn-assign"
 status = 302
 force = true
-#redirect requests for /nn to MeshDB NN assignment page
+#redirect requests for nycmesh.net/nn to MeshDB NN assignment page
+
+[[redirects]]
+from = "/query"
+to = "https://forms.nycmesh.net/query"
+status = 302
+force = true
+#redirect requests for nycmesh.net/query to MeshDB NN assignment
