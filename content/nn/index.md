@@ -33,4 +33,4 @@ If you have the password you can assign a NN for an install number
   <input type="submit" value='Assign NN'>
 </form>
 
-For information about the NN system, please see [the Wiki Network Number page.](https://wiki.mesh.nycmesh.net/link/78#bkmrk-page-title)
+For information about the NN system, please see [the Wiki Network Number page.](https://wiki.nycmesh.net/link/78#bkmrk-page-title)
