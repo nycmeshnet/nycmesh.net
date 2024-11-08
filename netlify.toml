@@ -11,3 +11,27 @@ HUGO_VERSION = "0.69.0"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.69.0"
+
+[[redirects]]
+from = "/join"
+to = "https://forms.nycmesh.net/join"
+status = 302
+force = true
+
+[[redirects]]
+from = "/es/join"
+to = "https://forms.nycmesh.net/join"
+status = 302
+force = true
+
+[[redirects]]
+from = "/zh/join"
+to = "https://forms.nycmesh.net/join"
+status = 302
+force = true
+
+[[redirects]]
+from = "/connect"
+to = "https://forms.nycmesh.net/join"
+status = 302
+force = true
