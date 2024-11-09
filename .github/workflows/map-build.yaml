@@ -8,6 +8,10 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+  # Run every 10 minutes to fetch new map updates from the database and create an artifact with the new data
+  schedule:
+    - cron: "*/10 * * * *"
+
 # Default to bash
 defaults:
   run:
