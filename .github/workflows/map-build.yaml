@@ -49,6 +49,8 @@ jobs:
           hugo \
             --minify \
             --baseURL "https://map.nycmesh.net/"
+      - name: Build Map Payload
+        run: mkdir -p public/map/map/ && mv public/map/static/ public/map/map/static/
       - name: Publish map site build for map.nycmesh.net to fetch and host
         uses: actions/upload-artifact@v4
         with:
