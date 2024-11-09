@@ -1,4 +1,5 @@
-/map/nodes/*    /map   200
+/map            https://map.nycmesh.net/
+/map/nodes/*    https://map.nycmesh.net/nodes/:splat
 /data			/faq/#data
 /peering        https://docs.nycmesh.net/networking/peering/
 /youtube		https://www.youtube.com/channel/UC3FH_8A4SDtJbo5UWMhBteA
