@@ -1,7 +1,7 @@
 #! /bin/sh
 set -e
 rm -rf resources/node-map/
-git clone https://github.com/olivernyc/node-map resources/node-map
+git clone https://github.com/nycmeshnet/network-map resources/node-map
 cd resources/node-map
 npm run update-data
 npm install
