@@ -40,6 +40,8 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Update map
+        env:
+          STANDALONE_MAP_BUILD: true
         run: sh update-map.sh
       - name: Build with Hugo
         env:
