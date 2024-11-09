@@ -55,6 +55,7 @@ jobs:
           mv public/map/static/ public/map/map/static/
           mkdir -p public/map/img/
           mv public/img/map/ public/map/img/map/
+          mv public/favicon.ico public/map/favicon.ico
       - name: Publish map site build for map.nycmesh.net to fetch and host
         uses: actions/upload-artifact@v4
         with:
