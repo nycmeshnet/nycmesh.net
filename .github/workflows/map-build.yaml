@@ -54,3 +54,4 @@ jobs:
         with:
           name: map-site-build
           path: public/map/
+          retention-days: 7
