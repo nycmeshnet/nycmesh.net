@@ -2,7 +2,7 @@
 	<div class="ph4-ns ph3 pv5">
 		<div class="mw8 center flex flex-wrap f5">
 			<div class="w-20-l w-100 flex items-start justify-start mb0-l mb4">
-				<a href="/" title="Home" class="f4 fw7 black mb0-l mb3">
+				<a href="{{ absURL "/" }}" title="Home" class="f4 fw7 black mb0-l mb3">
                     <div class="h2 w2">
 	                    {{ partial "logo.svg" . }}
 	                </div>
@@ -13,10 +13,10 @@
 				<ul class="list ma0 pa0 flex flex-column items-start">
 					<li class="mv2"><a href="https://slack.nycmesh.net" class="link mid-gray">Slack</a></li>
 					<li class="mv2"><a href="https://meetup.com/nycmesh" class="link mid-gray">Meetup</a></li>
-					<li class="mv2"><a href="/volunteer" class="link mid-gray">Volunteer</a></li>
+					<li class="mv2"><a href="{{ absURL "/volunteer" }}" class="link mid-gray">Volunteer</a></li>
 					<li class="mv2"><a href="https://us9.campaign-archive.com/home/?u=cf667149616fd293afa115f5a&id=ebe72854f3" class="link mid-gray">Newsletter</a></li>
-					<li class="mv2"><a href="/blog" class="link mid-gray">Blog</a></li>
-					<li class="mv2"><a href="/coc" class="link mid-gray">Code of Conduct</a></li>
+					<li class="mv2"><a href="{{ absURL "/blog" }}" class="link mid-gray">Blog</a></li>
+					<li class="mv2"><a href="{{ absURL "/coc" }}" class="link mid-gray">Code of Conduct</a></li>
 				</ul>
 			</div>
 			<div class="w-20-l w-50 mb0-l mb4">
@@ -25,7 +25,7 @@
 					<li class="mv2"><a href="https://status.nycmesh.net" class="link mid-gray">Network Status</a></li>
 					<li class="mv2"><a href="https://stats.nycmesh.net" class="link mid-gray">Stats</a></li>
 					<li class="mv2"><a href="https://wiki.nycmesh.net/link/98#bkmrk-page-title" class="link mid-gray">Peering</a></li>
-					<li class="mv2"><a href="/sponsors" class="link mid-gray">Sponsors</a></li>
+					<li class="mv2"><a href="{{ absURL "/sponsors" }}" class="link mid-gray">Sponsors</a></li>
 				</ul>
 			</div>
 			<div class="w-20-l w-50 mb0-l">
@@ -34,10 +34,10 @@
 					<li class="mv2"><a href="https://wiki.nycmesh.net/books/introduction/page/frequently-asked-questions" class="link mid-gray">FAQ</a></li>
 					<li class="mv2"><a href="https://wiki.nycmesh.net" class="link mid-gray" target="_">Documentation (Wiki)</a></li>
 					<li class="mv2"><a href="https://los.nycmesh.net" class="link mid-gray" target="_">Line of Sight</a></li>
-					<li class="mv2"><a href="/presentations" class="link mid-gray">Presentations</a></li>
+					<li class="mv2"><a href="{{ absURL "/presentations" }}" class="link mid-gray">Presentations</a></li>
 					<li class="mv2"><a href="https://wiki.nycmesh.net/link/123#bkmrk-page-title" class="link mid-gray" target="_">Outreach</a></li>
-					<li class="mv2"><a href="/pay" class="link mid-gray" target="_">Install Payment</a></li>
-					<li class="mv2"><a href="/orgdocs" class="link mid-gray">Public Records</a></li>
+					<li class="mv2"><a href="{{ absURL "/pay" }}" class="link mid-gray" target="_">Install Payment</a></li>
+					<li class="mv2"><a href="{{ absURL "/orgdocs" }}" class="link mid-gray">Public Records</a></li>
 				</ul>
 			</div>
 			<div class="w-20-l w-50">

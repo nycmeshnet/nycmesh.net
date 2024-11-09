@@ -50,7 +50,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "https://map.nycmesh.net/"
+            --baseURL "https://nycmesh.net/"
       - name: Build Map Payload
         run:  |
           mkdir -p public/map/img/
