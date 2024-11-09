@@ -1,4 +1,4 @@
-/map            https://map.nycmesh.net/
+/map            https://map.nycmesh.net/    302!
 /map/nodes/*    https://map.nycmesh.net/nodes/:splat
 /data			/faq/#data
 /peering        https://docs.nycmesh.net/networking/peering/
