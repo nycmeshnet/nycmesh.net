@@ -11,7 +11,7 @@
 /panorama/1.7miles.png /img/1.7miles.png
 /network-status https://status.mesh.nycmesh.net
 /status https://status.mesh.nycmesh.net
-/join "https://forms.nycmesh.net/join"
-/es/join "https://forms.nycmesh.net/join"
-/zh/join "https://forms.nycmesh.net/join"
-/connect "https://forms.nycmesh.net/join"
+/join https://forms.nycmesh.net/join
+/es/join https://forms.nycmesh.net/join
+/zh/join https://forms.nycmesh.net/join
+/connect https://forms.nycmesh.net/join
