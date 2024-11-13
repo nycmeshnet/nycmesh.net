@@ -1,14 +1,15 @@
 /map            https://map.nycmesh.net/    302!
 /map/nodes/*    https://map.nycmesh.net/nodes/:splat
-/data			/faq/#data
-/peering        https://docs.nycmesh.net/networking/peering/
+/data			https://wiki.nycmesh.net/link/153#bkmrk-what-is-your-user-da
+/peering        https://wiki.nycmesh.net/link/98#bkmrk-page-title
 /youtube		https://www.youtube.com/channel/UC3FH_8A4SDtJbo5UWMhBteA
 /slack		https://slack.nycmesh.net/
-/leaflet	https://docs.nycmesh.net/organization/outreach/
-/blog/ethernet	https://docs.nycmesh.net/hardware/ethernet/
-/cpe	https://docs.nycmesh.net/hardware/config/#lbe-client
-/cpe2	https://docs.nycmesh.net/hardware/config/#lbe-client
-/docs	https://docs.nycmesh.net/
+/leaflet	https://wiki.nycmesh.net/link/123#bkmrk-page-title
+/blog/ethernet	https://wiki.nycmesh.net/link/56#bkmrk-page-title
+/cpe	https://wiki.nycmesh.net/link/58#bkmrk-litebeam-client-for-
+/cpe2	https://wiki.nycmesh.net/link/58#bkmrk-litebeam-client-for-
+/docs	https://wiki.nycmesh.net
 /panorama/1.7miles.png /img/1.7miles.png
 /network-status https://status.mesh.nycmesh.net
 /status https://status.mesh.nycmesh.net
+/faq https://wiki.nycmesh.net/link/153#bkmrk-page-title
