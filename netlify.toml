@@ -11,9 +11,3 @@ HUGO_VERSION = "0.69.0"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.69.0"
-
-[[redirects]]
-from = "/support/GrandStGuild"
-to = "/support/"
-status = 302
-force = true
