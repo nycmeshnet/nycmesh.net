@@ -1,7 +1,7 @@
 <header class="pa3 bg-white">
 	<div class="mw8 center w-100 flex items-center justify-between relative">
 		<div class="flex">
-                <a href="/" title="Home" class="f3-ns f4 fw7 black">
+                <a href="{{ absURL "/" }}" title="Home" class="f3-ns f4 fw7 black">
                     <div class="nowrap flex items-center">
                         <div class="h2 w2">
                             {{ partial "logo.svg" . }}
@@ -17,14 +17,14 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
         </div>
         <nav class="f5 flex items-center dropdown-content pointer-events-none bg-white">
-		<a href="/map" class="ml3-ns black pointer-events">Map</a>
-        <a href="https://wiki.mesh.nycmesh.net/books/introduction/page/frequently-asked-questions" class="ml3-ns black pointer-events">FAQ</a>
-        <a href="https://wiki.mesh.nycmesh.net" class="ml3-ns black pointer-events">Wiki</a>
-        <a href="/blog" class="ml3-ns black pointer-events">Blog</a>
+		<a href="https://map.nycmesh.net" class="ml3-ns black pointer-events">Map</a>
+        <a href="https://wiki.nycmesh.net/books/introduction/page/frequently-asked-questions" class="ml3-ns black pointer-events">FAQ</a>
+        <a href="https://wiki.nycmesh.net" class="ml3-ns black pointer-events">Docs/Wiki</a>
+        <a href="{{ absURL "/blog" }}" class="ml3-ns black pointer-events">Blog</a>
         <a href="https://nycmesh.creator-spring.com/" class="ml3-ns black pointer-events">Merch</a>
-        <a href="/support" class="ml3-ns black pointer-events green fw5">Get Support</a>
-        <a href="/donate" class="ml3-ns black pointer-events">Donate</a>
-        <a href="/join" class="ml3-ns black pointer-events blue fw5">Get Connected</a>
+        <a href="{{ absURL "/support" }}" class="ml3-ns black pointer-events green fw5">Get Support</a>
+        <a href="{{ absURL "/donate" }}" class="ml3-ns black pointer-events">Donate</a>
+        <a href="{{ absURL "/join" }}" class="ml3-ns black pointer-events blue fw5">Get Connected</a>
         </nav>
 	</div>
     <script>

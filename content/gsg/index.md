@@ -4,13 +4,13 @@ title: "Grand Street Guild"
 ---
 **Last updated**
 
-7:00pm Aug 22, 2024
+10:00pm Oct 8, 2024
  
-Active apartment installs: 221  
+Active apartment installs: 230  
 
 460: 87   
-410: 65   
-131: 69   
+410: 68   
+131: 75   
 
 **Total active installs**
 
@@ -64,7 +64,7 @@ Fiber from 131 Broome to 111 8th POP exiting in building. DE-CIX IXP and Pilot t
 
 **Planned upgrades**
 
-September 2024 we will be upgrading the router at 111 8th Ave which will help with multiple gigabit connections in the new 165 Broome Street buildings. 
+September 2024 we will be upgrading the router at 111 8th Ave which will help with multiple gigabit connections in the new 165 Broome Street building. 
 
 
 **Fiber Install Leaders**  
