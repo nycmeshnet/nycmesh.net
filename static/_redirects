@@ -13,3 +13,5 @@
 /network-status https://status.mesh.nycmesh.net
 /status https://status.mesh.nycmesh.net
 /faq https://wiki.nycmesh.net/link/153#bkmrk-page-title
+/nn https://forms.nycmesh.net/nn-assign 302!  #redirect /nn to MeshDB version of the page
+/query https://forms.nycmesh.net/query 302! #redirect /query to MeshDB version of the page
