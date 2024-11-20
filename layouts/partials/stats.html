@@ -1,0 +1,114 @@
+{{ $meshDBUrl := "https://db.nycmesh.net" }}
+
+<script>
+  fetch("{{ $meshDBUrl }}/website-embeds/stats-graph.json?data=active_installs&days={{ .Params.pastDays }}")
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('Error while fetching stats data');
+            }
+            return response.json();
+          })
+          .then(responseJson => {
+            const data = responseJson['data'];
+            const initial = data[0];
+            const total = data[data.length - 1];
+            document.getElementById("active-installs-total").innerText = total.toLocaleString();
+            document.getElementById("active-installs-increase").innerText = "+" + (100 * total / initial).toLocaleString() + "%";
+          })
+          .catch(error => {
+            console.error('There was a problem fetching the stats data:', error);
+          });
+  fetch("{{ $meshDBUrl }}/website-embeds/stats-graph.json?data=install_requests&days={{ .Params.pastDays }}")
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('Error while fetching stats data');
+            }
+            return response.json();
+          })
+          .then(responseJson => {
+            const data = responseJson['data'];
+            const initial = data[0];
+            const total = data[data.length - 1];
+            document.getElementById("install-requests-total").innerText = total.toLocaleString();
+            document.getElementById("install-requests-increase").innerText = "+" + (100 * total / initial).toLocaleString() + "%";
+          })
+          .catch(error => {
+            console.error('There was a problem fetching the stats data:', error);
+          });
+</script>
+
+<section class="ph4-ns ph3 pv4-l pv3 bg-near-white">
+  <div class="mw8 center ">
+    <div class="flex items-center justify-between">
+      <h1 class="mv0 f3 fw7">
+        {{ .Title }}
+      </h1>
+      <div>
+        <a href="/stats/1w"><span class="ml1 f6 {{ if eq .File.TranslationBaseName "1w" }}
+          fw7 black
+          {{ else }}
+          mid-gray
+          {{ end }}">1W</span></a>
+        <a href="/stats/4w"><span class="ml1 f6 {{ if eq .File.TranslationBaseName "4w" }}
+          fw7 black
+          {{ else }}
+          mid-gray
+          {{ end }}">4W</span></a>
+        <a href="/stats/1y"><span class="ml1 f6 {{ if eq .File.TranslationBaseName "1y" }}
+          fw7 black
+          {{ else }}
+          mid-gray
+          {{ end }}">1Y</span></a>
+        <a href="/stats"><span class="ml1 f6 {{ if eq .File.TranslationBaseName "_index" }}
+          fw7 black
+          {{ else }}
+          mid-gray
+          {{ end }}">ALL</span></a>
+      </div>
+    </div>
+    <div class="mv4-l mv3 shadow-card bg-white flex flex-wrap">
+      <article class="w-50-l w-100">
+        <div class="bg-white pa3">
+          <div class="mb3">
+            <h3 class="f5 fw6 mv0">Active Installs</h3>
+            <div class="mt1 flex items-center">
+              <h2 id="active-installs-total" class="f4 mv0 red">
+                -
+              </h2>
+              <span id="active-installs-increase"  class="percentBox mh2 br1 dark-green f7 fw7">
+								%
+							</span>
+            </div>
+          </div>
+
+          <div class="flex">
+            <div class="w-100 flex flex-column">
+              <img src="{{ $meshDBUrl }}/website-embeds/stats-graph.svg?data=active_installs&days={{ .Params.pastDays }}"/>
+            </div>
+          </div>
+      </article>
+
+      <article class="w-50-l w-100">
+        <div class="bg-white pa3">
+          <div class="mb3">
+            <h3 class="f5 fw6 mv0">Install Requests</h3>
+            <div class="mt1 flex items-center">
+              <h2 id="install-requests-total" class="f4 mv0 gray">
+                -
+              </h2>
+              <span id="install-requests-increase" class="percentBox mh2 br1 dark-green f7 fw7">
+								%
+							</span>
+            </div>
+          </div>
+
+          <div class="flex">
+            <div class="w-100 flex flex-column">
+              <img src="{{ $meshDBUrl }}/website-embeds/stats-graph.svg?data=install_requests&days={{ .Params.pastDays }}"/>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
