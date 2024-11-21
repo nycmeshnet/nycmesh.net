@@ -13,7 +13,7 @@
             const initial = data[0];
             const total = data[data.length - 1];
             document.getElementById("active-installs-total").innerText = total.toLocaleString();
-            document.getElementById("active-installs-increase").innerText = "+" + (100 * total / initial - 100).toLocaleString() + "%";
+            document.getElementById("active-installs-increase").innerText = "+" + Math.round(100 * total / initial - 100).toLocaleString() + "%";
           })
           .catch(error => {
             console.error('There was a problem fetching the stats data:', error);
@@ -30,7 +30,7 @@
             const initial = data[0];
             const total = data[data.length - 1];
             document.getElementById("install-requests-total").innerText = total.toLocaleString();
-            document.getElementById("install-requests-increase").innerText = "+" + (100 * total / initial - 100).toLocaleString() + "%";
+            document.getElementById("install-requests-increase").innerText = "+" + Math.round(100 * total / initial - 100).toLocaleString() + "%";
           })
           .catch(error => {
             console.error('There was a problem fetching the stats data:', error);
