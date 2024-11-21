@@ -1,4 +1,4 @@
-{{ $meshDBUrl := "http://127.0.0.1:8000" }}
+{{ $meshDBUrl := "https://db.nycmesh.net" }}
 
 <script>
   fetch("{{ $meshDBUrl }}/website-embeds/stats-graph.json?data=active_installs&days={{ .Params.pastDays }}")
