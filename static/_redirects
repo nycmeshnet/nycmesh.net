@@ -12,6 +12,10 @@
 /panorama/1.7miles.png /img/1.7miles.png
 /network-status https://status.mesh.nycmesh.net
 /status https://status.mesh.nycmesh.net
-/faq https://wiki.nycmesh.net/link/153#bkmrk-page-title
 /nn https://forms.nycmesh.net/nn-assign 302!  #redirect /nn to MeshDB version of the page
 /query https://forms.nycmesh.net/query 302! #redirect /query to MeshDB version of the page
+/join https://forms.nycmesh.net/join
+/es/join https://forms.nycmesh.net/es/join/
+/zh/join https://forms.nycmesh.net/zh/join/
+/connect https://forms.nycmesh.net/join
+/faq https://wiki.nycmesh.net/link/153#bkmrk-page-title
