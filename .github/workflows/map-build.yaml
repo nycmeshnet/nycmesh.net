@@ -19,6 +19,7 @@ env:
 jobs:
   # Build job
   build:
+    if: github.repository == 'nycmeshnet/nycmesh.net'
     runs-on: ubuntu-22.04
     env:
       HUGO_VERSION: 0.69.2
