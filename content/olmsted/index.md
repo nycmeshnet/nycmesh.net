@@ -19,7 +19,7 @@ A volunteer will reach out to confirm your install appointment.
 The install will take approximately 30-60 minutes. Please plan to be available for the full duration of the install.
 
 ## Step 3
-Pay for your install. Payment is accepted at nycmesh.net/payolmsted
+Pay for your install. Payment is accepted at [nycmesh.net/payolmsted](https://nycmesh.net/payolmsted)
 
 
 
