@@ -6,7 +6,7 @@ aliases: ["30", "installment"]
 
 Thank you for installing a mesh node! 
 
-The NYC Mesh install cost is payed over 10 months. After 10 months it switches to a monthly donation. 
+The NYC Mesh install cost is paid over 10 months. After 10 months it switches to a monthly donation. 
 
 Please also remember to pay the installer $50
 
