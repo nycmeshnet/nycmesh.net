@@ -18,6 +18,6 @@ Primero complete este pequeño formulario a continuación y luego haga clic en e
     </button>
 </a>
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_HIP97raD7VznMU1tZOKXYfensuTAb_HSurlXFyusQ_vicg/viewform?embedded=true" width="480" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_HIP97raD7VznMU1tZOKXYfensuTAb_HSurlXFyusQ_vicg/viewform?embedded=true" width="480" height="660" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 
