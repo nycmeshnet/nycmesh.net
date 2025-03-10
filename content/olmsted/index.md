@@ -25,7 +25,7 @@ To summarize, the cost is:
 A volunteer will arrive at the building a couple hours before your arranged time to configure equipment in the basement and run a cable through the building's hallway. The volunteer will then coordinate with you to find an appropriate location for the equipment inside your unit, preferably near the entrance where a power outlet is available. The volunteer then drills a small hole through the wall to run the hallway cable into your unit and will connect your equipment. You can then connect to the internet and verify connectivity. At that point the volunteer will request payment for the installation.
 
 ## Do I need a Router? What about WiFi?
-The install includes a WiFi 6 Router that is managed by Mesh.  This single device takes the fiber connection and provides WiFi to your apartment. 
+The install includes a WiFi 6 Router that is managed by Mesh.  This single device takes the fiber connection and provides WiFi to your apartment.
 
 ## Is it safe?
 The included router has a firewall so your devices are isolated from the rest of the mesh.  This will give you security similar to what you will get from from a provider like Verizon where you rent their router.  If you would like additional security or additional features above this you can always use your own firewall/router and the mesh device can be put into bridge mode.
