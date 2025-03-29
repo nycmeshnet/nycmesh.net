@@ -91,7 +91,7 @@ A quick test to see if you are on the mesh is to go here-
 [http://10.100.4.10/](http://10.100.4.10/)
 
 This URL should resolve after an hour or so of being online-  
-[http://wiki.mesh/](http://wiki.mesh/)
+[http://uisp.mesh/](http://uisp.mesh/)
 
 Here are our old TP-Link instructions in case you find an old TL-WR842N on ebay-
 

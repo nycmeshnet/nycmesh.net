@@ -15,11 +15,11 @@ Corporate Donors
 
 <br>
 
-[<img src="/sponsors/logo_Packet_2106×764.png" alt="Packet" style="width:95px;"/>](https://www.packet.com) <code>&nbsp;&nbsp;&nbsp;&nbsp;</code> Cloud delivered on bare metal
+[<img src="/sponsors/packet.jpg" alt="Packet" style="width:95px;"/>](https://www.equinix.com) <code>&nbsp;&nbsp;&nbsp;&nbsp;</code> Cloud delivered on bare metal
 
 <br>
 
-[<img src="/sponsors/logo_Webair_494×158.png" alt="Webair" style="width:115px;"/>](https://www.webair.com) <code>&nbsp;&nbsp;</code> Managed Hosting solutions
+[<img src="/sponsors/Opti9-Full-Color-1024x243.png" alt="Opti9" style="width:115px;"/>](https://opti9tech.com) <code>&nbsp;&nbsp;</code> Managed Hosting solutions
 
 <br>
 
@@ -37,7 +37,12 @@ Corporate Donors
 
 [<img src="/sponsors/andbox.jpg" alt="ANDBOX" style="width:95px;"/>](https://andbox.com)<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>New York’s first and leading esports organization
 
+<br>
 
+<div style="display:flex; align-items:center;">
+<a href=https://datadoghq.com>
+<img src="/sponsors/dd_logo_v_rgb.png" alt="Datadog" style="width:95px;"/></a><code>&nbsp;&nbsp;&nbsp;&nbsp;</code>Modern monitoring & security
+</div>
 
 ---
 Individual Donors
