@@ -6,8 +6,9 @@ allias: "/165upgrade"
 ---
 **Upgrades to faster service are available for members at 165 Broome St!**
 
-165 already has extremely fast internet known as "gigabit". If you are not getting good speeds we will fix this for free! We can run cables directly to your tv or add another wifi router in another room, so you get the full gigabit experience.
+165 already has extremely fast internet known as "gigabit". If you are not getting good speeds we will fix this for free! We can do this free upgrade by running cables directly to your tv or adding another wifi router in another room, so you get the full gigabit experience. 
 
+---
 If you are a computer geek, working with huge files, we have even faster speeds. For a one time fee of $200, we can upgrade your connection to support speeds of up to 2.5 gigabits per second.
 
 Members will need to purchase and provide their own 2.5 gigabit capable router to take advantage of this upgraded connection.
