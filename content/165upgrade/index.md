@@ -1,12 +1,14 @@
 ---
 title: "Grand Street Guild - 165 Broome Upgrade"
 allias: "/165upgrade"
+
 ---
 
 (Desplácese hacia abajo para ver en español)
 (向下滚动查看中文)
 
 ---
+
 **Standard Network Speeds for 165 Broome Street**
 
 165 Broome Street NYC Mesh members already have fast "Gigabit" internet connections for their apartments. (Gigabit = 1000 Mbps)
@@ -21,14 +23,14 @@ If you are a member in 165 Broome and are experiencing slower than expected spee
 If you are a computer geek, video editor, content creator / streamer, working with huge files, or other power users, you have the option of upgrading your fiber hardware to have faster speeds. For a one time fee of $200, we can upgrade your connection to support speeds of up to 2.5 Gigabits per second.
 
 Members will need to purchase and provide their own 2.5 Gigabit capable router to take advantage of this upgraded connection.
-Because WiFi networks may not be able to provide the full speed, we recommend using a hardwired
-connection to a device with a 2.5 Gigabit capable network interface card to be able to take advantage of the full connection speed.
+Because WiFi networks may not be able to provide the full speed, we recommend using a hardwired connection to a device with a 2.5 Gigabit capable network interface card to be able to take advantage of the full connection speed.
 
 *Note: Connection speeds mays occasionally be less than 2.5 Gbps due to network congestion or during periods of maintenance.*
 
 Please reach out to our team via the "[Get Support](https://nycmesh.net/support)" page if you are interested to receive more information.
 
 ---
+
 **Velocidades de red estándar para 165 Broome Street**
 
 Los miembros de NYC Mesh en 165 Broome Street ya cuentan con conexiones rápidas a internet de "Gigabit" en sus apartamentos. (Gigabit = 1000 Mbps).
@@ -46,10 +48,10 @@ Los miembros deberán adquirir y proporcionar su propio router con capacidad de 
 Dado que las redes wifi podrían no ofrecer la velocidad máxima, recomendamos usar una conexión por cable a un dispositivo con una tarjeta de interfaz de red con capacidad de 2.5 Gigabits para aprovechar al máximo la velocidad de conexión.
 
 *Nota: La velocidad de conexión puede ser ocasionalmente inferior a 2,5 Gbps debido a congestión de la red o durante periodos de mantenimiento.*
-
 Si desea obtener más información, póngase en contacto con nuestro equipo a través de la página "Obtener soporte" (https://www.nycmesh.net/es/support).
 
 ---
+
 **165 Broome Street 的标准网络速度**
 
 165 Broome Street NYC Mesh 会员的公寓已经拥有快速的“千兆”互联网连接。（千兆 = 1000 Mbps）
@@ -60,7 +62,7 @@ Si desea obtener más información, póngase en contacto con nuestro equipo a tr
 
 如果您是 165 Broome 的会员，并且遇到比预期速度慢的情况，请[联系我们](https://nycmesh.net/support) 以排除连接故障。 *支付连接升级费用无法解决 WiFi 信号差或连接速度慢等问题*
 
-**165 Broome Street 的 2.5 Gig 速度升级**
+**165 Broome Street 的 2.5gig 速度升级**
 
 如果您是计算机极客、视频编辑、内容创建者/流媒体、处理大型文件或其他高级用户，您可以选择升级光纤硬件以获得更快的速度。只需支付 200 美元的一次性费用，我们就可以升级您的连接以支持高达每秒 2.5 千兆位的速度。
 
