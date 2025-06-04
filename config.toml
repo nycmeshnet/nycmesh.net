@@ -25,3 +25,22 @@ summaryLength = 10
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+# Define Media Types
+[mediaTypes]
+  [mediaTypes."application/rss+xml"]
+    suffixes = ["rss"]
+
+# Define Output Formats
+[outputFormats]
+  [outputFormats.RSS]
+    mediaType = "application/rss+xml"
+    baseName = "feed"
+    isPlainText = false
+    isHTML = false
+    noUgly = true
+    
+# Enable outputs
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
