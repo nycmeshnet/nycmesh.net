@@ -37,4 +37,4 @@ The standard install is 1Gbps for upload and download.
 This service is for internet only.  You can stream TV by using services such as Roku, Hulu, etc. using your NYC Mesh connection but they are independent from Mesh itself.
 
 ## How does support work?
-NYC Mesh has a robust volunteer support community, reachable in a variety of methods. The primary method of getting support is to visit https://www.nycmesh.net/support which has up-to-date contact information. There you and find the NYC Mesh Support phone number, email address, and more.
+NYC Mesh has a robust volunteer support community, reachable in a variety of methods. The primary method of getting support is to visit https://www.nycmesh.net/support which has up-to-date contact information. There you can find the NYC Mesh Support phone number, email address, and more.
