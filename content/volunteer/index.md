@@ -44,7 +44,7 @@ They also work to answer email support tickets and other questions and enquiries
 The maintenance team works to build and maintain the larger hubs and buildings throughout the mesh. We plan install days when a large number (5-12) of volunteers will work together to get a new hub or building online in an afternoon or two.
 Upcoming maintenance team projects are scheduled in [#maintenance-tasks](https://nycmesh.slack.com/messages/maintenance-tasks) and maintenance team is used to coordinate and plan these dates.
 
-Joining maintenace team is a great way to get involved with larger buildings, as we always need more help on these big projects!
+Joining maintenance team is a great way to get involved with larger buildings, as we always need more help on these big projects!
 
 
 ***
