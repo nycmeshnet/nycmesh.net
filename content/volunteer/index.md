@@ -79,7 +79,7 @@ We need help identifying grants, writing applications and reaching out to sponso
 
 **Graphic Designer [#design](https://nycmesh.slack.com/messages/design)**
 We have a number of volunteers in #design who create new flyers, posters, letters and other materials for our outreach teams to use. If you are interested in designing posters, t-shirts, stickers or anything else, this is the place to be!
-We expecially need people who speak French, Spanish, Mandarin or other languages to help make our materials accessible to non english speakers.
+We especially need people who speak French, Spanish, Mandarin or other languages to help make our materials accessible to non english speakers.
 
 ***
 
