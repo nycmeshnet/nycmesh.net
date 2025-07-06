@@ -11,7 +11,7 @@ For subscription or donation problems go to [nycmesh.net/payquery](../payquery)
 
 Is something not working right? Here’s how you can fix it:
 
-1. Check the [network status page](https://status.nycmesh.net) to see to see if there's a known outage or planned maintenance occuring. If you see the issue here it means our volunteers are already working on solving it. Please reach out if you're still having problems after the issue has been marked as resolved.
+1. Check the [network status page](https://status.nycmesh.net) to see if there's a known outage or planned maintenance occurring. If you see the issue here it means our volunteers are already working on solving it. Please reach out if you're still having problems after the issue has been marked as resolved.
 
 2. Follow our [Member Troubleshooting Guide](https://wiki.nycmesh.net/link/44#bkmrk-page-title) for steps to try and solve common issues yourself.
 
