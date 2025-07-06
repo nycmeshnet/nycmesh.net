@@ -49,7 +49,7 @@ Joining maintenance team is a great way to get involved with larger buildings, a
 
 ***
 **Network administrator [#monitoring](https://nycmesh.slack.com/messages/monitoring)**:
-Network admistrators deal with deeper level network configuration and plan overall mesh routing and infrastructure. They are often involved with planning, deploying and maintaining new Supernodes, along with helping with configuration for larger hubs.
+Network administrators deal with deeper level network configuration and plan overall mesh routing and infrastructure. They are often involved with planning, deploying and maintaining new Supernodes, along with helping with configuration for larger hubs.
 
 NYC Mesh uses a variety of Mikrotik, Cisco, Ubiquit and Brocade routers and switches. We use [OSPF](https://wiki.nycmesh.net/books/5-networking/chapter/ospf) for routing inside the mesh and [BGP](https://wiki.nycmesh.net/link/90#bkmrk-page-title) on the edge.
 Previous experience with network administration and these products is helpful, though you can also learn as you go!
