@@ -87,7 +87,7 @@ We especially need people who speak French, Spanish, Mandarin or other languages
 **Donate Space or Equipment [#general](https://nycmesh.slack.com/messages/general)**
 NYC Mesh accepts donations of working and reasonably modern networking equipment and antennas. We decide what to accept on a case by case basis. It's best to reach out in #general with what you have and we can let you know if we can use it.
 
-We also welcome donations of space where we can host meetups and events. We are looking to host events in diverse neighborhoods around the city that our further away from our regular Lower East Side meetups. If you have a space to offer or event we should attend, please let us know!
+We also welcome donations of space where we can host meetups and events. We are looking to host events in diverse neighborhoods around the city that are further away from our regular Lower East Side meetups. If you have a space to offer or an event we should attend, please let us know!
 
 **Donate Money**
 [Donations](/donate/) are tax deductible and go towards expanding our network!
