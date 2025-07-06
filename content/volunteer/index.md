@@ -17,7 +17,7 @@ Come talk to us about volunteering opportunities at one of our monthly [Meetups]
 You can also join us on [Slack](https://slack.nycmesh.net), our community message board. We use slack to coordinate almost all mesh activities, so joining the Slack is often the first step to getting involved.
 There are a number of channels on slack where updates are posted about ongoing projects. You can simply join in on the conversation to get involved!
 
-See futher down this page for a number of suggested slack channels for new volunteers.
+See further down this page for a number of suggested slack channels for new volunteers.
 
 
 ![Installing_a_rooftop_router](https://i.imgur.com/mofKoBJ.jpg "Installing a rooftop router")
