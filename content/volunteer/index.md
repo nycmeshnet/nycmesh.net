@@ -12,7 +12,7 @@ Join us for our regular weekly Open Mesh Night. This is hosted at our Mesh Room 
 
 There's a weekly thread in [#meetings on Slack](https://slack.nycmesh.net) where you can confirm Open Mesh Night is happening as scheduled. (We sometimes skip holidays or dates when few people are available)
 
-Come talk to us about volunteering opporunities at one of our monthly [Meetups](https://www.meetup.com/nycmesh/). We're super friendly!
+Come talk to us about volunteering opportunities at one of our monthly [Meetups](https://www.meetup.com/nycmesh/). We're super friendly!
 
 You can also join us on [Slack](https://slack.nycmesh.net), our community message board. We use slack to coordinate almost all mesh activities, so joining the Slack is often the first step to getting involved.
 There are a number of channels on slack where updates are posted about ongoing projects. You can simply join in on the conversation to get involved!
