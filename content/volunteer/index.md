@@ -72,7 +72,7 @@ Coordinate an install for people in your building or for your neighbors or a com
 **Community outreach leader [#outreach](https://nycmesh.slack.com/messages/outreach)**
 Encourage people in your community to join NYC Mesh by distributing pamphlets and organizing informational events. Do you speak multiple languages? Help us reach out to people who don't speak English and provide translation assistance. We aim to be a service for all New Yorkers.
 
-Outreach leaders also work to foster colaboration with other community organizations we are in partnerships with. Both finding new organizations to work with and managing our existing relationships.
+Outreach leaders also work to foster collaboration with other community organizations we are in partnerships with. Both finding new organizations to work with and managing our existing relationships.
 
 **Grant writer and sponsorship coordinator [#funding](https://nycmesh.slack.com/messages/funding)**
 We need help identifying grants, writing applications and reaching out to sponsors.
