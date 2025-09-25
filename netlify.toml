@@ -3,11 +3,11 @@ publish = "public"
 command = "hugo"
 
 [context.production.environment]
-HUGO_VERSION = "0.69.0"
+HUGO_VERSION = "0.150.0"
 HUGO_ENV = "production"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.69.0"
+HUGO_VERSION = "0.150.0"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.69.0"
+HUGO_VERSION = "0.150.0"
