@@ -358,3 +358,94 @@ ul li .check::before {
 .pac-matched {
   /*background-color: /*papayawhip*/
 }
+
+/* ===== Volunteer Page Styles ===== */
+
+/* Hero Banner */
+.volunteer-hero-banner {
+  height: 16rem;
+  background-size: cover;
+}
+@media screen and (max-width: 60em) {
+  .volunteer-hero-banner {
+    height: 8rem;
+  }
+}
+
+/* Volunteer Areas */
+.bg-volunteer-gray {
+  background-color: #e8e9ea;
+}
+
+.volunteer-card {
+  background-color: #f1b013;
+}
+
+.volunteer-card-img {
+  height: 10rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.volunteer-card-body h3 {
+  font-size: 1rem;
+}
+
+/* How To Volunteer Steps */
+.volunteer-step-num {
+  width: 2.25rem;
+  height: 2.25rem;
+  min-width: 2.25rem;
+  border-radius: 50%;
+  background-color: #f1b013;
+  color: #000;
+}
+
+/* FAQ Section */
+.volunteer-faq {
+  background-color: #525252;
+}
+
+.volunteer-faq-item {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.volunteer-faq-summary {
+  list-style: none;
+  user-select: none;
+}
+
+.volunteer-faq-summary::-webkit-details-marker {
+  display: none;
+}
+
+.volunteer-faq-summary::marker {
+  display: none;
+  content: "";
+}
+
+.volunteer-faq-chevron {
+  font-size: 0.6rem;
+  transition: transform 0.2s ease;
+}
+
+details[open] .volunteer-faq-chevron {
+  transform: rotate(180deg);
+}
+
+.volunteer-faq-item:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+/* Events Title */
+.volunteer-events-title {
+  font-style: italic;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 40em) {
+  .volunteer-card-img {
+    height: 8rem;
+  }
+}
