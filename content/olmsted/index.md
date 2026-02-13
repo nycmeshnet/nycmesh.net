@@ -1,6 +1,6 @@
 ---
 title: "Olmsted Information"
-allias: "/olmsted"
+aliases: ["/olmsted"]
 ---
 
 ---

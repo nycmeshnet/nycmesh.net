@@ -1,6 +1,6 @@
 ---
 title: "Grand Street Guild - 165 Broome Upgrade"
-allias: "/165upgrade"
+aliases: ["/165upgrade"]
 
 ---
 
