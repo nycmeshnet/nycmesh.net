@@ -1,0 +1,134 @@
+{{ define "main" }}
+<main class="volunteer-page">
+
+  {{/* ===== HERO SECTION ===== */}}
+  <div class="volunteer-hero-banner" style="background-image: url('/img/splash9.jpg'); background-position: center 40%;"></div>
+  <section class="bg-white">
+    <div class="mw8 center ph4-ns ph3 pv4 tc">
+      <h1 class="f1 fw7 near-black mv0">{{ .Title }}</h1>
+      {{ with .Params.heroSubtitle }}
+      <p class="f5 mid-gray measure-wide center mt3 mb0 lh-copy">{{ . }}</p>
+      {{ end }}
+    </div>
+  </section>
+
+  {{/* ===== VOLUNTEER AREAS SECTION ===== */}}
+  {{ with .Params.volunteerAreas }}
+  <section class="volunteer-areas bg-volunteer-gray">
+    <div class="mw8 center ph4-ns ph3 pv4">
+      <h2 class="f2 fw7 tc near-black mt0 mb4">Volunteer Areas</h2>
+      <div class="flex flex-wrap justify-center mhn2">
+        {{ range . }}
+        <div class="w-25-l w-50-m w-100 ph2 mb3">
+          <div class="volunteer-card ba bw1 b--black br2 overflow-hidden h-100 flex flex-column">
+            {{ with .image }}
+            <div class="volunteer-card-img cover bg-center" style="background-image: url('{{ . }}');"></div>
+            {{ else }}
+            <div class="volunteer-card-img bg-moon-gray"></div>
+            {{ end }}
+            <div class="volunteer-card-body pa3 flex flex-column flex-auto">
+              <h3 class="f4 fw7 near-black mt0 mb2">{{ .title }}</h3>
+              <ul class="list pa0 ma0 f6 near-black lh-copy flex-auto">
+                {{ range .items }}
+                <li class="mb1">- {{ . }}</li>
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* ===== HOW TO VOLUNTEER SECTION ===== */}}
+  <section class="bg-white">
+    <div class="mw8 center ph4-ns ph3 pv5">
+      <h2 class="f2 fw7 tc near-black mt0 mb4">How To Volunteer</h2>
+      <div class="flex flex-wrap items-start">
+        <div class="w-50-ns w-100 pr4-ns">
+          {{ with .Params.howToVolunteer }}
+          <ol class="volunteer-steps list pa0 ma0">
+            {{ range $i, $step := . }}
+            <li class="volunteer-step mb4 flex items-start">
+              <div class="volunteer-step-num flex-shrink-0 flex items-center justify-center fw7 white f4 mr3">{{ add $i 1 }}</div>
+              <div>
+                <h3 class="f5 fw7 near-black mt0 mb1">{{ .title }}</h3>
+                {{ with .description }}
+                <p class="f6 mid-gray ma0 lh-copy">{{ . | markdownify }}</p>
+                {{ end }}
+              </div>
+            </li>
+            {{ end }}
+          </ol>
+          {{ end }}
+        </div>
+        <div class="w-50-ns w-100 pl4-ns mt0-ns mt4">
+          {{ with .Params.howToVolunteerImage }}
+          <img src="{{ . }}" alt="Volunteering at NYC Mesh" class="w-100 br2">
+          {{ else }}
+          <img src="/img/splash5.jpg" alt="Volunteering at NYC Mesh" class="w-100 br2">
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{/* ===== FAQ SECTION ===== */}}
+  {{ with .Params.faq }}
+  <section class="volunteer-faq">
+    <div class="mw8 center ph4-ns ph3 pv5">
+      <h2 class="f2 fw7 tc white mt0 mb4">FAQ</h2>
+      <div class="flex flex-wrap mhn2">
+        <div class="w-50-ns w-100 ph2">
+          {{ $half := div (len .) 2 }}
+          {{ range first $half . }}
+          <details class="volunteer-faq-item mb2 br2">
+            <summary class="volunteer-faq-summary pa3 f6 fw5 white pointer flex items-center justify-between">
+              <span>{{ .question }}</span>
+              <span class="volunteer-faq-chevron ml2 flex-shrink-0">&#9660;</span>
+            </summary>
+            <div class="volunteer-faq-answer pa3 pt0 f6 white-80 lh-copy">
+              {{ .answer | markdownify }}
+            </div>
+          </details>
+          {{ end }}
+        </div>
+        <div class="w-50-ns w-100 ph2">
+          {{ $half := div (len .) 2 }}
+          {{ range after $half . }}
+          <details class="volunteer-faq-item mb2 br2">
+            <summary class="volunteer-faq-summary pa3 f6 fw5 white pointer flex items-center justify-between">
+              <span>{{ .question }}</span>
+              <span class="volunteer-faq-chevron ml2 flex-shrink-0">&#9660;</span>
+            </summary>
+            <div class="volunteer-faq-answer pa3 pt0 f6 white-80 lh-copy">
+              {{ .answer | markdownify }}
+            </div>
+          </details>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* ===== UPCOMING EVENTS SECTION ===== */}}
+  <section class="bg-volunteer-gray">
+    <div class="mw8 center ph4-ns ph3 pv5">
+      <h2 class="f2 fw7 tc near-black mt0 mb4 volunteer-events-title">Upcoming Events</h2>
+      {{ with .Params.calendarEmbed }}
+      <div class="bg-white br2 pa3 shadow-card overflow-hidden">
+        <iframe src="{{ . }}" style="border: 0" width="100%" height="500" frameborder="0" scrolling="no" title="NYC Mesh Events Calendar"></iframe>
+      </div>
+      {{ else }}
+      <div class="bg-white br2 pa4 shadow-card tc">
+        <p class="f5 mid-gray ma0 lh-copy">Check out our upcoming events on <a href="https://meetup.com/nycmesh" class="blue">Meetup</a> and in <a href="https://slack.nycmesh.net" class="blue">Slack</a>.</p>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+
+</main>
+{{ end }}
