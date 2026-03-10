@@ -6,7 +6,7 @@ heroSubtitle: "Maintaining and growing NYC Mesh wouldn't be possible without a d
 
 volunteerAreas:
   - title: "Outreach"
-    image: "https://i.imgur.com/mofKoBJ.jpg"
+    image: "/img/1000017273.jpg"
     slack: "https://nycmesh.slack.com/messages/outreach"
     items:
       - "Tabling"
@@ -15,7 +15,7 @@ volunteerAreas:
       - "Grant writing"
 
   - title: "Installation & Maintenance"
-    image: "/img/splash5.jpg"
+    image: "/img/IMG_9593.png"
     slack: "https://nycmesh.slack.com/messages/install"
     items:
       - "Rooftop installation of nodes"
@@ -24,7 +24,7 @@ volunteerAreas:
       - "Fiber install in large buildings"
 
   - title: "Software"
-    image: "/img/splash3.jpg"
+    image: "/img/pxl_20250813_000846494.mp_720.jpg"
     slack: "https://nycmesh.slack.com/messages/website"
     items:
       - "Database management"
@@ -34,7 +34,7 @@ volunteerAreas:
       - "Data & reporting tools"
 
   - title: "Networking & Infrastructure"
-    image: "/img/splash1.jpg"
+    image: "/img/IMG_0361.jpg"
     slack: "https://nycmesh.slack.com/messages/monitoring"
     items:
       - "Supernode installation"
@@ -55,7 +55,7 @@ howToVolunteer:
   - title: "Sign-up for Calendly on-boarding introduction"
     description: "Schedule a quick one-on-one introduction with a current volunteer to get oriented."
 
-howToVolunteerImage: "https://i.imgur.com/mofKoBJ.jpg"
+howToVolunteerImage: "/img/IMG_0623.jpg"
 
 faq:
   - question: "Do you accept space, equipment, financial donations?"
