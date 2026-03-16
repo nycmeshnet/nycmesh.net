@@ -47,7 +47,7 @@ howToVolunteer:
     description: "[Join our Slack](https://slack.nycmesh.net) — this will lead you to the #new-volunteer-onboarding channel with more information on how to set up an onboarding call, join an in-person hangout, and choose a volunteer task."
 
   - title: "Visit In-Person Open Mesh Night"
-    description: "Every Tuesday 7pm - late(ish) at Bluestocking's Basement, 116 Suffolk St NYC. Open Mesh Night is our weekly event to discuss current projects, meet other volunteers, and hangout in the mesh room."
+    description: "Every Tuesday 7pm - late(ish) at 53 Bridge St, Unit 509, Brooklyn. Open Mesh Night is our weekly event to discuss current projects, meet other volunteers, and hangout in the mesh room."
 
   - title: "Fill out our new volunteer sign-up form"
     description: "Complete our short form so we know what you're interested in and can match you to the right projects."
@@ -65,7 +65,7 @@ faq:
     answer: "Join our [Slack](https://slack.nycmesh.net) and check out the [NYC Mesh Wiki](https://wiki.nycmesh.net) for documentation, guides, and technical resources."
 
   - question: "What days and times are new volunteer activities?"
-    answer: "Our main weekly event is Open Mesh Night, every Tuesday at 7pm at Bluestocking's Basement (116 Suffolk St, NYC). We also hold monthly Meetups - check [Meetup.com/nycmesh](https://meetup.com/nycmesh) for dates."
+    answer: "Our main weekly event is Open Mesh Night, every Tuesday at 7pm at 53 Bridge St, Unit 509, Brooklyn. We also hold monthly Meetups - check [Meetup.com/nycmesh](https://meetup.com/nycmesh) for dates."
 
   - question: "What type of volunteers are best for NYC Mesh?"
     answer: "All types! We welcome people with diverse skill sets - from technical networking and software to outreach, grant writing, and graphic design. Self-motivated people who enjoy collaborating do great here."
