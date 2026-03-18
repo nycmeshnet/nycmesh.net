@@ -1,8 +1,6 @@
 title = "NYC Mesh"
 baseURL = "https://www.nycmesh.net/"
 defaultContentLanguage = "en"
-pygmentsCodefences = true
-pygmentsCodefencesGuessSyntax = true
 summaryLength = 10
 
 [params]
@@ -16,8 +14,6 @@ summaryLength = 10
   [languages.zh]
 
 [markup]
-  [markup.blackFriday]
-    hrefTargetBlank = true
   [markup.tableOfContents]
     endLevel = 3
     ordered = false
