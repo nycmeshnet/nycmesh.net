@@ -382,7 +382,7 @@ ul li .check::before {
 }
 
 .volunteer-card-img {
-  height: 10rem;
+  aspect-ratio: 4 / 3;
   background-size: cover;
   background-position: center;
 }
@@ -438,14 +438,13 @@ details[open] .volunteer-faq-chevron {
   background-color: rgba(255, 255, 255, 0.12);
 }
 
+.volunteer-faq a {
+  color: #f1b013;
+}
+
 /* Events Title */
 .volunteer-events-title {
   font-style: italic;
 }
 
 /* Responsive adjustments */
-@media screen and (max-width: 40em) {
-  .volunteer-card-img {
-    height: 8rem;
-  }
-}
