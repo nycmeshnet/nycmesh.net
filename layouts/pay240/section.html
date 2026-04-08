@@ -195,7 +195,7 @@ Thank you for choosing to cover the full cost of equipment.
     }
 
     var stripeConfig = {
-      key: 'pk_live_srTdi5OfErTSw5BGXqEkY9C1',
+      key: '{{ .Site.Params.stripeKey }}',
       image: '/img/logo.svg',
       locale: 'auto',
       billingAddress: true,
