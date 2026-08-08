@@ -193,7 +193,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     var stripeConfig = {
-      key: 'pk_live_srTdi5OfErTSw5BGXqEkY9C1',
+      key: '{{ .Site.Params.stripeKey }}',
       image: '/img/logo.svg',
       locale: 'auto',
       billingAddress: true,
