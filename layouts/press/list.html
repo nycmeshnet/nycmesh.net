@@ -5,7 +5,7 @@
 		<div class="pv0 center measure-wide f5">
 			<h1 class="f2">{{ .Title }}</h1>
 			<ul class="ma0 list pa0 pb4 f4">
-				{{ range .Data.Pages }}
+				{{ range .Pages }}
 					<li class="bb b--light-gray pv4">
 						<span class="f4 silver mb1 db">
 			                {{ .Params.Publication }} - {{ .Date.Format "Jan 2, 2006" }}

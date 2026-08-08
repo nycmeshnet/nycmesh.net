@@ -1,12 +1,9 @@
-{{ if isset .Params "title" }}
-	{{ .Scratch.Set "title" .Title }}
+{{ $title := .Site.Title }}
+{{ with .Title }}
+  {{ if not $.IsHome }}
+    {{ $title = printf "%s - %s" . $.Site.Title }}
+  {{ end }}
 {{ end }}
-{{ if .IsHome }}
-{{ else }}
-    {{ .Scratch.Add "title" " - " }}
-    {{ .Scratch.Add "title" .Site.Title }}
-{{ end }}
-{{ $title := .Scratch.Get "title" }}
 <!DOCTYPE html>
 <html>
 <head>
