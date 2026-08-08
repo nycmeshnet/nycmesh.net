@@ -1,0 +1,4 @@
+---
+type: redirect
+target: /support
+---
