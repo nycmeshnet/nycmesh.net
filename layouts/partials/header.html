@@ -36,4 +36,6 @@
                 document.body.classList.add('noscroll')
         }
     </script>
+{{ with .OutputFormats.Get "RSS" }}
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ site.Title }}">{{ end }}
 </header>
