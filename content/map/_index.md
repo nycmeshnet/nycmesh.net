@@ -4,18 +4,22 @@ description: "Our node locations."
 images: ["/img/map-cover.png"]
 ---
 
-This map shows our install locations. 
+This map shows the location of NYC Mesh nodes.
 
-We have been installing many public wifi access points (APs) over the past year on light poles and in hallways. 
+*Each dot shows a building connect to the Mesh network:*
+Red dots are buildings where NYC Mesh is installed.
+Light blue dots are local hubs, which means they provide additional connections for other nearby nodes. Blue shading around these dots shows coverage of [sector antennas](https://wiki.nycmesh.net/link/57#bkmrk-page-title (if present).
+Dark Blue dots represent "SuperNodes". These nodes have high bandwidth fiber connections to a datacenter (or are located at a datacenter).
+Orange dots are datacenters where we have equipment installed, but do not have any rooftop antennas. You cannot connect wirelessly to an orange dot.
+Green dots on the map are dedicated public WiFi access points, often located around parks, plazas and other public areas. Most NYC Mesh nodes (other red and blue dots) also broadcast a public WiFi network from the rooftop.
 
-Our typical non-hub installs have a LiteBeam and OmniTik AP on the roof and cables to apartments. (We don't include the single-band OmniTiks in the AP count)
+Blue lines are 5Ghz wireless links, light blue lines are 24Ghz/60Ghz/70Ghz high bandwidth wireless backhaul.
+Yellow lines represent fiber connections, purple lines represent VPN links. Both of these represent logical links, not the actual physical paths.
 
-Hubs generally have a fast wireless connection and can connect other rooftops in the area usually with a "sector" antenna. 
+[Typical Installs](https://wiki.nycmesh.net/link/87#bkmrk-page-title) shows the Mesh hardware and configuration of a typical Mesh node.
 
-Supernodes (SN) have fiber connections. Two of our supernodes are located at data centers with backbone internet connections. Our third supernode "131 Broome" is connected via leased fiber to the 111 8th Ave data center.
+If there is a node (red dot) or hub/supernode (blue dot) within view of your roof, you can join the network.
+Fill out our [Join Form](https://nycmesh.net/join) to get started.
 
-If there is a supernode or hub node (blue dot) within range of your building, you may be able to join our network. The potential nodes are from our [join form](https://forms.nycmesh.net/join/). We are working to turn these into active nodes by expanding our coverage and increasing our rate of installs.
-
-The blue lines are over-the-air connections, yellow are fiber, purple are VPN and gray lines are speculative connections.
-
-We are very interested in finding people from other parts of the city that are willing to build and maintain networks for their neighborhood! We will give you lots of help in this. If you would like to volunteer for your neighborhood, please [email us](mailto:contact@nycmesh.net).
+We are very interested in finding people from around the city that are willing to build and maintain networks for their neighborhood!
+Please see [our volunteer page](https://nycmesh.net/volunteer) if you'd like to get involved.
